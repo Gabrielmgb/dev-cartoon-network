@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === "production" 
+
 const nextConfig = {
+  output: "export",
+  basePath: isProd ? "/dev-cartoon-network" : "",
+  assetPrefix: isProd ? '/dev-cartoon-network/' : '',
+  
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -11,4 +18,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
