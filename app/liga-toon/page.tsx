@@ -21,7 +21,7 @@ export default function LigaToonPage() {
           <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-10"></div>
           <div className="container mx-auto px-4 text-center relative">
             <Image
-              src="/placeholder.svg?width=200&height=200"
+              src="/aplicacoes/copa-toon-logo-2.png?width=200&height=200"
               alt="Liga Toon Logo"
               width={150}
               height={150}

@@ -15,11 +15,11 @@ export default function CampeoesDoClimaPage() {
         <section className="relative bg-gradient-to-b from-sky-300 to-green-300 text-white py-20 text-center">
           <div className="container mx-auto px-4">
             <Image
-              src="/placeholder.svg?width=200&height=200"
+              src="/campeoes-do-clima/campeoes-do-clima-logo.jpg?width=200&height=200"
               alt="Campeões do Clima Logo"
               width={150}
               height={150}
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 rounded-[30px]"
             />
             <h1 className="text-5xl md:text-6xl font-extrabold drop-shadow-lg">Seja um Campeão do Clima!</h1>
             <p className="mt-4 text-lg max-w-3xl mx-auto">
