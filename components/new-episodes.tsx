@@ -17,7 +17,7 @@ export default function NewEpisodes() {
           >
             <div className="flex-shrink-0 w-full sm:w-48">
               <Image
-                src={`/placeholder.svg?width=200&height=112&query=${encodeURIComponent(episode.query)}`}
+                src={episode.image}
                 alt={`Cena de ${episode.title}`}
                 width={200}
                 height={112}

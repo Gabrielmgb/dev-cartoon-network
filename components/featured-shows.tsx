@@ -14,7 +14,7 @@ export default function FeaturedShows() {
             <Card className="overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <CardContent className="p-0">
                 <Image
-                  src={`/placeholder.svg?width=200&height=300&query=${encodeURIComponent(show.query)}`}
+                  src={show.image}
                   alt={show.name}
                   width={200}
                   height={300}

@@ -120,12 +120,12 @@ export const socialLinks = [
 ]
 
 export const featuredShows = [
-  { name: "O Incrível Mundo de Gumball", query: "the amazing world of gumball vertical poster", href: "#" },
-  { name: "Jovens Titãs em Ação!", query: "teen titans go vertical poster", href: "#" },
-  { name: "Ursos sem Curso", query: "we bare bears vertical poster", href: "#" },
-  { name: "Steven Universo", query: "steven universe vertical poster", href: "#" },
-  { name: "Hora de Aventura", query: "adventure time vertical poster", href: "#" },
-  { name: "Clarêncio, o Otimista", query: "clarence cartoon vertical poster", href: "#" },
+  { name: "O Incrível Mundo de Gumball", query: "the amazing world of gumball vertical poster", href: "/desenhos", image: "/home/desenho-1.jpg" },
+  { name: "Jovens Titãs em Ação!", query: "teen titans go vertical poster", href: "/desenhos", image: "/home/desenho-2.jpg" },
+  { name: "Ursos sem Curso", query: "we bare bears vertical poster", href: "/desenhos", image: "/home/desenho-3.png" },
+  { name: "Steven Universo", query: "steven universe vertical poster", href: "/desenhos", image: "/home/desenho-4.jpg" },
+  { name: "Hora de Aventura", query: "adventure time vertical poster", href: "/desenhos", image: "/home/desenho-5.jpg" },
+  { name: "Clarêncio, o Otimista", query: "clarence cartoon vertical poster", href: "/desenhos", image: "/home/desenho-6.jpg" },
 ]
 
 export const newEpisodes = [
@@ -133,19 +133,29 @@ export const newEpisodes = [
     show: "Jovens Titãs em Ação!",
     title: "A Batalha dos Sanduíches",
     query: "teen titans go sandwich episode still",
-    href: "#",
+    href: "https://www.youtube.com/watch?v=UgeHHquq07Q",
+    image: "/home/new-ep-1.jpg"
   },
   {
     show: "O Mundo de Craig",
     title: "O Tesouro do Riacho",
     query: "craig of the creek treasure episode still",
-    href: "#",
+    href: "https://www.youtube.com/watch?v=GYJScnU-Tr4",
+    image: "/home/new-ep-2.jpg"
   },
   {
     show: "Maçã e Cebola",
     title: "Um Dia na Cidade Grande",
     query: "apple and onion city episode still",
-    href: "#",
+    href: "https://www.youtube.com/watch?v=VPfk8AtX7Tg",
+    image: "/home/new-ep-3.jpg"
+  },
+  {
+    show: "Irmão do Jorel",
+    title: "Menino Sereio",
+    query: "apple and onion city episode still",
+    href: "https://www.youtube.com/watch?v=Qgki6QnDHfE",
+    image: "/home/new-ep-4.png"
   },
 ]
 
