@@ -1,6 +1,6 @@
 import Link from "next/link"
+import Image from "next/image"
 import { footerLinks, socialLinks } from "@/lib/data"
-import CNLogo from "@/components/cn-logo"
 
 export default function Footer() {
   return (
@@ -8,7 +8,13 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex-shrink-0">
-            <CNLogo />
+            <Image
+                          src="/home/logo-CN-3.png?width=200&height=200"
+                          alt="Liga Toon Logo"
+                          width={150}
+                          height={150}
+                          className="mx-auto mb-4 drop-shadow-lg"
+                        />
           </div>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
             {footerLinks.map((link) => (

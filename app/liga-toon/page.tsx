@@ -17,7 +17,7 @@ export default function LigaToonPage() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative bg-green-600 text-white py-20 overflow-hidden">
+        <section className="relative bg-gradient-to-b from-green-600 to-red-500 text-white py-20 overflow-hidden">
           <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-10"></div>
           <div className="container mx-auto px-4 text-center relative">
             <Image
