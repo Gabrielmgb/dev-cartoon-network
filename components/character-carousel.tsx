@@ -8,7 +8,7 @@ export default function CharacterCarousel() {
   return (
     <section>
       <Carousel opts={{ align: "start", loop: true }} className="w-full">
-        <CarouselContent className="-ml-1">
+        <CarouselContent className="-ml-1 pb-6">
           {characters.map((char, index) => (
             <CarouselItem key={index} className="basis-1/4 sm:basis-1/6 md:basis-1/10 lg:basis-1/12 pl-1">
               <div className="p-1">
@@ -16,11 +16,11 @@ export default function CharacterCarousel() {
                   className={`w-16 h-16 md:w-20 md:h-20 rounded-full ${char.color} flex items-center justify-center overflow-hidden border-2 border-white shadow-md transform transition-transform hover:scale-110`}
                 >
                   <Image
-                    src={`/placeholder.svg?width=80&height=80&query=${encodeURIComponent(char.query)}`}
+                    src={char.image || `/placeholder.svg?width=80&height=80&query=${encodeURIComponent(char.query)}`}
                     alt={char.name}
                     width={76}
                     height={76}
-                    className="object-cover rounded-full"
+                    className="object-cover rounded-full w-20 h-20"
                   />
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors"
 
 const config: Config = {
     darkMode: ["class"],
@@ -8,9 +9,20 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}"
   ],
+
+  safelist: [
+  "bg-green-500", "bg-blue-300", "bg-orange-400", "bg-red-500", "bg-pink-400",
+  "bg-amber-700", "bg-gray-300", "bg-white", "bg-sky-500", "bg-yellow-400",
+  "bg-rose-300", "bg-purple-600", "bg-blue-500", "bg-orange-800", "bg-pink-500",
+  "bg-cyan-400", "bg-lime-500", "bg-orange-500", "bg-pink-300", "bg-yellow-300",
+  "bg-fuchsia-300", "bg-green-600", "bg-gray-200", "bg-yellow-200", "bg-orange-300",
+  "bg-green-300", "bg-red-400", "bg-blue-600", "bg-purple-400", "bg-lime-300", "bg-yellow-600",
+],
+
   theme: {
   	extend: {
   		colors: {
+			...colors,
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
