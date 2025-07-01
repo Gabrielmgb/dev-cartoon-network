@@ -25,12 +25,12 @@ export default function BannerSlider() {
           {bannerData.map((banner, index) => (
             <CarouselItem key={index}>
               <div className="relative w-full aspect-[16/7] rounded-2xl overflow-hidden">
-              <Image
-  src={banner.image}
-  alt={banner.title}
-  fill
-  className="object-cover"
-/>
+                <Image
+                  src={banner.image}
+                  alt={banner.title}
+                  fill
+                  className="object-cover"
+                />
 
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent flex flex-col justify-center p-8 md:p-12 lg:p-16">
                   <div className="max-w-md lg:max-w-lg text-white">

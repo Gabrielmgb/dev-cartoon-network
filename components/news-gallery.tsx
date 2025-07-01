@@ -17,12 +17,12 @@ export default function NewsGallery() {
             className="bg-white rounded-lg shadow-md overflow-hidden group transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl flex flex-col"
           >
             <div className="relative w-full aspect-video">
-              <Image
-                src={`/placeholder.svg?width=400&height=225&query=${encodeURIComponent(article.imageQuery)}`}
-                alt={article.headline}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+            <Image
+  src={article.image}
+  alt={article.headline}
+  fill
+  className="object-cover transition-transform duration-300 group-hover:scale-105"
+/>
             </div>
             <div className="p-4 flex flex-col flex-grow">
               <p className="text-xs font-bold text-red-600 uppercase">{article.category}</p>
