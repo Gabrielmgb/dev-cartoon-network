@@ -152,7 +152,7 @@ export const newEpisodes = [
   },
   {
     show: "Irmão do Jorel",
-    title: "Menino Sereio",
+    title: "O Irmão do Jorel é um Menino Sereio",
     query: "apple and onion city episode still",
     href: "https://www.youtube.com/watch?v=Qgki6QnDHfE",
     image: "/home/new-ep-4.png"
@@ -683,6 +683,7 @@ export const climateTips = [
 export const appsData = [
   {
     name: "Cartoon Network Arcade",
+    image: "/home/app-1.png",
     description: "Jogue dezenas de minigames dos seus shows favoritos em um único app!",
     iconQuery: "colorful arcade app icon",
     screenshots: [
@@ -695,6 +696,7 @@ export const appsData = [
   },
   {
     name: "Copa Toon",
+    image: "/home/app-2.png",
     description: "Monte seu time com seus personagens preferidos e dispute o maior torneio de futebol do universo!",
     iconQuery: "soccer ball cartoon app icon",
     screenshots: [
@@ -707,6 +709,7 @@ export const appsData = [
   },
   {
     name: "CN Sayin'",
+    image: "/home/app-3.jpeg",
     description: "Grave sua voz sobre clipes de desenhos e crie seus próprios memes hilários!",
     iconQuery: "microphone app icon",
     screenshots: [
@@ -719,6 +722,7 @@ export const appsData = [
   },
   {
     name: "Ben 10: Alien Experience",
+    image: "/home/app-4.png",
     description: "Use realidade aumentada para se transformar nos alienígenas do Omnitrix e lutar contra vilões.",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [

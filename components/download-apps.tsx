@@ -27,7 +27,7 @@ export default function DownloadApps() {
         {appsData.map((app) => (
           <div key={app.name} className="flex items-center gap-4">
             <Image
-              src={`/placeholder.svg?width=100&height=100&query=${encodeURIComponent(app.query)}`}
+              src={app.image}
               alt={`${app.name} icon`}
               width={100}
               height={100}
