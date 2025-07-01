@@ -438,6 +438,152 @@ export const showsData = [
     ],
     details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
   },
+  // New shows added by user request
+  {
+    id: "knd",
+    name: "KND: A Turma do Bairro",
+    posterQuery: "codename kids next door vertical poster",
+    bannerQuery: "codename kids next door wide banner",
+    description:
+      "Um grupo de cinco crianças de 10 anos opera a partir de uma casa na árvore de alta tecnologia, lutando contra a tirania de adultos e adolescentes.",
+    characters: [
+      { name: "Numbuh 1", query: "Numbuh 1 from KND" },
+      { name: "Numbuh 2", query: "Numbuh 2 from KND" },
+      { name: "Numbuh 3", query: "Numbuh 3 from KND" },
+      { name: "Numbuh 4", query: "Numbuh 4 from KND" },
+      { name: "Numbuh 5", query: "Numbuh 5 from KND" },
+    ],
+    details: { creator: "Tom Warburton", year: "2002–2008", episodes: "78" },
+  },
+  {
+    id: "cow_and_chicken",
+    name: "A Vaca e o Frango",
+    posterQuery: "cow and chicken vertical poster",
+    bannerQuery: "cow and chicken wide banner",
+    description:
+      "As aventuras surreais de uma vaca e um frango que são irmãos, e seus encontros com o cara vermelho sem calças.",
+    characters: [
+      { name: "Vaca", query: "Cow from Cow and Chicken" },
+      { name: "Frango", query: "Chicken from Cow and Chicken" },
+      { name: "Bum de Fora", query: "The Red Guy from Cow and Chicken" },
+    ],
+    details: { creator: "David Feiss", year: "1997–1999", episodes: "52" },
+  },
+  {
+    id: "billy_and_mandy",
+    name: "As Terríveis Aventuras de Billy e Mandy",
+    posterQuery: "the grim adventures of billy and mandy vertical poster",
+    bannerQuery: "the grim adventures of billy and mandy wide banner",
+    description:
+      "Duas crianças, o estúpido Billy e a cínica Mandy, forçam o Ceifador Sinistro a ser seu melhor amigo para sempre após vencerem uma aposta.",
+    characters: [
+      { name: "Billy", query: "Billy from Billy and Mandy" },
+      { name: "Mandy", query: "Mandy from Billy and Mandy" },
+      { name: "Puro Osso", query: "Grim from Billy and Mandy" },
+    ],
+    details: { creator: "Maxwell Atoms", year: "2001–2007", episodes: "78" },
+  },
+  {
+    id: "my_gym_partner_is_a_monkey",
+    name: "Meu Amigo da Escola é um Macaco",
+    posterQuery: "my gym partners a monkey vertical poster",
+    bannerQuery: "my gym partners a monkey wide banner",
+    description:
+      "Por um erro de digitação, Adam Lyon, um humano, é transferido para a Escola de Ginástica para Animais Charles Darwin, onde faz amizade com o macaco Jake.",
+    characters: [
+      { name: "Adam Lyon", query: "Adam Lyon from My Gym Partner's a Monkey" },
+      { name: "Jake Spidermonkey", query: "Jake Spidermonkey from My Gym Partner's a Monkey" },
+    ],
+    details: { creator: "Tim Cahill, Julie McNally Cahill", year: "2005–2008", episodes: "56" },
+  },
+  {
+    id: "camp_lazlo",
+    name: "O Acampamento de Lazlo",
+    posterQuery: "camp lazlo vertical poster",
+    bannerQuery: "camp lazlo wide banner",
+    description:
+      "Lazlo, um macaco-aranha otimista, e seus amigos Raj e Clam vivem aventuras no Acampamento Rim, um acampamento de escoteiros não muito organizado.",
+    characters: [
+      { name: "Lazlo", query: "Lazlo from Camp Lazlo" },
+      { name: "Raj", query: "Raj from Camp Lazlo" },
+      { name: "Clam", query: "Clam from Camp Lazlo" },
+    ],
+    details: { creator: "Joe Murray", year: "2005–2008", episodes: "61" },
+  },
+  {
+    id: "irmao_do_jorel",
+    name: "Irmão do Jorel",
+    posterQuery: "irmao do jorel vertical poster",
+    bannerQuery: "irmao do jorel wide banner",
+    description:
+      "A história de um garoto tímido e sem nome que é sempre ofuscado pela popularidade de seu irmão mais velho, Jorel. Ele tenta encontrar sua própria identidade.",
+    characters: [
+      { name: "Irmão do Jorel", query: "Irmão do Jorel character" },
+      { name: "Jorel", query: "Jorel from Irmão do Jorel" },
+      { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel" },
+    ],
+    details: { creator: "Juliano Enrico", year: "2014–presente", episodes: "104+" },
+  },
+  {
+    id: "scooby_doo",
+    name: "Scooby-Doo, Cadê Você!",
+    posterQuery: "scooby doo where are you vertical poster",
+    bannerQuery: "scooby doo where are you wide banner",
+    description:
+      "Quatro adolescentes e seu cão falante, Scooby-Doo, resolvem mistérios envolvendo criaturas supostamente sobrenaturais.",
+    characters: [
+      { name: "Scooby-Doo", query: "Scooby-Doo character" },
+      { name: "Salsicha", query: "Shaggy Rogers character" },
+      { name: "Fred", query: "Fred Jones character" },
+      { name: "Daphne", query: "Daphne Blake character" },
+      { name: "Velma", query: "Velma Dinkley character" },
+    ],
+    details: { creator: "Joe Ruby, Ken Spears", year: "1969–1970", episodes: "25" },
+  },
+  {
+    id: "looney_tunes",
+    name: "Looney Tunes",
+    posterQuery: "looney tunes vertical poster",
+    bannerQuery: "looney tunes wide banner",
+    description:
+      "As aventuras cômicas e caóticas de um elenco de personagens icônicos, incluindo Pernalonga, Patolino, Gaguinho e muitos outros.",
+    characters: [
+      { name: "Pernalonga", query: "Bugs Bunny character" },
+      { name: "Patolino", query: "Daffy Duck character" },
+      { name: "Gaguinho", query: "Porky Pig character" },
+      { name: "Frajola", query: "Sylvester the Cat character" },
+      { name: "Piu-Piu", query: "Tweety Bird character" },
+    ],
+    details: { creator: "Vários", year: "1930–presente", episodes: "1000+" },
+  },
+  {
+    id: "generator_rex",
+    name: "Mutante Rex",
+    posterQuery: "generator rex vertical poster",
+    bannerQuery: "generator rex wide banner",
+    description:
+      "Rex é um adolescente que pode criar máquinas a partir de seu corpo. Ele trabalha para uma organização que combate mutantes perigosos chamados E.V.O.s.",
+    characters: [
+      { name: "Rex Salazar", query: "Rex Salazar from Generator Rex" },
+      { name: "Agente Seis", query: "Agent Six from Generator Rex" },
+      { name: "Bobo Haha", query: "Bobo Haha from Generator Rex" },
+    ],
+    details: { creator: "Man of Action", year: "2010–2013", episodes: "60" },
+  },
+  {
+    id: "bakugan",
+    name: "Bakugan: Guerreiros da Batalha",
+    posterQuery: "bakugan battle brawlers vertical poster",
+    bannerQuery: "bakugan battle brawlers wide banner",
+    description:
+      "Um grupo de amigos encontra cartas que caem do céu e se envolvem em um jogo de batalha usando criaturas místicas chamadas Bakugan.",
+    characters: [
+      { name: "Dan Kuso", query: "Dan Kuso from Bakugan" },
+      { name: "Drago", query: "Drago from Bakugan" },
+      { name: "Shun Kazami", query: "Shun Kazami from Bakugan" },
+    ],
+    details: { creator: "Atsushi Maekawa", year: "2007–2012", episodes: "189" },
+  },
 ]
 
 export const gamesData = [
