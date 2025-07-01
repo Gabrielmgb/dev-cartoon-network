@@ -52,6 +52,7 @@ export const bannerData = [
     description: "Explore mundos fantásticos e derrote monstros épicos no novo jogo do Cartoon Network.",
     buttonText: "Jogar Agora",
     href: "/jogos",
+    image: "/home/slider-banner-1.jpg",
     imageQuery: "epic cartoon adventure game banner with fantasy characters",
   },
   {
@@ -59,13 +60,15 @@ export const bannerData = [
     description: "Não perca os melhores episódios dos seus desenhos favoritos, sábado e domingo!",
     buttonText: "Ver Programação",
     href: "/videos",
+    image: "/home/slider-banner-2.jpg",
     imageQuery: "colorful cartoon network banner with multiple characters celebrating",
   },
   {
-    title: "Copa Toon: A Grande Final",
-    description: "Quem levará o troféu para casa? Assista à final emocionante do maior torneio de futebol.",
+    title: "Copa Toon: Gumball e Darwin foram convocados? ",
+    description: "O que esses dois aprontaram dessa vez? Não perca o novo episódio de Copa Toon.",
     buttonText: "Assistir",
-    href: "/liga-toon",
+    href: "https://www.youtube.com/watch?v=6F3eqBl2C8U",
+    image: "/home/slider-banner-3.jpg",
     imageQuery: "dramatic cartoon soccer final match banner",
   },
 ]
