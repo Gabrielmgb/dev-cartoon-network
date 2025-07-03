@@ -30,7 +30,7 @@ export default function LigaToonPage() {
             <h1 className="text-5xl md:text-7xl font-extrabold uppercase tracking-wider drop-shadow-2xl">Liga Toon</h1>
             <p className="mt-4 text-xl max-w-2xl mx-auto">O maior campeonato de futebol do universo dos desenhos!</p>
             <Button asChild size="lg" className="mt-8 bg-yellow-400 text-black hover:bg-yellow-500 font-bold text-lg">
-              <Link href="#">Jogue Copa Toon Agora!</Link>
+              <Link href="https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR" target="_blank">Jogue Copa Toon Agora!</Link>
             </Button>
           </div>
         </section>
