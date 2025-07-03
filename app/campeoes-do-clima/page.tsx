@@ -38,14 +38,14 @@ export default function CampeoesDoClimaPage() {
                 <CardContent className="p-6">
                   <div className="relative w-24 h-24 mx-auto mb-4">
                     <Image
-                      src={`/placeholder.svg?width=100&height=100&query=${encodeURIComponent(tip.iconQuery)}`}
+                      src={tip.icon}
                       alt={`${tip.title} icon`}
                       width={80}
                       height={80}
                       className="p-3 bg-green-100 rounded-full mx-auto"
                     />
                     <Image
-                      src={`/placeholder.svg?width=50&height=50&query=${encodeURIComponent(tip.characterQuery)}`}
+                      src={tip.image}
                       alt="Character"
                       width={40}
                       height={40}

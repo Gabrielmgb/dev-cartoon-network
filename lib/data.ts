@@ -862,24 +862,32 @@ export const climateTips = [
     description: "Separe plástico, papel, metal e vidro. Pequenos gestos fazem uma grande diferença!",
     iconQuery: "recycle symbol green",
     characterQuery: "gumball watterson holding a recycling bin",
+    image: "/campeoes-do-clima/cc-finn.png",
+    icon: "/campeoes-do-clima/cc-1.png"
   },
   {
     title: "Economize Água",
     description: "Feche a torneira ao escovar os dentes. Banhos mais curtos também ajudam o planeta!",
     iconQuery: "water drop blue",
     characterQuery: "jake the dog turning off a faucet",
+    image: "/campeoes-do-clima/cc-jake.png",
+    icon: "/campeoes-do-clima/cc-2.png"
   },
   {
     title: "Plante uma Árvore",
     description: "Árvores limpam o ar e são lares para animais. Que tal começar um pequeno jardim?",
     iconQuery: "green tree simple",
     characterQuery: "steven universe planting a tree",
+    image: "/campeoes-do-clima/cc-princesa-jujuba.png",
+    icon: "/campeoes-do-clima/cc-3.png"
   },
   {
     title: "Use Menos Energia",
     description: "Apague as luzes ao sair de um cômodo e desligue aparelhos da tomada.",
     iconQuery: "lightning bolt yellow",
     characterQuery: "blossom powerpuff girls turning off a light switch",
+    image: "/campeoes-do-clima/cc-princesa-caroco.png",
+    icon: "/campeoes-do-clima/cc-4.png"
   },
 ]
 
