@@ -49,17 +49,18 @@ export const characters = [
 
   //New characters
 { name: "Billy", color: "bg-red-500", query: "billy from the grim adventures of billy and mandy", image: "/home/character/char-billy.png" },
-{ name: "Mandy", color: "bg-gray-700", query: "mandy from the grim adventures of billy and mandy", image: "/home/character/char-mandy.png" },
-{ name: "Puro Osso", color: "bg-zinc-800", query: "grim from the grim adventures of billy and mandy", image: "/home/character/char-puro-osso.png" },
+{ name: "Mandy", color: "bg-zinc-800", query: "mandy from the grim adventures of billy and mandy", image: "/home/character/char-mandy.png" },
+{ name: "Puro Osso", color: "bg-red-900", query: "grim from the grim adventures of billy and mandy", image: "/home/character/char-puro-osso.png" },
+{ name: "Dan Kuso", color: "bg-indigo-500", query: "dan kuso from bakugan", image: "/home/character/char-dan-kuso.png" },
 { name: "Scooby-Doo", color: "bg-amber-600", query: "scooby-doo cartoon character", image: "/home/character/char-scooby-doo.png" },
 { name: "Pernalonga", color: "bg-gray-300", query: "bugs bunny looney tunes", image: "/home/character/char-pernalonga.png" },
-{ name: "Patolino", color: "bg-black", query: "daffy duck looney tunes", image: "/home/character/char-patolino.png" },
+{ name: "Patolino", color: "bg-yellow-500", query: "daffy duck looney tunes", image: "/home/character/char-patolino.png" },
 { name: "Lazlo", color: "bg-lime-400", query: "lazlo from camp lazlo", image: "/home/character/char-lazlo.png" },
 { name: "Adam Lyon", color: "bg-orange-300", query: "adam lyon from my gym partner's a monkey", image: "/home/character/char-adam-lyon.png" },
 { name: "Jake Spidermonkey", color: "bg-purple-500", query: "jake spidermonkey from my gym partner's a monkey", image: "/home/character/char-jake-macaco.png" },
-{ name: "Número 1", color: "bg-red-700", query: "numbuh 1 from codename kids next door", image: "/home/character/char-numero1.png" },
+{ name: "Número 1", color: "bg-red-700", query: "numbuh 1 from codename kids next door", image: "/home/character/char-numero-1.png" },
 { name: "Rex Salazar", color: "bg-cyan-700", query: "rex salazar from generator rex", image: "/home/character/char-rex.png" },
-{ name: "Dan Kuso", color: "bg-indigo-500", query: "dan kuso from bakugan", image: "/home/character/char-dan-kuso.png" },
+
 ]
 
 
@@ -103,7 +104,7 @@ export const bannerData = [
     title: "Estreia Explosiva: Rey Mysterio!",
     description: "O lendário lutador chegou com tudo no Cartoon Network. Ação, máscaras e golpes incríveis te esperam!",
     buttonText: "Assistir Agora",
-    href: "/desenhos/rey-mysterio",
+    href: "https://www.youtube.com/watch?v=zyOFPqHJRPA",
     image: "/home/slider-banner-5.jpg",
     imageQuery: "cartoon banner of rey mysterio in action pose, wrestling ring, colorful and intense"
   }
