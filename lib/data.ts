@@ -66,13 +66,14 @@ export const characters = [
 
 
 export const bannerData = [
+  
   {
-    title: "Jogue Agora: Aventura Mágica",
-    description: "Explore mundos fantásticos e derrote monstros épicos no novo jogo do Cartoon Network.",
-    buttonText: "Jogar Agora",
-    href: "/jogos",
-    image: "/home/slider-banner-1.jpg",
-    imageQuery: "epic cartoon adventure game banner with fantasy characters",
+    title: "Cartoon Network agora na MAX!",
+    description: "Seus desenhos favoritos, onde e quando quiser. Assista tudo da Cartoon direto na plataforma MAX!",
+    buttonText: "Ver na MAX",
+    href: "https://www.max.com/br/pt",
+    image: "/home/slider-banner-1.png",
+    imageQuery: "cartoon network characters watching TV together with MAX logo in the background, cozy and colorful"
   },
   {
     title: "Maratona de Fim de Semana",
@@ -90,6 +91,23 @@ export const bannerData = [
     image: "/home/slider-banner-3.jpg",
     imageQuery: "dramatic cartoon soccer final match banner",
   },
+  {
+    title: "Jogue Agora: Aventura Mágica",
+    description: "Explore mundos fantásticos e derrote monstros épicos no novo jogo do Cartoon Network.",
+    buttonText: "Jogar Agora",
+    href: "/jogos",
+    image: "/home/slider-banner-4.jpg",
+    imageQuery: "epic cartoon adventure game banner with fantasy characters",
+  },
+  {
+    title: "Estreia Explosiva: Rey Mysterio!",
+    description: "O lendário lutador chegou com tudo no Cartoon Network. Ação, máscaras e golpes incríveis te esperam!",
+    buttonText: "Assistir Agora",
+    href: "/desenhos/rey-mysterio",
+    image: "/home/slider-banner-5.jpg",
+    imageQuery: "cartoon banner of rey mysterio in action pose, wrestling ring, colorful and intense"
+  }
+  
 ]
 
 export const newsData = [
