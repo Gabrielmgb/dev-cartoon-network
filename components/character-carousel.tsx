@@ -8,10 +8,10 @@ export default function CharacterCarousel() {
   return (
     <section>
       <Carousel opts={{ align: "start", loop: true }} className="w-full">
-        <CarouselContent className="-ml-1 pb-6">
+        <CarouselContent className="-ml-1 py-3">
           {characters.map((char, index) => (
             <CarouselItem key={index} className="basis-1/4 sm:basis-1/6 md:basis-1/10 lg:basis-1/12 pl-1">
-              <div className="p-1">
+              <div>
                 <div
                   className={`w-16 h-16 md:w-20 md:h-20 rounded-full ${char.color} flex items-center justify-center overflow-hidden border-2 border-white shadow-md transform transition-transform hover:scale-110`}
                 >

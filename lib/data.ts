@@ -34,7 +34,7 @@ export const characters = [
   { name: "Docinho", color: "bg-lime-500", query: "buttercup from powerpuff girls",image: "/home/character/char-docinho.png" },
   { name: "Dexter", color: "bg-orange-500", query: "dexter from dexter's laboratory", image: "/home/character/char-dexter.png" },
   { name: "Dee Dee", color: "bg-pink-300", query: "dee dee from dexter's laboratory", image: "/home/character/char-dee-dee.png" },
-  { name: "Johnny Bravo", color: "bg-yellow-300", query: "johnny bravo character", image: "/home/character/char-jhonny-bravo.png" },
+  { name: "Johnny Bravo", color: "bg-yellow-300", query: "johnny bravo character", image: "/home/character/char-johnny-bravo.png" },
   { name: "Coragem", color: "bg-fuchsia-300", query: "courage the cowardly dog", image: "/home/character/char-coragem.png" },
   { name: "Ben Tennyson", color: "bg-green-600", query: "ben 10 character", image: "/home/character/char-ben.png" },
   { name: "Samurai Jack", color: "bg-gray-200", query: "samurai jack character", image: "/home/character/char-samurai-jack.png" },
@@ -46,7 +46,24 @@ export const characters = [
   { name: "Chowder", color: "bg-purple-400", query: "chowder cartoon character", image: "/home/character/char-chowder.png" },
   { name: "Clarêncio", color: "bg-lime-300", query: "clarence cartoon character", image: "/home/character/char-clarencio.png" },
   { name: "Craig", color: "bg-yellow-600", query: "craig from craig of the creek", image: "/home/character/char-craig.png" },
+
+  //New characters
+{ name: "Billy", color: "bg-red-500", query: "billy from the grim adventures of billy and mandy", image: "/home/character/char-billy.png" },
+{ name: "Mandy", color: "bg-gray-700", query: "mandy from the grim adventures of billy and mandy", image: "/home/character/char-mandy.png" },
+{ name: "Puro Osso", color: "bg-zinc-800", query: "grim from the grim adventures of billy and mandy", image: "/home/character/char-puro-osso.png" },
+{ name: "Scooby-Doo", color: "bg-amber-600", query: "scooby-doo cartoon character", image: "/home/character/char-scooby-doo.png" },
+{ name: "Pernalonga", color: "bg-gray-300", query: "bugs bunny looney tunes", image: "/home/character/char-pernalonga.png" },
+{ name: "Patolino", color: "bg-black", query: "daffy duck looney tunes", image: "/home/character/char-patolino.png" },
+{ name: "Lazlo", color: "bg-lime-400", query: "lazlo from camp lazlo", image: "/home/character/char-lazlo.png" },
+{ name: "Adam Lyon", color: "bg-orange-300", query: "adam lyon from my gym partner's a monkey", image: "/home/character/char-adam-lyon.png" },
+{ name: "Jake Spidermonkey", color: "bg-purple-500", query: "jake spidermonkey from my gym partner's a monkey", image: "/home/character/char-jake-macaco.png" },
+{ name: "Número 1", color: "bg-red-700", query: "numbuh 1 from codename kids next door", image: "/home/character/char-numero1.png" },
+{ name: "Rex Salazar", color: "bg-cyan-700", query: "rex salazar from generator rex", image: "/home/character/char-rex.png" },
+{ name: "Dan Kuso", color: "bg-indigo-500", query: "dan kuso from bakugan", image: "/home/character/char-dan-kuso.png" },
 ]
+
+
+
 
 export const bannerData = [
   {

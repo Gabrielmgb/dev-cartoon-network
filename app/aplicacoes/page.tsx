@@ -36,7 +36,7 @@ export default function AplicacoesPage() {
               <CardContent className="p-0 md:flex">
                 <div className="md:w-1/3 bg-gray-800 p-8 flex flex-col justify-center items-center text-center text-white">
                   <Image
-                    src={`/placeholder.svg?width=128&height=128&query=${encodeURIComponent(app.iconQuery)}`}
+                    src={app.image}
                     alt={`${app.name} icon`}
                     width={100}
                     height={100}
