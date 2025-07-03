@@ -1,4 +1,14 @@
-import { Gamepad2, Play, Youtube, Instagram, Facebook, Tv, Trophy, Sun, AppWindow } from "lucide-react"
+import {
+  Gamepad2,
+  Play,
+  Youtube,
+  Instagram,
+  Facebook,
+  Tv,
+  Trophy,
+  Sun,
+  AppWindow,
+} from "lucide-react";
 
 export const navItems = [
   { icon: Tv, label: "DESENHOS", href: "/desenhos" },
@@ -7,86 +17,305 @@ export const navItems = [
   { icon: Trophy, label: "LIGA TOON", href: "/liga-toon" },
   { icon: Sun, label: "CAMPEÕES DO CLIMA", href: "/campeoes-do-clima" },
   { icon: AppWindow, label: "APLICAÇÕES", href: "/aplicacoes" },
-]
+];
 
 export const characters = [
   // Original Characters
-  { name: "Rigby", color: "bg-orange-800", query: "planet earth cartoon style", image: "/home/character/char-rigby.png" },
-  { name: "Mordecai", color: "bg-blue-500", query: "planet earth cartoon style", image: "/home/character/char-mordecai.png" },
-  { name: "Gumball", color: "bg-blue-300", query: "gumball watterson from the amazing world of gumball", image: "/home/character/char-gumball.png" },
-  { name: "Darwin", color: "bg-orange-400", query: "darwin watterson from the amazing world of gumball", image: "/home/character/char-darwin.png" },
-  { name: "Robin", color: "bg-red-500", query: "robin from teen titans go", image: "/home/character/char-robin.png" },
-  { name: "Estelar", color: "bg-pink-400", query: "starfire from teen titans go", image: "/home/character/char-estelar.png" },
-  { name: "Mutano", color: "bg-green-500", query: "starfire from teen titans go", image: "/home/character/char-mutano.png" },
-  { name: "Pardo", color: "bg-amber-700", query: "grizzly from we bare bears", image: "/home/character/char-pardo.png" },
-  { name: "Panda", color: "bg-white", query: "panda from we bare bears", image: "/home/character/char-panda.png" },
-  { name: "Polar", color: "bg-black", query: "ice bear from we bare bears", image: "/home/character/char-polar.png" },
-  { name: "Finn", color: "bg-sky-500", query: "finn the human from adventure time", image: "/home/character/char-finn.png" },
-  { name: "Jake", color: "bg-yellow-400", query: "jake the dog from adventure time", image: "/home/character/char-jake.png" },
-  { name: "Steven Universo", color: "bg-rose-300", query: "steven universe character", image: "/home/character/char-steven.png" },
-  { name: "Garnet", color: "bg-purple-600", query: "garnet from steven universe",image: "/home/character/char-garnet.png" },
-  { name: "Jorel", color: "bg-red-600", query: "garnet from steven universe", image: "/home/character/char-jorel.png" },
-
+  {
+    name: "Rigby",
+    color: "bg-orange-800",
+    query: "planet earth cartoon style",
+    image: "/home/character/char-rigby.png",
+  },
+  {
+    name: "Mordecai",
+    color: "bg-blue-500",
+    query: "planet earth cartoon style",
+    image: "/home/character/char-mordecai.png",
+  },
+  {
+    name: "Gumball",
+    color: "bg-blue-300",
+    query: "gumball watterson from the amazing world of gumball",
+    image: "/home/character/char-gumball.png",
+  },
+  {
+    name: "Darwin",
+    color: "bg-orange-400",
+    query: "darwin watterson from the amazing world of gumball",
+    image: "/home/character/char-darwin.png",
+  },
+  {
+    name: "Robin",
+    color: "bg-red-500",
+    query: "robin from teen titans go",
+    image: "/home/character/char-robin.png",
+  },
+  {
+    name: "Estelar",
+    color: "bg-pink-400",
+    query: "starfire from teen titans go",
+    image: "/home/character/char-estelar.png",
+  },
+  {
+    name: "Mutano",
+    color: "bg-green-500",
+    query: "starfire from teen titans go",
+    image: "/home/character/char-mutano.png",
+  },
+  {
+    name: "Pardo",
+    color: "bg-amber-700",
+    query: "grizzly from we bare bears",
+    image: "/home/character/char-pardo.png",
+  },
+  {
+    name: "Panda",
+    color: "bg-white",
+    query: "panda from we bare bears",
+    image: "/home/character/char-panda.png",
+  },
+  {
+    name: "Polar",
+    color: "bg-black",
+    query: "ice bear from we bare bears",
+    image: "/home/character/char-polar.png",
+  },
+  {
+    name: "Finn",
+    color: "bg-sky-500",
+    query: "finn the human from adventure time",
+    image: "/home/character/char-finn.png",
+  },
+  {
+    name: "Jake",
+    color: "bg-yellow-400",
+    query: "jake the dog from adventure time",
+    image: "/home/character/char-jake.png",
+  },
+  {
+    name: "Steven Universo",
+    color: "bg-rose-300",
+    query: "steven universe character",
+    image: "/home/character/char-steven.png",
+  },
+  {
+    name: "Garnet",
+    color: "bg-purple-600",
+    query: "garnet from steven universe",
+    image: "/home/character/char-garnet.png",
+  },
+  {
+    name: "Jorel",
+    color: "bg-red-600",
+    query: "garnet from steven universe",
+    image: "/home/character/char-jorel.png",
+  },
 
   // Added Characters
-  { name: "Florzinha", color: "bg-pink-500", query: "blossom from powerpuff girls",image: "/home/character/char-florzinha.png" },
-  { name: "Lindinha", color: "bg-cyan-400", query: "bubbles from powerpuff girls",image: "/home/character/char-lindinha.png" },
-  { name: "Docinho", color: "bg-lime-500", query: "buttercup from powerpuff girls",image: "/home/character/char-docinho.png" },
-  { name: "Dexter", color: "bg-orange-500", query: "dexter from dexter's laboratory", image: "/home/character/char-dexter.png" },
-  { name: "Dee Dee", color: "bg-pink-300", query: "dee dee from dexter's laboratory", image: "/home/character/char-dee-dee.png" },
-  { name: "Johnny Bravo", color: "bg-yellow-300", query: "johnny bravo character", image: "/home/character/char-johnny-bravo.png" },
-  { name: "Coragem", color: "bg-fuchsia-300", query: "courage the cowardly dog", image: "/home/character/char-coragem.png" },
-  { name: "Ben Tennyson", color: "bg-green-600", query: "ben 10 character", image: "/home/character/char-ben.png" },
-  { name: "Samurai Jack", color: "bg-gray-200", query: "samurai jack character", image: "/home/character/char-samurai-jack.png" },
-  { name: "Du", color: "bg-yellow-200", query: "ed from ed edd n eddy", image: "/home/character/char-du.png" },
-  { name: "Dudu", color: "bg-orange-300", query: "edd from ed edd n eddy", image: "/home/character/char-dudu.png" },
-  { name: "Edu", color: "bg-green-300", query: "eddy from ed edd n eddy", image: "/home/character/char-edu.png" },
-  { name: "Mac", color: "bg-red-400", query: "mac from fosters home for imaginary friends", image: "/home/character/char-mac.png" },
-  { name: "Bloo", color: "bg-blue-600", query: "bloo from fosters home for imaginary friends", image: "/home/character/char-bloo.png" },
-  { name: "Chowder", color: "bg-purple-400", query: "chowder cartoon character", image: "/home/character/char-chowder.png" },
-  { name: "Clarêncio", color: "bg-lime-300", query: "clarence cartoon character", image: "/home/character/char-clarencio.png" },
-  { name: "Craig", color: "bg-yellow-600", query: "craig from craig of the creek", image: "/home/character/char-craig.png" },
+  {
+    name: "Florzinha",
+    color: "bg-pink-500",
+    query: "blossom from powerpuff girls",
+    image: "/home/character/char-florzinha.png",
+  },
+  {
+    name: "Lindinha",
+    color: "bg-cyan-400",
+    query: "bubbles from powerpuff girls",
+    image: "/home/character/char-lindinha.png",
+  },
+  {
+    name: "Docinho",
+    color: "bg-lime-500",
+    query: "buttercup from powerpuff girls",
+    image: "/home/character/char-docinho.png",
+  },
+  {
+    name: "Dexter",
+    color: "bg-orange-500",
+    query: "dexter from dexter's laboratory",
+    image: "/home/character/char-dexter.png",
+  },
+  {
+    name: "Dee Dee",
+    color: "bg-pink-300",
+    query: "dee dee from dexter's laboratory",
+    image: "/home/character/char-dee-dee.png",
+  },
+  {
+    name: "Johnny Bravo",
+    color: "bg-yellow-300",
+    query: "johnny bravo character",
+    image: "/home/character/char-johnny-bravo.png",
+  },
+  {
+    name: "Coragem",
+    color: "bg-fuchsia-300",
+    query: "courage the cowardly dog",
+    image: "/home/character/char-coragem.png",
+  },
+  {
+    name: "Ben Tennyson",
+    color: "bg-green-600",
+    query: "ben 10 character",
+    image: "/home/character/char-ben.png",
+  },
+  {
+    name: "Samurai Jack",
+    color: "bg-gray-200",
+    query: "samurai jack character",
+    image: "/home/character/char-samurai-jack.png",
+  },
+  {
+    name: "Du",
+    color: "bg-yellow-200",
+    query: "ed from ed edd n eddy",
+    image: "/home/character/char-du.png",
+  },
+  {
+    name: "Dudu",
+    color: "bg-orange-300",
+    query: "edd from ed edd n eddy",
+    image: "/home/character/char-dudu.png",
+  },
+  {
+    name: "Edu",
+    color: "bg-green-300",
+    query: "eddy from ed edd n eddy",
+    image: "/home/character/char-edu.png",
+  },
+  {
+    name: "Mac",
+    color: "bg-red-400",
+    query: "mac from fosters home for imaginary friends",
+    image: "/home/character/char-mac.png",
+  },
+  {
+    name: "Bloo",
+    color: "bg-blue-600",
+    query: "bloo from fosters home for imaginary friends",
+    image: "/home/character/char-bloo.png",
+  },
+  {
+    name: "Chowder",
+    color: "bg-purple-400",
+    query: "chowder cartoon character",
+    image: "/home/character/char-chowder.png",
+  },
+  {
+    name: "Clarêncio",
+    color: "bg-lime-300",
+    query: "clarence cartoon character",
+    image: "/home/character/char-clarencio.png",
+  },
+  {
+    name: "Craig",
+    color: "bg-yellow-600",
+    query: "craig from craig of the creek",
+    image: "/home/character/char-craig.png",
+  },
 
   //New characters
-{ name: "Billy", color: "bg-red-500", query: "billy from the grim adventures of billy and mandy", image: "/home/character/char-billy.png" },
-{ name: "Mandy", color: "bg-zinc-800", query: "mandy from the grim adventures of billy and mandy", image: "/home/character/char-mandy.png" },
-{ name: "Puro Osso", color: "bg-red-900", query: "grim from the grim adventures of billy and mandy", image: "/home/character/char-puro-osso.png" },
-{ name: "Dan Kuso", color: "bg-indigo-500", query: "dan kuso from bakugan", image: "/home/character/char-dan-kuso.png" },
-{ name: "Scooby-Doo", color: "bg-amber-600", query: "scooby-doo cartoon character", image: "/home/character/char-scooby-doo.png" },
-{ name: "Pernalonga", color: "bg-gray-300", query: "bugs bunny looney tunes", image: "/home/character/char-pernalonga.png" },
-{ name: "Patolino", color: "bg-yellow-500", query: "daffy duck looney tunes", image: "/home/character/char-patolino.png" },
-{ name: "Lazlo", color: "bg-lime-400", query: "lazlo from camp lazlo", image: "/home/character/char-lazlo.png" },
-{ name: "Adam Lyon", color: "bg-orange-300", query: "adam lyon from my gym partner's a monkey", image: "/home/character/char-adam-lyon.png" },
-{ name: "Jake Spidermonkey", color: "bg-purple-500", query: "jake spidermonkey from my gym partner's a monkey", image: "/home/character/char-jake-macaco.png" },
-{ name: "Número 1", color: "bg-red-700", query: "numbuh 1 from codename kids next door", image: "/home/character/char-numero-1.png" },
-{ name: "Rex Salazar", color: "bg-cyan-700", query: "rex salazar from generator rex", image: "/home/character/char-rex.png" },
-
-]
-
-
-
+  {
+    name: "Billy",
+    color: "bg-red-500",
+    query: "billy from the grim adventures of billy and mandy",
+    image: "/home/character/char-billy.png",
+  },
+  {
+    name: "Mandy",
+    color: "bg-zinc-800",
+    query: "mandy from the grim adventures of billy and mandy",
+    image: "/home/character/char-mandy.png",
+  },
+  {
+    name: "Puro Osso",
+    color: "bg-red-900",
+    query: "grim from the grim adventures of billy and mandy",
+    image: "/home/character/char-puro-osso.png",
+  },
+  {
+    name: "Dan Kuso",
+    color: "bg-indigo-500",
+    query: "dan kuso from bakugan",
+    image: "/home/character/char-dan-kuso.png",
+  },
+  {
+    name: "Scooby-Doo",
+    color: "bg-amber-600",
+    query: "scooby-doo cartoon character",
+    image: "/home/character/char-scooby-doo.png",
+  },
+  {
+    name: "Pernalonga",
+    color: "bg-gray-300",
+    query: "bugs bunny looney tunes",
+    image: "/home/character/char-pernalonga.png",
+  },
+  {
+    name: "Patolino",
+    color: "bg-yellow-500",
+    query: "daffy duck looney tunes",
+    image: "/home/character/char-patolino.png",
+  },
+  {
+    name: "Lazlo",
+    color: "bg-lime-400",
+    query: "lazlo from camp lazlo",
+    image: "/home/character/char-lazlo.png",
+  },
+  {
+    name: "Adam Lyon",
+    color: "bg-orange-300",
+    query: "adam lyon from my gym partner's a monkey",
+    image: "/home/character/char-adam-lyon.png",
+  },
+  {
+    name: "Jake Spidermonkey",
+    color: "bg-purple-500",
+    query: "jake spidermonkey from my gym partner's a monkey",
+    image: "/home/character/char-jake-macaco.png",
+  },
+  {
+    name: "Número 1",
+    color: "bg-red-700",
+    query: "numbuh 1 from codename kids next door",
+    image: "/home/character/char-numero-1.png",
+  },
+  {
+    name: "Rex Salazar",
+    color: "bg-cyan-700",
+    query: "rex salazar from generator rex",
+    image: "/home/character/char-rex.png",
+  },
+];
 
 export const bannerData = [
-  
   {
     title: "Cartoon Network agora na MAX!",
-    description: "Seus desenhos favoritos, onde e quando quiser. Assista tudo da Cartoon direto na plataforma MAX!",
+    description:
+      "Seus desenhos favoritos, onde e quando quiser. Assista tudo da Cartoon direto na plataforma MAX!",
     buttonText: "Ver na MAX",
     href: "https://www.max.com/br/pt",
     image: "/home/slider-banner-1.png",
-    imageQuery: "cartoon network characters watching TV together with MAX logo in the background, cozy and colorful"
+    imageQuery:
+      "cartoon network characters watching TV together with MAX logo in the background, cozy and colorful",
   },
   {
     title: "Maratona de Fim de Semana",
-    description: "Não perca os melhores episódios dos seus desenhos favoritos, sábado e domingo!",
+    description:
+      "Não perca os melhores episódios dos seus desenhos favoritos, sábado e domingo!",
     buttonText: "Ver Programação",
     href: "/videos",
     image: "/home/slider-banner-2.jpg",
-    imageQuery: "colorful cartoon network banner with multiple characters celebrating",
+    imageQuery:
+      "colorful cartoon network banner with multiple characters celebrating",
   },
   {
     title: "Copa Toon: Gumball e Darwin foram convocados? ",
-    description: "O que esses dois aprontaram dessa vez? Não perca o novo episódio de Copa Toon.",
+    description:
+      "O que esses dois aprontaram dessa vez? Não perca o novo episódio de Copa Toon.",
     buttonText: "Assistir",
     href: "https://www.youtube.com/watch?v=6F3eqBl2C8U",
     image: "/home/slider-banner-3.jpg",
@@ -94,7 +323,8 @@ export const bannerData = [
   },
   {
     title: "Jogue Agora: Aventura Mágica",
-    description: "Explore mundos fantásticos e derrote monstros épicos no novo jogo do Cartoon Network.",
+    description:
+      "Explore mundos fantásticos e derrote monstros épicos no novo jogo do Cartoon Network.",
     buttonText: "Jogar Agora",
     href: "/jogos",
     image: "/home/slider-banner-4.jpg",
@@ -102,20 +332,22 @@ export const bannerData = [
   },
   {
     title: "Estreia Explosiva: Rey Mysterio!",
-    description: "O lendário lutador chegou com tudo no Cartoon Network. Ação, máscaras e golpes incríveis te esperam!",
+    description:
+      "O lendário lutador chegou com tudo no Cartoon Network. Ação, máscaras e golpes incríveis te esperam!",
     buttonText: "Assistir Agora",
     href: "https://www.youtube.com/watch?v=zyOFPqHJRPA",
     image: "/home/slider-banner-5.jpg",
-    imageQuery: "cartoon banner of rey mysterio in action pose, wrestling ring, colorful and intense"
-  }
-  
-]
+    imageQuery:
+      "cartoon banner of rey mysterio in action pose, wrestling ring, colorful and intense",
+  },
+];
 
 export const newsData = [
   {
     id: "news1",
     category: "NOVOS EPISÓDIOS",
-    headline: "Aventura em Dobro! Novos Episódios de Gumball Chegam na Próxima Semana",
+    headline:
+      "Aventura em Dobro! Novos Episódios de Gumball Chegam na Próxima Semana",
     snippet:
       "Prepare-se para mais confusões em Elmore! Gumball e Darwin estão de volta com uma leva de episódios inéditos que prometem muitas risadas.",
     image: "/home/cartoon-news-1.webp",
@@ -142,29 +374,59 @@ export const newsData = [
     imageQuery: "finn and jake from adventure time on a movie poster",
     href: "/videos",
   },
-]
+];
 
 export const footerLinks = [
   { label: "Termos de Uso", href: "#" },
   { label: "Política de Privacidade", href: "#" },
   { label: "Contacte-nos", href: "#" },
   { label: "Informação de Imprensa", href: "#" },
-]
+];
 
 export const socialLinks = [
   { icon: Youtube, href: "#", name: "YouTube" },
   { icon: Instagram, href: "#", name: "Instagram" },
   { icon: Facebook, href: "#", name: "Facebook" },
-]
+];
 
 export const featuredShows = [
-  { name: "O Incrível Mundo de Gumball", query: "the amazing world of gumball vertical poster", href: "/desenhos", image: "/home/desenho-1.jpg" },
-  { name: "Jovens Titãs em Ação!", query: "teen titans go vertical poster", href: "/desenhos", image: "/home/desenho-2.jpg" },
-  { name: "Ursos sem Curso", query: "we bare bears vertical poster", href: "/desenhos", image: "/home/desenho-3.png" },
-  { name: "Steven Universo", query: "steven universe vertical poster", href: "/desenhos", image: "/home/desenho-4.jpg" },
-  { name: "Hora de Aventura", query: "adventure time vertical poster", href: "/desenhos", image: "/home/desenho-5.jpg" },
-  { name: "Clarêncio, o Otimista", query: "clarence cartoon vertical poster", href: "/desenhos", image: "/home/desenho-6.jpg" },
-]
+  {
+    name: "O Incrível Mundo de Gumball",
+    query: "the amazing world of gumball vertical poster",
+    href: "/desenhos",
+    image: "/home/desenho-1.jpg",
+  },
+  {
+    name: "Jovens Titãs em Ação!",
+    query: "teen titans go vertical poster",
+    href: "/desenhos",
+    image: "/home/desenho-2.jpg",
+  },
+  {
+    name: "Ursos sem Curso",
+    query: "we bare bears vertical poster",
+    href: "/desenhos",
+    image: "/home/desenho-3.png",
+  },
+  {
+    name: "Steven Universo",
+    query: "steven universe vertical poster",
+    href: "/desenhos",
+    image: "/home/desenho-4.jpg",
+  },
+  {
+    name: "Hora de Aventura",
+    query: "adventure time vertical poster",
+    href: "/desenhos",
+    image: "/home/desenho-5.jpg",
+  },
+  {
+    name: "Clarêncio, o Otimista",
+    query: "clarence cartoon vertical poster",
+    href: "/desenhos",
+    image: "/home/desenho-6.jpg",
+  },
+];
 
 export const newEpisodes = [
   {
@@ -172,37 +434,37 @@ export const newEpisodes = [
     title: "Uma Piada que Envergonha o Superman",
     query: "teen titans go sandwich episode still",
     href: "https://www.youtube.com/watch?v=UgeHHquq07Q",
-    image: "/home/new-ep-1.jpg"
+    image: "/home/new-ep-1.jpg",
   },
   {
     show: "O Mundo de Craig",
     title: "Uma Grande Aventura na Lavanderia",
     query: "craig of the creek treasure episode still",
     href: "https://www.youtube.com/watch?v=3t5ot7es6vo",
-    image: "/home/new-ep-2.jpg"
+    image: "/home/new-ep-2.jpg",
   },
   {
     show: "Drama ToTal Kids",
     title: "Aventuras em uma Creche Muito Especial",
     query: "apple and onion city episode still",
     href: "https://www.youtube.com/watch?v=COjBXggCfWw",
-    image: "/home/new-ep-3.jpg"
+    image: "/home/new-ep-3.jpg",
   },
   {
     show: "Irmão do Jorel",
     title: "Irmão de Jorel e seu Amor Impossível",
     query: "apple and onion city episode still",
     href: "https://www.youtube.com/watch?v=jeobdH-KUVg",
-    image: "/home/new-ep-4.jpg"
+    image: "/home/new-ep-4.jpg",
   },
   {
     show: "Hora de Aventura",
     title: "Finn e Jake: Grandes Amigos Com Personalidades Opostas",
     query: "Outra Semana no Cartoon Rosquinhas Cartoon Network Brasil",
     href: "https://www.youtube.com/watch?v=0ZMbqTPk5cs",
-    image: "/home/new-ep-5.jpg"
-  }
-]
+    image: "/home/new-ep-5.jpg",
+  },
+];
 
 export const showsData = [
   {
@@ -266,7 +528,11 @@ export const showsData = [
       { name: "Ravena", query: "raven teen titans go character" },
       { name: "Mutano", query: "beast boy teen titans go character" },
     ],
-    details: { creator: "Aaron Horvath, Michael Jelenic", year: "2013–presente", episodes: "390+" },
+    details: {
+      creator: "Aaron Horvath, Michael Jelenic",
+      year: "2013–presente",
+      episodes: "390+",
+    },
   },
   {
     id: "we_bare_bears",
@@ -307,7 +573,11 @@ export const showsData = [
       { name: "Dexter", query: "dexter cartoon character" },
       { name: "Dee Dee", query: "dee dee cartoon character" },
     ],
-    details: { creator: "Genndy Tartakovsky", year: "1996–2003", episodes: "78" },
+    details: {
+      creator: "Genndy Tartakovsky",
+      year: "1996–2003",
+      episodes: "78",
+    },
   },
   {
     id: "powerpuff_girls",
@@ -348,7 +618,11 @@ export const showsData = [
       { name: "Jack", query: "samurai jack character" },
       { name: "Abu", query: "aku samurai jack" },
     ],
-    details: { creator: "Genndy Tartakovsky", year: "2001–2017", episodes: "62" },
+    details: {
+      creator: "Genndy Tartakovsky",
+      year: "2001–2017",
+      episodes: "62",
+    },
   },
   {
     id: "johnny_bravo",
@@ -386,7 +660,11 @@ export const showsData = [
       { name: "Kelsey", query: "kelsey craig of the creek" },
       { name: "J.P.", query: "jp craig of the creek" },
     ],
-    details: { creator: "Matt Burnett, Ben Levin", year: "2018–presente", episodes: "80+" },
+    details: {
+      creator: "Matt Burnett, Ben Levin",
+      year: "2018–presente",
+      episodes: "80+",
+    },
   },
   {
     id: "total_drama_island",
@@ -399,7 +677,11 @@ export const showsData = [
       { name: "Chris McLean", query: "chris mclean total drama" },
       { name: "Chef Hatchet", query: "chef hatchet total drama" },
     ],
-    details: { creator: "Tom McGillis, Jennifer Pertsch", year: "2007–2008", episodes: "27" },
+    details: {
+      creator: "Tom McGillis, Jennifer Pertsch",
+      year: "2007–2008",
+      episodes: "27",
+    },
   },
   {
     id: "chowder",
@@ -452,7 +734,11 @@ export const showsData = [
       { name: "Enid", query: "enid ok ko character" },
       { name: "Rad", query: "radicles ok ko character" },
     ],
-    details: { creator: "Ian Jones-Quartey", year: "2017–2019", episodes: "112" },
+    details: {
+      creator: "Ian Jones-Quartey",
+      year: "2017–2019",
+      episodes: "112",
+    },
   },
   {
     id: "infinity_train",
@@ -535,9 +821,16 @@ export const showsData = [
       "Por um erro de digitação, Adam Lyon, um humano, é transferido para a Escola de Ginástica para Animais Charles Darwin, onde faz amizade com o macaco Jake.",
     characters: [
       { name: "Adam Lyon", query: "Adam Lyon from My Gym Partner's a Monkey" },
-      { name: "Jake Spidermonkey", query: "Jake Spidermonkey from My Gym Partner's a Monkey" },
+      {
+        name: "Jake Spidermonkey",
+        query: "Jake Spidermonkey from My Gym Partner's a Monkey",
+      },
     ],
-    details: { creator: "Tim Cahill, Julie McNally Cahill", year: "2005–2008", episodes: "56" },
+    details: {
+      creator: "Tim Cahill, Julie McNally Cahill",
+      year: "2005–2008",
+      episodes: "56",
+    },
   },
   {
     id: "camp_lazlo",
@@ -565,7 +858,11 @@ export const showsData = [
       { name: "Jorel", query: "Jorel from Irmão do Jorel" },
       { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel" },
     ],
-    details: { creator: "Juliano Enrico", year: "2014–presente", episodes: "104+" },
+    details: {
+      creator: "Juliano Enrico",
+      year: "2014–presente",
+      episodes: "104+",
+    },
   },
   {
     id: "scooby_doo",
@@ -581,7 +878,11 @@ export const showsData = [
       { name: "Daphne", query: "Daphne Blake character" },
       { name: "Velma", query: "Velma Dinkley character" },
     ],
-    details: { creator: "Joe Ruby, Ken Spears", year: "1969–1970", episodes: "25" },
+    details: {
+      creator: "Joe Ruby, Ken Spears",
+      year: "1969–1970",
+      episodes: "25",
+    },
   },
   {
     id: "looney_tunes",
@@ -627,7 +928,7 @@ export const showsData = [
     ],
     details: { creator: "Atsushi Maekawa", year: "2007–2012", episodes: "189" },
   },
-]
+];
 
 export const gamesData = [
   {
@@ -723,7 +1024,8 @@ export const gamesData = [
   {
     id: "teen_titans_slash_justice",
     title: "Jovens Titãs: Golpe da Justiça",
-    description: "Escolha seu Titã favorito e lute contra hordas de vilões em um jogo de ação e combate frenético.",
+    description:
+      "Escolha seu Titã favorito e lute contra hordas de vilões em um jogo de ação e combate frenético.",
     imageQuery: "teen titans go fighting game",
     category: "Luta",
     href: "#",
@@ -731,12 +1033,13 @@ export const gamesData = [
   {
     id: "steven_heap_of_trouble",
     title: "Steven Universo: Monte de Problemas",
-    description: "Ajude Steven a empilhar itens e resolver quebra-cabeças baseados em física para limpar seu quarto.",
+    description:
+      "Ajude Steven a empilhar itens e resolver quebra-cabeças baseados em física para limpar seu quarto.",
     imageQuery: "steven universe physics puzzle game",
     category: "Quebra-cabeça",
     href: "#",
   },
-]
+];
 
 export const videosData = [
   {
@@ -746,7 +1049,7 @@ export const videosData = [
     thumbnailQuery: "gumball and darwin laughing hysterically",
     duration: "14:38",
     youtubeUrl: "https://www.youtube.com/watch?v=WmPIPYYqLC8",
-    image: "/videos/video-1.jpg"
+    image: "/videos/video-1.jpg",
   },
   {
     id: "adventure_time_bacon_pancakes",
@@ -755,7 +1058,7 @@ export const videosData = [
     thumbnailQuery: "jake the dog making bacon pancakes",
     duration: "3:28",
     youtubeUrl: "https://www.youtube.com/watch?v=dmOHqxrMTuw&t=27s",
-    image: "/videos/video-2.jpg"
+    image: "/videos/video-2.jpg",
   },
   {
     id: "regular_show_best_of_benson",
@@ -764,7 +1067,7 @@ export const videosData = [
     thumbnailQuery: "benson from regular show yelling",
     duration: "3:31",
     youtubeUrl: "https://www.youtube.com/watch?v=muWvHpVrxPc",
-    image: "/videos/video-3.jpg"
+    image: "/videos/video-3.jpg",
   },
   {
     id: "teen_titans_go_waffles",
@@ -773,7 +1076,7 @@ export const videosData = [
     thumbnailQuery: "cyborg and beast boy singing about waffles",
     duration: "1:45",
     youtubeUrl: "https://www.youtube.com/watch?v=6KE0VrVaAWU",
-    image: "/videos/video-4.jpg"
+    image: "/videos/video-4.jpg",
   },
   {
     id: "steven_universe_stronger_than_you",
@@ -782,7 +1085,7 @@ export const videosData = [
     thumbnailQuery: "garnet from steven universe singing",
     duration: "2:51",
     youtubeUrl: "https://www.youtube.com/watch?v=ECt6xk3eEbU",
-    image: "/videos/video-5.jpg"
+    image: "/videos/video-5.jpg",
   },
   {
     id: "we_bare_bears_burrito",
@@ -791,7 +1094,7 @@ export const videosData = [
     thumbnailQuery: "grizzly bear hugging a giant burrito",
     duration: "3:36",
     youtubeUrl: "https://www.youtube.com/watch?v=iMU6lIm9OV8",
-    image: "/videos/video-6.jpg"
+    image: "/videos/video-6.jpg",
   },
   {
     id: "powerpuff_girls_intro",
@@ -800,7 +1103,7 @@ export const videosData = [
     thumbnailQuery: "powerpuff girls classic intro screen",
     duration: "1:59",
     youtubeUrl: "https://www.youtube.com/watch?v=rkrLS3gD2VM",
-    image: "/videos/video-7.jpg"
+    image: "/videos/video-7.jpg",
   },
   {
     id: "dexters_lab_omelette_du_fromage",
@@ -809,7 +1112,7 @@ export const videosData = [
     thumbnailQuery: "dexter saying omelette du fromage",
     duration: "1:40",
     youtubeUrl: "https://www.youtube.com/watch?v=rAxePCJrblM",
-    image: "/videos/video-8.jpg"
+    image: "/videos/video-8.jpg",
   },
   {
     id: "courage_king_ramses",
@@ -818,7 +1121,7 @@ export const videosData = [
     thumbnailQuery: "king ramses curse from courage the cowardly dog",
     duration: "2:42",
     youtubeUrl: "https://www.youtube.com/watch?v=kKnC674-ZDU",
-    image: "/videos/video-9.jpg"
+    image: "/videos/video-9.jpg",
   },
   {
     id: "ben_10_first_transformation",
@@ -827,7 +1130,7 @@ export const videosData = [
     thumbnailQuery: "ben 10 first transforming into heatblast",
     duration: "5:19",
     youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    image: "/videos/video-10.jpg"
+    image: "/videos/video-10.jpg",
   },
   {
     id: "samurai_jack_vs_shinobi",
@@ -836,7 +1139,7 @@ export const videosData = [
     thumbnailQuery: "samurai jack fighting a robot ninja in the dark",
     duration: "3:56",
     youtubeUrl: "https://www.youtube.com/watch?v=Qp-L_Xei-Lg&t=12s",
-    image: "/videos/video-11.jpg"
+    image: "/videos/video-11.jpg",
   },
   {
     id: "johnny_bravo_do_the_monkey",
@@ -845,57 +1148,118 @@ export const videosData = [
     thumbnailQuery: "johnny bravo dancing with a monkey",
     duration: "1:29",
     youtubeUrl: "https://www.youtube.com/watch?v=_AVKJ6ExGGw",
-    image: "/videos/video-12.jpg"
+    image: "/videos/video-12.jpg",
   },
-]
+];
 
 export const ligaToonTeams = [
-  { name: "Titãs de Jump City", logoQuery: "teen titans go logo", captain: "Robin", image: "/copa-toon/cp-1.png" },
-  { name: "Guerreiros de Ooo", logoQuery: "adventure time logo", captain: "Finn", image: "/copa-toon/cp-2.png" },
-  { name: "Elmore Streamers", logoQuery: "gumball logo", captain: "Gumball", image: "/copa-toon/cp-3.png" },
-  { name: "Crystal Gems FC", logoQuery: "steven universe star logo", captain: "Garnet", image: "/copa-toon/cp-4.png" },
-]
+  {
+    name: "Titãs de Jump City",
+    logoQuery: "teen titans go logo",
+    captain: "Robin",
+    image: "/copa-toon/cp-1.png",
+  },
+  {
+    name: "Guerreiros de Ooo",
+    logoQuery: "adventure time logo",
+    captain: "Finn",
+    image: "/copa-toon/cp-2.png",
+  },
+  {
+    name: "Elmore Streamers",
+    logoQuery: "gumball logo",
+    captain: "Gumball",
+    image: "/copa-toon/cp-3.png",
+  },
+  {
+    name: "Crystal Gems FC",
+    logoQuery: "steven universe star logo",
+    captain: "Garnet",
+    image: "/copa-toon/cp-4.png",
+  },
+  {
+    name: "Vila dos Heróis",
+    logoQuery: "ben 10 logo",
+    captain: "Ben Tennyson",
+    image: "/copa-toon/cp-5.png",
+  },
+  {
+    name: "Sombra do Medo",
+    logoQuery: "billy e mandy logo",
+    captain: "Puro Osso",
+    image: "/copa-toon/cp-6.png",
+  },
+  {
+    name: "Toon KND United",
+    logoQuery: "knd a turma do bairro logo",
+    captain: "Nº 1",
+    image: "/copa-toon/cp-7.png",
+  },
+  {
+    name: "Macacos da Escola",
+    logoQuery: "meu amigo da escola é um macaco logo",
+    captain: "Jake Spidermonkey",
+    image: "/copa-toon/cp-8.png",
+  },
+  {
+    name: "Patrulha Park Side",
+    logoQuery: "craig of the creek logo",
+    captain: "Craig",
+    image: "/copa-toon/cp-9.png",
+  },
+  {
+    name: "Liga Irmão do Jorel",
+    logoQuery: "irmão do jorel logo",
+    captain: "Irmão do Jorel",
+    image: "/copa-toon/cp-10.png",
+  },
+];
 
 export const climateTips = [
   {
     title: "Recicle seu Lixo",
-    description: "Separe plástico, papel, metal e vidro. Pequenos gestos fazem uma grande diferença!",
+    description:
+      "Separe plástico, papel, metal e vidro. Pequenos gestos fazem uma grande diferença!",
     iconQuery: "recycle symbol green",
     characterQuery: "gumball watterson holding a recycling bin",
     image: "/campeoes-do-clima/cc-finn.png",
-    icon: "/campeoes-do-clima/cc-1.png"
+    icon: "/campeoes-do-clima/cc-1.png",
   },
   {
     title: "Economize Água",
-    description: "Feche a torneira ao escovar os dentes. Banhos mais curtos também ajudam o planeta!",
+    description:
+      "Feche a torneira ao escovar os dentes. Banhos mais curtos também ajudam o planeta!",
     iconQuery: "water drop blue",
     characterQuery: "jake the dog turning off a faucet",
     image: "/campeoes-do-clima/cc-jake.png",
-    icon: "/campeoes-do-clima/cc-2.png"
+    icon: "/campeoes-do-clima/cc-2.png",
   },
   {
     title: "Plante uma Árvore",
-    description: "Árvores limpam o ar e são lares para animais. Que tal começar um pequeno jardim?",
+    description:
+      "Árvores limpam o ar e são lares para animais. Que tal começar um pequeno jardim?",
     iconQuery: "green tree simple",
     characterQuery: "steven universe planting a tree",
     image: "/campeoes-do-clima/cc-princesa-jujuba.png",
-    icon: "/campeoes-do-clima/cc-3.png"
+    icon: "/campeoes-do-clima/cc-3.png",
   },
   {
     title: "Use Menos Energia",
-    description: "Apague as luzes ao sair de um cômodo e desligue aparelhos da tomada.",
+    description:
+      "Apague as luzes ao sair de um cômodo e desligue aparelhos da tomada.",
     iconQuery: "lightning bolt yellow",
     characterQuery: "blossom powerpuff girls turning off a light switch",
     image: "/campeoes-do-clima/cc-princesa-caroco.png",
-    icon: "/campeoes-do-clima/cc-4.png"
+    icon: "/campeoes-do-clima/cc-4.png",
   },
-]
+];
 
 export const appsData = [
   {
     name: "Cartoon Network Arcade",
     image: "/home/app-1.png",
-    description: "Jogue dezenas de minigames dos seus shows favoritos em um único app!",
+    description:
+      "Jogue dezenas de minigames dos seus shows favoritos em um único app!",
     iconQuery: "colorful arcade app icon",
     screenshots: [
       "screenshot of a gumball mini-game",
@@ -908,7 +1272,8 @@ export const appsData = [
   {
     name: "Copa Toon",
     image: "/home/app-2.png",
-    description: "Monte seu time com seus personagens preferidos e dispute o maior torneio de futebol do universo!",
+    description:
+      "Monte seu time com seus personagens preferidos e dispute o maior torneio de futebol do universo!",
     iconQuery: "soccer ball cartoon app icon",
     screenshots: [
       "screenshot of a cartoon soccer match",
@@ -921,7 +1286,8 @@ export const appsData = [
   {
     name: "CN Sayin'",
     image: "/home/app-3.jpeg",
-    description: "Grave sua voz sobre clipes de desenhos e crie seus próprios memes hilários!",
+    description:
+      "Grave sua voz sobre clipes de desenhos e crie seus próprios memes hilários!",
     iconQuery: "microphone app icon",
     screenshots: [
       "screenshot of a voice recording interface over a cartoon clip",
@@ -934,7 +1300,8 @@ export const appsData = [
   {
     name: "Ben 10: Alien Experience",
     image: "/home/app-4.png",
-    description: "Use realidade aumentada para se transformar nos alienígenas do Omnitrix e lutar contra vilões.",
+    description:
+      "Use realidade aumentada para se transformar nos alienígenas do Omnitrix e lutar contra vilões.",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "screenshot of an augmented reality alien fighting in a real world environment",
@@ -944,4 +1311,4 @@ export const appsData = [
     ios_href: "#",
     android_href: "#",
   },
-]
+];
