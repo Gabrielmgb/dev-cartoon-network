@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Dev Cartoon Network',
   description: 'Created with v0',
   generator: 'v0.dev',
+  icons: {
+    icon: '/favicon-CN.png', 
+  }
 }
 
 export default function RootLayout({
