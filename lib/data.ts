@@ -698,99 +698,111 @@ export const gamesData = [
 export const videosData = [
   {
     id: "gumball_funny_moments",
-    title: "Melhores Momentos de Gumball",
+    title: "Grandes Momentos de Gumball",
     show: "O Incrível Mundo de Gumball",
     thumbnailQuery: "gumball and darwin laughing hysterically",
-    duration: "8:22",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "14:38",
+    youtubeUrl: "https://www.youtube.com/watch?v=WmPIPYYqLC8",
+    image: "/videos/video-1.jpg"
   },
   {
     id: "adventure_time_bacon_pancakes",
     title: "Canção: Bacon Pancakes",
     show: "Hora de Aventura",
     thumbnailQuery: "jake the dog making bacon pancakes",
-    duration: "1:30",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "3:28",
+    youtubeUrl: "https://www.youtube.com/watch?v=dmOHqxrMTuw&t=27s",
+    image: "/videos/video-2.jpg"
+  },
+  {
+    id: "regular_show_best_of_benson",
+    title: "O final mais épico de todos os finais ao som de Heroes",
+    show: "Apenas um Show",
+    thumbnailQuery: "benson from regular show yelling",
+    duration: "3:31",
+    youtubeUrl: "https://www.youtube.com/watch?v=muWvHpVrxPc",
+    image: "/videos/video-3.jpg"
   },
   {
     id: "teen_titans_go_waffles",
-    title: "A Canção dos Waffles",
+    title: "Cancão: Waffles!",
     show: "Jovens Titãs em Ação!",
     thumbnailQuery: "cyborg and beast boy singing about waffles",
-    duration: "2:05",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "1:45",
+    youtubeUrl: "https://www.youtube.com/watch?v=6KE0VrVaAWU",
+    image: "/videos/video-4.jpg"
   },
   {
     id: "steven_universe_stronger_than_you",
     title: "Canção: Mais Forte que Você",
     show: "Steven Universo",
     thumbnailQuery: "garnet from steven universe singing",
-    duration: "2:55",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "2:51",
+    youtubeUrl: "https://www.youtube.com/watch?v=ECt6xk3eEbU",
+    image: "/videos/video-5.jpg"
   },
   {
     id: "we_bare_bears_burrito",
-    title: "Pardo e o Burrito Gigante",
+    title: "O Fofo Espirro do Panda",
     show: "Ursos sem Curso",
     thumbnailQuery: "grizzly bear hugging a giant burrito",
-    duration: "4:15",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  },
-  {
-    id: "regular_show_best_of_benson",
-    title: "Benson Perdendo a Paciência",
-    show: "Apenas um Show",
-    thumbnailQuery: "benson from regular show yelling",
-    duration: "11:03",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "3:36",
+    youtubeUrl: "https://www.youtube.com/watch?v=iMU6lIm9OV8",
+    image: "/videos/video-6.jpg"
   },
   {
     id: "powerpuff_girls_intro",
-    title: "Abertura Clássica",
+    title: "Abertura Estendida",
     show: "As Meninas Superpoderosas",
     thumbnailQuery: "powerpuff girls classic intro screen",
-    duration: "1:01",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "1:59",
+    youtubeUrl: "https://www.youtube.com/watch?v=rkrLS3gD2VM",
+    image: "/videos/video-7.jpg"
   },
   {
     id: "dexters_lab_omelette_du_fromage",
     title: "Omelette du Fromage",
     show: "O Laboratório de Dexter",
     thumbnailQuery: "dexter saying omelette du fromage",
-    duration: "0:45",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "1:40",
+    youtubeUrl: "https://www.youtube.com/watch?v=rAxePCJrblM",
+    image: "/videos/video-8.jpg"
   },
   {
     id: "courage_king_ramses",
     title: "A Maldição do Rei Ramsés",
     show: "Coragem, o Cão Covarde",
     thumbnailQuery: "king ramses curse from courage the cowardly dog",
-    duration: "3:30",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "2:42",
+    youtubeUrl: "https://www.youtube.com/watch?v=kKnC674-ZDU",
+    image: "/videos/video-9.jpg"
   },
   {
     id: "ben_10_first_transformation",
-    title: "A Primeira Transformação de Ben",
+    title: "Tudo Molhado",
     show: "Ben 10",
     thumbnailQuery: "ben 10 first transforming into heatblast",
-    duration: "5:10",
+    duration: "5:19",
     youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    image: "/videos/video-10.jpg"
   },
   {
     id: "samurai_jack_vs_shinobi",
     title: "Samurai Jack vs. Shinobi",
     show: "Samurai Jack",
     thumbnailQuery: "samurai jack fighting a robot ninja in the dark",
-    duration: "6:20",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "3:56",
+    youtubeUrl: "https://www.youtube.com/watch?v=Qp-L_Xei-Lg&t=12s",
+    image: "/videos/video-11.jpg"
   },
   {
     id: "johnny_bravo_do_the_monkey",
-    title: "Dança do Macaco com Johnny Bravo",
+    title: "Johnny Seja Mau",
     show: "Johnny Bravo",
     thumbnailQuery: "johnny bravo dancing with a monkey",
-    duration: "1:50",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    duration: "1:29",
+    youtubeUrl: "https://www.youtube.com/watch?v=_AVKJ6ExGGw",
+    image: "/videos/video-12.jpg"
   },
 ]
 

@@ -15,7 +15,7 @@ export default function VideoCard({ video }: { video: Video }) {
     >
       <div className="relative w-full aspect-video">
         <Image
-          src={`/placeholder.svg?width=300&height=169&query=${encodeURIComponent(video.thumbnailQuery)}`}
+          src={video.image}
           alt={`Thumbnail do vídeo ${video.title}`}
           fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"
