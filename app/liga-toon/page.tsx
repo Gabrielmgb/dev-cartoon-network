@@ -46,7 +46,7 @@ export default function LigaToonPage() {
                   <Card key={team.name} className="text-center hover:shadow-lg transition-shadow">
                     <CardContent className="p-6">
                       <Image
-                        src={`/placeholder.svg?width=100&height=100&query=${encodeURIComponent(team.logoQuery)}`}
+                        src={team.image}
                         alt={`${team.name} Logo`}
                         width={80}
                         height={80}

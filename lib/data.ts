@@ -850,10 +850,10 @@ export const videosData = [
 ]
 
 export const ligaToonTeams = [
-  { name: "Titãs de Jump City", logoQuery: "teen titans go logo", captain: "Robin" },
-  { name: "Guerreiros de Ooo", logoQuery: "adventure time logo", captain: "Finn" },
-  { name: "Elmore Streamers", logoQuery: "gumball logo", captain: "Gumball" },
-  { name: "Crystal Gems FC", logoQuery: "steven universe star logo", captain: "Garnet" },
+  { name: "Titãs de Jump City", logoQuery: "teen titans go logo", captain: "Robin", image: "/copa-toon/cp-1.png" },
+  { name: "Guerreiros de Ooo", logoQuery: "adventure time logo", captain: "Finn", image: "/copa-toon/cp-2.png" },
+  { name: "Elmore Streamers", logoQuery: "gumball logo", captain: "Gumball", image: "/copa-toon/cp-3.png" },
+  { name: "Crystal Gems FC", logoQuery: "steven universe star logo", captain: "Garnet", image: "/copa-toon/cp-4.png" },
 ]
 
 export const climateTips = [
