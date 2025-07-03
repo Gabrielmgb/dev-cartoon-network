@@ -120,7 +120,7 @@ export const newsData = [
       "Prepare-se para mais confusões em Elmore! Gumball e Darwin estão de volta com uma leva de episódios inéditos que prometem muitas risadas.",
     image: "/home/cartoon-news-1.webp",
     imageQuery: "gumball and darwin looking surprised in a new episode scene",
-    href: "#",
+    href: "/videos",
   },
   {
     id: "news2",
@@ -130,7 +130,7 @@ export const newsData = [
       "Escolha seu capitão e monte seu time dos sonhos. A nova temporada da Copa Toon já está disponível com novos personagens e estádios.",
     image: "/home/cartoon-news-2.webp",
     imageQuery: "cartoon characters playing soccer in a stadium for copa toon",
-    href: "/jogos",
+    href: "/liga-toon",
   },
   {
     id: "news3",
@@ -169,32 +169,39 @@ export const featuredShows = [
 export const newEpisodes = [
   {
     show: "Jovens Titãs em Ação!",
-    title: "A Batalha dos Sanduíches",
+    title: "Uma Piada que Envergonha o Superman",
     query: "teen titans go sandwich episode still",
     href: "https://www.youtube.com/watch?v=UgeHHquq07Q",
     image: "/home/new-ep-1.jpg"
   },
   {
     show: "O Mundo de Craig",
-    title: "O Tesouro do Riacho",
+    title: "Uma Grande Aventura na Lavanderia",
     query: "craig of the creek treasure episode still",
-    href: "https://www.youtube.com/watch?v=GYJScnU-Tr4",
+    href: "https://www.youtube.com/watch?v=3t5ot7es6vo",
     image: "/home/new-ep-2.jpg"
   },
   {
-    show: "Maçã e Cebola",
-    title: "Um Dia na Cidade Grande",
+    show: "Drama ToTal Kids",
+    title: "Aventuras em uma Creche Muito Especial",
     query: "apple and onion city episode still",
-    href: "https://www.youtube.com/watch?v=VPfk8AtX7Tg",
+    href: "https://www.youtube.com/watch?v=COjBXggCfWw",
     image: "/home/new-ep-3.jpg"
   },
   {
     show: "Irmão do Jorel",
-    title: "O Irmão do Jorel é um Menino Sereio",
+    title: "Irmão de Jorel e seu Amor Impossível",
     query: "apple and onion city episode still",
-    href: "https://www.youtube.com/watch?v=Qgki6QnDHfE",
-    image: "/home/new-ep-4.png"
+    href: "https://www.youtube.com/watch?v=jeobdH-KUVg",
+    image: "/home/new-ep-4.jpg"
   },
+  {
+    show: "Hora de Aventura",
+    title: "Finn e Jake: Grandes Amigos Com Personalidades Opostas",
+    query: "Outra Semana no Cartoon Rosquinhas Cartoon Network Brasil",
+    href: "https://www.youtube.com/watch?v=0ZMbqTPk5cs",
+    image: "/home/new-ep-5.jpg"
+  }
 ]
 
 export const showsData = [
