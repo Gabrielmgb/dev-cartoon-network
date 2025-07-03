@@ -297,7 +297,7 @@ export const bannerData = [
     description:
       "Seus desenhos favoritos, onde e quando quiser. Assista tudo da Cartoon direto na plataforma MAX!",
     buttonText: "Ver na MAX",
-    href: "https://www.max.com/br/pt",
+    href: "https://www.max.com/br/pt/channel/cartoon-network",
     image: "/home/slider-banner-1.png",
     imageQuery:
       "cartoon network characters watching TV together with MAX logo in the background, cozy and colorful",
@@ -444,7 +444,7 @@ export const newEpisodes = [
     image: "/home/new-ep-2.jpg",
   },
   {
-    show: "Drama ToTal Kids",
+    show: "Drama Total Kids",
     title: "Aventuras em uma Creche Muito Especial",
     query: "apple and onion city episode still",
     href: "https://www.youtube.com/watch?v=COjBXggCfWw",
@@ -459,7 +459,7 @@ export const newEpisodes = [
   },
   {
     show: "Hora de Aventura",
-    title: "Finn e Jake: Grandes Amigos Com Personalidades Opostas",
+    title: "Finn e Jake: Grandes Amigos com Personalidades Opostas",
     query: "Outra Semana no Cartoon Rosquinhas Cartoon Network Brasil",
     href: "https://www.youtube.com/watch?v=0ZMbqTPk5cs",
     image: "/home/new-ep-5.jpg",
