@@ -24,7 +24,7 @@ export default function DownloadApps() {
     <section className="bg-white rounded-lg p-6 shadow-md">
       <SectionTitle>Baixe Nossos Apps</SectionTitle>
       <div className="grid md:grid-cols-2 gap-6">
-        {appsData.map((app) => (
+        {appsData.slice(0,4).map((app) => (
           <div key={app.name} className="flex items-center gap-4">
             <Image
               src={app.image}
