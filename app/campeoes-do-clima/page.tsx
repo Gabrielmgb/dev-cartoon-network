@@ -49,7 +49,7 @@ export default function CampeoesDoClimaPage() {
                       alt="Character"
                       width={40}
                       height={40}
-                      className="absolute bottom-0 right-0 rounded-full border-2 border-white"
+                      className="absolute bottom-0 right-0 rounded-full border-2 border-white bg-neutral-200"
                     />
                   </div>
                   <h3 className="text-xl font-bold text-green-800">{tip.title}</h3>
