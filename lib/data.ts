@@ -1295,7 +1295,7 @@ export const appsData = [
     name: "Copa Toon",
     image: "/aplicacoes/app-2.png",
     description:
-      "Monte a sua equipe dos sonhos escolhendo entre os seus personagens favoritos, como Darwin do Incrível Mundo de Gumball, Ravena dos Jovens Titãs Em Ação! e Jake da Hora de Aventura. Domine as suas habilidades e trabalhe com a sua equipe para marcar gols e chegar no topo da tabela no maior torneio da Copa Toon até hoje! É mais do que apenas um jogo: é a Copa Toon!",
+      "Monte sua equipe dos sonhos com personagens como Darwin, Ravena e Jake, e dispute o maior torneio da Copa Toon! Domine habilidades, marque gols e lidere sua equipe rumo ao topo da tabela!",
     iconQuery: "soccer ball cartoon app icon",
     screenshots: [
       "/aplicacoes/app-2-1.jpg",
@@ -1309,7 +1309,7 @@ export const appsData = [
     name: "Cartoon Network App",
     image: "/aplicacoes/app-3.png",
     description:
-      "O aplicativo Cartoon Network traz para você o melhor do Cartoon Network e do Cartoonito! Acompanhe os episódios completos mais recentes (disponíveis no dia seguinte à exibição!) e minisódios hilariantes com o aplicativo Cartoon Network vencedor do Emmy®.",
+      "O app Cartoon Network reúne os melhores episódios do Cartoon Network e Cartoonito, disponíveis no dia seguinte à exibição, além de minisódios divertidos em um só lugar!",
     iconQuery: "microphone app icon",
     screenshots: [
       "/aplicacoes/app-3-1.png",
@@ -1323,7 +1323,7 @@ export const appsData = [
     name: "Ben 10: Alien Evolution",
     image: "/aplicacoes/app-4.jpeg",
     description:
-      "Psyphon e sua horda alienígena do mal estão tentando destruir Undertown! Para proteger a cidade, Ben deve superar uma série de obstáculos e colecionar poderes suficientes para lutar corpo a corpo contra os capangas de Psyphon. Use o Omnitrix para se transformar em seus aliens favoritos e aumente o poder deles com Omnicaixas. Você consegue ajudar Ben a derrotar Psyphon e salvar Undertown?",
+      "Psyphon e seus alienígenas ameaçam Undertown, e Ben precisa vencê-los! Supere obstáculos, colete poderes e use o Omnitrix para se transformar e enfrentar os inimigos. Ajude Ben a salvar a cidade!",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-4-1.png",
@@ -1337,7 +1337,7 @@ export const appsData = [
     name: "Gumball Ghoststory!",
     image: "/aplicacoes/app-5.png",
     description:
-      "Fantasmas invadiram Elmore depois que Gumball, Darwin e Anais leram uma história assustadora, sequestrando seus amigos e familiares. Agora, Gumball e Darwin precisam usar aspiradores especiais para capturá-los em diferentes locais da cidade, como a escola, o parque e sua própria casa.",
+      "Fantasmas invadiram Elmore, e Gumball e Darwin precisam usar aspiradores especiais para resgatar seus amigos em locais como a escola, o parque e sua casa.",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-5-1.jpg",
@@ -1351,7 +1351,7 @@ export const appsData = [
     name: "Clarence For President",
     image: "/aplicacoes/app-6.png",
     description:
-      "Clarence quer ser presidente da classe, mas vários colegas estão concorrendo contra ele. Para vencer, ele deve encontrar e confrontar cada um dos seus oponentes. Leve-o pela escola, vizinhança e parque local enquanto coleta moedas e power-ups. Em cada área, você encontrará um de seus oponentes e deve derrotá-lo. Esteja certo de evitar inimigos e as armadilhas que eles colocam pelo caminho. Você pode ajudar Clarence a ser eleito?",
+      "Clarence quer ser presidente da classe e precisa derrotar seus colegas rivais. Ajude-o a explorar a escola, a vizinhança e o parque, coletando moedas, power-ups e vencendo desafios para conquistar a eleição!",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-6-1.jpg",
@@ -1365,7 +1365,7 @@ export const appsData = [
     name: "Bloons Adventure Time TD",
     image: "/aplicacoes/app-7.png",
     description:
-      "Os bloons invadiram a Terra de Ooo, e Finn, Jake e os macacos precisam detê-los! Em Bloons Adventure Time TD, estoure bloons com personagens de Hora de Aventura, recrute heróis, equipe armas e enfrente desafios em 50 mapas com poderes e aliados especiais!",
+      "Os bloons invadiram a Terra de Ooo! Ajude Finn, Jake e seus aliados a estourá-los em Bloons Adventure Time TD, com heróis, armas e desafios em 50 mapas!",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-7-1.png",
@@ -1379,7 +1379,7 @@ export const appsData = [
     name: "We Bare Bears Match3 Repairs",
     image: "/aplicacoes/app-8.jpeg",
     description:
-      "Junte-se a Pardo, Panda e Polar em We Bare Bears: Match3 Repairs, um puzzle match-3 com desafios criativos! Combine peças para resgatar animais, ativar drones e muito mais. Complete fases para personalizar a caverna dos ursos e desbloquear reforços divertidos como hambúrgueres e aspiradores.",
+      "Ajude Pardo, Panda e Polar em We Bare Bears: Match3 Repairs! Combine peças, vença desafios e personalize a caverna com reforços divertidos.",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-8-1.jpeg",
@@ -1393,7 +1393,7 @@ export const appsData = [
     name: "DC Super Hero Girls Blitz",
     image: "/aplicacoes/app-9.png",
     description:
-      "Barbara Gordon aqui! Conhecida como a única Batgirl! Talvez você já conheça as minhas amigas maravilhosas e eu como as DC Super Hero Girls! Não somos alunas normais do ensino médio: também lutamos contra o crime e contra Supervilões. Quer fazer parte para alguns jogos e desafios rápidos? Prepare-se para pular, dançar, fazer tirolesa e subir ao redor da cidade enquanto nos ajuda a ganhar estrelas que aprimorarão o nosso esconderijo muito secreto!",
+      "Sou Barbara Gordon, a Batgirl! Junto com as DC Super Hero Girls, combatemos vilões e curtimos desafios pela cidade. Pule, dance e nos ajude a ganhar estrelas para melhorar nosso esconderijo secreto!",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-9-1.jpg",
@@ -1407,7 +1407,7 @@ export const appsData = [
     name: "Looney Tunes™ Mundo Insano",
     image: "/aplicacoes/app-10.jpg",
     description:
-      "Junte-se ao Pernalonga, Patolino, Marvin o Marciano e todos os personagens clássicos do desenho para criar a maior Equipe Toon do Looney Tunes™ Mundo Insano! Colecione personagens de desenho animado como o Piu-Piu, Taz, Papa-Léguas e muito mais para participar de batalhas malucas em um vibrante Mundo Looney Tunes™.",
+      "Junte-se ao Pernalonga, Patolino e outros personagens clássicos em Looney Tunes™ Mundo Insano! Colecione toons como Taz e Piu-Piu para batalhas malucas nesse universo vibrante!",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
       "/aplicacoes/app-10-1.jpg",
