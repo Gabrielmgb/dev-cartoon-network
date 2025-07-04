@@ -20,7 +20,7 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
         >
           <motion.div
             initial={{ scale: 0.9, y: 50 }}
@@ -28,7 +28,7 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
             exit={{ scale: 0.9, y: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             onClick={(e) => e.stopPropagation()}
-            className="bg-white rounded-xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative"
+            className="bg-white rounded-xl shadow-2xl shadow-black w-full max-w-4xl max-h-[90vh] overflow-y-auto relative"
           >
             <Button
               variant="ghost"
@@ -41,7 +41,7 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
 
             <div className="relative h-48 md:h-64 w-full">
               <Image
-                src={`/placeholder.svg?width=1024&height=300&query=${encodeURIComponent(show.bannerQuery)}`}
+                src={show.banner}
                 alt={`Banner de ${show.name}`}
                 fill
                 className="object-cover rounded-t-xl"
@@ -50,7 +50,7 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
             </div>
 
             <div className="p-6 md:p-8">
-              <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 -mt-12 relative z-10 text-white drop-shadow-lg">
+              <h2 className=" text-2xl md:text-3xl font-extrabold text-yellow-500 -mt-12 md:-mt-[52px] relative z-10 drop-shadow-lg bg-gray-600/2 backdrop-blur-sm rounded-2xl text-center">
                 {show.name}
               </h2>
 
@@ -62,13 +62,13 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
                   <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800">Personagens Principais</h3>
                   <div className="flex flex-wrap gap-4">
                     {show.characters.map((char) => (
-                      <div key={char.name} className="flex flex-col items-center text-center w-20">
+                      <div key={char.name} className="flex flex-col items-center text-center w-16 md:w-20">
                         <Image
-                          src={`/placeholder.svg?width=80&height=80&query=${encodeURIComponent(char.query)}`}
+                          src={char.char}
                           alt={char.name}
                           width={64}
                           height={64}
-                          className="rounded-full object-cover border-2 border-gray-200"
+                          className="rounded-full object-cover border-2 border-gray-200 w-12 h-12 md:w-20 md:h-20 shadow-md transform transition-transform hover:scale-110"
                         />
                         <span className="text-xs mt-2 font-semibold text-gray-700">{char.name}</span>
                       </div>
@@ -76,7 +76,7 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
                   </div>
                 </div>
 
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div className="bg-gray-100 p-4 rounded-lg md:h-[160px]">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">Detalhes</h3>
                   <ul className="space-y-2 text-sm text-gray-700">
                     <li>

@@ -2,12 +2,14 @@ export interface Show {
   id: string
   name: string
   image:string
+  banner:string
   posterQuery: string
   bannerQuery: string
   description: string
   characters: {
     name: string
     query: string
+    char: string
   }[]
   details: {
     creator: string
