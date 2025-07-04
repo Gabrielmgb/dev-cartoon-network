@@ -22,6 +22,7 @@ export interface Game {
   imageQuery: string
   category: string
   href: string
+  image: string
 }
 
 export interface Video {

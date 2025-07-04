@@ -11,7 +11,7 @@ export default function GameCard({ game }: { game: Game }) {
     <div className="bg-white rounded-lg shadow-md overflow-hidden group transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
       <div className="relative w-full aspect-video">
         <Image
-          src={`/placeholder.svg?width=300&height=169&query=${encodeURIComponent(game.imageQuery)}`}
+          src={game.image}
           alt={`Capa do jogo ${game.title}`}
           fill
           className="object-cover"

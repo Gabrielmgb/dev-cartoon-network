@@ -939,6 +939,7 @@ export const gamesData = [
     imageQuery: "ben 10 platformer game jungle setting",
     category: "Ação",
     href: "#",
+    image: "/jogos/game-1.webp"
   },
   {
     id: "samurai_jack_code",
@@ -948,6 +949,7 @@ export const gamesData = [
     imageQuery: "samurai jack fighting robots game",
     category: "Aventura",
     href: "#",
+    image: "/jogos/game-2.jpg"
   },
   {
     id: "ppg_battle_him",
@@ -957,6 +959,7 @@ export const gamesData = [
     imageQuery: "powerpuff girls fighting red demon game",
     category: "Ação",
     href: "#",
+    image: "/jogos/game-3.jpg"
   },
   {
     id: "adventure_time_finn_bones",
@@ -966,6 +969,7 @@ export const gamesData = [
     imageQuery: "adventure time pirate ship game",
     category: "Aventura",
     href: "#",
+    image: "/jogos/game-4.jpg"
   },
   {
     id: "regular_show_fist_punch",
@@ -975,6 +979,7 @@ export const gamesData = [
     imageQuery: "regular show beat em up game",
     category: "Luta",
     href: "#",
+    image: "/jogos/game-5.png"
   },
   {
     id: "gumball_school_rush",
@@ -984,6 +989,7 @@ export const gamesData = [
     imageQuery: "gumball school hallway running game",
     category: "Corrida",
     href: "#",
+    image: "/jogos/game-6.jpg"
   },
   {
     id: "dexter_runaway_robot",
@@ -993,6 +999,7 @@ export const gamesData = [
     imageQuery: "dexters lab robot escape game",
     category: "Quebra-cabeça",
     href: "#",
+    image: "/jogos/game-7.jpg"
   },
   {
     id: "ed_edd_eddy_smash",
@@ -1002,6 +1009,7 @@ export const gamesData = [
     imageQuery: "ed edd n eddy cul-de-sac game",
     category: "Esportes",
     href: "#",
+    image: "/jogos/game-8.jpg"
   },
   {
     id: "courage_nightmare",
@@ -1011,6 +1019,7 @@ export const gamesData = [
     imageQuery: "courage the cowardly dog scary hotel game",
     category: "Aventura",
     href: "#",
+    image: "/jogos/game-9.jpg"
   },
   {
     id: "fosters_amazing_race",
@@ -1020,6 +1029,7 @@ export const gamesData = [
     imageQuery: "fosters home for imaginary friends maze game",
     category: "Quebra-cabeça",
     href: "#",
+    image: "/jogos/game-10.png"
   },
   {
     id: "teen_titans_slash_justice",
@@ -1029,6 +1039,7 @@ export const gamesData = [
     imageQuery: "teen titans go fighting game",
     category: "Luta",
     href: "#",
+    image: "/jogos/game-11.png"
   },
   {
     id: "steven_heap_of_trouble",
@@ -1036,9 +1047,20 @@ export const gamesData = [
     description:
       "Ajude Steven a empilhar itens e resolver quebra-cabeças baseados em física para limpar seu quarto.",
     imageQuery: "steven universe physics puzzle game",
-    category: "Quebra-cabeça",
+    category: "Aventura",
     href: "#",
+    image: "/jogos/game-12.jpg"
   },
+  {
+    id: "billy_mandy_grim_escape",
+    title: "Billy & Mandy: Fuga do Submundo",
+    description:
+      "Ajude Billy e Mandy a escapar do submundo usando as habilidades do Puro Osso para superar armadilhas e derrotar criaturas sombrias.",
+    imageQuery: "grim adventures of billy and mandy underworld platform game",
+    category: "Aventura",
+    href: "#",
+    image: "/jogos/game-13.jpg"
+  }
 ];
 
 export const videosData = [
