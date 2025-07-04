@@ -38,12 +38,12 @@ export default function DownloadApps() {
               <p className="text-gray-600 mb-3">{app.description}</p>
               <div className="flex gap-2">
                 <Button asChild variant="outline">
-                  <Link href={app.ios_href}>
+                  <Link href={app.ios_href} target="?blank">
                     <Apple className="mr-2 h-5 w-5" /> App Store
                   </Link>
                 </Button>
                 <Button asChild variant="outline">
-                  <Link href={app.android_href}>
+                  <Link href={app.android_href} target="?blank">
                     <GooglePlayIcon className="mr-2 h-5 w-5" /> Google Play
                   </Link>
                 </Button>
