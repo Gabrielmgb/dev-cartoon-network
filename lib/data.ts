@@ -350,7 +350,7 @@ export const newsData = [
       "Aventura em Dobro! Novos Episódios de Gumball Chegam na Próxima Semana",
     snippet:
       "Prepare-se para mais confusões em Elmore! Gumball e Darwin estão de volta com uma leva de episódios inéditos que prometem muitas risadas.",
-    image: "/home/cartoon-news-1.webp",
+    image: "/home/cartoon-news-1.jpg",
     imageQuery: "gumball and darwin looking surprised in a new episode scene",
     href: "/videos",
   },
@@ -360,7 +360,7 @@ export const newsData = [
     headline: "Copa Toon 2025: O Torneio Começou!",
     snippet:
       "Escolha seu capitão e monte seu time dos sonhos. A nova temporada da Copa Toon já está disponível com novos personagens e estádios.",
-    image: "/home/cartoon-news-2.webp",
+    image: "/home/cartoon-news-2.jpg",
     imageQuery: "cartoon characters playing soccer in a stadium for copa toon",
     href: "/liga-toon",
   },
