@@ -60,12 +60,12 @@ export default function AplicacoesPage() {
                   </div>
                   <div className="flex gap-4">
                     <Button asChild variant="default" className="bg-black hover:bg-gray-800">
-                      <Link href={app.ios_href}>
+                      <Link href={app.ios_href} target="?blank">
                         <Apple className="mr-2 h-5 w-5" /> App Store
                       </Link>
                     </Button>
                     <Button asChild variant="outline">
-                      <Link href={app.android_href}>
+                      <Link href={app.android_href} target="?blank">
                         <GooglePlayIcon className="mr-2 h-5 w-5" /> Google Play
                       </Link>
                     </Button>
