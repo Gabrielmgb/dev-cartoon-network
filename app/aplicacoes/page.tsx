@@ -50,7 +50,7 @@ export default function AplicacoesPage() {
                     {app.screenshots.map((ss, index) => (
                       <Image
                         key={index}
-                        src={`/placeholder.svg?width=200&height=355&query=${encodeURIComponent(ss)}`}
+                        src={ss}
                         alt={`Screenshot ${index + 1} de ${app.name}`}
                         width={150}
                         height={266}
