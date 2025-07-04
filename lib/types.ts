@@ -1,6 +1,7 @@
 export interface Show {
   id: string
   name: string
+  image:string
   posterQuery: string
   bannerQuery: string
   description: string

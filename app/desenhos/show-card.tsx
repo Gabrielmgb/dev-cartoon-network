@@ -16,7 +16,7 @@ export default function ShowCard({ show, onSelect }: ShowCardProps) {
     >
       <div className="relative w-full aspect-[2/3]">
         <Image
-          src={`/placeholder.svg?width=200&height=300&query=${encodeURIComponent(show.posterQuery)}`}
+          src={show.image}
           alt={`Pôster de ${show.name}`}
           fill
           className="object-cover"

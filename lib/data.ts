@@ -481,7 +481,9 @@ export const showsData = [
       { name: "Nicole", query: "nicole watterson character" },
       { name: "Ricardo", query: "richard watterson character" },
     ],
+    image:"/desenhos/show-gumball.jpg",
     details: { creator: "Ben Bocquelet", year: "2011–2019", episodes: "240" },
+
   },
   {
     id: "adventure_time",
@@ -497,7 +499,9 @@ export const showsData = [
       { name: "Marceline", query: "marceline the vampire queen character" },
       { name: "Rei Gelado", query: "ice king character" },
     ],
+    image:"/desenhos/show-hora-de-aventura.jpg",
     details: { creator: "Pendleton Ward", year: "2010–2018", episodes: "283" },
+    
   },
   {
     id: "steven_universe",
@@ -512,6 +516,7 @@ export const showsData = [
       { name: "Ametista", query: "amethyst steven universe character" },
       { name: "Pérola", query: "pearl steven universe character" },
     ],
+    image:"/desenhos/show-steven-universo.jpg",
     details: { creator: "Rebecca Sugar", year: "2013–2019", episodes: "160" },
   },
   {
@@ -528,6 +533,7 @@ export const showsData = [
       { name: "Ravena", query: "raven teen titans go character" },
       { name: "Mutano", query: "beast boy teen titans go character" },
     ],
+    image:"/desenhos/show-jovens-titas.jpg",
     details: {
       creator: "Aaron Horvath, Michael Jelenic",
       year: "2013–presente",
@@ -546,6 +552,7 @@ export const showsData = [
       { name: "Panda", query: "panda we bare bears character" },
       { name: "Polar", query: "ice bear we bare bears character" },
     ],
+    image:"/desenhos/show-ursos.jpg",
     details: { creator: "Daniel Chong", year: "2015–2019", episodes: "140" },
   },
   // Adding 15 more shows to reach 20
@@ -560,6 +567,7 @@ export const showsData = [
       { name: "Mordecai", query: "mordecai regular show" },
       { name: "Rigby", query: "rigby regular show" },
     ],
+    image:"/desenhos/show-apenas-um-show.jpg",
     details: { creator: "J. G. Quintel", year: "2010–2017", episodes: "261" },
   },
   {
@@ -573,6 +581,7 @@ export const showsData = [
       { name: "Dexter", query: "dexter cartoon character" },
       { name: "Dee Dee", query: "dee dee cartoon character" },
     ],
+    image:"/desenhos/show-dexter.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "1996–2003",
@@ -591,6 +600,7 @@ export const showsData = [
       { name: "Lindinha", query: "bubbles powerpuff girls" },
       { name: "Docinho", query: "buttercup powerpuff girls" },
     ],
+    image:"/desenhos/show-superpoderosas.jpg",
     details: { creator: "Craig McCracken", year: "1998–2005", episodes: "78" },
   },
   {
@@ -605,6 +615,7 @@ export const showsData = [
       { name: "Gwen Tennyson", query: "gwen tennyson" },
       { name: "Max Tennyson", query: "max tennyson" },
     ],
+    image:"/desenhos/show-ben-10.jpg",
     details: { creator: "Man of Action", year: "2005–2008", episodes: "52" },
   },
   {
@@ -618,6 +629,7 @@ export const showsData = [
       { name: "Jack", query: "samurai jack character" },
       { name: "Abu", query: "aku samurai jack" },
     ],
+    image:"/desenhos/show-samurai-jack.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "2001–2017",
@@ -632,6 +644,7 @@ export const showsData = [
     description:
       "Johnny Bravo é um homem musculoso e vaidoso que tenta, sem sucesso, conquistar mulheres com seu jeito peculiar.",
     characters: [{ name: "Johnny Bravo", query: "johnny bravo character" }],
+    image:"/desenhos/show-johnny-bravo.jpg",
     details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
   },
   {
@@ -646,6 +659,7 @@ export const showsData = [
       { name: "Muriel", query: "muriel bagge" },
       { name: "Eustácio", query: "eustace bagge" },
     ],
+    image:"/desenhos/show-coragem.jpg",
     details: { creator: "John R. Dilworth", year: "1999–2002", episodes: "52" },
   },
   {
@@ -660,6 +674,7 @@ export const showsData = [
       { name: "Kelsey", query: "kelsey craig of the creek" },
       { name: "J.P.", query: "jp craig of the creek" },
     ],
+    image:"/desenhos/show-craig.jpg",
     details: {
       creator: "Matt Burnett, Ben Levin",
       year: "2018–presente",
@@ -677,6 +692,7 @@ export const showsData = [
       { name: "Chris McLean", query: "chris mclean total drama" },
       { name: "Chef Hatchet", query: "chef hatchet total drama" },
     ],
+    image:"/desenhos/show-ilha.jpg",
     details: {
       creator: "Tom McGillis, Jennifer Pertsch",
       year: "2007–2008",
@@ -694,6 +710,7 @@ export const showsData = [
       { name: "Chowder", query: "chowder cartoon character" },
       { name: "Mung Daal", query: "mung daal chowder" },
     ],
+    image:"/desenhos/show-chowder.jpg",
     details: { creator: "C. H. Greenblatt", year: "2007–2010", episodes: "49" },
   },
   {
@@ -707,6 +724,7 @@ export const showsData = [
       { name: "Mac", query: "mac fosters home" },
       { name: "Bloo", query: "bloo fosters home" },
     ],
+    image:"/desenhos/show-mansao-foster.jpg",
     details: { creator: "Craig McCracken", year: "2004–2009", episodes: "79" },
   },
   {
@@ -720,6 +738,7 @@ export const showsData = [
       { name: "Mao Mao", query: "mao mao character" },
       { name: "Adorabat", query: "adorabat character" },
     ],
+    image:"/desenhos/show-maomao.jpg",
     details: { creator: "Parker Simmons", year: "2019–2020", episodes: "40" },
   },
   {
@@ -734,6 +753,7 @@ export const showsData = [
       { name: "Enid", query: "enid ok ko character" },
       { name: "Rad", query: "radicles ok ko character" },
     ],
+    image:"/desenhos/show-ok-ko.jpg",
     details: {
       creator: "Ian Jones-Quartey",
       year: "2017–2019",
@@ -751,6 +771,7 @@ export const showsData = [
       { name: "Tulip Olsen", query: "tulip olsen infinity train" },
       { name: "One-One", query: "one-one infinity train" },
     ],
+    image:"/desenhos/show-trem-infinito.jpg",
     details: { creator: "Owen Dennis", year: "2019–2021", episodes: "40" },
   },
   {
@@ -765,6 +786,7 @@ export const showsData = [
       { name: "Jeff", query: "jeff randell" },
       { name: "Sumo", query: "ryan sumo" },
     ],
+    image:"/desenhos/show-clarencio.jpg",
     details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
   },
   // New shows added by user request
@@ -782,6 +804,7 @@ export const showsData = [
       { name: "Numbuh 4", query: "Numbuh 4 from KND" },
       { name: "Numbuh 5", query: "Numbuh 5 from KND" },
     ],
+    image:"/desenhos/show-knd.jpg",
     details: { creator: "Tom Warburton", year: "2002–2008", episodes: "78" },
   },
   {
@@ -796,6 +819,7 @@ export const showsData = [
       { name: "Frango", query: "Chicken from Cow and Chicken" },
       { name: "Bum de Fora", query: "The Red Guy from Cow and Chicken" },
     ],
+    image:"/desenhos/show-vaca-e-frango.jpg",
     details: { creator: "David Feiss", year: "1997–1999", episodes: "52" },
   },
   {
@@ -810,6 +834,7 @@ export const showsData = [
       { name: "Mandy", query: "Mandy from Billy and Mandy" },
       { name: "Puro Osso", query: "Grim from Billy and Mandy" },
     ],
+    image:"/desenhos/show-billy-e-mandy.jpg",
     details: { creator: "Maxwell Atoms", year: "2001–2007", episodes: "78" },
   },
   {
@@ -826,6 +851,7 @@ export const showsData = [
         query: "Jake Spidermonkey from My Gym Partner's a Monkey",
       },
     ],
+    image:"/desenhos/show-meu-amigo-da-escola.jpg",
     details: {
       creator: "Tim Cahill, Julie McNally Cahill",
       year: "2005–2008",
@@ -844,6 +870,7 @@ export const showsData = [
       { name: "Raj", query: "Raj from Camp Lazlo" },
       { name: "Clam", query: "Clam from Camp Lazlo" },
     ],
+    image:"/desenhos/show-lazlo.jpg",
     details: { creator: "Joe Murray", year: "2005–2008", episodes: "61" },
   },
   {
@@ -858,6 +885,7 @@ export const showsData = [
       { name: "Jorel", query: "Jorel from Irmão do Jorel" },
       { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel" },
     ],
+    image:"/desenhos/show-jorel.jpg",
     details: {
       creator: "Juliano Enrico",
       year: "2014–presente",
@@ -878,6 +906,7 @@ export const showsData = [
       { name: "Daphne", query: "Daphne Blake character" },
       { name: "Velma", query: "Velma Dinkley character" },
     ],
+    image:"/desenhos/show-scooby.jpg",
     details: {
       creator: "Joe Ruby, Ken Spears",
       year: "1969–1970",
@@ -898,6 +927,7 @@ export const showsData = [
       { name: "Frajola", query: "Sylvester the Cat character" },
       { name: "Piu-Piu", query: "Tweety Bird character" },
     ],
+    image:"/desenhos/show-looney-tunes.jpg",
     details: { creator: "Vários", year: "1930–presente", episodes: "1000+" },
   },
   {
@@ -912,6 +942,7 @@ export const showsData = [
       { name: "Agente Seis", query: "Agent Six from Generator Rex" },
       { name: "Bobo Haha", query: "Bobo Haha from Generator Rex" },
     ],
+    image:"/desenhos/show-rex.jpg",
     details: { creator: "Man of Action", year: "2010–2013", episodes: "60" },
   },
   {
@@ -926,6 +957,7 @@ export const showsData = [
       { name: "Drago", query: "Drago from Bakugan" },
       { name: "Shun Kazami", query: "Shun Kazami from Bakugan" },
     ],
+    image:"/desenhos/show-bakugan.jpg",
     details: { creator: "Atsushi Maekawa", year: "2007–2012", episodes: "189" },
   },
 ];
