@@ -34,16 +34,16 @@ export default function BannerSlider() {
 
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent flex flex-col justify-center p-8 md:p-12 lg:p-16">
                   <div className="max-w-md lg:max-w-lg text-white">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold drop-shadow-lg">
+                    <h2 className="text-md md:text-4xl lg:text-5xl font-extrabold drop-shadow-lg">
                       {banner.title}
                     </h2>
-                    <p className="mt-2 md:mt-4 text-base md:text-lg drop-shadow-md">
+                    <p className="mt-2 md:mt-4 text-sm md:text-lg drop-shadow-md">
                       {banner.description}
                     </p>
                     <Button
                       asChild
-                      size="lg"
-                      className="mt-4 md:mt-6 bg-yellow-400 text-black hover:bg-yellow-500 font-bold"
+                      // size="lg"
+                      className="mt-4 md:mt-6 bg-yellow-400 hover:bg-yellow-500 text-black  font-extrabold text-[12px] md:text-base rounded-md h-7 px-2 md:h-11 md:px-8"
                     >
                       <Link
                         href={banner.href}
