@@ -569,11 +569,12 @@ export const showsData = [
     description:
       "Dois amigos, um gaio-azul chamado Mordecai e um guaxinim chamado Rigby, trabalham como jardineiros em um parque e tentam de tudo para evitar o trabalho.",
     characters: [
-      { name: "Mordecai", query: "mordecai regular show" },
-      { name: "Rigby", query: "rigby regular show" },
+      { name: "Mordecai", query: "mordecai regular show", char: "/desenhos/apenas-um-show/char-mordecai.png" },
+      { name: "Rigby", query: "rigby regular show", char: "/desenhos/apenas-um-show/char-rigby.png" },
+
     ],
-    image:"/desenhos/show-apenas-um-show.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/apenas-um-show/show-apenas-um-show.jpg",
+    banner:"/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
     details: { creator: "J. G. Quintel", year: "2010–2017", episodes: "261" },
   },
   {
@@ -584,11 +585,11 @@ export const showsData = [
     description:
       "Dexter é um menino gênio com um laboratório secreto, mas sua irmã mais velha, Dee Dee, sempre consegue entrar e estragar suas invenções.",
     characters: [
-      { name: "Dexter", query: "dexter cartoon character" },
-      { name: "Dee Dee", query: "dee dee cartoon character" },
+      { name: "Dexter", query: "dexter cartoon character", char: "/desenhos/dexter/char-dexter.png" },
+      { name: "Dee Dee", query: "dee dee cartoon character", char: "/desenhos/dexter/char-dee-dee.png" },
     ],
-    image:"/desenhos/show-dexter.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/dexter/show-dexter.jpg",
+    banner:"/desenhos/dexter/show-banner-dexter.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "1996–2003",
@@ -603,12 +604,12 @@ export const showsData = [
     description:
       "Florzinha, Lindinha e Docinho são três meninas com superpoderes que defendem a cidade de Townsville de vilões e monstros.",
     characters: [
-      { name: "Florzinha", query: "blossom powerpuff girls" },
-      { name: "Lindinha", query: "bubbles powerpuff girls" },
-      { name: "Docinho", query: "buttercup powerpuff girls" },
+      { name: "Florzinha", query: "blossom powerpuff girls", char: "/desenhos/superpoderosas/char-florzinha.png" },
+      { name: "Lindinha", query: "bubbles powerpuff girls", char: "/desenhos/superpoderosas/char-lindinha.png" },
+      { name: "Docinho", query: "buttercup powerpuff girls", char: "/desenhos/superpoderosas/char-docinho.png" },
     ],
-    image:"/desenhos/show-superpoderosas.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/superpoderosas/show-superpoderosas.jpg",
+    banner:"/desenhos/superpoderosas/show-banner-superpoderosas.jpg",
     details: { creator: "Craig McCracken", year: "1998–2005", episodes: "78" },
   },
   {
@@ -619,13 +620,13 @@ export const showsData = [
     description:
       "Ben Tennyson, um garoto de 10 anos, descobre um relógio alienígena, o Omnitrix, que lhe permite se transformar em 10 alienígenas diferentes.",
     characters: [
-      { name: "Ben Tennyson", query: "ben tennyson" },
-      { name: "Gwen Tennyson", query: "gwen tennyson" },
-      { name: "Max Tennyson", query: "max tennyson" },
+      { name: "Ben Tennyson", query: "ben tennyson", char: "/desenhos/ben-10/char-ben.png" },
+      { name: "Gwen Tennyson", query: "gwen tennyson", char: "/desenhos/ben-10/char-gwen.png" },
+      { name: "Max Tennyson", query: "max tennyson", char: "/desenhos/ben-10/char-max.png" },
     ],
-    image:"/desenhos/show-ben-10.jpg",
-    banner:"/desenhos",
-    details: { creator: "Man of Action", year: "2005–2008", episodes: "52" },
+    image:"/desenhos/ben-10/show-ben-10.jpg",
+    banner:"/desenhos/ben-10/show-banner-ben-10.jpeg",
+    details: { creator: "Man of Actbanner-ion", year: "2005–2008", episodes: "52" },
   },
   {
     id: "samurai_jack",
@@ -635,11 +636,11 @@ export const showsData = [
     description:
       "Um samurai é enviado para um futuro distópico governado pelo demônio Abu. Ele busca uma maneira de voltar ao passado para destruir o mal.",
     characters: [
-      { name: "Jack", query: "samurai jack character" },
-      { name: "Abu", query: "aku samurai jack" },
+      { name: "Jack", query: "samurai jack character", char: "/desenhos/samurai-jack/char-samurai-jack.png" },
+      { name: "Abu", query: "aku samurai jack", char: "/desenhos/samurai-jack/char-abu.png" },
     ],
-    image:"/desenhos/show-samurai-jack.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/samurai-jack/show-samurai-jack.jpg",
+    banner:"/desenhos/samurai-jack/show-banner-samurai-jack.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "2001–2017",
