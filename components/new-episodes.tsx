@@ -30,7 +30,7 @@ export default function NewEpisodes() {
             </div>
             <div className="flex-shrink-0 w-full sm:w-auto">
               <Button asChild className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600">
-                <Link href={episode.href}>
+                <Link href={episode.href} target="_blank">
                   <PlayCircle className="mr-2 h-5 w-5" />
                   Assistir Agora
                 </Link>
