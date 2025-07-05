@@ -39,7 +39,7 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
               <X className="h-6 w-6" />
             </Button>
 
-            <div className="relative h-48 md:h-64 w-full">
+            <div className="relative h-60 md:h-80 w-full">
               <Image
                 src={show.banner}
                 alt={`Banner de ${show.name}`}
