@@ -30,7 +30,6 @@ export default function CampeoesDoClimaPage() {
             </p>
           </div>
         </section>
-
         {/* Tips Section */}
         <section className="container mx-auto px-4 py-16">
           <h2 className="text-3xl font-bold text-center mb-10">
@@ -72,10 +71,14 @@ export default function CampeoesDoClimaPage() {
               size="lg"
               className="bg-green-500 hover:bg-green-600 text-lg font-bold"
             >
-              <a href="https://play.google.com/store/apps/details?id=com.turner.cartoonnetworkclimatechampions&hl=pt_BR" target="_blank"
-                        rel="noopener noreferrer" className="flex items-center">
-              <Leaf className="mr-2 h-5 w-5"/>
-              Junte-se ao Movimento
+              <a
+                href="https://play.google.com/store/apps/details?id=com.turner.cartoonnetworkclimatechampions&hl=pt_BR"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
+                <Leaf className="mr-2 h-5 w-5" />
+                Junte-se ao Movimento
               </a>
             </Button>
           </div>

@@ -513,13 +513,13 @@ export const showsData = [
     description:
       "Steven é um garoto que vive com as Crystal Gems, um time de guardiãs mágicas. Ele aprende a usar os poderes herdados de sua mãe, uma Gem, para proteger a humanidade.",
     characters: [
-      { name: "Steven", query: "steven universe character" },
-      { name: "Garnet", query: "garnet steven universe character" },
-      { name: "Ametista", query: "amethyst steven universe character" },
-      { name: "Pérola", query: "pearl steven universe character" },
+      { name: "Steven", query: "steven universe character", char: "/desenhos/steven-universo/char-steven.png" },
+      { name: "Garnet", query: "garnet steven universe character", char: "/desenhos/steven-universo/char-garnet.png" },
+      { name: "Ametista", query: "amethyst steven universe character",char: "/desenhos/steven-universo/char-ametista.png" },
+      { name: "Pérola", query: "pearl steven universe character", char: "/desenhos/steven-universo/char-perola.png" },
     ],
-    image:"/desenhos/show-steven-universo.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/steven-universo/show-steven-universo.jpg",
+    banner:"/desenhos/steven-universo/show-banner-steven-universo.jpg",
     details: { creator: "Rebecca Sugar", year: "2013–2019", episodes: "160" },
   },
   {
@@ -530,14 +530,14 @@ export const showsData = [
     description:
       "Veja o que os Jovens Titãs fazem quando não estão salvando o mundo. Uma visão cômica da vida de super-heróis adolescentes, cheia de piadas e situações hilárias.",
     characters: [
-      { name: "Robin", query: "robin teen titans go character" },
-      { name: "Estelar", query: "starfire teen titans go character" },
-      { name: "Ciborgue", query: "cyborg teen titans go character" },
-      { name: "Ravena", query: "raven teen titans go character" },
-      { name: "Mutano", query: "beast boy teen titans go character" },
+      { name: "Robin", query: "robin teen titans go character", char: "/desenhos/jovens-titas/char-robin.png" },
+      { name: "Estelar", query: "starfire teen titans go character", char: "/desenhos/jovens-titas/char-estelar.png" },
+      { name: "Ciborgue", query: "cyborg teen titans go character", char: "/desenhos/jovens-titas/char-ciborgue.png" },
+      { name: "Ravena", query: "raven teen titans go character", char: "/desenhos/jovens-titas/char-ravena.png" },
+      { name: "Mutano", query: "beast boy teen titans go character", char: "/desenhos/jovens-titas/char-mutano.png" },
     ],
-    image:"/desenhos/show-jovens-titas.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/jovens-titas/show-jovens-titas.jpg",
+    banner:"/desenhos/jovens-titas/show-banner-jovens-titas.jpeg",
     details: {
       creator: "Aaron Horvath, Michael Jelenic",
       year: "2013–presente",
@@ -552,12 +552,12 @@ export const showsData = [
     description:
       "Pardo, Panda e Polar são três irmãos ursos tentando se enturmar na sociedade humana da Baía de São Francisco. Eles fazem de tudo para conseguir comida, amigos e fama na internet.",
     characters: [
-      { name: "Pardo", query: "grizzly we bare bears character" },
-      { name: "Panda", query: "panda we bare bears character" },
-      { name: "Polar", query: "ice bear we bare bears character" },
+      { name: "Pardo", query: "grizzly we bare bears character", char: "/desenhos/ursos/char-pardo.png" },
+      { name: "Panda", query: "panda we bare bears character", char: "/desenhos/ursos/char-panda.png" },
+      { name: "Polar", query: "ice bear we bare bears character", char: "/desenhos/ursos/char-polar.png" },
     ],
-    image:"/desenhos/show-ursos.jpg",
-    banner:"/desenhos",
+    image:"/desenhos/ursos/show-ursos.jpg",
+    banner:"/desenhos/ursos/show-banner-ursos.jpg",
     details: { creator: "Daniel Chong", year: "2015–2019", episodes: "140" },
   },
   // Adding 15 more shows to reach 20
