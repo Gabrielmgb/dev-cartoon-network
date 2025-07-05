@@ -59,8 +59,8 @@ export default function BannerSlider() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="absolute left-4 bg-white/80 hover:bg-white" />
-        <CarouselNext className="absolute right-4 bg-white/80 hover:bg-white" />
+        <CarouselPrevious className="absolute left-4 bg-white/80 hover:bg-white hidden md:flex" />
+        <CarouselNext className="absolute right-4 bg-white/80 hover:bg-white hidden md:flex" />
       </Carousel>
     </section>
   );
