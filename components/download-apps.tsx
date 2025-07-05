@@ -29,11 +29,11 @@ export default function DownloadApps() {
   return (
     <section className="bg-white rounded-lg p-6 shadow-md">
       <SectionTitle>Baixe Nossos Apps</SectionTitle>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 md:gap-6">
         {appsData.slice(0, 4).map((app) => (
           <div
             key={app.name}
-            className="flex items-center gap-4 "
+            className="flex flex-col md:flex-row items-center gap-4 md:gap-4 "
           >
             <Image
               src={app.image}
@@ -42,14 +42,15 @@ export default function DownloadApps() {
               height={100}
               className="rounded-2xl flex-shrink-0"
             />
-            <div>
+            <div className="flex flex-col gap-2 bg-gray-100 p-4 rounded-lg h-[210 px] w-full">
               <h3 className="text-xl font-bold text-wrap">{app.name}</h3>
               <p className="text-gray-600 mb-3 text-wrap">{app.description}</p>
-              <div className="flex gap-2">
+              <div className="flex gap-3 items-center justify-center md:justify-start">
                 <Button
                   asChild
+                  size="lg"
                   variant="outline"
-                  className="flex-1/2 text-[12px] md:text-base rounded-md h-7 px-2 md:h-11 md:px-8"
+                  className="flex-1/2 hover:bg-black hover:text-white "
                 >
                   <Link href={app.ios_href} target="_blank">
                     <Apple className="mr-2 h-5 w-5" /> App Store
@@ -57,8 +58,9 @@ export default function DownloadApps() {
                 </Button>
                 <Button
                   asChild
+                  size="lg"
                   variant="outline"
-                  className="flex-1/2  text-[12px] md:text-base rounded-md h-7 px-2 md:h-11 md:px-8"
+                  className="flex-1/2 hover:bg-black hover:text-white"
                 >
                   <Link href={app.android_href} target="_blank">
                     <GooglePlayIcon className="mr-2 h-5 w-5" /> Google Play

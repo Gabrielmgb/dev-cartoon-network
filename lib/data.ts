@@ -1481,7 +1481,7 @@ export const appsData = [
     name: "Cartoon Network Arcade",
     image: "/aplicacoes/app-1.png",
     description:
-      "Jogue dezenas de minigames dos seus shows favoritos em um único app!",
+      "Se divirta com minigames dos seus desenhos favoritos como Ben 10, Gumball, Hora de Aventura e muito mais. jogue, colecione figurinhas e descubra surpresas em um só lugar!",
     iconQuery: "colorful arcade app icon",
     screenshots: [
       "/aplicacoes/app-1-1.jpg",
