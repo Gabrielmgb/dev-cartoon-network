@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import type { Show } from "@/lib/types"
+import Image from "next/image";
+import type { Show } from "@/lib/types";
 
 interface ShowCardProps {
-  show: Show
-  onSelect: () => void
+  show: Show;
+  onSelect: () => void;
 }
 
 export default function ShowCard({ show, onSelect }: ShowCardProps) {
@@ -28,5 +28,5 @@ export default function ShowCard({ show, onSelect }: ShowCardProps) {
         </h3>
       </div>
     </div>
-  )
+  );
 }

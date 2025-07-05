@@ -475,16 +475,35 @@ export const showsData = [
     description:
       "Acompanhe as desventuras de Gumball Watterson, um gato azul de 12 anos, e seu melhor amigo Darwin, um peixe dourado que virou seu irmão adotivo. Juntos, eles causam todo tipo de confusão na cidade de Elmore.",
     characters: [
-      { name: "Gumball", query: "gumball watterson character", char: "/desenhos/gumball/char-gumball.png"  },
-      { name: "Darwin", query: "darwin watterson character", char: "/desenhos/gumball/char-darwin.png"  },
-      { name: "Anais", query: "anais watterson character", char: "/desenhos/gumball/char-anais.png"  },
-      { name: "Nicole", query: "nicole watterson character", char: "/desenhos/gumball/char-nicole.png"  },
-      { name: "Ricardo", query: "richard watterson character", char: "/desenhos/gumball/char-ricardo.png"  },
+      {
+        name: "Gumball",
+        query: "gumball watterson character",
+        char: "/desenhos/gumball/char-gumball.png",
+      },
+      {
+        name: "Darwin",
+        query: "darwin watterson character",
+        char: "/desenhos/gumball/char-darwin.png",
+      },
+      {
+        name: "Anais",
+        query: "anais watterson character",
+        char: "/desenhos/gumball/char-anais.png",
+      },
+      {
+        name: "Nicole",
+        query: "nicole watterson character",
+        char: "/desenhos/gumball/char-nicole.png",
+      },
+      {
+        name: "Ricardo",
+        query: "richard watterson character",
+        char: "/desenhos/gumball/char-ricardo.png",
+      },
     ],
-    image:"/desenhos/gumball/show-gumball.jpg",
-    banner:"/desenhos/gumball/show-banner-gumball.jpeg",
+    image: "/desenhos/gumball/show-gumball.jpg",
+    banner: "/desenhos/gumball/show-banner-gumball.jpeg",
     details: { creator: "Ben Bocquelet", year: "2011–2019", episodes: "240" },
-
   },
   {
     id: "adventure_time",
@@ -494,16 +513,35 @@ export const showsData = [
     description:
       "Explore a Terra de Ooo com Finn, o humano, e seu cão mágico Jake. Eles enfrentam monstros, exploram masmorras e salvam princesas em uma jornada épica e surreal.",
     characters: [
-      { name: "Finn", query: "finn the human character", char: "/desenhos/hora-de-aventura/char-finn.png" },
-      { name: "Jake", query: "jake the dog character", char: "/desenhos/hora-de-aventura/char-jake.png" },
-      { name: "Princesa Jujuba", query: "princess bubblegum character", char: "/desenhos/hora-de-aventura/char-princesa-jujuba.png" },
-      { name: "Marceline", query: "marceline the vampire queen character", char: "/desenhos/hora-de-aventura/char-marceline.png" },
-      { name: "Rei Gelado", query: "ice king character", char: "/desenhos/hora-de-aventura/char-rei-gelado.png" },
+      {
+        name: "Finn",
+        query: "finn the human character",
+        char: "/desenhos/hora-de-aventura/char-finn.png",
+      },
+      {
+        name: "Jake",
+        query: "jake the dog character",
+        char: "/desenhos/hora-de-aventura/char-jake.png",
+      },
+      {
+        name: "Princesa Jujuba",
+        query: "princess bubblegum character",
+        char: "/desenhos/hora-de-aventura/char-princesa-jujuba.png",
+      },
+      {
+        name: "Marceline",
+        query: "marceline the vampire queen character",
+        char: "/desenhos/hora-de-aventura/char-marceline.png",
+      },
+      {
+        name: "Rei Gelado",
+        query: "ice king character",
+        char: "/desenhos/hora-de-aventura/char-rei-gelado.png",
+      },
     ],
-    image:"/desenhos/hora-de-aventura/show-hora-de-aventura.jpg",
-    banner:"/desenhos/hora-de-aventura/show-banner-hora-de-aventura.jpg",
+    image: "/desenhos/hora-de-aventura/show-hora-de-aventura.jpg",
+    banner: "/desenhos/hora-de-aventura/show-banner-hora-de-aventura.jpg",
     details: { creator: "Pendleton Ward", year: "2010–2018", episodes: "283" },
-    
   },
   {
     id: "steven_universe",
@@ -513,13 +551,29 @@ export const showsData = [
     description:
       "Steven é um garoto que vive com as Crystal Gems, um time de guardiãs mágicas. Ele aprende a usar os poderes herdados de sua mãe, uma Gem, para proteger a humanidade.",
     characters: [
-      { name: "Steven", query: "steven universe character", char: "/desenhos/steven-universo/char-steven.png" },
-      { name: "Garnet", query: "garnet steven universe character", char: "/desenhos/steven-universo/char-garnet.png" },
-      { name: "Ametista", query: "amethyst steven universe character",char: "/desenhos/steven-universo/char-ametista.png" },
-      { name: "Pérola", query: "pearl steven universe character", char: "/desenhos/steven-universo/char-perola.png" },
+      {
+        name: "Steven",
+        query: "steven universe character",
+        char: "/desenhos/steven-universo/char-steven.png",
+      },
+      {
+        name: "Garnet",
+        query: "garnet steven universe character",
+        char: "/desenhos/steven-universo/char-garnet.png",
+      },
+      {
+        name: "Ametista",
+        query: "amethyst steven universe character",
+        char: "/desenhos/steven-universo/char-ametista.png",
+      },
+      {
+        name: "Pérola",
+        query: "pearl steven universe character",
+        char: "/desenhos/steven-universo/char-perola.png",
+      },
     ],
-    image:"/desenhos/steven-universo/show-steven-universo.jpg",
-    banner:"/desenhos/steven-universo/show-banner-steven-universo.jpg",
+    image: "/desenhos/steven-universo/show-steven-universo.jpg",
+    banner: "/desenhos/steven-universo/show-banner-steven-universo.jpg",
     details: { creator: "Rebecca Sugar", year: "2013–2019", episodes: "160" },
   },
   {
@@ -530,14 +584,34 @@ export const showsData = [
     description:
       "Veja o que os Jovens Titãs fazem quando não estão salvando o mundo. Uma visão cômica da vida de super-heróis adolescentes, cheia de piadas e situações hilárias.",
     characters: [
-      { name: "Robin", query: "robin teen titans go character", char: "/desenhos/jovens-titas/char-robin.png" },
-      { name: "Estelar", query: "starfire teen titans go character", char: "/desenhos/jovens-titas/char-estelar.png" },
-      { name: "Ciborgue", query: "cyborg teen titans go character", char: "/desenhos/jovens-titas/char-ciborgue.png" },
-      { name: "Ravena", query: "raven teen titans go character", char: "/desenhos/jovens-titas/char-ravena.png" },
-      { name: "Mutano", query: "beast boy teen titans go character", char: "/desenhos/jovens-titas/char-mutano.png" },
+      {
+        name: "Robin",
+        query: "robin teen titans go character",
+        char: "/desenhos/jovens-titas/char-robin.png",
+      },
+      {
+        name: "Estelar",
+        query: "starfire teen titans go character",
+        char: "/desenhos/jovens-titas/char-estelar.png",
+      },
+      {
+        name: "Ciborgue",
+        query: "cyborg teen titans go character",
+        char: "/desenhos/jovens-titas/char-ciborgue.png",
+      },
+      {
+        name: "Ravena",
+        query: "raven teen titans go character",
+        char: "/desenhos/jovens-titas/char-ravena.png",
+      },
+      {
+        name: "Mutano",
+        query: "beast boy teen titans go character",
+        char: "/desenhos/jovens-titas/char-mutano.png",
+      },
     ],
-    image:"/desenhos/jovens-titas/show-jovens-titas.jpg",
-    banner:"/desenhos/jovens-titas/show-banner-jovens-titas.jpeg",
+    image: "/desenhos/jovens-titas/show-jovens-titas.jpg",
+    banner: "/desenhos/jovens-titas/show-banner-jovens-titas.jpeg",
     details: {
       creator: "Aaron Horvath, Michael Jelenic",
       year: "2013–presente",
@@ -552,12 +626,24 @@ export const showsData = [
     description:
       "Pardo, Panda e Polar são três irmãos ursos tentando se enturmar na sociedade humana da Baía de São Francisco. Eles fazem de tudo para conseguir comida, amigos e fama na internet.",
     characters: [
-      { name: "Pardo", query: "grizzly we bare bears character", char: "/desenhos/ursos/char-pardo.png" },
-      { name: "Panda", query: "panda we bare bears character", char: "/desenhos/ursos/char-panda.png" },
-      { name: "Polar", query: "ice bear we bare bears character", char: "/desenhos/ursos/char-polar.png" },
+      {
+        name: "Pardo",
+        query: "grizzly we bare bears character",
+        char: "/desenhos/ursos/char-pardo.png",
+      },
+      {
+        name: "Panda",
+        query: "panda we bare bears character",
+        char: "/desenhos/ursos/char-panda.png",
+      },
+      {
+        name: "Polar",
+        query: "ice bear we bare bears character",
+        char: "/desenhos/ursos/char-polar.png",
+      },
     ],
-    image:"/desenhos/ursos/show-ursos.jpg",
-    banner:"/desenhos/ursos/show-banner-ursos.jpg",
+    image: "/desenhos/ursos/show-ursos.jpg",
+    banner: "/desenhos/ursos/show-banner-ursos.jpg",
     details: { creator: "Daniel Chong", year: "2015–2019", episodes: "140" },
   },
   // Adding 15 more shows to reach 20
@@ -569,12 +655,19 @@ export const showsData = [
     description:
       "Dois amigos, um gaio-azul chamado Mordecai e um guaxinim chamado Rigby, trabalham como jardineiros em um parque e tentam de tudo para evitar o trabalho.",
     characters: [
-      { name: "Mordecai", query: "mordecai regular show", char: "/desenhos/apenas-um-show/char-mordecai.png" },
-      { name: "Rigby", query: "rigby regular show", char: "/desenhos/apenas-um-show/char-rigby.png" },
-
+      {
+        name: "Mordecai",
+        query: "mordecai regular show",
+        char: "/desenhos/apenas-um-show/char-mordecai.png",
+      },
+      {
+        name: "Rigby",
+        query: "rigby regular show",
+        char: "/desenhos/apenas-um-show/char-rigby.png",
+      },
     ],
-    image:"/desenhos/apenas-um-show/show-apenas-um-show.jpg",
-    banner:"/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
+    image: "/desenhos/apenas-um-show/show-apenas-um-show.jpg",
+    banner: "/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
     details: { creator: "J. G. Quintel", year: "2010–2017", episodes: "261" },
   },
   {
@@ -585,11 +678,19 @@ export const showsData = [
     description:
       "Dexter é um menino gênio com um laboratório secreto, mas sua irmã mais velha, Dee Dee, sempre consegue entrar e estragar suas invenções.",
     characters: [
-      { name: "Dexter", query: "dexter cartoon character", char: "/desenhos/dexter/char-dexter.png" },
-      { name: "Dee Dee", query: "dee dee cartoon character", char: "/desenhos/dexter/char-dee-dee.png" },
+      {
+        name: "Dexter",
+        query: "dexter cartoon character",
+        char: "/desenhos/dexter/char-dexter.png",
+      },
+      {
+        name: "Dee Dee",
+        query: "dee dee cartoon character",
+        char: "/desenhos/dexter/char-dee-dee.png",
+      },
     ],
-    image:"/desenhos/dexter/show-dexter.jpg",
-    banner:"/desenhos/dexter/show-banner-dexter.jpg",
+    image: "/desenhos/dexter/show-dexter.jpg",
+    banner: "/desenhos/dexter/show-banner-dexter.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "1996–2003",
@@ -604,12 +705,24 @@ export const showsData = [
     description:
       "Florzinha, Lindinha e Docinho são três meninas com superpoderes que defendem a cidade de Townsville de vilões e monstros.",
     characters: [
-      { name: "Florzinha", query: "blossom powerpuff girls", char: "/desenhos/superpoderosas/char-florzinha.png" },
-      { name: "Lindinha", query: "bubbles powerpuff girls", char: "/desenhos/superpoderosas/char-lindinha.png" },
-      { name: "Docinho", query: "buttercup powerpuff girls", char: "/desenhos/superpoderosas/char-docinho.png" },
+      {
+        name: "Florzinha",
+        query: "blossom powerpuff girls",
+        char: "/desenhos/superpoderosas/char-florzinha.png",
+      },
+      {
+        name: "Lindinha",
+        query: "bubbles powerpuff girls",
+        char: "/desenhos/superpoderosas/char-lindinha.png",
+      },
+      {
+        name: "Docinho",
+        query: "buttercup powerpuff girls",
+        char: "/desenhos/superpoderosas/char-docinho.png",
+      },
     ],
-    image:"/desenhos/superpoderosas/show-superpoderosas.jpg",
-    banner:"/desenhos/superpoderosas/show-banner-superpoderosas.jpg",
+    image: "/desenhos/superpoderosas/show-superpoderosas.jpg",
+    banner: "/desenhos/superpoderosas/show-banner-superpoderosas.jpg",
     details: { creator: "Craig McCracken", year: "1998–2005", episodes: "78" },
   },
   {
@@ -620,13 +733,29 @@ export const showsData = [
     description:
       "Ben Tennyson, um garoto de 10 anos, descobre um relógio alienígena, o Omnitrix, que lhe permite se transformar em 10 alienígenas diferentes.",
     characters: [
-      { name: "Ben Tennyson", query: "ben tennyson", char: "/desenhos/ben-10/char-ben.png" },
-      { name: "Gwen Tennyson", query: "gwen tennyson", char: "/desenhos/ben-10/char-gwen.png" },
-      { name: "Max Tennyson", query: "max tennyson", char: "/desenhos/ben-10/char-max.png" },
+      {
+        name: "Ben Tennyson",
+        query: "ben tennyson",
+        char: "/desenhos/ben-10/char-ben.png",
+      },
+      {
+        name: "Gwen Tennyson",
+        query: "gwen tennyson",
+        char: "/desenhos/ben-10/char-gwen.png",
+      },
+      {
+        name: "Max Tennyson",
+        query: "max tennyson",
+        char: "/desenhos/ben-10/char-max.png",
+      },
     ],
-    image:"/desenhos/ben-10/show-ben-10.jpg",
-    banner:"/desenhos/ben-10/show-banner-ben-10.jpeg",
-    details: { creator: "Man of Actbanner-ion", year: "2005–2008", episodes: "52" },
+    image: "/desenhos/ben-10/show-ben-10.jpg",
+    banner: "/desenhos/ben-10/show-banner-ben-10.jpeg",
+    details: {
+      creator: "Man of Actbanner-ion",
+      year: "2005–2008",
+      episodes: "52",
+    },
   },
   {
     id: "samurai_jack",
@@ -636,11 +765,19 @@ export const showsData = [
     description:
       "Um samurai é enviado para um futuro distópico governado pelo demônio Abu. Ele busca uma maneira de voltar ao passado para destruir o mal.",
     characters: [
-      { name: "Jack", query: "samurai jack character", char: "/desenhos/samurai-jack/char-samurai-jack.png" },
-      { name: "Abu", query: "aku samurai jack", char: "/desenhos/samurai-jack/char-abu.png" },
+      {
+        name: "Jack",
+        query: "samurai jack character",
+        char: "/desenhos/samurai-jack/char-samurai-jack.png",
+      },
+      {
+        name: "Abu",
+        query: "aku samurai jack",
+        char: "/desenhos/samurai-jack/char-abu.png",
+      },
     ],
-    image:"/desenhos/samurai-jack/show-samurai-jack.jpg",
-    banner:"/desenhos/samurai-jack/show-banner-samurai-jack.jpg",
+    image: "/desenhos/samurai-jack/show-samurai-jack.jpg",
+    banner: "/desenhos/samurai-jack/show-banner-samurai-jack.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "2001–2017",
@@ -655,8 +792,8 @@ export const showsData = [
     description:
       "Johnny Bravo é um homem musculoso e vaidoso que tenta, sem sucesso, conquistar mulheres com seu jeito peculiar.",
     characters: [{ name: "Johnny Bravo", query: "johnny bravo character" }],
-    image:"/desenhos/show-johnny-bravo.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-johnny-bravo.jpg",
+    banner: "/desenhos",
     details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
   },
   {
@@ -671,8 +808,8 @@ export const showsData = [
       { name: "Muriel", query: "muriel bagge" },
       { name: "Eustácio", query: "eustace bagge" },
     ],
-    image:"/desenhos/show-coragem.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-coragem.jpg",
+    banner: "/desenhos",
     details: { creator: "John R. Dilworth", year: "1999–2002", episodes: "52" },
   },
   {
@@ -687,8 +824,8 @@ export const showsData = [
       { name: "Kelsey", query: "kelsey craig of the creek" },
       { name: "J.P.", query: "jp craig of the creek" },
     ],
-    image:"/desenhos/show-craig.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-craig.jpg",
+    banner: "/desenhos",
     details: {
       creator: "Matt Burnett, Ben Levin",
       year: "2018–presente",
@@ -706,8 +843,8 @@ export const showsData = [
       { name: "Chris McLean", query: "chris mclean total drama" },
       { name: "Chef Hatchet", query: "chef hatchet total drama" },
     ],
-    image:"/desenhos/show-ilha.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-ilha.jpg",
+    banner: "/desenhos",
     details: {
       creator: "Tom McGillis, Jennifer Pertsch",
       year: "2007–2008",
@@ -725,8 +862,8 @@ export const showsData = [
       { name: "Chowder", query: "chowder cartoon character" },
       { name: "Mung Daal", query: "mung daal chowder" },
     ],
-    image:"/desenhos/show-chowder.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-chowder.jpg",
+    banner: "/desenhos",
     details: { creator: "C. H. Greenblatt", year: "2007–2010", episodes: "49" },
   },
   {
@@ -740,8 +877,8 @@ export const showsData = [
       { name: "Mac", query: "mac fosters home" },
       { name: "Bloo", query: "bloo fosters home" },
     ],
-    image:"/desenhos/show-mansao-foster.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-mansao-foster.jpg",
+    banner: "/desenhos",
     details: { creator: "Craig McCracken", year: "2004–2009", episodes: "79" },
   },
   {
@@ -755,8 +892,8 @@ export const showsData = [
       { name: "Mao Mao", query: "mao mao character" },
       { name: "Adorabat", query: "adorabat character" },
     ],
-    image:"/desenhos/show-maomao.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-maomao.jpg",
+    banner: "/desenhos",
     details: { creator: "Parker Simmons", year: "2019–2020", episodes: "40" },
   },
   {
@@ -771,8 +908,8 @@ export const showsData = [
       { name: "Enid", query: "enid ok ko character" },
       { name: "Rad", query: "radicles ok ko character" },
     ],
-    image:"/desenhos/show-ok-ko.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-ok-ko.jpg",
+    banner: "/desenhos",
     details: {
       creator: "Ian Jones-Quartey",
       year: "2017–2019",
@@ -790,8 +927,8 @@ export const showsData = [
       { name: "Tulip Olsen", query: "tulip olsen infinity train" },
       { name: "One-One", query: "one-one infinity train" },
     ],
-    image:"/desenhos/show-trem-infinito.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-trem-infinito.jpg",
+    banner: "/desenhos",
     details: { creator: "Owen Dennis", year: "2019–2021", episodes: "40" },
   },
   {
@@ -806,8 +943,8 @@ export const showsData = [
       { name: "Jeff", query: "jeff randell" },
       { name: "Sumo", query: "ryan sumo" },
     ],
-    image:"/desenhos/show-clarencio.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-clarencio.jpg",
+    banner: "/desenhos",
     details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
   },
   // New shows added by user request
@@ -825,8 +962,8 @@ export const showsData = [
       { name: "Numbuh 4", query: "Numbuh 4 from KND" },
       { name: "Numbuh 5", query: "Numbuh 5 from KND" },
     ],
-    image:"/desenhos/show-knd.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-knd.jpg",
+    banner: "/desenhos",
     details: { creator: "Tom Warburton", year: "2002–2008", episodes: "78" },
   },
   {
@@ -841,8 +978,8 @@ export const showsData = [
       { name: "Frango", query: "Chicken from Cow and Chicken" },
       { name: "Bum de Fora", query: "The Red Guy from Cow and Chicken" },
     ],
-    image:"/desenhos/show-vaca-e-frango.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-vaca-e-frango.jpg",
+    banner: "/desenhos",
     details: { creator: "David Feiss", year: "1997–1999", episodes: "52" },
   },
   {
@@ -857,8 +994,8 @@ export const showsData = [
       { name: "Mandy", query: "Mandy from Billy and Mandy" },
       { name: "Puro Osso", query: "Grim from Billy and Mandy" },
     ],
-    image:"/desenhos/show-billy-e-mandy.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-billy-e-mandy.jpg",
+    banner: "/desenhos",
     details: { creator: "Maxwell Atoms", year: "2001–2007", episodes: "78" },
   },
   {
@@ -875,8 +1012,8 @@ export const showsData = [
         query: "Jake Spidermonkey from My Gym Partner's a Monkey",
       },
     ],
-    image:"/desenhos/show-meu-amigo-da-escola.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-meu-amigo-da-escola.jpg",
+    banner: "/desenhos",
     details: {
       creator: "Tim Cahill, Julie McNally Cahill",
       year: "2005–2008",
@@ -895,8 +1032,8 @@ export const showsData = [
       { name: "Raj", query: "Raj from Camp Lazlo" },
       { name: "Clam", query: "Clam from Camp Lazlo" },
     ],
-    image:"/desenhos/show-lazlo.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-lazlo.jpg",
+    banner: "/desenhos",
     details: { creator: "Joe Murray", year: "2005–2008", episodes: "61" },
   },
   {
@@ -911,8 +1048,8 @@ export const showsData = [
       { name: "Jorel", query: "Jorel from Irmão do Jorel" },
       { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel" },
     ],
-    image:"/desenhos/show-jorel.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-jorel.jpg",
+    banner: "/desenhos",
     details: {
       creator: "Juliano Enrico",
       year: "2014–presente",
@@ -933,8 +1070,8 @@ export const showsData = [
       { name: "Daphne", query: "Daphne Blake character" },
       { name: "Velma", query: "Velma Dinkley character" },
     ],
-    image:"/desenhos/show-scooby.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-scooby.jpg",
+    banner: "/desenhos",
     details: {
       creator: "Joe Ruby, Ken Spears",
       year: "1969–1970",
@@ -955,8 +1092,8 @@ export const showsData = [
       { name: "Frajola", query: "Sylvester the Cat character" },
       { name: "Piu-Piu", query: "Tweety Bird character" },
     ],
-    image:"/desenhos/show-looney-tunes.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-looney-tunes.jpg",
+    banner: "/desenhos",
     details: { creator: "Vários", year: "1930–presente", episodes: "1000+" },
   },
   {
@@ -971,8 +1108,8 @@ export const showsData = [
       { name: "Agente Seis", query: "Agent Six from Generator Rex" },
       { name: "Bobo Haha", query: "Bobo Haha from Generator Rex" },
     ],
-    image:"/desenhos/show-rex.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-rex.jpg",
+    banner: "/desenhos",
     details: { creator: "Man of Action", year: "2010–2013", episodes: "60" },
   },
   {
@@ -987,8 +1124,8 @@ export const showsData = [
       { name: "Drago", query: "Drago from Bakugan" },
       { name: "Shun Kazami", query: "Shun Kazami from Bakugan" },
     ],
-    image:"/desenhos/show-bakugan.jpg",
-    banner:"/desenhos",
+    image: "/desenhos/show-bakugan.jpg",
+    banner: "/desenhos",
     details: { creator: "Atsushi Maekawa", year: "2007–2012", episodes: "189" },
   },
 ];
@@ -1002,7 +1139,7 @@ export const gamesData = [
     imageQuery: "ben 10 platformer game jungle setting",
     category: "Ação",
     href: "#",
-    image: "/jogos/game-1.webp"
+    image: "/jogos/game-1.webp",
   },
   {
     id: "samurai_jack_code",
@@ -1012,7 +1149,7 @@ export const gamesData = [
     imageQuery: "samurai jack fighting robots game",
     category: "Aventura",
     href: "#",
-    image: "/jogos/game-2.jpg"
+    image: "/jogos/game-2.jpg",
   },
   {
     id: "ppg_battle_him",
@@ -1022,7 +1159,7 @@ export const gamesData = [
     imageQuery: "powerpuff girls fighting red demon game",
     category: "Ação",
     href: "#",
-    image: "/jogos/game-3.jpg"
+    image: "/jogos/game-3.jpg",
   },
   {
     id: "adventure_time_finn_bones",
@@ -1032,7 +1169,7 @@ export const gamesData = [
     imageQuery: "adventure time pirate ship game",
     category: "Aventura",
     href: "#",
-    image: "/jogos/game-4.jpg"
+    image: "/jogos/game-4.jpg",
   },
   {
     id: "regular_show_fist_punch",
@@ -1042,7 +1179,7 @@ export const gamesData = [
     imageQuery: "regular show beat em up game",
     category: "Luta",
     href: "#",
-    image: "/jogos/game-5.png"
+    image: "/jogos/game-5.png",
   },
   {
     id: "gumball_school_rush",
@@ -1052,7 +1189,7 @@ export const gamesData = [
     imageQuery: "gumball school hallway running game",
     category: "Corrida",
     href: "#",
-    image: "/jogos/game-6.jpg"
+    image: "/jogos/game-6.jpg",
   },
   {
     id: "dexter_runaway_robot",
@@ -1062,7 +1199,7 @@ export const gamesData = [
     imageQuery: "dexters lab robot escape game",
     category: "Quebra-cabeça",
     href: "#",
-    image: "/jogos/game-7.jpg"
+    image: "/jogos/game-7.jpg",
   },
   {
     id: "ed_edd_eddy_smash",
@@ -1072,7 +1209,7 @@ export const gamesData = [
     imageQuery: "ed edd n eddy cul-de-sac game",
     category: "Esportes",
     href: "#",
-    image: "/jogos/game-8.jpg"
+    image: "/jogos/game-8.jpg",
   },
   {
     id: "courage_nightmare",
@@ -1082,7 +1219,7 @@ export const gamesData = [
     imageQuery: "courage the cowardly dog scary hotel game",
     category: "Aventura",
     href: "#",
-    image: "/jogos/game-9.jpg"
+    image: "/jogos/game-9.jpg",
   },
   {
     id: "fosters_amazing_race",
@@ -1092,7 +1229,7 @@ export const gamesData = [
     imageQuery: "fosters home for imaginary friends maze game",
     category: "Quebra-cabeça",
     href: "#",
-    image: "/jogos/game-10.png"
+    image: "/jogos/game-10.png",
   },
   {
     id: "teen_titans_slash_justice",
@@ -1102,7 +1239,7 @@ export const gamesData = [
     imageQuery: "teen titans go fighting game",
     category: "Luta",
     href: "#",
-    image: "/jogos/game-11.png"
+    image: "/jogos/game-11.png",
   },
   {
     id: "steven_heap_of_trouble",
@@ -1112,7 +1249,7 @@ export const gamesData = [
     imageQuery: "steven universe physics puzzle game",
     category: "Aventura",
     href: "#",
-    image: "/jogos/game-12.jpg"
+    image: "/jogos/game-12.jpg",
   },
   {
     id: "billy_mandy_grim_escape",
@@ -1122,8 +1259,8 @@ export const gamesData = [
     imageQuery: "grim adventures of billy and mandy underworld platform game",
     category: "Aventura",
     href: "#",
-    image: "/jogos/game-13.jpg"
-  }
+    image: "/jogos/game-13.jpg",
+  },
 ];
 
 export const videosData = [
@@ -1351,8 +1488,10 @@ export const appsData = [
       "/aplicacoes/app-1-2.jpeg",
       "/aplicacoes/app-1-3.jpg",
     ],
-    ios_href: "https://www.warnerbros.com/games-and-apps/cartoon-network-arcade",
-    android_href: "https://www.warnerbros.com/games-and-apps/cartoon-network-arcade",
+    ios_href:
+      "https://www.warnerbros.com/games-and-apps/cartoon-network-arcade",
+    android_href:
+      "https://www.warnerbros.com/games-and-apps/cartoon-network-arcade",
   },
   {
     name: "Copa Toon",
@@ -1365,8 +1504,10 @@ export const appsData = [
       "/aplicacoes/app-2-2.jpg",
       "/aplicacoes/app-2-3.jpg",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR",
-    android_href: "https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR",
   },
   {
     name: "Cartoon Network App",
@@ -1379,8 +1520,10 @@ export const appsData = [
       "/aplicacoes/app-3-2.png",
       "/aplicacoes/app-3-3.png",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.turner.cnvideoapp&hl=pt_BR",
-    android_href: "https://play.google.com/store/apps/details?id=com.turner.cnvideoapp&hl=pt_BR",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.turner.cnvideoapp&hl=pt_BR",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.turner.cnvideoapp&hl=pt_BR",
   },
   {
     name: "Ben 10: Alien Evolution",
@@ -1393,8 +1536,10 @@ export const appsData = [
       "/aplicacoes/app-4-2.png",
       "/aplicacoes/app-4-3.png",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.globalfun.ben10ae.google",
-    android_href: "https://play.google.com/store/apps/details?id=com.globalfun.ben10ae.google",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.globalfun.ben10ae.google",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.globalfun.ben10ae.google",
   },
   {
     name: "Gumball Ghoststory!",
@@ -1407,8 +1552,10 @@ export const appsData = [
       "/aplicacoes/app-5-2.jpeg",
       "/aplicacoes/app-5-3.jpg",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.globalfun.gumghost.google&hl=pt_BR",
-    android_href: "https://play.google.com/store/apps/details?id=com.globalfun.gumghost.google&hl=pt_BR",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.globalfun.gumghost.google&hl=pt_BR",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.globalfun.gumghost.google&hl=pt_BR",
   },
   {
     name: "Clarence For President",
@@ -1421,8 +1568,10 @@ export const appsData = [
       "/aplicacoes/app-6-2.jpg",
       "/aplicacoes/app-6-3.jpg",
     ],
-    ios_href: "https://play.google.com/store/apps/details/Clarence_for_President?id=com.globalfun.clarence.google&hl=pt_BR",
-    android_href: "https://play.google.com/store/apps/details/Clarence_for_President?id=com.globalfun.clarence.google&hl=pt_BR",
+    ios_href:
+      "https://play.google.com/store/apps/details/Clarence_for_President?id=com.globalfun.clarence.google&hl=pt_BR",
+    android_href:
+      "https://play.google.com/store/apps/details/Clarence_for_President?id=com.globalfun.clarence.google&hl=pt_BR",
   },
   {
     name: "Bloons Adventure Time TD",
@@ -1435,8 +1584,10 @@ export const appsData = [
       "/aplicacoes/app-7-2.jpeg",
       "/aplicacoes/app-7-3.jpeg",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.ninjakiwi.btdadventuretime&hl=pt_BR",
-    android_href: "https://play.google.com/store/apps/details?id=com.ninjakiwi.btdadventuretime&hl=pt_BR",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.ninjakiwi.btdadventuretime&hl=pt_BR",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.ninjakiwi.btdadventuretime&hl=pt_BR",
   },
   {
     name: "We Bare Bears Match3 Repairs",
@@ -1449,8 +1600,10 @@ export const appsData = [
       "/aplicacoes/app-8-2.jpg",
       "/aplicacoes/app-8-3.jpg",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.sundaytoz.astove.wbb",
-    android_href: "https://play.google.com/store/apps/details?id=com.sundaytoz.astove.wbb",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.sundaytoz.astove.wbb",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.sundaytoz.astove.wbb",
   },
   {
     name: "DC Super Hero Girls Blitz",
@@ -1463,8 +1616,10 @@ export const appsData = [
       "/aplicacoes/app-9-2.jpg",
       "/aplicacoes/app-9-3.jpg",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.DCSuperHeroGirls",
-    android_href: "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.DCSuperHeroGirls",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.DCSuperHeroGirls",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.DCSuperHeroGirls",
   },
   {
     name: "Looney Tunes™ Mundo Insano",
@@ -1477,8 +1632,9 @@ export const appsData = [
       "/aplicacoes/app-10-2.jpg",
       "/aplicacoes/app-10-3.jpg",
     ],
-    ios_href: "https://play.google.com/store/apps/details?id=com.aqupepgames.projectpepe&hl=pt_BR",
-    android_href: "https://play.google.com/store/apps/details?id=com.aqupepgames.projectpepe&hl=pt_BR",
+    ios_href:
+      "https://play.google.com/store/apps/details?id=com.aqupepgames.projectpepe&hl=pt_BR",
+    android_href:
+      "https://play.google.com/store/apps/details?id=com.aqupepgames.projectpepe&hl=pt_BR",
   },
-  
 ];

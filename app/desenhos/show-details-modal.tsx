@@ -1,17 +1,20 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { AnimatePresence, motion } from "framer-motion"
-import { X } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import type { Show } from "@/lib/types"
+import Image from "next/image";
+import { AnimatePresence, motion } from "framer-motion";
+import { X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import type { Show } from "@/lib/types";
 
 interface ShowDetailsModalProps {
-  show: Show | null
-  onClose: () => void
+  show: Show | null;
+  onClose: () => void;
 }
 
-export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProps) {
+export default function ShowDetailsModal({
+  show,
+  onClose,
+}: ShowDetailsModalProps) {
   return (
     <AnimatePresence>
       {show && (
@@ -56,13 +59,22 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
 
               <div className="grid md:grid-cols-3 gap-8 mt-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold mb-2 text-gray-800">Sobre o Desenho</h3>
-                  <p className="text-gray-600 leading-relaxed">{show.description}</p>
+                  <h3 className="text-xl font-bold mb-2 text-gray-800">
+                    Sobre o Desenho
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    {show.description}
+                  </p>
 
-                  <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800">Personagens Principais</h3>
+                  <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800">
+                    Personagens Principais
+                  </h3>
                   <div className="flex flex-wrap gap-4">
                     {show.characters.map((char) => (
-                      <div key={char.name} className="flex flex-col items-center text-center w-16 md:w-20">
+                      <div
+                        key={char.name}
+                        className="flex flex-col items-center text-center w-16 md:w-20"
+                      >
                         <Image
                           src={char.char}
                           alt={char.name}
@@ -70,14 +82,18 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
                           height={64}
                           className="rounded-full object-cover border-2 border-gray-200 w-12 h-12 md:w-20 md:h-20 shadow-md transform transition-transform hover:scale-110"
                         />
-                        <span className="text-xs mt-2 font-semibold text-gray-700">{char.name}</span>
+                        <span className="text-xs mt-2 font-semibold text-gray-700">
+                          {char.name}
+                        </span>
                       </div>
                     ))}
                   </div>
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg md:h-[160px]">
-                  <h3 className="text-xl font-bold mb-3 text-gray-800">Detalhes</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">
+                    Detalhes
+                  </h3>
                   <ul className="space-y-2 text-sm text-gray-700">
                     <li>
                       <strong>Criador:</strong> {show.details.creator}
@@ -96,5 +112,5 @@ export default function ShowDetailsModal({ show, onClose }: ShowDetailsModalProp
         </motion.div>
       )}
     </AnimatePresence>
-  )
+  );
 }
