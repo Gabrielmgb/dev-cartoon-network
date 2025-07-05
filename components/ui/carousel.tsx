@@ -62,8 +62,6 @@ const Carousel = React.forwardRef<
       {
         ...opts,
         axis: orientation === "horizontal" ? "x" : "y",
-        dragFree:true,
-        containScroll: "trimSnaps", // ou "keepSnaps" se quiser que pare nos limites
       },
       plugins
     )
