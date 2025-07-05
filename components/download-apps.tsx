@@ -45,12 +45,12 @@ export default function DownloadApps() {
             <div className="flex flex-col gap-2 bg-gray-100 p-4 rounded-lg h-[210 px] w-full">
               <h3 className="text-xl font-bold text-wrap">{app.name}</h3>
               <p className="text-gray-600 mb-3 text-wrap">{app.description}</p>
-              <div className="flex gap-3 items-center justify-center md:justify-start">
+              <div className="flex gap-2 md:gap-3 items-center justify-center md:justify-start">
                 <Button
                   asChild
-                  size="lg"
+                  // size="lg"
                   variant="outline"
-                  className="flex-1/2 hover:bg-black hover:text-white "
+                  className="flex-1/2 hover:bg-black hover:text-white text-[12px] md:text-base rounded-md h-7 px-2 md:h-11 md:px-8"
                 >
                   <Link href={app.ios_href} target="_blank">
                     <Apple className="mr-2 h-5 w-5" /> App Store
@@ -58,9 +58,9 @@ export default function DownloadApps() {
                 </Button>
                 <Button
                   asChild
-                  size="lg"
+                  // size="lg"
                   variant="outline"
-                  className="flex-1/2 hover:bg-black hover:text-white"
+                  className="flex-1/2 hover:bg-black hover:text-white text-[12px] md:text-base rounded-md h-7 px-2 md:h-11 md:px-8"
                 >
                   <Link href={app.android_href} target="_blank">
                     <GooglePlayIcon className="mr-2 h-5 w-5" /> Google Play
