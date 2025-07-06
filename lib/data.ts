@@ -791,9 +791,9 @@ export const showsData = [
     bannerQuery: "johnny bravo wide banner",
     description:
       "Johnny Bravo é um homem musculoso e vaidoso que tenta, sem sucesso, conquistar mulheres com seu jeito peculiar.",
-    characters: [{ name: "Johnny Bravo", query: "johnny bravo character" }],
-    image: "/desenhos/show-johnny-bravo.jpg",
-    banner: "/desenhos",
+    characters: [{ name: "Johnny Bravo", query: "johnny bravo character", char: "/desenhos/johnny-bravo/char-johnny-bravo.png" }],
+    image: "/desenhos/johnny-bravo/show-johnny-bravo.jpg",
+    banner: "/desenhos/johnny-bravo/show-banner-johnny-bravo.jpg",
     details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
   },
   {
@@ -804,12 +804,12 @@ export const showsData = [
     description:
       "Coragem é um cão medroso que vive com seus donos idosos em Lugar Nenhum, e precisa defendê-los de eventos bizarros e paranormais.",
     characters: [
-      { name: "Coragem", query: "courage the cowardly dog" },
-      { name: "Muriel", query: "muriel bagge" },
-      { name: "Eustácio", query: "eustace bagge" },
+      { name: "Coragem", query: "courage the cowardly dog", char: "/desenhos/coragem/char-coragem.png" },
+      { name: "Muriel", query: "muriel bagge", char: "/desenhos/coragem/char-muriel.png" },
+      { name: "Eustácio", query: "eustace bagge", char: "/desenhos/coragem/char-eustacio.png" },
     ],
-    image: "/desenhos/show-coragem.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/coragem/show-coragem.jpg",
+    banner: "/desenhos/coragem/show-banner-coragem.jpeg",
     details: { creator: "John R. Dilworth", year: "1999–2002", episodes: "52" },
   },
   {
@@ -820,12 +820,12 @@ export const showsData = [
     description:
       "Craig e seus amigos, Kelsey e J.P., vivem aventuras em um riacho onde as crianças do bairro criaram sua própria sociedade.",
     characters: [
-      { name: "Craig", query: "craig williams character" },
-      { name: "Kelsey", query: "kelsey craig of the creek" },
-      { name: "J.P.", query: "jp craig of the creek" },
+      { name: "Craig", query: "craig williams character", char: "/desenhos/craig/char-craig.png" },
+      { name: "Kelsey", query: "kelsey craig of the creek", char: "/desenhos/craig/char-kelsey.png" },
+      { name: "J.P.", query: "jp craig of the creek", char: "/desenhos/craig/char-jp.png" },
     ],
-    image: "/desenhos/show-craig.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/craig/show-craig.jpg",
+    banner: "/desenhos/craig/show-banner-craig.png",
     details: {
       creator: "Matt Burnett, Ben Levin",
       year: "2018–presente",
@@ -840,11 +840,11 @@ export const showsData = [
     description:
       "Um grupo de adolescentes compete em um reality show em uma ilha abandonada, enfrentando desafios bizarros por um prêmio em dinheiro.",
     characters: [
-      { name: "Chris McLean", query: "chris mclean total drama" },
-      { name: "Chef Hatchet", query: "chef hatchet total drama" },
+      { name: "Chris McLean", query: "chris mclean total drama", char: "/desenhos/ilha/char-chris-mclean.png"  },
+      { name: "Chef Hatchet", query: "chef hatchet total drama", char: "/desenhos/ilha/char-chef-hatchet.png" },
     ],
-    image: "/desenhos/show-ilha.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/ilha/show-ilha.jpg",
+    banner: "/desenhos/ilha/show-banner-ilha.jpg",
     details: {
       creator: "Tom McGillis, Jennifer Pertsch",
       year: "2007–2008",
@@ -859,11 +859,11 @@ export const showsData = [
     description:
       "Chowder é um jovem aprendiz de cozinheiro que vive na cidade de Marzipã e sempre se mete em encrencas culinárias.",
     characters: [
-      { name: "Chowder", query: "chowder cartoon character" },
-      { name: "Mung Daal", query: "mung daal chowder" },
+      { name: "Chowder", query: "chowder cartoon character", char: "/desenhos/chowder/char-chowder.png" },
+      { name: "Mung Daal", query: "mung daal chowder", char: "/desenhos/chowder/char-mung-daal.png" },
     ],
-    image: "/desenhos/show-chowder.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/chowder/show-chowder.jpg",
+    banner: "/desenhos/chowder/show-banner-chowder.jpg",
     details: { creator: "C. H. Greenblatt", year: "2007–2010", episodes: "49" },
   },
   {
