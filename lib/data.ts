@@ -874,11 +874,11 @@ export const showsData = [
     description:
       "Mac é um garoto que leva seu amigo imaginário, Bloo, para uma casa especial onde amigos imaginários vivem quando suas crianças crescem.",
     characters: [
-      { name: "Mac", query: "mac fosters home" },
-      { name: "Bloo", query: "bloo fosters home" },
+      { name: "Mac", query: "mac fosters home", char: "/desenhos/mansao-foster/char-mac.png" },
+      { name: "Bloo", query: "bloo fosters home", char: "/desenhos/mansao-foster/char-bloo.png" },
     ],
-    image: "/desenhos/show-mansao-foster.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/mansao-foster/show-mansao-foster.jpg",
+    banner: "/desenhos/mansao-foster/show-banner-mansao-foster.jpg",
     details: { creator: "Craig McCracken", year: "2004–2009", episodes: "79" },
   },
   {
@@ -889,11 +889,12 @@ export const showsData = [
     description:
       "O xerife Mao Mao, um gato heroico, e seus amigos defendem o pacífico Vale do Coração Puro de monstros e vilões.",
     characters: [
-      { name: "Mao Mao", query: "mao mao character" },
-      { name: "Adorabat", query: "adorabat character" },
+      { name: "Mao Mao", query: "mao mao character", char: "/desenhos/maomao/char-maomao.png" },
+      { name: "Adorabat", query: "adorabat character", char: "/desenhos/maomao/char-adorabat.png" },
+      { name: "Texuguloso", query: "texuguloso character", char: "/desenhos/maomao/char-texuguloso.png" },
     ],
-    image: "/desenhos/show-maomao.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/maomao/show-maomao.jpg",
+    banner: "/desenhos/maomao/show-banner-maomao.jpg",
     details: { creator: "Parker Simmons", year: "2019–2020", episodes: "40" },
   },
   {
@@ -904,12 +905,12 @@ export const showsData = [
     description:
       "K.O. é um garoto otimista que trabalha em uma loja de suprimentos para heróis e sonha em se tornar o maior herói do mundo.",
     characters: [
-      { name: "K.O.", query: "ko ok ko character" },
-      { name: "Enid", query: "enid ok ko character" },
-      { name: "Rad", query: "radicles ok ko character" },
+      { name: "K.O.", query: "ko ok ko character", char: "/desenhos/ok-ko/char-ko.png" },
+      { name: "Enid", query: "enid ok ko character", char: "/desenhos/ok-ko/char-enid.png" },
+      { name: "Rad", query: "radicles ok ko character", char: "/desenhos/ok-ko/char-rad.png" },
     ],
-    image: "/desenhos/show-ok-ko.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/ok-ko/show-ok-ko.jpg",
+    banner: "/desenhos/ok-ko/show-banner-ok-ko.jpg",
     details: {
       creator: "Ian Jones-Quartey",
       year: "2017–2019",
@@ -924,11 +925,12 @@ export const showsData = [
     description:
       "Passageiros com problemas emocionais embarcam em um trem misterioso com vagões infinitos, cada um contendo um universo diferente.",
     characters: [
-      { name: "Tulip Olsen", query: "tulip olsen infinity train" },
-      { name: "One-One", query: "one-one infinity train" },
+      { name: "Tulip Olsen", query: "tulip olsen infinity train", char: "/desenhos/trem-infinito/char-tulip-olsen.png" },
+      { name: "One-One", query: "one-one infinity train", char: "/desenhos/trem-infinito/char-one-one.png" },
+      { name: "Atticus", query: "atticus infinity train", char: "/desenhos/trem-infinito/char-atticus.png" },
     ],
-    image: "/desenhos/show-trem-infinito.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/trem-infinito/show-trem-infinito.jpg",
+    banner: "/desenhos/trem-infinito/show-banner-trem-infinito.jpg",
     details: { creator: "Owen Dennis", year: "2019–2021", episodes: "40" },
   },
   {
@@ -939,12 +941,12 @@ export const showsData = [
     description:
       "Clarêncio é um menino alegre e otimista que vê o lado bom de tudo e vive aventuras cotidianas com seus amigos Jeff e Sumo.",
     characters: [
-      { name: "Clarence", query: "clarence wendle" },
-      { name: "Jeff", query: "jeff randell" },
-      { name: "Sumo", query: "ryan sumo" },
+      { name: "Clarence", query: "clarence wendle", char: "/desenhos/clarencio/char-clarencio.png" },
+      { name: "Jeff", query: "jeff randell", char: "/desenhos/clarencio/char-jeff.png" },
+      { name: "Sumo", query: "ryan sumo", char: "/desenhos/clarencio/char-sumo.png" },
     ],
-    image: "/desenhos/show-clarencio.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/clarencio/show-clarencio.jpg",
+    banner: "/desenhos/clarencio/show-banner-clarencio.jpg",
     details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
   },
   // New shows added by user request
