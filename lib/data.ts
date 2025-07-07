@@ -958,14 +958,14 @@ export const showsData = [
     description:
       "Um grupo de cinco crianças de 10 anos opera a partir de uma casa na árvore de alta tecnologia, lutando contra a tirania de adultos e adolescentes.",
     characters: [
-      { name: "Numbuh 1", query: "Numbuh 1 from KND" },
-      { name: "Numbuh 2", query: "Numbuh 2 from KND" },
-      { name: "Numbuh 3", query: "Numbuh 3 from KND" },
-      { name: "Numbuh 4", query: "Numbuh 4 from KND" },
-      { name: "Numbuh 5", query: "Numbuh 5 from KND" },
+      { name: "Número 1", query: "Número 1 from KND", char: "/desenhos/knd/char-numero-1.png" },
+      { name: "Número 2", query: "Número 2 from KND", char: "/desenhos/knd/char-numero-2.png" },
+      { name: "Número 3", query: "Número 3 from KND", char: "/desenhos/knd/char-numero-3.png" },
+      { name: "Número 4", query: "Número 4 from KND", char: "/desenhos/knd/char-numero-4.png" },
+      { name: "Número 5", query: "Número 5 from KND", char: "/desenhos/knd/char-numero-5.png" },
     ],
-    image: "/desenhos/show-knd.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/knd/show-knd.jpg",
+    banner: "/desenhos/knd/show-banner-knd.jpg",
     details: { creator: "Tom Warburton", year: "2002–2008", episodes: "78" },
   },
   {
@@ -976,12 +976,12 @@ export const showsData = [
     description:
       "As aventuras surreais de uma vaca e um frango que são irmãos, e seus encontros com o cara vermelho sem calças.",
     characters: [
-      { name: "Vaca", query: "Cow from Cow and Chicken" },
-      { name: "Frango", query: "Chicken from Cow and Chicken" },
-      { name: "Bum de Fora", query: "The Red Guy from Cow and Chicken" },
+      { name: "Vaca", query: "Cow from Cow and Chicken", char: "/desenhos/vaca-e-frango/char-vaca.png" },
+      { name: "Frango", query: "Chicken from Cow and Chicken", char: "/desenhos/vaca-e-frango/char-frango.png" },
+  
     ],
-    image: "/desenhos/show-vaca-e-frango.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/vaca-e-frango/show-vaca-e-frango.jpg",
+    banner: "/desenhos/vaca-e-frango/show-banner-vaca-e-frango.jpg",
     details: { creator: "David Feiss", year: "1997–1999", episodes: "52" },
   },
   {
@@ -992,12 +992,12 @@ export const showsData = [
     description:
       "Duas crianças, o estúpido Billy e a cínica Mandy, forçam o Ceifador Sinistro a ser seu melhor amigo para sempre após vencerem uma aposta.",
     characters: [
-      { name: "Billy", query: "Billy from Billy and Mandy" },
-      { name: "Mandy", query: "Mandy from Billy and Mandy" },
-      { name: "Puro Osso", query: "Grim from Billy and Mandy" },
+      { name: "Billy", query: "Billy from Billy and Mandy", char: "/desenhos/billy-e-mandy/char-billy.png" },
+      { name: "Mandy", query: "Mandy from Billy and Mandy", char: "/desenhos/billy-e-mandy/char-mandy.png" },
+      { name: "Puro Osso", query: "Grim from Billy and Mandy", char: "/desenhos/billy-e-mandy/char-puro-osso.png" },
     ],
-    image: "/desenhos/show-billy-e-mandy.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/billy-e-mandy/show-billy-e-mandy.jpg",
+    banner: "/desenhos/billy-e-mandy/show-banner-billy-e-mandy.jpg",
     details: { creator: "Maxwell Atoms", year: "2001–2007", episodes: "78" },
   },
   {
@@ -1008,14 +1008,12 @@ export const showsData = [
     description:
       "Por um erro de digitação, Adam Lyon, um humano, é transferido para a Escola de Ginástica para Animais Charles Darwin, onde faz amizade com o macaco Jake.",
     characters: [
-      { name: "Adam Lyon", query: "Adam Lyon from My Gym Partner's a Monkey" },
-      {
-        name: "Jake Spidermonkey",
-        query: "Jake Spidermonkey from My Gym Partner's a Monkey",
+      { name: "Adam Lyon", query: "Adam Lyon from My Gym Partner's a Monkey", char: "/desenhos/meu-amigo-da-escola/char-adam-lyon.png" },
+      { name: "Jake Spidermonkey", query: "Jake Spidermonkey from My Gym Partner's a Monkey", char: "/desenhos/meu-amigo-da-escola/char-jake-macaco.png"
       },
     ],
-    image: "/desenhos/show-meu-amigo-da-escola.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/meu-amigo-da-escola/show-meu-amigo-da-escola.jpg",
+    banner: "/desenhos/meu-amigo-da-escola/show-banner-meu-amigo-da-escola.jpg",
     details: {
       creator: "Tim Cahill, Julie McNally Cahill",
       year: "2005–2008",
@@ -1030,12 +1028,12 @@ export const showsData = [
     description:
       "Lazlo, um macaco-aranha otimista, e seus amigos Raj e Clam vivem aventuras no Acampamento Rim, um acampamento de escoteiros não muito organizado.",
     characters: [
-      { name: "Lazlo", query: "Lazlo from Camp Lazlo" },
-      { name: "Raj", query: "Raj from Camp Lazlo" },
-      { name: "Clam", query: "Clam from Camp Lazlo" },
+      { name: "Lazlo", query: "Lazlo from Camp Lazlo", char: "/desenhos/lazlo/char-lazlo.png" },
+      { name: "Raj", query: "Raj from Camp Lazlo", char: "/desenhos/lazlo/char-raj.png" },
+      { name: "Clam", query: "Clam from Camp Lazlo", char: "/desenhos/lazlo/char-clam.png" },
     ],
-    image: "/desenhos/show-lazlo.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/lazlo/show-lazlo.jpg",
+    banner: "/desenhos/lazlo/show-banner-lazlo.jpg",
     details: { creator: "Joe Murray", year: "2005–2008", episodes: "61" },
   },
   {
