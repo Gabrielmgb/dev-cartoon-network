@@ -242,12 +242,6 @@ export const characters = [
     image: "/home/character/char-dan-kuso.png",
   },
   {
-    name: "Scooby-Doo",
-    color: "bg-amber-600",
-    query: "scooby-doo cartoon character",
-    image: "/home/character/char-scooby-doo.png",
-  },
-  {
     name: "Pernalonga",
     color: "bg-gray-300",
     query: "bugs bunny looney tunes",
@@ -288,6 +282,56 @@ export const characters = [
     color: "bg-cyan-700",
     query: "rex salazar from generator rex",
     image: "/home/character/char-rex.png",
+  },
+
+  //New characters
+  {
+    name: "A Vaca",
+    color: "bg-pink-200",
+    query: "cow from cow and chicken cartoon",
+    image: "/home/character/char-vaca.png",
+  },
+  {
+    name: "O Frango",
+    color: "bg-red-400",
+    query: "chicken from cow and chicken cartoon",
+    image: "/home/character/char-frango.png",
+  },
+  {
+    name: "Mao Mao",
+    color: "bg-blue-800",
+    query: "mao mao from mao mao heroes of pure heart",
+    image: "/home/character/char-maomao.png",
+  },
+  {
+    name: "K.O.",
+    color: "bg-red-600",
+    query: "k.o from ok ko let's be heroes",
+    image: "/home/character/char-ko.png",
+  },
+  {
+    name: "Salsicha",
+    color: "bg-lime-600",
+    query: "shaggy from scooby-doo",
+    image: "/home/character/char-salsicha.png",
+  },
+  {
+    name: "Scooby-Doo",
+    color: "bg-amber-600",
+    query: "scooby-doo cartoon character",
+    image: "/home/character/char-scooby-doo.png",
+  },
+  {
+    name: "Tulip Olsen",
+    color: "bg-teal-400",
+    query: "tulip olsen from infinity train",
+    image: "/home/character/char-tulip-olsen.png",
+  },
+  {
+    name: "Chris McLean",
+    color: "bg-gray-700",
+    query: "chris mclean from total drama island",
+    image: "/home/character/char-chris-mclean.png",
   },
 ];
 
@@ -524,19 +568,34 @@ export const showsData = [
         char: "/desenhos/hora-de-aventura/char-jake.png",
       },
       {
-        name: "Princesa Jujuba",
-        query: "princess bubblegum character",
-        char: "/desenhos/hora-de-aventura/char-princesa-jujuba.png",
-      },
-      {
         name: "Marceline",
         query: "marceline the vampire queen character",
         char: "/desenhos/hora-de-aventura/char-marceline.png",
       },
       {
+        name: "BMO",
+        query: "bmo the hero character",
+        char: "/desenhos/hora-de-aventura/char-bmo.png",
+      },
+      {
         name: "Rei Gelado",
         query: "ice king character",
         char: "/desenhos/hora-de-aventura/char-rei-gelado.png",
+      },
+      {
+        name: "Princesa Jujuba",
+        query: "princess bubblegum character",
+        char: "/desenhos/hora-de-aventura/char-princesa-jujuba.png",
+      },
+      {
+        name: "Princesa Caroço",
+        query: "princess lump character",
+        char: "/desenhos/hora-de-aventura/char-princesa-caroco.png",
+      },
+      {
+        name: "Princesa de Fogo",
+        query: "princess of fire character",
+        char: "/desenhos/hora-de-aventura/char-princesa-de-fogo.png",
       },
     ],
     image: "/desenhos/hora-de-aventura/show-hora-de-aventura.jpg",
@@ -665,6 +724,33 @@ export const showsData = [
         query: "rigby regular show",
         char: "/desenhos/apenas-um-show/char-rigby.png",
       },
+      {
+        name: "Margaret",
+        query: "margaret regular show",
+        char: "/desenhos/apenas-um-show/char-margaret.png",
+      },
+      {
+        name: "Musculoso",
+        query: "musculoso regular show",
+        char: "/desenhos/apenas-um-show/char-musculoso.png",
+      },
+      {
+        name: "Benson",
+        query: "benson regular show",
+        char: "/desenhos/apenas-um-show/char-benson.png",
+      },
+      {
+        name: "Pairulito",
+        query: "pairulito regular show",
+        char: "/desenhos/apenas-um-show/char-pairulito.png",
+      },
+      {
+        name: "Saltitão",
+        query: "saltitão regular show",
+        char: "/desenhos/apenas-um-show/char-saltitao.png",
+      },
+      
+      
     ],
     image: "/desenhos/apenas-um-show/show-apenas-um-show.jpg",
     banner: "/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
@@ -719,6 +805,16 @@ export const showsData = [
         name: "Docinho",
         query: "buttercup powerpuff girls",
         char: "/desenhos/superpoderosas/char-docinho.png",
+      },
+      {
+        name: "Professor Utônio",
+        query: "father of girls",
+        char: "/desenhos/superpoderosas/char-professor-utonio.png",
+      },
+      {
+        name: "Macaco Louco",
+        query: "crazy monkey character",
+        char: "/desenhos/superpoderosas/char-macaco-louco.png",
       },
     ],
     image: "/desenhos/superpoderosas/show-superpoderosas.jpg",
@@ -791,7 +887,13 @@ export const showsData = [
     bannerQuery: "johnny bravo wide banner",
     description:
       "Johnny Bravo é um homem musculoso e vaidoso que tenta, sem sucesso, conquistar mulheres com seu jeito peculiar.",
-    characters: [{ name: "Johnny Bravo", query: "johnny bravo character", char: "/desenhos/johnny-bravo/char-johnny-bravo.png" }],
+    characters: [
+      {
+        name: "Johnny Bravo",
+        query: "johnny bravo character",
+        char: "/desenhos/johnny-bravo/char-johnny-bravo.png",
+      },
+    ],
     image: "/desenhos/johnny-bravo/show-johnny-bravo.jpg",
     banner: "/desenhos/johnny-bravo/show-banner-johnny-bravo.jpg",
     details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
@@ -804,9 +906,21 @@ export const showsData = [
     description:
       "Coragem é um cão medroso que vive com seus donos idosos em Lugar Nenhum, e precisa defendê-los de eventos bizarros e paranormais.",
     characters: [
-      { name: "Coragem", query: "courage the cowardly dog", char: "/desenhos/coragem/char-coragem.png" },
-      { name: "Muriel", query: "muriel bagge", char: "/desenhos/coragem/char-muriel.png" },
-      { name: "Eustácio", query: "eustace bagge", char: "/desenhos/coragem/char-eustacio.png" },
+      {
+        name: "Coragem",
+        query: "courage the cowardly dog",
+        char: "/desenhos/coragem/char-coragem.png",
+      },
+      {
+        name: "Muriel",
+        query: "muriel bagge",
+        char: "/desenhos/coragem/char-muriel.png",
+      },
+      {
+        name: "Eustácio",
+        query: "eustace bagge",
+        char: "/desenhos/coragem/char-eustacio.png",
+      },
     ],
     image: "/desenhos/coragem/show-coragem.jpg",
     banner: "/desenhos/coragem/show-banner-coragem.jpeg",
@@ -820,9 +934,21 @@ export const showsData = [
     description:
       "Craig e seus amigos, Kelsey e J.P., vivem aventuras em um riacho onde as crianças do bairro criaram sua própria sociedade.",
     characters: [
-      { name: "Craig", query: "craig williams character", char: "/desenhos/craig/char-craig.png" },
-      { name: "Kelsey", query: "kelsey craig of the creek", char: "/desenhos/craig/char-kelsey.png" },
-      { name: "J.P.", query: "jp craig of the creek", char: "/desenhos/craig/char-jp.png" },
+      {
+        name: "Craig",
+        query: "craig williams character",
+        char: "/desenhos/craig/char-craig.png",
+      },
+      {
+        name: "Kelsey",
+        query: "kelsey craig of the creek",
+        char: "/desenhos/craig/char-kelsey.png",
+      },
+      {
+        name: "J.P.",
+        query: "jp craig of the creek",
+        char: "/desenhos/craig/char-jp.png",
+      },
     ],
     image: "/desenhos/craig/show-craig.jpg",
     banner: "/desenhos/craig/show-banner-craig.png",
@@ -840,8 +966,16 @@ export const showsData = [
     description:
       "Um grupo de adolescentes compete em um reality show em uma ilha abandonada, enfrentando desafios bizarros por um prêmio em dinheiro.",
     characters: [
-      { name: "Chris McLean", query: "chris mclean total drama", char: "/desenhos/ilha/char-chris-mclean.png"  },
-      { name: "Chef Hatchet", query: "chef hatchet total drama", char: "/desenhos/ilha/char-chef-hatchet.png" },
+      {
+        name: "Chris McLean",
+        query: "chris mclean total drama",
+        char: "/desenhos/ilha/char-chris-mclean.png",
+      },
+      {
+        name: "Chef Hatchet",
+        query: "chef hatchet total drama",
+        char: "/desenhos/ilha/char-chef-hatchet.png",
+      },
     ],
     image: "/desenhos/ilha/show-ilha.jpg",
     banner: "/desenhos/ilha/show-banner-ilha.jpg",
@@ -859,8 +993,26 @@ export const showsData = [
     description:
       "Chowder é um jovem aprendiz de cozinheiro que vive na cidade de Marzipã e sempre se mete em encrencas culinárias.",
     characters: [
-      { name: "Chowder", query: "chowder cartoon character", char: "/desenhos/chowder/char-chowder.png" },
-      { name: "Mung Daal", query: "mung daal chowder", char: "/desenhos/chowder/char-mung-daal.png" },
+      {
+        name: "Chowder",
+        query: "chowder cartoon character",
+        char: "/desenhos/chowder/char-chowder.png",
+      },
+      {
+        name: "Mung Daal",
+        query: "mung daal chowder",
+        char: "/desenhos/chowder/char-mung-daal.png",
+      },
+      {
+        name: "Truffles",
+        query: "truffles cartoon character",
+        char: "/desenhos/chowder/char-truffles.png",
+      },
+      {
+        name: "Shnitzel",
+        query: "shnitzel cartoon character",
+        char: "/desenhos/chowder/char-shnitzel.png",
+      },
     ],
     image: "/desenhos/chowder/show-chowder.jpg",
     banner: "/desenhos/chowder/show-banner-chowder.jpg",
@@ -874,8 +1026,36 @@ export const showsData = [
     description:
       "Mac é um garoto que leva seu amigo imaginário, Bloo, para uma casa especial onde amigos imaginários vivem quando suas crianças crescem.",
     characters: [
-      { name: "Mac", query: "mac fosters home", char: "/desenhos/mansao-foster/char-mac.png" },
-      { name: "Bloo", query: "bloo fosters home", char: "/desenhos/mansao-foster/char-bloo.png" },
+      {
+        name: "Mac",
+        query: "mac fosters home",
+        char: "/desenhos/mansao-foster/char-mac.png",
+      },
+      {
+        name: "Bloo",
+        query: "bloo fosters home",
+        char: "/desenhos/mansao-foster/char-bloo.png",
+      },
+      {
+        name: "Frankie Foster",
+        query: "frankie fosters home",
+        char: "/desenhos/mansao-foster/char-frankie-foster.png",
+      },
+      {
+        name: "Minguado",
+        query: "minguado fosters home",
+        char: "/desenhos/mansao-foster/char-minguado.png",
+      },
+      {
+        name: "Eduardo",
+        query: "eduardo fosters home",
+        char: "/desenhos/mansao-foster/char-eduardo.png",
+      },
+      {
+        name: "Coco",
+        query: "coco fosters home",
+        char: "/desenhos/mansao-foster/char-coco.png",
+      },
     ],
     image: "/desenhos/mansao-foster/show-mansao-foster.jpg",
     banner: "/desenhos/mansao-foster/show-banner-mansao-foster.jpg",
@@ -889,9 +1069,21 @@ export const showsData = [
     description:
       "O xerife Mao Mao, um gato heroico, e seus amigos defendem o pacífico Vale do Coração Puro de monstros e vilões.",
     characters: [
-      { name: "Mao Mao", query: "mao mao character", char: "/desenhos/maomao/char-maomao.png" },
-      { name: "Adorabat", query: "adorabat character", char: "/desenhos/maomao/char-adorabat.png" },
-      { name: "Texuguloso", query: "texuguloso character", char: "/desenhos/maomao/char-texuguloso.png" },
+      {
+        name: "Mao Mao",
+        query: "mao mao character",
+        char: "/desenhos/maomao/char-maomao.png",
+      },
+      {
+        name: "Adorabat",
+        query: "adorabat character",
+        char: "/desenhos/maomao/char-adorabat.png",
+      },
+      {
+        name: "Texuguloso",
+        query: "texuguloso character",
+        char: "/desenhos/maomao/char-texuguloso.png",
+      },
     ],
     image: "/desenhos/maomao/show-maomao.jpg",
     banner: "/desenhos/maomao/show-banner-maomao.jpg",
@@ -905,9 +1097,21 @@ export const showsData = [
     description:
       "K.O. é um garoto otimista que trabalha em uma loja de suprimentos para heróis e sonha em se tornar o maior herói do mundo.",
     characters: [
-      { name: "K.O.", query: "ko ok ko character", char: "/desenhos/ok-ko/char-ko.png" },
-      { name: "Enid", query: "enid ok ko character", char: "/desenhos/ok-ko/char-enid.png" },
-      { name: "Rad", query: "radicles ok ko character", char: "/desenhos/ok-ko/char-rad.png" },
+      {
+        name: "K.O.",
+        query: "ko ok ko character",
+        char: "/desenhos/ok-ko/char-ko.png",
+      },
+      {
+        name: "Enid",
+        query: "enid ok ko character",
+        char: "/desenhos/ok-ko/char-enid.png",
+      },
+      {
+        name: "Rad",
+        query: "radicles ok ko character",
+        char: "/desenhos/ok-ko/char-rad.png",
+      },
     ],
     image: "/desenhos/ok-ko/show-ok-ko.jpg",
     banner: "/desenhos/ok-ko/show-banner-ok-ko.jpg",
@@ -925,9 +1129,21 @@ export const showsData = [
     description:
       "Passageiros com problemas emocionais embarcam em um trem misterioso com vagões infinitos, cada um contendo um universo diferente.",
     characters: [
-      { name: "Tulip Olsen", query: "tulip olsen infinity train", char: "/desenhos/trem-infinito/char-tulip-olsen.png" },
-      { name: "One-One", query: "one-one infinity train", char: "/desenhos/trem-infinito/char-one-one.png" },
-      { name: "Atticus", query: "atticus infinity train", char: "/desenhos/trem-infinito/char-atticus.png" },
+      {
+        name: "Tulip Olsen",
+        query: "tulip olsen infinity train",
+        char: "/desenhos/trem-infinito/char-tulip-olsen.png",
+      },
+      {
+        name: "One-One",
+        query: "one-one infinity train",
+        char: "/desenhos/trem-infinito/char-one-one.png",
+      },
+      {
+        name: "Atticus",
+        query: "atticus infinity train",
+        char: "/desenhos/trem-infinito/char-atticus.png",
+      },
     ],
     image: "/desenhos/trem-infinito/show-trem-infinito.jpg",
     banner: "/desenhos/trem-infinito/show-banner-trem-infinito.jpg",
@@ -941,9 +1157,21 @@ export const showsData = [
     description:
       "Clarêncio é um menino alegre e otimista que vê o lado bom de tudo e vive aventuras cotidianas com seus amigos Jeff e Sumo.",
     characters: [
-      { name: "Clarêncio", query: "clarence wendle", char: "/desenhos/clarencio/char-clarencio.png" },
-      { name: "Jeff", query: "jeff randell", char: "/desenhos/clarencio/char-jeff.png" },
-      { name: "Sumo", query: "ryan sumo", char: "/desenhos/clarencio/char-sumo.png" },
+      {
+        name: "Clarêncio",
+        query: "clarence wendle",
+        char: "/desenhos/clarencio/char-clarencio.png",
+      },
+      {
+        name: "Jeff",
+        query: "jeff randell",
+        char: "/desenhos/clarencio/char-jeff.png",
+      },
+      {
+        name: "Sumo",
+        query: "ryan sumo",
+        char: "/desenhos/clarencio/char-sumo.png",
+      },
     ],
     image: "/desenhos/clarencio/show-clarencio.jpg",
     banner: "/desenhos/clarencio/show-banner-clarencio.jpg",
@@ -958,11 +1186,31 @@ export const showsData = [
     description:
       "Um grupo de cinco crianças de 10 anos opera a partir de uma casa na árvore de alta tecnologia, lutando contra a tirania de adultos e adolescentes.",
     characters: [
-      { name: "Número 1", query: "Número 1 from KND", char: "/desenhos/knd/char-numero-1.png" },
-      { name: "Número 2", query: "Número 2 from KND", char: "/desenhos/knd/char-numero-2.png" },
-      { name: "Número 3", query: "Número 3 from KND", char: "/desenhos/knd/char-numero-3.png" },
-      { name: "Número 4", query: "Número 4 from KND", char: "/desenhos/knd/char-numero-4.png" },
-      { name: "Número 5", query: "Número 5 from KND", char: "/desenhos/knd/char-numero-5.png" },
+      {
+        name: "Número 1",
+        query: "Número 1 from KND",
+        char: "/desenhos/knd/char-numero-1.png",
+      },
+      {
+        name: "Número 2",
+        query: "Número 2 from KND",
+        char: "/desenhos/knd/char-numero-2.png",
+      },
+      {
+        name: "Número 3",
+        query: "Número 3 from KND",
+        char: "/desenhos/knd/char-numero-3.png",
+      },
+      {
+        name: "Número 4",
+        query: "Número 4 from KND",
+        char: "/desenhos/knd/char-numero-4.png",
+      },
+      {
+        name: "Número 5",
+        query: "Número 5 from KND",
+        char: "/desenhos/knd/char-numero-5.png",
+      },
     ],
     image: "/desenhos/knd/show-knd.jpg",
     banner: "/desenhos/knd/show-banner-knd.jpg",
@@ -976,9 +1224,16 @@ export const showsData = [
     description:
       "As aventuras surreais de uma vaca e um frango que são irmãos, e seus encontros com o cara vermelho sem calças.",
     characters: [
-      { name: "Vaca", query: "Cow from Cow and Chicken", char: "/desenhos/vaca-e-frango/char-vaca.png" },
-      { name: "Frango", query: "Chicken from Cow and Chicken", char: "/desenhos/vaca-e-frango/char-frango.png" },
-  
+      {
+        name: "Vaca",
+        query: "Cow from Cow and Chicken",
+        char: "/desenhos/vaca-e-frango/char-vaca.png",
+      },
+      {
+        name: "Frango",
+        query: "Chicken from Cow and Chicken",
+        char: "/desenhos/vaca-e-frango/char-frango.png",
+      },
     ],
     image: "/desenhos/vaca-e-frango/show-vaca-e-frango.jpg",
     banner: "/desenhos/vaca-e-frango/show-banner-vaca-e-frango.jpg",
@@ -992,9 +1247,21 @@ export const showsData = [
     description:
       "Duas crianças, o estúpido Billy e a cínica Mandy, forçam o Ceifador Sinistro a ser seu melhor amigo para sempre após vencerem uma aposta.",
     characters: [
-      { name: "Billy", query: "Billy from Billy and Mandy", char: "/desenhos/billy-e-mandy/char-billy.png" },
-      { name: "Mandy", query: "Mandy from Billy and Mandy", char: "/desenhos/billy-e-mandy/char-mandy.png" },
-      { name: "Puro Osso", query: "Grim from Billy and Mandy", char: "/desenhos/billy-e-mandy/char-puro-osso.png" },
+      {
+        name: "Billy",
+        query: "Billy from Billy and Mandy",
+        char: "/desenhos/billy-e-mandy/char-billy.png",
+      },
+      {
+        name: "Mandy",
+        query: "Mandy from Billy and Mandy",
+        char: "/desenhos/billy-e-mandy/char-mandy.png",
+      },
+      {
+        name: "Puro Osso",
+        query: "Grim from Billy and Mandy",
+        char: "/desenhos/billy-e-mandy/char-puro-osso.png",
+      },
     ],
     image: "/desenhos/billy-e-mandy/show-billy-e-mandy.jpg",
     banner: "/desenhos/billy-e-mandy/show-banner-billy-e-mandy.jpg",
@@ -1008,8 +1275,15 @@ export const showsData = [
     description:
       "Por um erro de digitação, Adam Lyon, um humano, é transferido para a Escola de Ginástica para Animais Charles Darwin, onde faz amizade com o macaco Jake.",
     characters: [
-      { name: "Adam Lyon", query: "Adam Lyon from My Gym Partner's a Monkey", char: "/desenhos/meu-amigo-da-escola/char-adam-lyon.png" },
-      { name: "Jake Spidermonkey", query: "Jake Spidermonkey from My Gym Partner's a Monkey", char: "/desenhos/meu-amigo-da-escola/char-jake-macaco.png"
+      {
+        name: "Adam Lyon",
+        query: "Adam Lyon from My Gym Partner's a Monkey",
+        char: "/desenhos/meu-amigo-da-escola/char-adam-lyon.png",
+      },
+      {
+        name: "Jake Spidermonkey",
+        query: "Jake Spidermonkey from My Gym Partner's a Monkey",
+        char: "/desenhos/meu-amigo-da-escola/char-jake-macaco.png",
       },
     ],
     image: "/desenhos/meu-amigo-da-escola/show-meu-amigo-da-escola.jpg",
@@ -1028,9 +1302,21 @@ export const showsData = [
     description:
       "Lazlo, um macaco-aranha otimista, e seus amigos Raj e Clam vivem aventuras no Acampamento Rim, um acampamento de escoteiros não muito organizado.",
     characters: [
-      { name: "Lazlo", query: "Lazlo from Camp Lazlo", char: "/desenhos/lazlo/char-lazlo.png" },
-      { name: "Raj", query: "Raj from Camp Lazlo", char: "/desenhos/lazlo/char-raj.png" },
-      { name: "Clam", query: "Clam from Camp Lazlo", char: "/desenhos/lazlo/char-clam.png" },
+      {
+        name: "Lazlo",
+        query: "Lazlo from Camp Lazlo",
+        char: "/desenhos/lazlo/char-lazlo.png",
+      },
+      {
+        name: "Raj",
+        query: "Raj from Camp Lazlo",
+        char: "/desenhos/lazlo/char-raj.png",
+      },
+      {
+        name: "Clam",
+        query: "Clam from Camp Lazlo",
+        char: "/desenhos/lazlo/char-clam.png",
+      },
     ],
     image: "/desenhos/lazlo/show-lazlo.jpg",
     banner: "/desenhos/lazlo/show-banner-lazlo.jpg",
@@ -1044,9 +1330,21 @@ export const showsData = [
     description:
       "A história de um garoto tímido e sem nome que é sempre ofuscado pela popularidade de seu irmão mais velho, Jorel. Ele tenta encontrar sua própria identidade.",
     characters: [
-      { name: "Irmão do Jorel", query: "Irmão do Jorel character", char: "/desenhos/irmao-do-jorel/char-irmao-do-jorel.png" },
-      { name: "Jorel", query: "Jorel from Irmão do Jorel", char: "/desenhos/irmao-do-jorel/char-jorel.png" },
-      { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel", char: "/desenhos/irmao-do-jorel/char-vovo-juju.png" },
+      {
+        name: "Irmão do Jorel",
+        query: "Irmão do Jorel character",
+        char: "/desenhos/irmao-do-jorel/char-irmao-do-jorel.png",
+      },
+      {
+        name: "Jorel",
+        query: "Jorel from Irmão do Jorel",
+        char: "/desenhos/irmao-do-jorel/char-jorel.png",
+      },
+      {
+        name: "Vovó Juju",
+        query: "Vovó Juju from Irmão do Jorel",
+        char: "/desenhos/irmao-do-jorel/char-vovo-juju.png",
+      },
     ],
     image: "/desenhos/irmao-do-jorel/show-irmao-do-jorel.jpg",
     banner: "/desenhos/irmao-do-jorel/show-banner-irmao-do-jorel.jpg",
@@ -1064,11 +1362,31 @@ export const showsData = [
     description:
       "Quatro adolescentes e seu cão falante, Scooby-Doo, resolvem mistérios envolvendo criaturas supostamente sobrenaturais.",
     characters: [
-      { name: "Scooby-Doo", query: "Scooby-Doo character", char: "/desenhos/scooby-doo/char-scooby-doo.png" },
-      { name: "Salsicha", query: "Shaggy Rogers character", char: "/desenhos/scooby-doo/char-salsicha.png" },
-      { name: "Fred", query: "Fred Jones character", char: "/desenhos/scooby-doo/char-fred.png" },
-      { name: "Daphne", query: "Daphne Blake character", char: "/desenhos/scooby-doo/char-daphne.png" },
-      { name: "Velma", query: "Velma Dinkley character", char: "/desenhos/scooby-doo/char-velma.png" },
+      {
+        name: "Scooby-Doo",
+        query: "Scooby-Doo character",
+        char: "/desenhos/scooby-doo/char-scooby-doo.png",
+      },
+      {
+        name: "Salsicha",
+        query: "Shaggy Rogers character",
+        char: "/desenhos/scooby-doo/char-salsicha.png",
+      },
+      {
+        name: "Fred",
+        query: "Fred Jones character",
+        char: "/desenhos/scooby-doo/char-fred.png",
+      },
+      {
+        name: "Daphne",
+        query: "Daphne Blake character",
+        char: "/desenhos/scooby-doo/char-daphne.png",
+      },
+      {
+        name: "Velma",
+        query: "Velma Dinkley character",
+        char: "/desenhos/scooby-doo/char-velma.png",
+      },
     ],
     image: "/desenhos/scooby-doo/show-scooby-doo.jpg",
     banner: "/desenhos/scooby-doo/show-banner-scooby-doo.jpg",
@@ -1086,12 +1404,51 @@ export const showsData = [
     description:
       "As aventuras cômicas e caóticas de um elenco de personagens icônicos, incluindo Pernalonga, Patolino, Gaguinho e muitos outros.",
     characters: [
-      { name: "Pernalonga", query: "Bugs Bunny character", char: "/desenhos/looney-tunes/char-pernalonga.png" },
-      { name: "Patolino", query: "Daffy Duck character", char: "/desenhos/looney-tunes/char-patolino.png" },
-      { name: "Taz", query: "Tasmanian devil character", char: "/desenhos/looney-tunes/char-taz.png" },
-      { name: "Frajola", query: "Sylvester the Cat character", char: "/desenhos/looney-tunes/char-frajola.png" },
-      { name: "Piu-Piu", query: "Tweety Bird character", char: "/desenhos/looney-tunes/char-piu-piu.png" },
-      
+      {
+        name: "Pernalonga",
+        query: "Bugs Bunny character",
+        char: "/desenhos/looney-tunes/char-pernalonga.png",
+      },
+      {
+        name: "Patolino",
+        query: "Daffy Duck character",
+        char: "/desenhos/looney-tunes/char-patolino.png",
+      },
+      {
+        name: "Gaguinho",
+        query: "Porky Pig character",
+        char: "/desenhos/looney-tunes/char-gaguinho.png",
+      },
+      {
+        name: "Taz",
+        query: "Tasmanian devil character",
+        char: "/desenhos/looney-tunes/char-taz.png",
+      },
+      {
+        name: "Frajola",
+        query: "Sylvester the Cat character",
+        char: "/desenhos/looney-tunes/char-frajola.png",
+      },
+      {
+        name: "Piu-Piu",
+        query: "Tweety Bird character",
+        char: "/desenhos/looney-tunes/char-piu-piu.png",
+      },
+      {
+        name: "Coyote",
+        query: "Wile E. Coyote character",
+        char: "/desenhos/looney-tunes/char-coyote.png",
+      },
+      {
+        name: "Papa-Léguas",
+        query: "Road Runner character",
+        char: "/desenhos/looney-tunes/char-papa-leguas.png",
+      },
+      {
+        name: "Marvin",
+        query: "The Martian character",
+        char: "/desenhos/looney-tunes/char-marvin.png",
+      },
     ],
     image: "/desenhos/looney-tunes/show-looney-tunes.jpg",
     banner: "/desenhos/looney-tunes/show-banner-looney-tunes.jpg",
@@ -1105,9 +1462,21 @@ export const showsData = [
     description:
       "Rex é um adolescente que pode criar máquinas a partir de seu corpo. Ele trabalha para uma organização que combate mutantes perigosos chamados E.V.O.s.",
     characters: [
-      { name: "Rex Salazar", query: "Rex Salazar from Generator Rex", char: "/desenhos/rex/char-rex.png" },
-      { name: "Agente Seis", query: "Agent Six from Generator Rex", char: "/desenhos/rex/char-agente-seis.png" },
-      { name: "Bobo Haha", query: "Bobo Haha from Generator Rex", char: "/desenhos/rex/char-bobo-haha.png" },
+      {
+        name: "Rex Salazar",
+        query: "Rex Salazar from Generator Rex",
+        char: "/desenhos/rex/char-rex.png",
+      },
+      {
+        name: "Agente Seis",
+        query: "Agent Six from Generator Rex",
+        char: "/desenhos/rex/char-agente-seis.png",
+      },
+      {
+        name: "Bobo Haha",
+        query: "Bobo Haha from Generator Rex",
+        char: "/desenhos/rex/char-bobo-haha.png",
+      },
     ],
     image: "/desenhos/rex/show-rex.jpg",
     banner: "/desenhos/rex/show-banner-rex.jpg",
@@ -1121,11 +1490,31 @@ export const showsData = [
     description:
       "Um grupo de amigos encontra cartas que caem do céu e se envolvem em um jogo de batalha usando criaturas místicas chamadas Bakugan.",
     characters: [
-      { name: "Dan Kuso", query: "Dan Kuso from Bakugan", char: "/desenhos/bakugan/char-dan-kuso.png" },
-      { name: "Shun Kazami", query: "Shun Kazami from Bakugan", char: "/desenhos/bakugan/char-shun-kazami.png" },
-      { name: "Marucho Marukura", query: "Drago from Bakugan", char: "/desenhos/bakugan/char-marucho-marukura.png" },
-      { name: "Runo Misaki", query: "Drago from Bakugan", char: "/desenhos/bakugan/char-runo-misaki.png" },
-      { name: "O Mascarado", query: "Drago from Bakugan", char: "/desenhos/bakugan/char-mascarado.png" },
+      {
+        name: "Dan Kuso",
+        query: "Dan Kuso from Bakugan",
+        char: "/desenhos/bakugan/char-dan-kuso.png",
+      },
+      {
+        name: "Shun Kazami",
+        query: "Shun Kazami from Bakugan",
+        char: "/desenhos/bakugan/char-shun-kazami.png",
+      },
+      {
+        name: "Marucho Marukura",
+        query: "Marucho Marukura from Bakugan",
+        char: "/desenhos/bakugan/char-marucho-marukura.png",
+      },
+      {
+        name: "Runo Misaki",
+        query: "Runo Misaki from Bakugan",
+        char: "/desenhos/bakugan/char-runo-misaki.png",
+      },
+      {
+        name: "O Mascarado",
+        query: "Mascarade from Bakugan",
+        char: "/desenhos/bakugan/char-mascarado.png",
+      },
     ],
     image: "/desenhos/bakugan/show-bakugan.jpg",
     banner: "/desenhos/bakugan/show-banner-bakugan.jpg",

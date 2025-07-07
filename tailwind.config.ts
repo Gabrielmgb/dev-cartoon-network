@@ -16,7 +16,7 @@ const config: Config = {
   "bg-rose-300", "bg-purple-600", "bg-blue-500", "bg-orange-800", "bg-pink-500",
   "bg-cyan-400", "bg-lime-500", "bg-orange-500", "bg-pink-300", "bg-yellow-300",
   "bg-fuchsia-300", "bg-green-600", "bg-gray-200", "bg-yellow-200", "bg-orange-300",
-  "bg-green-300", "bg-red-400", "bg-blue-600", "bg-purple-400", "bg-lime-300", "bg-yellow-600", "bg-purple-500", "bg-lime-400", "bg-gray-700", "bg-amber-600", "bg-red-700", "bg-cyan-700", "bg-indigo-500", "bg-zinc-800", "bg-red-900", "text-gray-900"
+  "bg-green-300", "bg-red-400", "bg-blue-600", "bg-purple-400", "bg-lime-300", "bg-yellow-600", "bg-purple-500", "bg-lime-400", "bg-gray-700", "bg-amber-600", "bg-red-700", "bg-cyan-700", "bg-indigo-500", "bg-zinc-800", "bg-red-900", "text-gray-900", "bg-blue-800", "bg-lime-600", "bg-teal-400"
 ],
 
   theme: {
