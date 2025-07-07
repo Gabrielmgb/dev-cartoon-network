@@ -1572,10 +1572,10 @@ export const showsData = [
   {
     id: "eu_sou_o_maximo",
     name: "Eu Sou o Máximo",
-    posterQuery: "johnny bravo vertical poster",
-    bannerQuery: "johnny bravo wide banner",
+    posterQuery: "maximum vertical poster",
+    bannerQuery: "maximum wide banner",
     description:
-      "Máximo é um sujeito musculoso, convencido e desajeitado que vive tentando conquistar mulheres — sempre sem sucesso. Com ajuda de seus amigos Babão e Bum de Fora, ele se envolve nas mais absurdas e engraçadas situações, misturando ação, comédia e muita confusão.",
+      "Máximo é um sujeito musculoso, convencido e desajeitado que vive tentando conquistar mulheres. sempre sem sucesso. Com ajuda de seus amigos Babão e Bum de Fora, ele se envolve nas mais absurdas e engraçadas situações, misturando ação, comédia e muita confusão.",
     characters: [
       {
         name: "Máximo",
