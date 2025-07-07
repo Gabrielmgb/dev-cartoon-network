@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const CNLogo = () => (
-  <Link href="/" aria-label="Cartoon Network Home">
+  <Link href="/home" aria-label="Cartoon Network Home">
     <Image
       src="/dev-cartoon-network/home/logo-CN-1.png" // Caminho da imagem dentro da pasta /public
       alt="Cartoon Network Logo"
