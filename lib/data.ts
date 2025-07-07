@@ -2245,7 +2245,7 @@ export const appsData = [
       "Fantasmas invadiram Elmore, e Gumball e Darwin precisam usar aspiradores especiais para resgatar seus amigos em locais como a escola, o parque e sua casa.",
     iconQuery: "ben 10 omnitrix app icon",
     screenshots: [
-      "/dev-cartoon-network/dev-cartoon-network/aplicacoes/app-5-1.jpg",
+      "/dev-cartoon-network/aplicacoes/app-5-1.jpg",
       "/dev-cartoon-network/aplicacoes/app-5-2.jpeg",
       "/dev-cartoon-network/aplicacoes/app-5-3.jpg",
     ],
