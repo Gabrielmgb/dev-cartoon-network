@@ -40,7 +40,7 @@ export default function DownloadApps() {
               alt={`${app.name} icon`}
               width={100}
               height={100}
-              className="rounded-2xl flex-shrink-0"
+              className="rounded-2xl flex-shrink-0 shadow-xl drop-shadow-md "
             />
             <div className="flex flex-col gap-2 bg-gray-100 p-4 rounded-lg h-[210 px] w-full">
               <h3 className="text-xl font-bold text-wrap">{app.name}</h3>
