@@ -30,7 +30,7 @@ export default function GamesClientPage() {
       <section className="bg-black text-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
         <div className="md:w-1/2 relative min-h-[250px]">
           <Image
-            src={`/jogos/game-1.jpg?width=600&height=400&query=${encodeURIComponent(featuredGame.imageQuery)}`}
+            src={`/dev-cartoon-network/jogos/game-1.jpg?width=600&height=400&query=${encodeURIComponent(featuredGame.imageQuery)}`}
             alt={`Imagem de ${featuredGame.title}`}
             fill
             className="object-cover object-top"

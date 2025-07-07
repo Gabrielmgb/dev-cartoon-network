@@ -15,7 +15,7 @@ export default function CampeoesDoClimaPage() {
         <section className="relative bg-gradient-to-b from-sky-300 to-green-300 text-white py-20 text-center">
           <div className="container mx-auto px-4">
             <Image
-              src="/campeoes-do-clima/campeoes-do-clima-logo.jpg?width=200&height=200"
+              src="/dev-cartoon-network/campeoes-do-clima/campeoes-do-clima-logo.jpg?width=200&height=200"
               alt="Campeões do Clima Logo"
               width={150}
               height={150}
