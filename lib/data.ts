@@ -109,7 +109,7 @@ export const characters = [
     name: "Jorel",
     color: "bg-red-600",
     query: "garnet from steven universe",
-    image: "/home/character/char-jorel.png",
+    image: "/home/character/char-irmao-do-jorel.png",
   },
 
   // Added Characters
@@ -941,7 +941,7 @@ export const showsData = [
     description:
       "Clarêncio é um menino alegre e otimista que vê o lado bom de tudo e vive aventuras cotidianas com seus amigos Jeff e Sumo.",
     characters: [
-      { name: "Clarence", query: "clarence wendle", char: "/desenhos/clarencio/char-clarencio.png" },
+      { name: "Clarêncio", query: "clarence wendle", char: "/desenhos/clarencio/char-clarencio.png" },
       { name: "Jeff", query: "jeff randell", char: "/desenhos/clarencio/char-jeff.png" },
       { name: "Sumo", query: "ryan sumo", char: "/desenhos/clarencio/char-sumo.png" },
     ],
@@ -1044,12 +1044,12 @@ export const showsData = [
     description:
       "A história de um garoto tímido e sem nome que é sempre ofuscado pela popularidade de seu irmão mais velho, Jorel. Ele tenta encontrar sua própria identidade.",
     characters: [
-      { name: "Irmão do Jorel", query: "Irmão do Jorel character" },
-      { name: "Jorel", query: "Jorel from Irmão do Jorel" },
-      { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel" },
+      { name: "Irmão do Jorel", query: "Irmão do Jorel character", char: "/desenhos/irmao-do-jorel/char-irmao-do-jorel.png" },
+      { name: "Jorel", query: "Jorel from Irmão do Jorel", char: "/desenhos/irmao-do-jorel/char-jorel.png" },
+      { name: "Vovó Juju", query: "Vovó Juju from Irmão do Jorel", char: "/desenhos/irmao-do-jorel/char-vovo-juju.png" },
     ],
-    image: "/desenhos/show-jorel.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/irmao-do-jorel/show-irmao-do-jorel.jpg",
+    banner: "/desenhos/irmao-do-jorel/show-banner-irmao-do-jorel.jpg",
     details: {
       creator: "Juliano Enrico",
       year: "2014–presente",
@@ -1064,14 +1064,14 @@ export const showsData = [
     description:
       "Quatro adolescentes e seu cão falante, Scooby-Doo, resolvem mistérios envolvendo criaturas supostamente sobrenaturais.",
     characters: [
-      { name: "Scooby-Doo", query: "Scooby-Doo character" },
-      { name: "Salsicha", query: "Shaggy Rogers character" },
-      { name: "Fred", query: "Fred Jones character" },
-      { name: "Daphne", query: "Daphne Blake character" },
-      { name: "Velma", query: "Velma Dinkley character" },
+      { name: "Scooby-Doo", query: "Scooby-Doo character", char: "/desenhos/scooby-doo/char-scooby-doo.png" },
+      { name: "Salsicha", query: "Shaggy Rogers character", char: "/desenhos/scooby-doo/char-salsicha.png" },
+      { name: "Fred", query: "Fred Jones character", char: "/desenhos/scooby-doo/char-fred.png" },
+      { name: "Daphne", query: "Daphne Blake character", char: "/desenhos/scooby-doo/char-daphne.png" },
+      { name: "Velma", query: "Velma Dinkley character", char: "/desenhos/scooby-doo/char-velma.png" },
     ],
-    image: "/desenhos/show-scooby.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/scooby-doo/show-scooby-doo.jpg",
+    banner: "/desenhos/scooby-doo/show-banner-scooby-doo.jpg",
     details: {
       creator: "Joe Ruby, Ken Spears",
       year: "1969–1970",
@@ -1086,14 +1086,15 @@ export const showsData = [
     description:
       "As aventuras cômicas e caóticas de um elenco de personagens icônicos, incluindo Pernalonga, Patolino, Gaguinho e muitos outros.",
     characters: [
-      { name: "Pernalonga", query: "Bugs Bunny character" },
-      { name: "Patolino", query: "Daffy Duck character" },
-      { name: "Gaguinho", query: "Porky Pig character" },
-      { name: "Frajola", query: "Sylvester the Cat character" },
-      { name: "Piu-Piu", query: "Tweety Bird character" },
+      { name: "Pernalonga", query: "Bugs Bunny character", char: "/desenhos/looney-tunes/char-pernalonga.png" },
+      { name: "Patolino", query: "Daffy Duck character", char: "/desenhos/looney-tunes/char-patolino.png" },
+      { name: "Taz", query: "Tasmanian devil character", char: "/desenhos/looney-tunes/char-taz.png" },
+      { name: "Frajola", query: "Sylvester the Cat character", char: "/desenhos/looney-tunes/char-frajola.png" },
+      { name: "Piu-Piu", query: "Tweety Bird character", char: "/desenhos/looney-tunes/char-piu-piu.png" },
+      
     ],
-    image: "/desenhos/show-looney-tunes.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/looney-tunes/show-looney-tunes.jpg",
+    banner: "/desenhos/looney-tunes/show-banner-looney-tunes.jpg",
     details: { creator: "Vários", year: "1930–presente", episodes: "1000+" },
   },
   {
@@ -1104,12 +1105,12 @@ export const showsData = [
     description:
       "Rex é um adolescente que pode criar máquinas a partir de seu corpo. Ele trabalha para uma organização que combate mutantes perigosos chamados E.V.O.s.",
     characters: [
-      { name: "Rex Salazar", query: "Rex Salazar from Generator Rex" },
-      { name: "Agente Seis", query: "Agent Six from Generator Rex" },
-      { name: "Bobo Haha", query: "Bobo Haha from Generator Rex" },
+      { name: "Rex Salazar", query: "Rex Salazar from Generator Rex", char: "/desenhos/rex/char-rex.png" },
+      { name: "Agente Seis", query: "Agent Six from Generator Rex", char: "/desenhos/rex/char-agente-seis.png" },
+      { name: "Bobo Haha", query: "Bobo Haha from Generator Rex", char: "/desenhos/rex/char-bobo-haha.png" },
     ],
-    image: "/desenhos/show-rex.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/rex/show-rex.jpg",
+    banner: "/desenhos/rex/show-banner-rex.jpg",
     details: { creator: "Man of Action", year: "2010–2013", episodes: "60" },
   },
   {
@@ -1120,12 +1121,14 @@ export const showsData = [
     description:
       "Um grupo de amigos encontra cartas que caem do céu e se envolvem em um jogo de batalha usando criaturas místicas chamadas Bakugan.",
     characters: [
-      { name: "Dan Kuso", query: "Dan Kuso from Bakugan" },
-      { name: "Drago", query: "Drago from Bakugan" },
-      { name: "Shun Kazami", query: "Shun Kazami from Bakugan" },
+      { name: "Dan Kuso", query: "Dan Kuso from Bakugan", char: "/desenhos/bakugan/char-dan-kuso.png" },
+      { name: "Shun Kazami", query: "Shun Kazami from Bakugan", char: "/desenhos/bakugan/char-shun-kazami.png" },
+      { name: "Marucho Marukura", query: "Drago from Bakugan", char: "/desenhos/bakugan/char-marucho-marukura.png" },
+      { name: "Runo Misaki", query: "Drago from Bakugan", char: "/desenhos/bakugan/char-runo-misaki.png" },
+      { name: "O Mascarado", query: "Drago from Bakugan", char: "/desenhos/bakugan/char-mascarado.png" },
     ],
-    image: "/desenhos/show-bakugan.jpg",
-    banner: "/desenhos",
+    image: "/desenhos/bakugan/show-bakugan.jpg",
+    banner: "/desenhos/bakugan/show-banner-bakugan.jpg",
     details: { creator: "Atsushi Maekawa", year: "2007–2012", episodes: "189" },
   },
 ];
