@@ -1,12 +1,12 @@
-"use client"
-import Header from "../components/layout/header"
-import Footer from "../components/layout/footer"
-import CharacterCarousel from "../components/character-carousel"
-import BannerSlider from "../components/banner-slider"
-import FeaturedShows from "../components/featured-shows"
-import NewEpisodes from "../components/new-episodes"
-import DownloadApps from "../components/download-apps"
-import NewsGallery from "../components/news-gallery"
+"use client";
+import Header from "../components/layout/header";
+import Footer from "../components/layout/footer";
+import CharacterCarousel from "../components/character-carousel";
+import BannerSlider from "../components/banner-slider";
+import FeaturedShows from "../components/featured-shows";
+import NewEpisodes from "../components/new-episodes";
+import DownloadApps from "../components/download-apps";
+import NewsGallery from "../components/news-gallery";
 
 export default function Page() {
   return (
@@ -22,5 +22,5 @@ export default function Page() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

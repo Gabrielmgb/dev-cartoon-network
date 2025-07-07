@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import Link from "next/link"
-import { Play } from "lucide-react"
-import type { Video } from "@/lib/types"
+import Image from "next/image";
+import Link from "next/link";
+import { Play } from "lucide-react";
+import type { Video } from "@/lib/types";
 
 export default function VideoCard({ video }: { video: Video }) {
   return (
@@ -28,9 +28,13 @@ export default function VideoCard({ video }: { video: Video }) {
         </div>
       </div>
       <div className="p-4 flex-grow">
-        <p className="text-xs text-gray-500 uppercase tracking-wider">{video.show}</p>
-        <h3 className="font-bold text-md text-gray-800 group-hover:text-red-600 transition-colors">{video.title}</h3>
+        <p className="text-xs text-gray-500 uppercase tracking-wider">
+          {video.show}
+        </p>
+        <h3 className="font-bold text-md text-gray-800 group-hover:text-red-600 transition-colors">
+          {video.title}
+        </h3>
       </div>
     </Link>
-  )
+  );
 }

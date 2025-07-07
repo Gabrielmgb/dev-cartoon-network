@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import { Menu, X } from "lucide-react"
-import { navItems } from "@/lib/data"
-import CNLogo from "@/components/cn-logo"
-import { Button } from "@/components/ui/button"
+import { useState } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import { navItems } from "@/lib/data";
+import CNLogo from "@/components/cn-logo";
+import { Button } from "@/components/ui/button";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="bg-black text-white sticky top-0 z-50">
@@ -24,15 +24,26 @@ export default function Header() {
               className="flex flex-col items-center space-y-1 group transition-transform duration-200 hover:scale-110"
             >
               <item.icon className="h-8 w-8 text-white group-hover:text-yellow-400 transition-colors" />
-              <span className="text-xs font-bold tracking-wider uppercase">{item.label}</span>
+              <span className="text-xs font-bold tracking-wider uppercase">
+                {item.label}
+              </span>
             </Link>
           ))}
         </nav>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
-            {isMenuOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? (
+              <X className="h-8 w-8" />
+            ) : (
+              <Menu className="h-8 w-8" />
+            )}
           </Button>
         </div>
       </div>
@@ -49,12 +60,14 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 <item.icon className="h-6 w-6 text-yellow-400" />
-                <span className="text-sm font-bold tracking-wider uppercase">{item.label}</span>
+                <span className="text-sm font-bold tracking-wider uppercase">
+                  {item.label}
+                </span>
               </Link>
             ))}
           </div>
         </nav>
       )}
     </header>
-  )
+  );
 }

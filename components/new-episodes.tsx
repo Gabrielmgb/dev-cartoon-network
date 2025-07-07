@@ -1,9 +1,9 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { SectionTitle } from "@/components/ui/section-title"
-import { newEpisodes } from "@/lib/data"
-import { PlayCircle } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { SectionTitle } from "@/components/ui/section-title";
+import { newEpisodes } from "@/lib/data";
+import { PlayCircle } from "lucide-react";
 
 export default function NewEpisodes() {
   return (
@@ -26,10 +26,15 @@ export default function NewEpisodes() {
             </div>
             <div className="flex-grow">
               <p className="text-sm text-gray-500">{episode.show}</p>
-              <h3 className="text-lg font-bold text-gray-800">{episode.title}</h3>
+              <h3 className="text-lg font-bold text-gray-800">
+                {episode.title}
+              </h3>
             </div>
             <div className="flex-shrink-0 w-full sm:w-auto">
-              <Button asChild className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600">
+              <Button
+                asChild
+                className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600"
+              >
                 <Link href={episode.href} target="_blank">
                   <PlayCircle className="mr-2 h-5 w-5" />
                   Assistir Agora
@@ -40,5 +45,5 @@ export default function NewEpisodes() {
         ))}
       </div>
     </section>
-  )
+  );
 }

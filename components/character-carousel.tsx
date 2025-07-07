@@ -13,14 +13,15 @@ import { characters } from "@/lib/data";
 export default function CharacterCarousel() {
   return (
     <section>
-      <Carousel 
-      opts={{ align: "start", 
-              loop: true, 
-              dragFree:true, //false para usar junto com "KeepsSnaps"
-              containScroll: "trimSnaps" 
-            }} // ou "keepSnaps" se quiser que pare nos limites
-       
-      className="w-full">
+      <Carousel
+        opts={{
+          align: "start",
+          loop: true,
+          dragFree: true, //false para usar junto com "KeepsSnaps"
+          containScroll: "trimSnaps",
+        }} // ou "keepSnaps" se quiser que pare nos limites
+        className="w-full"
+      >
         <CarouselContent className="-ml-1 py-3">
           {characters.map((char, index) => (
             <CarouselItem

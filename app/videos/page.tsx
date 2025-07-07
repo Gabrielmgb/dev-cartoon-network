@@ -1,6 +1,6 @@
-import Header from "@/components/layout/header"
-import Footer from "@/components/layout/footer"
-import VideosClientPage from "./videos-client-page"
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
+import VideosClientPage from "./videos-client-page";
 
 export default function VideosPage() {
   return (
@@ -8,12 +8,16 @@ export default function VideosPage() {
       <Header />
       <main className="container mx-auto px-4 py-8 flex-grow">
         <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">Galeria de Vídeos</h1>
-          <p className="text-lg text-gray-600 mt-2">Relembre os melhores momentos dos seus desenhos favoritos!</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
+            Galeria de Vídeos
+          </h1>
+          <p className="text-lg text-gray-600 mt-2">
+            Relembre os melhores momentos dos seus desenhos favoritos!
+          </p>
         </div>
         <VideosClientPage />
       </main>
       <Footer />
     </div>
-  )
+  );
 }

@@ -1,28 +1,28 @@
-"use client"
+"use client";
 
-import { useState, useMemo } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { gamesData } from "@/lib/data"
-import GameCard from "./game-card"
-import { Button } from "@/components/ui/button"
+import { useState, useMemo } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { gamesData } from "@/lib/data";
+import GameCard from "./game-card";
+import { Button } from "@/components/ui/button";
 
 export default function GamesClientPage() {
-  const [filter, setFilter] = useState("Todos")
-  const featuredGame = gamesData[0]
-  const otherGames = gamesData.slice(1)
+  const [filter, setFilter] = useState("Todos");
+  const featuredGame = gamesData[0];
+  const otherGames = gamesData.slice(1);
 
   const categories = useMemo(() => {
-    const allCategories = new Set(otherGames.map((game) => game.category))
-    return ["Todos", ...Array.from(allCategories)]
-  }, [otherGames])
+    const allCategories = new Set(otherGames.map((game) => game.category));
+    return ["Todos", ...Array.from(allCategories)];
+  }, [otherGames]);
 
   const filteredGames = useMemo(() => {
     if (filter === "Todos") {
-      return otherGames
+      return otherGames;
     }
-    return otherGames.filter((game) => game.category === filter)
-  }, [filter, otherGames])
+    return otherGames.filter((game) => game.category === filter);
+  }, [filter, otherGames]);
 
   return (
     <div className="space-y-12">
@@ -30,16 +30,24 @@ export default function GamesClientPage() {
       <section className="bg-black text-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
         <div className="md:w-1/2 relative min-h-[250px]">
           <Image
-            src={`/dev-cartoon-network/jogos/game-1.jpg?width=600&height=400&query=${encodeURIComponent(featuredGame.imageQuery)}`}
+            src={`/dev-cartoon-network/jogos/game-1.jpg?width=600&height=400&query=${encodeURIComponent(
+              featuredGame.imageQuery
+            )}`}
             alt={`Imagem de ${featuredGame.title}`}
             fill
             className="object-cover object-top"
           />
         </div>
         <div className="md:w-1/2 p-8 flex flex-col justify-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-yellow-300">{featuredGame.title}</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-yellow-300">
+            {featuredGame.title}
+          </h2>
           <p className="mt-2 mb-6 text-gray-300">{featuredGame.description}</p>
-          <Button asChild size="lg" className="bg-yellow-400 text-black hover:bg-yellow-500 font-bold self-start">
+          <Button
+            asChild
+            size="lg"
+            className="bg-yellow-400 text-black hover:bg-yellow-500 font-bold self-start"
+          >
             <Link href={featuredGame.href}>JOGAR AGORA</Link>
           </Button>
         </div>
@@ -67,5 +75,5 @@ export default function GamesClientPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

@@ -1,16 +1,23 @@
-import Image from "next/image"
-import Link from "next/link"
-import Header from "@/components/layout/header"
-import Footer from "@/components/layout/footer"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { ligaToonTeams } from "@/lib/data"
+import Image from "next/image";
+import Link from "next/link";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { ligaToonTeams } from "@/lib/data";
 
 export default function LigaToonPage() {
   const leaderboard = [...ligaToonTeams]
     .map((team, i) => ({ ...team, points: (4 - i) * 3, played: 3 }))
-    .sort((a, b) => b.points - a.points)
+    .sort((a, b) => b.points - a.points);
 
   return (
     <div className="bg-gray-100 min-h-screen font-sans flex flex-col">
@@ -27,10 +34,23 @@ export default function LigaToonPage() {
               height={150}
               className="mx-auto mb-4 drop-shadow-lg"
             />
-            <h1 className="text-5xl md:text-7xl font-extrabold uppercase tracking-wider drop-shadow-2xl">Liga Toon</h1>
-            <p className="mt-4 text-xl max-w-2xl mx-auto">O maior campeonato de futebol do universo dos desenhos!</p>
-            <Button asChild size="lg" className="mt-8 bg-yellow-400 text-black hover:bg-yellow-500 font-bold text-lg">
-              <Link href="https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR" target="_blank">Jogue Copa Toon Agora!</Link>
+            <h1 className="text-5xl md:text-7xl font-extrabold uppercase tracking-wider drop-shadow-2xl">
+              Liga Toon
+            </h1>
+            <p className="mt-4 text-xl max-w-2xl mx-auto">
+              O maior campeonato de futebol do universo dos desenhos!
+            </p>
+            <Button
+              asChild
+              size="lg"
+              className="mt-8 bg-yellow-400 text-black hover:bg-yellow-500 font-bold text-lg"
+            >
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.turner.tooncup&hl=pt_BR"
+                target="_blank"
+              >
+                Jogue Copa Toon Agora!
+              </Link>
             </Button>
           </div>
         </section>
@@ -43,7 +63,10 @@ export default function LigaToonPage() {
               <h2 className="text-3xl font-bold mb-6">Times em Destaque</h2>
               <div className="grid sm:grid-cols-2 gap-6">
                 {ligaToonTeams.map((team) => (
-                  <Card key={team.name} className="text-center hover:shadow-lg transition-shadow">
+                  <Card
+                    key={team.name}
+                    className="text-center hover:shadow-lg transition-shadow"
+                  >
                     <CardContent className="p-6">
                       <Image
                         src={team.image}
@@ -53,7 +76,9 @@ export default function LigaToonPage() {
                         className="mx-auto mb-4"
                       />
                       <h3 className="text-xl font-bold">{team.name}</h3>
-                      <p className="text-sm text-gray-500">Capitão: {team.captain}</p>
+                      <p className="text-sm text-gray-500">
+                        Capitão: {team.captain}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}
@@ -78,9 +103,13 @@ export default function LigaToonPage() {
                     <TableBody>
                       {leaderboard.map((team, index) => (
                         <TableRow key={team.name}>
-                          <TableCell className="font-medium">{index + 1}</TableCell>
+                          <TableCell className="font-medium">
+                            {index + 1}
+                          </TableCell>
                           <TableCell>{team.name}</TableCell>
-                          <TableCell className="text-right">{team.points}</TableCell>
+                          <TableCell className="text-right">
+                            {team.points}
+                          </TableCell>
                         </TableRow>
                       ))}
                     </TableBody>
@@ -93,5 +122,5 @@ export default function LigaToonPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

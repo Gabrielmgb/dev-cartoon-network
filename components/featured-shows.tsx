@@ -1,8 +1,8 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Card, CardContent } from "@/components/ui/card"
-import { SectionTitle } from "@/components/ui/section-title"
-import { featuredShows } from "@/lib/data"
+import Image from "next/image";
+import Link from "next/link";
+import { Card, CardContent } from "@/components/ui/card";
+import { SectionTitle } from "@/components/ui/section-title";
+import { featuredShows } from "@/lib/data";
 
 export default function FeaturedShows() {
   return (
@@ -31,5 +31,5 @@ export default function FeaturedShows() {
         ))}
       </div>
     </section>
-  )
+  );
 }

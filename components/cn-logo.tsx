@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 
 const CNLogo = () => (
   <Link href="/" aria-label="Cartoon Network Home">
@@ -11,6 +11,6 @@ const CNLogo = () => (
       className="cursor-pointer"
     />
   </Link>
-)
+);
 
-export default CNLogo
+export default CNLogo;

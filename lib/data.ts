@@ -598,8 +598,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/hora-de-aventura/char-princesa-de-fogo.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/hora-de-aventura/show-hora-de-aventura.jpg",
-    banner: "/dev-cartoon-network/desenhos/hora-de-aventura/show-banner-hora-de-aventura.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/hora-de-aventura/show-hora-de-aventura.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/hora-de-aventura/show-banner-hora-de-aventura.jpg",
     details: { creator: "Pendleton Ward", year: "2010–2018", episodes: "283" },
   },
   {
@@ -631,8 +633,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/steven-universo/char-perola.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/steven-universo/show-steven-universo.jpg",
-    banner: "/dev-cartoon-network/desenhos/steven-universo/show-banner-steven-universo.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/steven-universo/show-steven-universo.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/steven-universo/show-banner-steven-universo.jpg",
     details: { creator: "Rebecca Sugar", year: "2013–2019", episodes: "160" },
   },
   {
@@ -670,7 +674,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/jovens-titas/show-jovens-titas.jpg",
-    banner: "/dev-cartoon-network/desenhos/jovens-titas/show-banner-jovens-titas.jpeg",
+    banner:
+      "/dev-cartoon-network/desenhos/jovens-titas/show-banner-jovens-titas.jpeg",
     details: {
       creator: "Aaron Horvath, Michael Jelenic",
       year: "2013–presente",
@@ -749,11 +754,11 @@ export const showsData = [
         query: "saltitão regular show",
         char: "/dev-cartoon-network/desenhos/apenas-um-show/char-saltitao.png",
       },
-      
-      
     ],
-    image: "/dev-cartoon-network/desenhos/apenas-um-show/show-apenas-um-show.jpg",
-    banner: "/dev-cartoon-network/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/apenas-um-show/show-apenas-um-show.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
     details: { creator: "J. G. Quintel", year: "2010–2017", episodes: "261" },
   },
   {
@@ -817,8 +822,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/superpoderosas/char-macaco-louco.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/superpoderosas/show-superpoderosas.jpg",
-    banner: "/dev-cartoon-network/desenhos/superpoderosas/show-banner-superpoderosas.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/superpoderosas/show-superpoderosas.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/superpoderosas/show-banner-superpoderosas.jpg",
     details: { creator: "Craig McCracken", year: "1998–2005", episodes: "78" },
   },
   {
@@ -873,7 +880,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/samurai-jack/show-samurai-jack.jpg",
-    banner: "/dev-cartoon-network/desenhos/samurai-jack/show-banner-samurai-jack.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/samurai-jack/show-banner-samurai-jack.jpg",
     details: {
       creator: "Genndy Tartakovsky",
       year: "2001–2017",
@@ -895,7 +903,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/johnny-bravo/show-johnny-bravo.jpg",
-    banner: "/dev-cartoon-network/desenhos/johnny-bravo/show-banner-johnny-bravo.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/johnny-bravo/show-banner-johnny-bravo.jpg",
     details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
   },
   {
@@ -1058,7 +1067,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/mansao-foster/show-mansao-foster.jpg",
-    banner: "/dev-cartoon-network/desenhos/mansao-foster/show-banner-mansao-foster.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/mansao-foster/show-banner-mansao-foster.jpg",
     details: { creator: "Craig McCracken", year: "2004–2009", episodes: "79" },
   },
   {
@@ -1146,7 +1156,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/trem-infinito/show-trem-infinito.jpg",
-    banner: "/dev-cartoon-network/desenhos/trem-infinito/show-banner-trem-infinito.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/trem-infinito/show-banner-trem-infinito.jpg",
     details: { creator: "Owen Dennis", year: "2019–2021", episodes: "40" },
   },
   {
@@ -1236,7 +1247,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/vaca-e-frango/show-vaca-e-frango.jpg",
-    banner: "/dev-cartoon-network/desenhos/vaca-e-frango/show-banner-vaca-e-frango.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/vaca-e-frango/show-banner-vaca-e-frango.jpg",
     details: { creator: "David Feiss", year: "1997–1999", episodes: "52" },
   },
   {
@@ -1264,7 +1276,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/billy-e-mandy/show-billy-e-mandy.jpg",
-    banner: "/dev-cartoon-network/desenhos/billy-e-mandy/show-banner-billy-e-mandy.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/billy-e-mandy/show-banner-billy-e-mandy.jpg",
     details: { creator: "Maxwell Atoms", year: "2001–2007", episodes: "78" },
   },
   {
@@ -1286,8 +1299,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/meu-amigo-da-escola/char-jake-macaco.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/meu-amigo-da-escola/show-meu-amigo-da-escola.jpg",
-    banner: "/dev-cartoon-network/desenhos/meu-amigo-da-escola/show-banner-meu-amigo-da-escola.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/meu-amigo-da-escola/show-meu-amigo-da-escola.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/meu-amigo-da-escola/show-banner-meu-amigo-da-escola.jpg",
     details: {
       creator: "Tim Cahill, Julie McNally Cahill",
       year: "2005–2008",
@@ -1346,8 +1361,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/irmao-do-jorel/char-vovo-juju.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/irmao-do-jorel/show-irmao-do-jorel.jpg",
-    banner: "/dev-cartoon-network/desenhos/irmao-do-jorel/show-banner-irmao-do-jorel.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/irmao-do-jorel/show-irmao-do-jorel.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/irmao-do-jorel/show-banner-irmao-do-jorel.jpg",
     details: {
       creator: "Juliano Enrico",
       year: "2014–presente",
@@ -1389,7 +1406,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/scooby-doo/show-scooby-doo.jpg",
-    banner: "/dev-cartoon-network/desenhos/scooby-doo/show-banner-scooby-doo.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/scooby-doo/show-banner-scooby-doo.jpg",
     details: {
       creator: "Joe Ruby, Ken Spears",
       year: "1969–1970",
@@ -1451,7 +1469,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/looney-tunes/show-looney-tunes.jpg",
-    banner: "/dev-cartoon-network/desenhos/looney-tunes/show-banner-looney-tunes.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/looney-tunes/show-banner-looney-tunes.jpg",
     details: { creator: "Vários", year: "1930–presente", episodes: "1000+" },
   },
   {
@@ -1530,9 +1549,21 @@ export const showsData = [
     description:
       "Três amigos trapaceiros vivem criando planos malucos para conseguir dinheiro e comprar balas de caramelo no subúrbio onde moram.",
     characters: [
-      { name: "Du", query: "ed character", char: "/desenhos/ed-edd-eddy/char-du.png" },
-      { name: "Dudu", query: "edd character", char: "/desenhos/ed-edd-eddy/char-dudu.png" },
-      { name: "Edu", query: "eddy character", char: "/desenhos/ed-edd-eddy/char-edu.png" },
+      {
+        name: "Du",
+        query: "ed character",
+        char: "/desenhos/ed-edd-eddy/char-du.png",
+      },
+      {
+        name: "Dudu",
+        query: "edd character",
+        char: "/desenhos/ed-edd-eddy/char-dudu.png",
+      },
+      {
+        name: "Edu",
+        query: "eddy character",
+        char: "/desenhos/ed-edd-eddy/char-edu.png",
+      },
     ],
     image: "/desenhos/ed-edd-eddy/show-ed-edd-eddy.jpg",
     banner: "/desenhos/ed-edd-eddy/show-banner-ed-edd-eddy.jpg",
@@ -1546,16 +1577,27 @@ export const showsData = [
     description:
       "Máximo é um sujeito musculoso, convencido e desajeitado que vive tentando conquistar mulheres — sempre sem sucesso. Com ajuda de seus amigos Babão e Bum de Fora, ele se envolve nas mais absurdas e engraçadas situações, misturando ação, comédia e muita confusão.",
     characters: [
-      { name: "Máximo", query: "maximo character", char: "/desenhos/eu-sou-o-maximo/char-maximo.png" },
-      { name: "Babão", query: "baboon character", char: "/desenhos/eu-sou-o-maximo/char-babao.png" },
-      { name: "Bum de Fora", query: "the Red Guy character", char: "/desenhos/eu-sou-o-maximo/char-bum-de-fora.png" },
+      {
+        name: "Máximo",
+        query: "maximo character",
+        char: "/desenhos/eu-sou-o-maximo/char-maximo.png",
+      },
+      {
+        name: "Babão",
+        query: "baboon character",
+        char: "/desenhos/eu-sou-o-maximo/char-babao.png",
+      },
+      {
+        name: "Bum de Fora",
+        query: "the Red Guy character",
+        char: "/desenhos/eu-sou-o-maximo/char-bum-de-fora.png",
+      },
     ],
     image: "/desenhos/eu-sou-o-maximo/show-eu-sou-o-maximo.jpg",
     banner: "/desenhos/eu-sou-o-maximo/show-banner-eu-sou-o-maximo.jpg",
-    details: { creator: "Van Partible", year: "1997–2004", 
-    episodes: "67" },
+    details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
   },
-  
+
   {
     id: "flapjack",
     name: "As Terríveis Aventuras de Flapjack",
@@ -1564,9 +1606,21 @@ export const showsData = [
     description:
       "Flapjack é um garoto criado por uma baleia falante, e junto com o Capitão Falange, embarca em aventuras perigosas em busca da Ilha Açucarada.",
     characters: [
-      { name: "Flapjack", query: "flapjack character", char: "/desenhos/flapjack/char-flapjack.png" },
-      { name: "Capitão Falange", query: "captain knuckles character", char: "/desenhos/flapjack/char-falange.png" },
-      { name: "Bolha", query: "bubbie character", char: "/desenhos/flapjack/char-bolha.png" },
+      {
+        name: "Flapjack",
+        query: "flapjack character",
+        char: "/desenhos/flapjack/char-flapjack.png",
+      },
+      {
+        name: "Capitão Falange",
+        query: "captain knuckles character",
+        char: "/desenhos/flapjack/char-falange.png",
+      },
+      {
+        name: "Bolha",
+        query: "bubbie character",
+        char: "/desenhos/flapjack/char-bolha.png",
+      },
     ],
     image: "/desenhos/flapjack/show-flapjack.jpg",
     banner: "/desenhos/flapjack/show-banner-flapjack.jpg",
@@ -1580,8 +1634,16 @@ export const showsData = [
     description:
       "Andy e seu excêntrico esquilo falante Rodney vivem diversas confusões enquanto tentam provar que sua amizade é inquebrável.",
     characters: [
-      { name: "Andy", query: "andy squirrel boy", char: "/desenhos/squirrel-boy/char-andy.png" },
-      { name: "Rodney", query: "rodney squirrel boy", char: "/desenhos/squirrel-boy/char-rodney.png" },
+      {
+        name: "Andy",
+        query: "andy squirrel boy",
+        char: "/desenhos/squirrel-boy/char-andy.png",
+      },
+      {
+        name: "Rodney",
+        query: "rodney squirrel boy",
+        char: "/desenhos/squirrel-boy/char-rodney.png",
+      },
     ],
     image: "/desenhos/squirrel-boy/show-squirrel-boy.jpg",
     banner: "/desenhos/squirrel-boy/show-banner-squirrel-boy.jpg",
@@ -1595,9 +1657,21 @@ export const showsData = [
     description:
       "Um robô, um soldado e um órfão viajam no tempo para corrigir eventos históricos que saíram errado, garantindo o futuro da humanidade.",
     characters: [
-      { name: "Otto", query: "otto time squad", char: "/desenhos/time-squad/char-otto.png" },
-      { name: "Buck Tuddrussel", query: "buck time squad", char: "/desenhos/time-squad/char-buck.png" },
-      { name: "Larry", query: "larry time squad", char: "/desenhos/time-squad/char-larry.png" },
+      {
+        name: "Otto",
+        query: "otto time squad",
+        char: "/desenhos/time-squad/char-otto.png",
+      },
+      {
+        name: "Buck Tuddrussel",
+        query: "buck time squad",
+        char: "/desenhos/time-squad/char-buck.png",
+      },
+      {
+        name: "Larry",
+        query: "larry time squad",
+        char: "/desenhos/time-squad/char-larry.png",
+      },
     ],
     image: "/desenhos/time-squad/show-time-squad.jpg",
     banner: "/desenhos/time-squad/show-banner-time-squad.jpg",
@@ -1611,14 +1685,34 @@ export const showsData = [
     description:
       "Os jovens heróis da DC trabalham juntos como uma equipe secreta para missões perigosas, enquanto enfrentam dilemas pessoais e amadurecimento.",
     characters: [
-      { name: "Robin", query: "robin young justice", char: "/desenhos/justica-jovem/char-robin.png" },
-      { name: "Kid Flash", query: "kid flash young justice", char: "/desenhos/justica-jovem/char-kid-flash.png" },
-      { name: "Miss Marte", query: "miss martian young justice", char: "/desenhos/justica-jovem/char-miss-marte.png" },
-      { name: "Superboy", query: "superboy young justice", char: "/desenhos/justica-jovem/char-superboy.png" },
+      {
+        name: "Robin",
+        query: "robin young justice",
+        char: "/desenhos/justica-jovem/char-robin.png",
+      },
+      {
+        name: "Kid Flash",
+        query: "kid flash young justice",
+        char: "/desenhos/justica-jovem/char-kid-flash.png",
+      },
+      {
+        name: "Miss Marte",
+        query: "miss martian young justice",
+        char: "/desenhos/justica-jovem/char-miss-marte.png",
+      },
+      {
+        name: "Superboy",
+        query: "superboy young justice",
+        char: "/desenhos/justica-jovem/char-superboy.png",
+      },
     ],
     image: "/desenhos/justica-jovem/show-justica-jovem.jpg",
     banner: "/desenhos/justica-jovem/show-banner-justica-jovem.jpg",
-    details: { creator: "Greg Weisman, Brandon Vietti", year: "2010–presente", episodes: "98+" },
+    details: {
+      creator: "Greg Weisman, Brandon Vietti",
+      year: "2010–presente",
+      episodes: "98+",
+    },
   },
   {
     id: "the_batman",
@@ -1628,13 +1722,29 @@ export const showsData = [
     description:
       "Nesta versão mais jovem do Cavaleiro das Trevas, Bruce Wayne ainda está se estabelecendo como Batman enquanto enfrenta vilões clássicos de Gotham.",
     characters: [
-      { name: "Batman", query: "batman the batman animated", char: "/desenhos/the-batman/char-batman.png" },
-      { name: "Coringa", query: "joker the batman animated", char: "/desenhos/the-batman/char-coringa.png" },
-      { name: "Robin", query: "robin the batman animated", char: "/desenhos/the-batman/char-robin.png" },
+      {
+        name: "Batman",
+        query: "batman the batman animated",
+        char: "/desenhos/the-batman/char-batman.png",
+      },
+      {
+        name: "Coringa",
+        query: "joker the batman animated",
+        char: "/desenhos/the-batman/char-coringa.png",
+      },
+      {
+        name: "Robin",
+        query: "robin the batman animated",
+        char: "/desenhos/the-batman/char-robin.png",
+      },
     ],
     image: "/desenhos/the-batman/show-the-batman.jpg",
     banner: "/desenhos/the-batman/show-banner-the-batman.jpg",
-    details: { creator: "Michael Goguen, Duane Capizzi", year: "2004–2008", episodes: "65" },
+    details: {
+      creator: "Michael Goguen, Duane Capizzi",
+      year: "2004–2008",
+      episodes: "65",
+    },
   },
   {
     id: "apple_onion",
@@ -1644,8 +1754,16 @@ export const showsData = [
     description:
       "Maçã e Cebola são dois melhores amigos recém-chegados à cidade que vivem situações engraçadas e peculiares enquanto aprendem sobre amizade e comunidade.",
     characters: [
-      { name: "Maçã", query: "apple apple and onion", char: "/desenhos/maca-cebola/char-maca.png" },
-      { name: "Cebola", query: "onion apple and onion", char: "/desenhos/maca-cebola/char-cebola.png" },
+      {
+        name: "Maçã",
+        query: "apple apple and onion",
+        char: "/desenhos/maca-cebola/char-maca.png",
+      },
+      {
+        name: "Cebola",
+        query: "onion apple and onion",
+        char: "/desenhos/maca-cebola/char-cebola.png",
+      },
     ],
     image: "/desenhos/maca-cebola/show-maca-cebola.jpg",
     banner: "/desenhos/maca-cebola/show-banner-maca-cebola.jpg",
@@ -1659,9 +1777,21 @@ export const showsData = [
     description:
       "Inspirado na banda japonesa Puffy AmiYumi, o desenho mostra Ami e Yumi em aventuras malucas enquanto fazem turnês pelo mundo com seu produtor Kaz.",
     characters: [
-      { name: "Ami", query: "ami puffy amiyumi", char: "/desenhos/hi-hi-puffy/char-ami.png" },
-      { name: "Yumi", query: "yumi puffy amiyumi", char: "/desenhos/hi-hi-puffy/char-yumi.png" },
-      { name: "Kaz", query: "kaz puffy amiyumi", char: "/desenhos/hi-hi-puffy/char-kaz.png" },
+      {
+        name: "Ami",
+        query: "ami puffy amiyumi",
+        char: "/desenhos/hi-hi-puffy/char-ami.png",
+      },
+      {
+        name: "Yumi",
+        query: "yumi puffy amiyumi",
+        char: "/desenhos/hi-hi-puffy/char-yumi.png",
+      },
+      {
+        name: "Kaz",
+        query: "kaz puffy amiyumi",
+        char: "/desenhos/hi-hi-puffy/char-kaz.png",
+      },
     ],
     image: "/desenhos/hi-hi-puffy/show-hi-hi-puffy.jpg",
     banner: "/desenhos/hi-hi-puffy/show-banner-hi-hi-puffy.jpg",
@@ -1675,15 +1805,26 @@ export const showsData = [
     description:
       "Mike, uma garota moderna da cidade, vai morar em uma ilha remota onde vive aventuras com os nativos Lu e Og, enfrentando o choque cultural com humor.",
     characters: [
-      { name: "Mike", query: "mike mike lu og", char: "/desenhos/mike-lu-og/char-mike.png" },
-      { name: "Lu", query: "lu mike lu og", char: "/desenhos/mike-lu-og/char-lu.png" },
-      { name: "Og", query: "og mike lu og", char: "/desenhos/mike-lu-og/char-og.png" },
+      {
+        name: "Mike",
+        query: "mike mike lu og",
+        char: "/desenhos/mike-lu-og/char-mike.png",
+      },
+      {
+        name: "Lu",
+        query: "lu mike lu og",
+        char: "/desenhos/mike-lu-og/char-lu.png",
+      },
+      {
+        name: "Og",
+        query: "og mike lu og",
+        char: "/desenhos/mike-lu-og/char-og.png",
+      },
     ],
     image: "/desenhos/mike-lu-og/show-mike-lu-og.jpg",
     banner: "/desenhos/mike-lu-og/show-banner-mike-lu-og.jpg",
     details: { creator: "Mikhail Shindel", year: "1999–2001", episodes: "26" },
-  }
-  
+  },
 ];
 
 export const gamesData = [

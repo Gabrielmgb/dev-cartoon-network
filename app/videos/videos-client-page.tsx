@@ -1,24 +1,24 @@
-"use client"
+"use client";
 
-import { useState, useMemo } from "react"
-import { videosData } from "@/lib/data"
-import VideoCard from "./video-card"
-import { Button } from "@/components/ui/button"
+import { useState, useMemo } from "react";
+import { videosData } from "@/lib/data";
+import VideoCard from "./video-card";
+import { Button } from "@/components/ui/button";
 
 export default function VideosClientPage() {
-  const [filter, setFilter] = useState("Todos")
+  const [filter, setFilter] = useState("Todos");
 
   const shows = useMemo(() => {
-    const allShows = new Set(videosData.map((video) => video.show))
-    return ["Todos", ...Array.from(allShows)]
-  }, [])
+    const allShows = new Set(videosData.map((video) => video.show));
+    return ["Todos", ...Array.from(allShows)];
+  }, []);
 
   const filteredVideos = useMemo(() => {
     if (filter === "Todos") {
-      return videosData
+      return videosData;
     }
-    return videosData.filter((video) => video.show === filter)
-  }, [filter])
+    return videosData.filter((video) => video.show === filter);
+  }, [filter]);
 
   return (
     <section>
@@ -41,5 +41,5 @@ export default function VideosClientPage() {
         ))}
       </div>
     </section>
-  )
+  );
 }
