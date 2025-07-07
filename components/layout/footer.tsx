@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex-shrink-0">
             <Image
-                          src="/home/logo-CN-3.png?width=200&height=200"
+                          src="/dev-certoon-network/home/logo-CN-3.png?width=200&height=200"
                           alt="Liga Toon Logo"
                           width={150}
                           height={150}
