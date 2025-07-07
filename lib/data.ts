@@ -1725,17 +1725,23 @@ export const showsData = [
       {
         name: "Batman",
         query: "batman the batman animated",
-        char: "/desenhos/the-batman/char-batman.png",
+        char: "/desenhos/the-batman/char-the-batman.png",
+      },
+
+      {
+        name: "Robin",
+        query: "robin the batman animated",
+        char: "/desenhos/the-batman/char-robin-the-batman.png",
+      },
+      {
+        name: "Batgirl",
+        query: "batgirl the batman animated",
+        char: "/desenhos/the-batman/char-batgirl.png",
       },
       {
         name: "Coringa",
         query: "joker the batman animated",
         char: "/desenhos/the-batman/char-coringa.png",
-      },
-      {
-        name: "Robin",
-        query: "robin the batman animated",
-        char: "/desenhos/the-batman/char-robin.png",
       },
     ],
     image: "/desenhos/the-batman/show-the-batman.jpg",
