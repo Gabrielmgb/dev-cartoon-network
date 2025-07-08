@@ -83,7 +83,6 @@ export default function CampeoesDoClimaPage() {
             </Button>
           </div>
         </section>
-        ß
       </main>
       <Footer />
     </div>

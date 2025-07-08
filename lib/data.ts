@@ -1575,7 +1575,7 @@ export const showsData = [
     posterQuery: "maximum vertical poster",
     bannerQuery: "maximum wide banner",
     description:
-      "Máximo é um sujeito musculoso, convencido e desajeitado que vive tentando conquistar mulheres. sempre sem sucesso. Com ajuda de seus amigos Babão e Bum de Fora, ele se envolve nas mais absurdas e engraçadas situações, misturando ação, comédia e muita confusão.",
+      "As aventuras de Máximo, uma doninha inteligente e habilidosa, e seu amigo Babão, um babuíno pouco inteligente, explorando situações cômicas e situações cotidianas.",
     characters: [
       {
         name: "Máximo",
@@ -2310,7 +2310,7 @@ export const appsData = [
   },
   {
     name: "DC Super Hero Girls Blitz",
-    image: "/aplicacoes/app-9.png",
+    image: "/dev-cartoon-network/aplicacoes/app-9.png",
     description:
       "Sou Barbara Gordon, a Batgirl! Junto com as DC Super Hero Girls, combatemos vilões e curtimos desafios pela cidade. Pule, dance e nos ajude a ganhar estrelas para melhorar nosso esconderijo secreto!",
     iconQuery: "ben 10 omnitrix app icon",
