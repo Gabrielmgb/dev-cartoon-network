@@ -115,11 +115,6 @@ export default function Footer() {
                 query: "ben 10 small icon",
                 image: "/dev-cartoon-network/home/character/char-ben.png",
               },
-              {
-                name: "Pardo",
-                query: "grizzly bear small icon",
-                image: "/dev-cartoon-network/home/character/char-pardo.png",
-              },
             ].map((char, index) => (
               <div
                 key={index}
@@ -142,7 +137,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             {/* Social Links */}
             <div>
-              <h4 className="font-bold text-yellow-400 mb-3">Siga-nos</h4>
+              <h4 className=" text-center md: font-bold text-yellow-400 mb-3">Siga-nos</h4>
               <div className="flex items-center space-x-4">
                 {socialLinks.map((social) => (
                   <Link
