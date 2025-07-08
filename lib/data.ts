@@ -8,7 +8,17 @@ import {
   Trophy,
   Sun,
   AppWindow,
-} from "lucide-react";
+  Twitter,
+  TwitterIcon as TikTok,
+  Mail,
+  Shield,
+  FileText,
+  HelpCircle,
+  Star,
+  Gift,
+  Calendar,
+  Users,
+} from "lucide-react"
 
 export const navItems = [
   { icon: Tv, label: "DESENHOS", href: "/desenhos" },
@@ -420,18 +430,61 @@ export const newsData = [
   },
 ];
 
-export const footerLinks = [
-  { label: "Termos de Uso", href: "#" },
-  { label: "Política de Privacidade", href: "#" },
-  { label: "Contacte-nos", href: "#" },
-  { label: "Informação de Imprensa", href: "#" },
-];
+export const footerSections = [
+  {
+    title: "Conteúdo",
+    links: [
+      { label: "Desenhos", href: "/desenhos", icon: Tv },
+      { label: "Jogos", href: "/jogos", icon: Gamepad2 },
+      { label: "Vídeos", href: "/videos", icon: Play },
+      { label: "Liga Toon", href: "/liga-toon", icon: Trophy },
+      { label: "Campeões do Clima", href: "/campeoes-do-clima", icon: Sun },
+      { label: "Aplicações", href: "/aplicacoes", icon: AppWindow },
+    ],
+  },
+  {
+    title: "Suporte",
+    links: [
+      { label: "Central de Ajuda", href: "#", icon: HelpCircle },
+      { label: "Contacte-nos", href: "#", icon: Mail },
+      { label: "Reportar Problema", href: "#", icon: Shield },
+      { label: "FAQ", href: "#", icon: FileText },
+    ],
+  },
+  {
+    title: "Comunidade",
+    links: [
+      { label: "Fã Clube", href: "#", icon: Star },
+      { label: "Concursos", href: "#", icon: Gift },
+      { label: "Eventos", href: "#", icon: Calendar },
+      { label: "Fórum", href: "#", icon: Users },
+    ],
+  },
+  {
+    title: "Empresa",
+    links: [
+      { label: "Sobre Nós", href: "#", icon: null },
+      { label: "Carreiras", href: "#", icon: null },
+      { label: "Imprensa", href: "#", icon: null },
+      { label: "Parceiros", href: "#", icon: null },
+    ],
+  },
+]
 
 export const socialLinks = [
-  { icon: Youtube, href: "#", name: "YouTube" },
-  { icon: Instagram, href: "#", name: "Instagram" },
-  { icon: Facebook, href: "#", name: "Facebook" },
-];
+  { icon: Youtube, href: "#", name: "YouTube", color: "hover:text-red-500" },
+  { icon: Instagram, href: "#", name: "Instagram", color: "hover:text-pink-500" },
+  { icon: Facebook, href: "#", name: "Facebook", color: "hover:text-blue-500" },
+  { icon: Twitter, href: "#", name: "Twitter", color: "hover:text-sky-500" },
+]
+
+export const legalLinks = [
+  { label: "Termos de Uso", href: "#" },
+  { label: "Política de Privacidade", href: "#" },
+  { label: "Política de Cookies", href: "#" },
+  { label: "Direitos Autorais", href: "#" },
+  { label: "Acessibilidade", href: "#" },
+]
 
 export const featuredShows = [
   {
