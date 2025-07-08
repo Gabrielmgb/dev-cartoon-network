@@ -26,7 +26,7 @@ export default function CharacterCarousel() {
           {characters.map((char, index) => (
             <CarouselItem
               key={index}
-              className="basis-1/5 sm:basis-1/6 md:basis-1/10 lg:basis-1/12 pl-6"
+              className="basis-1/4 sm:basis-1/6 md:basis-1/10 lg:basis-1/12 pl-6"
             >
               <div>
                 <div
