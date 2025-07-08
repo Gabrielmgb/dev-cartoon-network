@@ -343,6 +343,68 @@ export const characters = [
     query: "chris mclean from total drama island",
     image: "/dev-cartoon-network/home/character/char-chris-mclean.png",
   },
+
+  //New characters
+  {
+    name: "Máximo",
+    color: "bg-amber-900",
+    query: "maximo from sheesh! kaboom! cartoon network",
+    image: "/home/character/char-maximo.png",
+  },
+  {
+    name: "Flapjack",
+    color: "bg-sky-300",
+    query: "flapjack from the marvelous misadventures of flapjack",
+    image: "/home/character/char-flapjack.png",
+  },
+  {
+    name: "Rodney",
+    color: "bg-yellow-400",
+    query: "rodney from squirrel boy",
+    image: "/home/character/char-rodney.png",
+  },
+  {
+    name: "Buck Tuddrussel",
+    color: "bg-red-800",
+    query: "buck tuddrussel from time squad",
+    image: "/home/character/char-buck-tuddrussel.png",
+  },
+  {
+    name: "Superboy",
+    color: "bg-blue-700",
+    query: "superboy from young justice",
+    image: "/home/character/char-superboy.png",
+  },
+  {
+    name: "Batman",
+    color: "bg-gray-800",
+    query: "batman from the batman animated series",
+    image: "/home/character/char-the-batman.png",
+  },
+  {
+    name: "Maçã",
+    color: "bg-red-300",
+    query: "apple from apple and onion cartoon",
+    image: "/home/character/char-maca.png",
+  },
+  {
+    name: "Ami",
+    color: "bg-pink-400",
+    query: "ami from hi hi puffy amiyumi",
+    image: "/home/character/char-ami.png",
+  },
+  {
+    name: "Yumi",
+    color: "bg-purple-700",
+    query: "yumi from hi hi puffy amiyumi",
+    image: "/home/character/char-yumi.png",
+  },
+  {
+    name: "Mike",
+    color: "bg-orange-600",
+    query: "mike from mike lu and og",
+    image: "/home/character/char-mike.png",
+  },
 ];
 
 export const bannerData = [
