@@ -675,7 +675,7 @@ export const showsData = [
     ],
     image: "/dev-cartoon-network/desenhos/jovens-titas/show-jovens-titas.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/jovens-titas/show-banner-jovens-titas.jpeg",
+      "/dev-cartoon-network/desenhos/jovens-titas/show-banner-jovens-titas.jpg",
     details: {
       creator: "Aaron Horvath, Michael Jelenic",
       year: "2013–presente",
@@ -1185,7 +1185,7 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/clarencio/show-clarencio.jpg",
-    banner: "/dev-cartoon-network/desenhos/clarencio/show-banner-clarencio.jpg",
+    banner: "/dev-cartoon-network/desenhos/clarencio/show-banner-clarencio.jpeg",
     details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
   },
   // New shows added by user request
