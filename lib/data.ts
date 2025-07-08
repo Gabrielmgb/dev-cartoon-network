@@ -1566,7 +1566,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/du-dudu-edu/show-du-dudu-edu.jpg",
-    banner: "/dev-cartoon-network/desenhos/du-dudu-edu/show-banner-du-dudu-edu.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/du-dudu-edu/show-banner-du-dudu-edu.jpg",
     details: { creator: "Danny Antonucci", year: "1999–2009", episodes: "130" },
   },
   {
@@ -1594,7 +1595,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/eu-sou-maximo/show-eu-sou-maximo.png",
-    banner: "/dev-cartoon-network/desenhos/eu-sou-maximo/show-banner-eu-sou-maximo.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/eu-sou-maximo/show-banner-eu-sou-maximo.jpg",
     details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
   },
 
@@ -1645,8 +1647,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/char-rodney.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/show-andy-e-seu-esquilo.jpg",
-    banner: "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/show-banner-andy-e-seu-esquilo.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/show-andy-e-seu-esquilo.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/show-banner-andy-e-seu-esquilo.jpg",
     details: { creator: "Everett Peck", year: "2006–2007", episodes: "26" },
   },
   {
@@ -1673,8 +1677,10 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/esquadrao-do-tempo/char-larry.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/esquadrao-do-tempo/show-esquadrao-do-tempo.jpg",
-    banner: "/dev-cartoon-network/desenhos/esquadrao-do-tempo/show-banner-esquadrao-do-tempo.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/esquadrao-do-tempo/show-esquadrao-do-tempo.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/esquadrao-do-tempo/show-banner-esquadrao-do-tempo.jpg",
     details: { creator: "Dave Wasson", year: "2001–2003", episodes: "26" },
   },
   {
@@ -1717,7 +1723,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/justica-jovem/show-justica-jovem.jpg",
-    banner: "/dev-cartoon-network/desenhos/justica-jovem/show-banner-justica-jovem.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/justica-jovem/show-banner-justica-jovem.jpg",
     details: {
       creator: "Greg Weisman, Brandon Vietti",
       year: "2010–presente",
@@ -1755,7 +1762,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/the-batman/show-the-batman.jpg",
-    banner: "/dev-cartoon-network/desenhos/the-batman/show-banner-the-batman.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/the-batman/show-banner-the-batman.jpg",
     details: {
       creator: "Michael Goguen, Duane Capizzi",
       year: "2004–2008",
@@ -1782,7 +1790,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/maca-e-cebola/show-maca-e-cebola.jpg",
-    banner: "/dev-cartoon-network/desenhos/maca-e-cebola/show-banner-maca-e-cebola.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/maca-e-cebola/show-banner-maca-e-cebola.jpg",
     details: { creator: "George Gendi", year: "2018–2021", episodes: "76" },
   },
   {
@@ -1810,7 +1819,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/puffy-amiyumi/show-puffy-amiyumi.jpg",
-    banner: "/dev-cartoon-network/desenhos/puffy-amiyumi/show-banner-puffy-amiyumi.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/puffy-amiyumi/show-banner-puffy-amiyumi.jpg",
     details: { creator: "Sam Register", year: "2004–2006", episodes: "39" },
   },
   {
@@ -1838,7 +1848,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/mike-lu-og/show-mike-lu-og.jpg",
-    banner: "/dev-cartoon-network/desenhos/mike-lu-og/show-banner-mike-lu-og.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/mike-lu-og/show-banner-mike-lu-og.jpg",
     details: { creator: "Mikhail Shindel", year: "1999–2001", episodes: "26" },
   },
 ];
