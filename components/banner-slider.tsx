@@ -18,7 +18,7 @@ export default function BannerSlider() {
     <section>
       <Carousel
         opts={{ loop: true, dragFree: false, containScroll: "keepSnaps" }}
-        plugins={[Autoplay({ delay: 3200, stopOnInteraction: true })]}
+        plugins={[Autoplay({ delay: 4000, stopOnInteraction: true })]}
         className="w-full"
       >
         <CarouselContent>
