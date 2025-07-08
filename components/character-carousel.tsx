@@ -26,7 +26,7 @@ export default function CharacterCarousel() {
           {characters.map((char, index) => (
             <CarouselItem
               key={index}
-              className="basis-1/4 sm:basis-1/6 md:basis-1/10 lg:basis-1/12 pl-6"
+              className="basis-1/5 sm:basis-1/6 md:basis-1/10 lg:basis-1/12 pl-6"
             >
               <div>
                 <div
@@ -49,8 +49,8 @@ export default function CharacterCarousel() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="bg-white/80 hover:bg-white border-gray-300 -left-2 md:-left-4 hidden md:flex" />
-        <CarouselNext className="bg-white/80 hover:bg-white border-gray-300 -right-2 md:-right-4 hidden md:flex" />
+        <CarouselPrevious className="bg-white/80 hover:bg-white border-gray-300 -left-2 md:-left-4 h-5 w-5 md:h-8 md:w-8" />
+        <CarouselNext className="bg-white/80 hover:bg-white border-gray-300 -right-2 md:-right-4 h-5 w-5 md:h-8 md:w-8" />
       </Carousel>
     </section>
   );
