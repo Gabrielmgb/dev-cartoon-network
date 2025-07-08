@@ -1637,16 +1637,16 @@ export const showsData = [
       {
         name: "Andy",
         query: "andy squirrel boy",
-        char: "/desenhos/squirrel-boy/char-andy.png",
+        char: "/desenhos/andy-e-seu-esquilo/char-andy.png",
       },
       {
         name: "Rodney",
         query: "rodney squirrel boy",
-        char: "/desenhos/squirrel-boy/char-rodney.png",
+        char: "/desenhos/andy-e-seu-esquilo/char-rodney.png",
       },
     ],
-    image: "/desenhos/squirrel-boy/show-squirrel-boy.jpg",
-    banner: "/desenhos/squirrel-boy/show-banner-squirrel-boy.jpg",
+    image: "/desenhos/andy-e-seu-esquilo/show-andy-e-seu-esquilo.jpg",
+    banner: "/desenhos/andy-e-seu-esquilo/show-banner-andy-e-seu-esquilo.jpg",
     details: { creator: "Everett Peck", year: "2006–2007", episodes: "26" },
   },
   {
@@ -1660,21 +1660,21 @@ export const showsData = [
       {
         name: "Otto",
         query: "otto time squad",
-        char: "/desenhos/time-squad/char-otto.png",
+        char: "/desenhos/esquadrao-do-tempo/char-otto.png",
       },
       {
         name: "Buck Tuddrussel",
         query: "buck time squad",
-        char: "/desenhos/time-squad/char-buck.png",
+        char: "/desenhos/esquadrao-do-tempo/char-buck-tuddrussel.png",
       },
       {
         name: "Larry",
         query: "larry time squad",
-        char: "/desenhos/time-squad/char-larry.png",
+        char: "/desenhos/esquadrao-do-tempo/char-larry.png",
       },
     ],
-    image: "/desenhos/time-squad/show-time-squad.jpg",
-    banner: "/desenhos/time-squad/show-banner-time-squad.jpg",
+    image: "/desenhos/esquadrao-do-tempo/show-esquadrao-do-tempo.jpg",
+    banner: "/desenhos/esquadrao-do-tempo/show-banner-esquadrao-do-tempo.jpg",
     details: { creator: "Dave Wasson", year: "2001–2003", episodes: "26" },
   },
   {
@@ -1686,9 +1686,14 @@ export const showsData = [
       "Os jovens heróis da DC trabalham juntos como uma equipe secreta para missões perigosas, enquanto enfrentam dilemas pessoais e amadurecimento.",
     characters: [
       {
+        name: "Superboy",
+        query: "superboy young justice",
+        char: "/desenhos/justica-jovem/char-superboy.png",
+      },
+      {
         name: "Robin",
         query: "robin young justice",
-        char: "/desenhos/justica-jovem/char-robin.png",
+        char: "/desenhos/justica-jovem/char-robin-justica-jovem.png",
       },
       {
         name: "Kid Flash",
@@ -1701,9 +1706,14 @@ export const showsData = [
         char: "/desenhos/justica-jovem/char-miss-marte.png",
       },
       {
-        name: "Superboy",
+        name: "Aqualad",
         query: "superboy young justice",
-        char: "/desenhos/justica-jovem/char-superboy.png",
+        char: "/desenhos/justica-jovem/char-aqualad.png",
+      },
+      {
+        name: "Artemis",
+        query: "superboy young justice",
+        char: "/desenhos/justica-jovem/char-artemis.png",
       },
     ],
     image: "/desenhos/justica-jovem/show-justica-jovem.jpg",
@@ -1763,16 +1773,16 @@ export const showsData = [
       {
         name: "Maçã",
         query: "apple apple and onion",
-        char: "/desenhos/maca-cebola/char-maca.png",
+        char: "/desenhos/maca-e-cebola/char-maca.png",
       },
       {
         name: "Cebola",
         query: "onion apple and onion",
-        char: "/desenhos/maca-cebola/char-cebola.png",
+        char: "/desenhos/maca-e-cebola/char-cebola.png",
       },
     ],
-    image: "/desenhos/maca-cebola/show-maca-cebola.jpg",
-    banner: "/desenhos/maca-cebola/show-banner-maca-cebola.jpg",
+    image: "/desenhos/maca-e-cebola/show-maca-e-cebola.jpg",
+    banner: "/desenhos/maca-e-cebola/show-banner-maca-e-cebola.jpg",
     details: { creator: "George Gendi", year: "2018–2021", episodes: "76" },
   },
   {
@@ -1786,21 +1796,21 @@ export const showsData = [
       {
         name: "Ami",
         query: "ami puffy amiyumi",
-        char: "/desenhos/hi-hi-puffy/char-ami.png",
+        char: "/desenhos/puffy-amiyumi/char-ami.png",
       },
       {
         name: "Yumi",
         query: "yumi puffy amiyumi",
-        char: "/desenhos/hi-hi-puffy/char-yumi.png",
+        char: "/desenhos/puffy-amiyumi/char-yumi.png",
       },
       {
         name: "Kaz",
         query: "kaz puffy amiyumi",
-        char: "/desenhos/hi-hi-puffy/char-kaz.png",
+        char: "/desenhos/puffy-amiyumi/char-kaz.png",
       },
     ],
-    image: "/desenhos/hi-hi-puffy/show-hi-hi-puffy.jpg",
-    banner: "/desenhos/hi-hi-puffy/show-banner-hi-hi-puffy.jpg",
+    image: "/desenhos/puffy-amiyumi/show-puffy-amiyumi.jpg",
+    banner: "/desenhos/puffy-amiyumi/show-banner-puffy-amiyumi.jpg",
     details: { creator: "Sam Register", year: "2004–2006", episodes: "39" },
   },
   {
