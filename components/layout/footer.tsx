@@ -144,7 +144,8 @@ export default function Footer() {
                     key={social.name}
                     href={social.href}
                     aria-label={social.name}
-                    className={`text-gray-400 ${social.color} transition-colors hover:text-white duration-200 transform hover:scale-110`}
+                    target="_blank"
+                    className={`text-gray-400 ${social.color} transition-colors hover:text-yellow-400 duration-200 transform hover:scale-110`}
                   >
                     <social.icon className="h-6 w-6" />
                   </Link>
