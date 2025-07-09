@@ -411,37 +411,37 @@ export const characters = [
     name: "Fred Flintstone",
     color: "bg-orange-700",
     query: "fred flintstone from the flintstones",
-    image: "/home/character/char-fred.png",
+    image: "/dev-cartoon-network/home/character/char-fred.png",
   },
   {
     name: "Tom",
     color: "bg-gray-500",
     query: "tom from tom and jerry cartoon",
-    image: "/home/character/char-tom.png",
+    image: "/dev-cartoon-network/home/character/char-tom.png",
   },
   {
     name: "Jerry",
     color: "bg-yellow-500",
     query: "jerry from tom and jerry cartoon",
-    image: "/home/character/char-jerry.png",
+    image: "/dev-cartoon-network/home/character/char-jerry.png",
   },
   {
     name: "Zé Colmeia",
     color: "bg-lime-600",
     query: "yogi bear cartoon character",
-    image: "/home/character/char-ze-colmeia.png",
+    image: "/dev-cartoon-network/home/character/char-ze-colmeia.png",
   },
   {
     name: "Rey Mysterio",
     color: "bg-blue-900",
     query: "rey mysterio cartoon network lucha libre",
-    image: "/home/character/char-rey-mysterio.png",
+    image: "/dev-cartoon-network/home/character/char-rey-mysterio.png",
   },
   {
     name: "Ivandoe",
     color: "bg-green-500",
     query: "ivandoe from the heroic quest of the valiant prince ivandoe",
-    image: "/home/character/char-ivandoe.png",
+    image: "/dev-cartoon-network/home/character/char-ivandoe.png",
   },
 ];
 
