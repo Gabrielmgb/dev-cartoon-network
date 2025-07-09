@@ -572,15 +572,15 @@ export const footerSections = [
 ];
 
 export const socialLinks = [
-  { icon: Youtube, href: "#", name: "YouTube", color: "hover:text-red-500" },
+  { icon: Youtube, href: "https://www.youtube.com/@BRCartoonNetworkvideos", name: "YouTube", color: "hover:text-red-500" },
   {
     icon: Instagram,
-    href: "#",
+    href: "https://www.instagram.com/cartoonnetworkbrasil/?hl=pt-br",
     name: "Instagram",
     color: "hover:text-pink-500",
   },
-  { icon: Facebook, href: "#", name: "Facebook", color: "hover:text-blue-500" },
-  { icon: Twitter, href: "#", name: "Twitter", color: "hover:text-sky-500" },
+  { icon: Facebook, href: "https://www.facebook.com/cartoonnetworkbrasil/events", name: "Facebook", color: "hover:text-blue-500" },
+  { icon: Twitter, href: "https://x.com/CartoonBrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", name: "Twitter", color: "hover:text-sky-500", },
 ];
 
 export const legalLinks = [
