@@ -75,8 +75,8 @@ export default function ShowFilters({
         <div className="flex items-center gap-3">
           <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
-              <Button variant="outline" className="flex items-center gap-2 bg-transparent">
-                <Filter className="h-4 w-4" />
+              <Button size="lg" variant="outline" className="flex items-center gap-2 px-4 py-2 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-500 transition-colors text-sm">
+                <Filter className="h-4 w-4 text-gray-700" />
                 Filtros
                 {hasActiveFilters && (
                   <Badge variant="secondary" className="bg-blue-100 text-blue-800 ml-1">
@@ -88,8 +88,8 @@ export default function ShowFilters({
             </DialogTrigger>
             <DialogContent className="sm:max-w-[600px]">
               <DialogHeader>
-                <DialogTitle className="flex items-center gap-2">
-                  <Filter className="h-5 w-5 text-blue-600" />
+                <DialogTitle className="flex text-gray-800 items-center gap-2">
+                  <Filter className="h-5 w-5 text-yellow-500" />
                   Filtrar Desenhos
                 </DialogTitle>
               </DialogHeader>
@@ -228,8 +228,8 @@ export default function ShowFilters({
 
                 {/* Apply Button */}
                 <div className="flex justify-end pt-4 border-t border-gray-200">
-                  <Button onClick={() => setIsOpen(false)} className="bg-blue-600 hover:bg-blue-700">
-                    Aplicar Filtros
+                  <Button onClick={() => setIsOpen(false)} className="px-4 py-2 bg-yellow-400 text-black rounded hover:bg-yellow-500 transition-colors font-bold">
+                    Aplicar
                   </Button>
                 </div>
               </div>
