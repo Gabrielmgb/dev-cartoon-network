@@ -1967,6 +1967,157 @@ export const showsData = [
       "/dev-cartoon-network/desenhos/mike-lu-og/show-banner-mike-lu-og.jpg",
     details: { creator: "Mikhail Shindel", year: "1999–2001", episodes: "26" },
   },
+  {
+    id: "tom_e_jerry",
+    name: "Tom e Jerry",
+    posterQuery: "tom and jerry cartoon network vertical poster",
+    bannerQuery: "tom and jerry cartoon network wide banner",
+    description:
+      "Tom, um gato doméstico determinado, vive tentando capturar Jerry, um rato esperto e travesso. Suas perseguições resultam em situações hilárias e cheias de ação, com humor físico clássico.",
+    characters: [
+      {
+        name: "Tom",
+        query: "tom cat character",
+        char: "/desenhos/tom-e-jerry/char-tom.png",
+      },
+      {
+        name: "Jerry",
+        query: "jerry mouse character",
+        char: "/desenhos/tom-e-jerry/char-jerry.png",
+      },
+    ],
+    image: "/desenhos/tom-e-jerry/show-tom-e-jerry.jpg",
+    banner: "/desenhos/tom-e-jerry/show-banner-tom-e-jerry.jpg",
+    details: {
+      creator: "William Hanna, Joseph Barbera",
+      year: "1940–presente",
+      episodes: "160+",
+    }
+  },
+  {
+    id: "os_flintstones",
+    name: "Os Flintstones",
+    posterQuery: "the flintstones cartoon network vertical poster",
+    bannerQuery: "the flintstones cartoon network wide banner",
+    description:
+      "Fred Flintstone, sua esposa Wilma e o casal vizinho Barney e Betty vivem aventuras pré-históricas em uma sociedade moderna da Idade da Pedra. Com dinossauros como eletrodomésticos, o cotidiano se torna cômico e inusitado.",
+    characters: [
+      {
+        name: "Fred Flintstone",
+        query: "fred flintstone character",
+        char: "/desenhos/os-flintstones/char-fred.png",
+      },
+      {
+        name: "Wilma Flintstone",
+        query: "wilma flintstone character",
+        char: "/desenhos/os-flintstones/char-wilma.png",
+      },
+      {
+        name: "Barney Rubble",
+        query: "barney rubble character",
+        char: "/desenhos/os-flintstones/char-barney.png",
+      },
+      {
+        name: "Betty Rubble",
+        query: "betty rubble character",
+        char: "/desenhos/os-flintstones/char-betty.png",
+      },
+    ],
+    image: "/desenhos/os-flintstones/show-os-flintstones.jpg",
+    banner: "/desenhos/os-flintstones/show-banner-os-flintstones.jpg",
+    details: {
+      creator: "William Hanna, Joseph Barbera",
+      year: "1960–1966",
+      episodes: "166",
+    }
+  },
+  {
+    id: "yogi_bear",
+    name: "Zé Colmeia",
+    posterQuery: "yogi bear cartoon network vertical poster",
+    bannerQuery: "yogi bear cartoon network wide banner",
+    description:
+      "Zé Colmeia é um urso esperto e folgado que vive no Parque Jellystone e adora roubar cestas de piquenique, apesar dos esforços do Guarda Smith para impedi-lo. Sempre acompanhado de seu amigo Catatau, suas trapalhadas são cheias de charme e humor.",
+    characters: [
+      {
+        name: "Zé Colmeia",
+        query: "yogi bear character",
+        char: "/desenhos/ze-colmeia/char-ze-colmeia.png",
+      },
+      {
+        name: "Catatau",
+        query: "boo boo bear character",
+        char: "/desenhos/ze-colmeia/char-catatau.png",
+      },
+      {
+        name: "Guarda Smith",
+        query: "ranger smith yogi bear",
+        char: "/desenhos/ze-colmeia/char-guarda-smith.png",
+      },
+    ],
+    image: "/desenhos/ze-colmeia/show-ze-colmeia.jpg",
+    banner: "/desenhos/ze-colmeia/show-banner-ze-colmeia.jpeg",
+    details: {
+      creator: "William Hanna, Joseph Barbera",
+      year: "1961–1988",
+      episodes: "100+",
+    }
+  },
+  {
+    id: "rey_mysterio_vs_escuridao",
+    name: "Rey Mysterio vs. A Escuridão",
+    posterQuery: "rey mysterio vs the darkness cartoon network vertical poster",
+    bannerQuery: "rey mysterio vs the darkness cartoon network wide banner",
+    description:
+      "A estrela da luta livre Rey Mysterio enfrenta forças sobrenaturais ao lado de sua família em aventuras cheias de ação, mitologia e cultura mexicana. O lutador mascarado protege o mundo contra a Escuridão usando seus golpes lendários.",
+    characters: [
+      {
+        name: "Rey Mysterio",
+        query: "rey mysterio cartoon character",
+        char: "/desenhos/rey-mysterio/char-rey-mysterio.png",
+      },
+      {
+        name: "Óscar",
+        query: "oscar rey mysterio cartoon character",
+        char: "/desenhos/rey-mysterio/char-oscar.png",
+      },
+    ],
+    image: "/desenhos/rey-mysterio/show-rey-mysterio.jpg",
+    banner: "/desenhos/rey-mysterio/show-banner-rey-mysterio.jpg",
+    details: {
+      creator: "¡Viva Calavera!, Cartoon Network LA",
+      year: "2022–presente",
+      episodes: "13+",
+    }
+  },
+  {
+    id: "ivandoe",
+    name: "As Aventuras do Príncipe Ivandoe",
+    posterQuery: "the heroic quest of the valiant prince ivandoe vertical poster",
+    bannerQuery: "the heroic quest of the valiant prince ivandoe wide banner",
+    description:
+      "O príncipe Ivandoe, um cervo corajoso (ou quase), embarca em uma missão épica para encontrar a Pena Dourada da Verdade. Ao lado de seu fiel escudeiro Bert, enfrenta criaturas estranhas e situações engraçadas em uma paródia de contos heroicos.",
+    characters: [
+      {
+        name: "Ivandoe",
+        query: "ivandoe cartoon network character",
+        char: "/desenhos/ivandoe/char-ivandoe.png",
+      },
+      {
+        name: "Bert",
+        query: "bert ivandoe character",
+        char: "/desenhos/ivandoe/char-bert.png",
+      },
+    ],
+    image: "/desenhos/ivandoe/show-ivandoe.jpg",
+    banner: "/desenhos/ivandoe/show-banner-ivandoe.jpg",
+    details: {
+      creator: "Christian Bøving-Andersen, Eva Lee Wallberg",
+      year: "2017–presente",
+      episodes: "40+",
+    }
+  }
+  
 ];
 
 export const gamesData = [
