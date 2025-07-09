@@ -3,6 +3,8 @@ export interface Show {
   name: string;
   image: string;
   banner: string;
+  category: string
+  decade: string
   posterQuery: string;
   bannerQuery: string;
   description: string;
@@ -67,4 +69,12 @@ export interface NewsArticle {
   snippet: string;
   imageQuery: string;
   href: string;
+}
+
+export interface FilterState {
+  category: string
+  creator: string
+  decade: string
+  sortBy: string
+  searchTerm: string
 }
