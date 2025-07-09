@@ -1,21 +1,33 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Search, Filter, X, ChevronDown } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Badge } from "@/components/ui/badge"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import type { FilterState } from "@/lib/types"
+import { useState } from "react";
+import { Search, Filter, X, ChevronDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Badge } from "@/components/ui/badge";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import type { FilterState } from "@/lib/types";
 
 interface ShowFiltersProps {
-  filters: FilterState
-  onFiltersChange: (filters: FilterState) => void
-  categories: string[]
-  creators: string[]
-  decades: string[]
-  totalShows: number
+  filters: FilterState;
+  onFiltersChange: (filters: FilterState) => void;
+  categories: string[];
+  creators: string[];
+  decades: string[];
+  totalShows: number;
 }
 
 export default function ShowFilters({
@@ -26,11 +38,11 @@ export default function ShowFilters({
   decades,
   totalShows,
 }: ShowFiltersProps) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const updateFilter = (key: keyof FilterState, value: string) => {
-    onFiltersChange({ ...filters, [key]: value })
-  }
+    onFiltersChange({ ...filters, [key]: value });
+  };
 
   const clearAllFilters = () => {
     onFiltersChange({
@@ -39,23 +51,23 @@ export default function ShowFilters({
       decade: "Todos",
       sortBy: "name",
       searchTerm: "",
-    })
-  }
+    });
+  };
 
   const hasActiveFilters =
     filters.category !== "Todos" ||
     filters.creator !== "Todos" ||
     filters.decade !== "Todos" ||
-    filters.searchTerm !== ""
+    filters.searchTerm !== "";
 
   const getActiveFiltersCount = () => {
-    let count = 0
-    if (filters.category !== "Todos") count++
-    if (filters.creator !== "Todos") count++
-    if (filters.decade !== "Todos") count++
-    if (filters.searchTerm !== "") count++
-    return count
-  }
+    let count = 0;
+    if (filters.category !== "Todos") count++;
+    if (filters.creator !== "Todos") count++;
+    if (filters.decade !== "Todos") count++;
+    if (filters.searchTerm !== "") count++;
+    return count;
+  };
 
   return (
     <div className="space-y-4">
@@ -75,11 +87,18 @@ export default function ShowFilters({
         <div className="flex items-center gap-3">
           <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
-              <Button size="lg" variant="outline" className="flex items-center gap-2 px-4 py-2 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-500 transition-colors text-sm">
+              <Button
+                size="lg"
+                variant="outline"
+                className="flex items-center gap-2 px-4 py-2 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-500 transition-colors text-sm"
+              >
                 <Filter className="h-4 w-4 text-gray-700" />
                 Filtros
                 {hasActiveFilters && (
-                  <Badge variant="secondary" className="bg-blue-100 text-blue-800 ml-1">
+                  <Badge
+                    variant="secondary"
+                    className="bg-blue-100 text-blue-800 ml-1"
+                  >
                     {getActiveFiltersCount()}
                   </Badge>
                 )}
@@ -99,8 +118,13 @@ export default function ShowFilters({
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {/* Category Filter */}
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Categoria</label>
-                    <Select value={filters.category} onValueChange={(value) => updateFilter("category", value)}>
+                    <label className="text-sm font-medium text-gray-700">
+                      Categoria
+                    </label>
+                    <Select
+                      value={filters.category}
+                      onValueChange={(value) => updateFilter("category", value)}
+                    >
                       <SelectTrigger>
                         <SelectValue />
                       </SelectTrigger>
@@ -116,8 +140,13 @@ export default function ShowFilters({
 
                   {/* Creator Filter */}
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Criador</label>
-                    <Select value={filters.creator} onValueChange={(value) => updateFilter("creator", value)}>
+                    <label className="text-sm font-medium text-gray-700">
+                      Criador
+                    </label>
+                    <Select
+                      value={filters.creator}
+                      onValueChange={(value) => updateFilter("creator", value)}
+                    >
                       <SelectTrigger>
                         <SelectValue />
                       </SelectTrigger>
@@ -133,8 +162,13 @@ export default function ShowFilters({
 
                   {/* Decade Filter */}
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Década</label>
-                    <Select value={filters.decade} onValueChange={(value) => updateFilter("decade", value)}>
+                    <label className="text-sm font-medium text-gray-700">
+                      Década
+                    </label>
+                    <Select
+                      value={filters.decade}
+                      onValueChange={(value) => updateFilter("decade", value)}
+                    >
                       <SelectTrigger>
                         <SelectValue />
                       </SelectTrigger>
@@ -150,8 +184,13 @@ export default function ShowFilters({
 
                   {/* Sort Filter */}
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Ordenar por</label>
-                    <Select value={filters.sortBy} onValueChange={(value) => updateFilter("sortBy", value)}>
+                    <label className="text-sm font-medium text-gray-700">
+                      Ordenar por
+                    </label>
+                    <Select
+                      value={filters.sortBy}
+                      onValueChange={(value) => updateFilter("sortBy", value)}
+                    >
                       <SelectTrigger>
                         <SelectValue />
                       </SelectTrigger>
@@ -159,7 +198,9 @@ export default function ShowFilters({
                         <SelectItem value="name">Nome (A-Z)</SelectItem>
                         <SelectItem value="year">Ano (Mais recente)</SelectItem>
                         <SelectItem value="creator">Criador (A-Z)</SelectItem>
-                        <SelectItem value="category">Categoria (A-Z)</SelectItem>
+                        <SelectItem value="category">
+                          Categoria (A-Z)
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -169,7 +210,9 @@ export default function ShowFilters({
                 {hasActiveFilters && (
                   <div className="space-y-3 pt-4 border-t border-gray-200">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm font-medium text-gray-700">Filtros ativos:</span>
+                      <span className="text-sm font-medium text-gray-700">
+                        Filtros ativos:
+                      </span>
                       <Button
                         variant="outline"
                         size="sm"
@@ -182,7 +225,10 @@ export default function ShowFilters({
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {filters.category !== "Todos" && (
-                        <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
+                        <Badge
+                          variant="outline"
+                          className="bg-blue-50 text-blue-700 border-blue-200"
+                        >
                           {filters.category}
                           <button
                             onClick={() => updateFilter("category", "Todos")}
@@ -193,7 +239,10 @@ export default function ShowFilters({
                         </Badge>
                       )}
                       {filters.creator !== "Todos" && (
-                        <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
+                        <Badge
+                          variant="outline"
+                          className="bg-green-50 text-green-700 border-green-200"
+                        >
                           {filters.creator}
                           <button
                             onClick={() => updateFilter("creator", "Todos")}
@@ -204,7 +253,10 @@ export default function ShowFilters({
                         </Badge>
                       )}
                       {filters.decade !== "Todos" && (
-                        <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200">
+                        <Badge
+                          variant="outline"
+                          className="bg-purple-50 text-purple-700 border-purple-200"
+                        >
                           {filters.decade}
                           <button
                             onClick={() => updateFilter("decade", "Todos")}
@@ -215,9 +267,15 @@ export default function ShowFilters({
                         </Badge>
                       )}
                       {filters.searchTerm && (
-                        <Badge variant="outline" className="bg-orange-50 text-orange-700 border-orange-200">
+                        <Badge
+                          variant="outline"
+                          className="bg-orange-50 text-orange-700 border-orange-200"
+                        >
                           "{filters.searchTerm}"
-                          <button onClick={() => updateFilter("searchTerm", "")} className="ml-1 hover:text-orange-900">
+                          <button
+                            onClick={() => updateFilter("searchTerm", "")}
+                            className="ml-1 hover:text-orange-900"
+                          >
                             <X className="h-3 w-3" />
                           </button>
                         </Badge>
@@ -228,7 +286,10 @@ export default function ShowFilters({
 
                 {/* Apply Button */}
                 <div className="flex justify-end pt-4 border-t border-gray-200">
-                  <Button onClick={() => setIsOpen(false)} className="px-4 py-2 bg-yellow-400 text-black rounded hover:bg-yellow-500 transition-colors font-bold">
+                  <Button
+                    onClick={() => setIsOpen(false)}
+                    className="px-4 py-2 bg-yellow-400 text-black rounded hover:bg-yellow-500 transition-colors font-bold"
+                  >
                     Aplicar
                   </Button>
                 </div>
@@ -237,7 +298,12 @@ export default function ShowFilters({
           </Dialog>
 
           {hasActiveFilters && (
-            <Button variant="ghost" size="sm" onClick={clearAllFilters} className="text-red-600 hover:bg-red-50">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={clearAllFilters}
+              className="text-red-600 hover:bg-red-50"
+            >
               <X className="h-4 w-4 mr-1" />
               Limpar
             </Button>
@@ -245,7 +311,8 @@ export default function ShowFilters({
         </div>
 
         <div className="text-sm text-gray-600">
-          {totalShows} desenho{totalShows !== 1 ? "s" : ""} encontrado{totalShows !== 1 ? "s" : ""}
+          {totalShows} desenho{totalShows !== 1 ? "s" : ""} encontrado
+          {totalShows !== 1 ? "s" : ""}
         </div>
       </div>
 
@@ -253,33 +320,57 @@ export default function ShowFilters({
       {hasActiveFilters && (
         <div className="flex flex-wrap gap-2">
           {filters.category !== "Todos" && (
-            <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
+            <Badge
+              variant="outline"
+              className="bg-blue-50 text-blue-700 border-blue-200"
+            >
               {filters.category}
-              <button onClick={() => updateFilter("category", "Todos")} className="ml-1 hover:text-blue-900">
+              <button
+                onClick={() => updateFilter("category", "Todos")}
+                className="ml-1 hover:text-blue-900"
+              >
                 <X className="h-3 w-3" />
               </button>
             </Badge>
           )}
           {filters.creator !== "Todos" && (
-            <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
+            <Badge
+              variant="outline"
+              className="bg-green-50 text-green-700 border-green-200"
+            >
               {filters.creator}
-              <button onClick={() => updateFilter("creator", "Todos")} className="ml-1 hover:text-green-900">
+              <button
+                onClick={() => updateFilter("creator", "Todos")}
+                className="ml-1 hover:text-green-900"
+              >
                 <X className="h-3 w-3" />
               </button>
             </Badge>
           )}
           {filters.decade !== "Todos" && (
-            <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200">
+            <Badge
+              variant="outline"
+              className="bg-purple-50 text-purple-700 border-purple-200"
+            >
               {filters.decade}
-              <button onClick={() => updateFilter("decade", "Todos")} className="ml-1 hover:text-purple-900">
+              <button
+                onClick={() => updateFilter("decade", "Todos")}
+                className="ml-1 hover:text-purple-900"
+              >
                 <X className="h-3 w-3" />
               </button>
             </Badge>
           )}
           {filters.searchTerm && (
-            <Badge variant="outline" className="bg-orange-50 text-orange-700 border-orange-200">
+            <Badge
+              variant="outline"
+              className="bg-orange-50 text-orange-700 border-orange-200"
+            >
               "Busca: {filters.searchTerm}"
-              <button onClick={() => updateFilter("searchTerm", "")} className="ml-1 hover:text-orange-900">
+              <button
+                onClick={() => updateFilter("searchTerm", "")}
+                className="ml-1 hover:text-orange-900"
+              >
                 <X className="h-3 w-3" />
               </button>
             </Badge>
@@ -287,5 +378,5 @@ export default function ShowFilters({
         </div>
       )}
     </div>
-  )
+  );
 }

@@ -18,7 +18,7 @@ import {
   Gift,
   Calendar,
   Users,
-} from "lucide-react"
+} from "lucide-react";
 
 export const navItems = [
   { icon: Tv, label: "DESENHOS", href: "/desenhos" },
@@ -569,14 +569,19 @@ export const footerSections = [
       { label: "Parceiros", href: "#", icon: null },
     ],
   },
-]
+];
 
 export const socialLinks = [
   { icon: Youtube, href: "#", name: "YouTube", color: "hover:text-red-500" },
-  { icon: Instagram, href: "#", name: "Instagram", color: "hover:text-pink-500" },
+  {
+    icon: Instagram,
+    href: "#",
+    name: "Instagram",
+    color: "hover:text-pink-500",
+  },
   { icon: Facebook, href: "#", name: "Facebook", color: "hover:text-blue-500" },
   { icon: Twitter, href: "#", name: "Twitter", color: "hover:text-sky-500" },
-]
+];
 
 export const legalLinks = [
   { label: "Termos de Uso", href: "#" },
@@ -584,7 +589,7 @@ export const legalLinks = [
   { label: "Política de Cookies", href: "#" },
   { label: "Direitos Autorais", href: "#" },
   { label: "Acessibilidade", href: "#" },
-]
+];
 
 export const featuredShows = [
   {
@@ -674,7 +679,7 @@ export const showCategories = [
   "Fantasia",
   "Sci-Fi",
   "Mistério",
-]
+];
 
 export const showCreators = [
   "Todos",
@@ -705,7 +710,7 @@ export const showCreators = [
   "Joe Ruby",
   "Vários",
   "Atsushi Maekawa",
-]
+];
 
 export const showsData = [
   {
@@ -1422,7 +1427,8 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/clarencio/show-clarencio.jpg",
-    banner: "/dev-cartoon-network/desenhos/clarencio/show-banner-clarencio.jpeg",
+    banner:
+      "/dev-cartoon-network/desenhos/clarencio/show-banner-clarencio.jpeg",
     details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
   },
   // New shows added by user request
@@ -2151,12 +2157,13 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/tom-e-jerry/show-tom-e-jerry.jpg",
-    banner: "/dev-cartoon-network/desenhos/tom-e-jerry/show-banner-tom-e-jerry.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/tom-e-jerry/show-banner-tom-e-jerry.jpg",
     details: {
       creator: "William Hanna, Joseph Barbera",
       year: "1940–presente",
       episodes: "160+",
-    }
+    },
   },
   {
     id: "os_flintstones",
@@ -2189,13 +2196,15 @@ export const showsData = [
         char: "/dev-cartoon-network/desenhos/os-flintstones/char-betty.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/os-flintstones/show-os-flintstones.jpg",
-    banner: "/dev-cartoon-network/desenhos/os-flintstones/show-banner-os-flintstones.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/os-flintstones/show-os-flintstones.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/os-flintstones/show-banner-os-flintstones.jpg",
     details: {
       creator: "William Hanna, Joseph Barbera",
       year: "1960–1966",
       episodes: "166",
-    }
+    },
   },
   {
     id: "yogi_bear",
@@ -2224,12 +2233,13 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/ze-colmeia/show-ze-colmeia.jpg",
-    banner: "/dev-cartoon-network/desenhos/ze-colmeia/show-banner-ze-colmeia.jpeg",
+    banner:
+      "/dev-cartoon-network/desenhos/ze-colmeia/show-banner-ze-colmeia.jpeg",
     details: {
       creator: "William Hanna, Joseph Barbera",
       year: "1961–1988",
       episodes: "33",
-    }
+    },
   },
   {
     id: "rey_mysterio_vs_escuridao",
@@ -2253,17 +2263,19 @@ export const showsData = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/rey-mysterio/show-rey-mysterio.jpg",
-    banner: "/dev-cartoon-network/desenhos/rey-mysterio/show-banner-rey-mysterio.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/rey-mysterio/show-banner-rey-mysterio.jpg",
     details: {
       creator: "¡Viva Calavera!, Cartoon Network LA",
       year: "2022–presente",
       episodes: "10+",
-    }
+    },
   },
   {
     id: "ivandoe",
     name: "As Aventuras do Príncipe Ivandoe",
-    posterQuery: "the heroic quest of the valiant prince ivandoe vertical poster",
+    posterQuery:
+      "the heroic quest of the valiant prince ivandoe vertical poster",
     bannerQuery: "the heroic quest of the valiant prince ivandoe wide banner",
     category: "Fantasia",
     decade: "2020s",
@@ -2287,9 +2299,8 @@ export const showsData = [
       creator: "Christian Bøving-Andersen, Eva Lee Wallberg",
       year: "2017–presente",
       episodes: "40+",
-    }
-  }
-  
+    },
+  },
 ];
 
 export const gamesData = [
