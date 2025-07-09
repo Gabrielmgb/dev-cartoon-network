@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Created with v0",
   generator: "v0.dev",
   icons: {
-    icon: "/favicon-CN.ico", // Caminho relativo à pasta /public
+    icon: "/dev-cartoon-network/favicon-CN.ico", // Caminho relativo à pasta /public
   },
 };
 
