@@ -1,14 +1,16 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import { navItems } from "@/lib/data";
-import CNLogo from "@/components/cn-logo";
-import { Button } from "@/components/ui/button";
+import { useState } from "react"
+import Link from "next/link"
+import { usePathname } from "next/navigation" // Import usePathname
+import { Menu, X } from "lucide-react"
+import { navItems } from "@/lib/data"
+import CNLogo from "@/components/cn-logo"
+import { Button } from "@/components/ui/button"
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname() // Get current pathname
 
   return (
     <header className="bg-black text-white sticky top-0 z-50">
@@ -17,33 +19,35 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
-          {navItems.map((item) => (
-            <Link
-              key={item.label}
-              href={item.href}
-              className="flex flex-col items-center space-y-1 group transition-transform duration-200 hover:scale-110"
-            >
-              <item.icon className="h-8 w-8 text-white group-hover:text-yellow-400 transition-colors" />
-              <span className="text-xs font-bold tracking-wider uppercase">
-                {item.label}
-              </span>
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            const isActive = pathname === item.href // Check if current item is active
+            return (
+              <Link
+                key={item.label}
+                href={item.href}
+                className="flex flex-col items-center space-y-1 group transition-transform duration-200 hover:scale-110"
+              >
+                <item.icon
+                  className={`h-8 w-8 ${
+                    isActive ? "text-yellow-400" : "text-white group-hover:text-yellow-400"
+                  } transition-colors`}
+                />
+                <span
+                  className={`text-xs font-bold tracking-wider uppercase ${
+                    isActive ? "text-yellow-400 font-extrabold" : ""
+                  }`}
+                >
+                  {item.label}
+                </span>
+              </Link>
+            )
+          })}
         </nav>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? (
-              <X className="h-8 w-8" />
-            ) : (
-              <Menu className="h-8 w-8" />
-            )}
+          <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
+            {isMenuOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
           </Button>
         </div>
       </div>
@@ -52,22 +56,25 @@ export default function Header() {
       {isMenuOpen && (
         <nav className="md:hidden bg-black absolute w-full left-0">
           <div className="flex flex-col items-center space-y-4 px-4 pb-4">
-            {navItems.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="flex items-center w-full justify-center space-x-4 py-2 rounded-md hover:bg-gray-800"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <item.icon className="h-6 w-6 text-yellow-400" />
-                <span className="text-sm font-bold tracking-wider uppercase">
-                  {item.label}
-                </span>
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive = pathname === item.href
+              return (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="flex items-center w-full justify-center space-x-4 py-2 rounded-md hover:bg-gray-800"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <item.icon className={`h-6 w-6 ${isActive ? "text-yellow-400" : "text-white"}`} />
+                  <span className={`text-sm font-bold tracking-wider uppercase ${isActive ? "text-yellow-400" : ""}`}>
+                    {item.label}
+                  </span>
+                </Link>
+              )
+            })}
           </div>
         </nav>
       )}
     </header>
-  );
+  )
 }
