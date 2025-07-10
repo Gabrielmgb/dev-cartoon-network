@@ -1025,7 +1025,7 @@ export const showsData: Show[] = [
       name: "Mutante Rex",
       posterQuery: "generator rex vertical poster",
       bannerQuery: "generator rex wide banner",
-      category: "Ação/Aventura",
+      category: "Sci-Fi",
       decade: "2010s",
       description:
         "Rex é um adolescente que pode criar máquinas a partir de seu corpo. Ele trabalha para uma organização que combate mutantes perigosos chamados E.V.O.s.",
@@ -1397,7 +1397,7 @@ export const showsData: Show[] = [
       name: "Mike, Lu & Og",
       posterQuery: "mike lu and og vertical poster",
       bannerQuery: "mike lu and og wide banner",
-      category: "Comédia",
+      category: "Clássicos",
       decade: "1990s",
       description:
         "Mike, uma garota moderna da cidade, vai morar em uma ilha remota onde vive aventuras com os nativos Lu e Og, enfrentando o choque cultural com humor.",
@@ -1820,7 +1820,7 @@ export const showsData: Show[] = [
       name: "Perninha em Obras",
       posterQuery: "bugs bunny builders vertical poster",
       bannerQuery: "bugs bunny builders wide banner",
-      category: "Comédia",
+      category: "Infantil",
       decade: "2020s",
       description:
         "Bugs Bunny e sua turma trabalham como construtores, resolvendo problemas da comunidade com criatividade, trabalho em equipe e muito humor.",
@@ -1898,7 +1898,7 @@ export const showsData: Show[] = [
       name: "Tigue e Lupa: Os Detetives",
       posterQuery: "tig n seek vertical poster",
       bannerQuery: "tig n seek wide banner",
-      category: "Comédia",
+      category: "Mistério",
       decade: "2020s",
       description:
         "Tig é um gato de 8 anos cheio de energia que ama resolver mistérios com seu melhor amigo Seek, um cão eletrônico.",
@@ -1960,7 +1960,7 @@ export const showsData: Show[] = [
       name: "Unicórnio: Guerreiros Eternos",
       posterQuery: "unicorn warriors eternal vertical poster",
       bannerQuery: "unicorn warriors eternal wide banner",
-      category: "Ação/Aventura",
+      category: "Fantasia",
       decade: "2020s",
       description:
         "Uma equipe de heróis imortais reencarna ao longo da história para proteger a humanidade de uma antiga força do mal que ameaça destruir o mundo.",
@@ -2031,7 +2031,7 @@ export const showsData: Show[] = [
       name: "Drama Total: A Ilha dos Jovens",
       posterQuery: "total drama island kids vertical poster",
       bannerQuery: "total drama island kids wide banner",
-      category: "Comédia",
+      category: "Infantil",
       decade: "2020s",
       description:
         "Versão infantil dos personagens de Drama Total, vivendo juntos em um acampamento cheio de confusões, desafios bobos e muita rivalidade fofa.",
@@ -2067,7 +2067,7 @@ export const showsData: Show[] = [
       name: "Tom & Jerry Kids",
       posterQuery: "tom and jerry kids vertical poster",
       bannerQuery: "tom and jerry kids wide banner",
-      category: "Comédia",
+      category: "Infantil",
       decade: "1990s",
       description:
         "Versão infantil de Tom e Jerry com o mesmo estilo de perseguição hilária, mas com personagens mais jovens e energia redobrada.",
