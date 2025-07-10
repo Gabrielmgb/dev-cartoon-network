@@ -2192,4 +2192,130 @@ export const showsData: Show[] = [
       episodes: "200+",
     },
   },
+  {
+    id: "johnny_test",
+    name: "Johnny Test",
+    posterQuery: "johnny test cartoon network vertical poster",
+    bannerQuery: "johnny test cartoon network wide banner",
+    category: ["Comédia", "Ação/Aventura"],
+    decade: "2000s",
+    description:
+      "Johnny Test é um garoto hiperativo que vive aventuras malucas com a ajuda de seu cachorro falante Dukey e das invenções de suas irmãs supergênias Susan e Mary.",
+    characters: [
+      {
+        name: "Johnny Test",
+        query: "johnny test character",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-johnny.png",
+      },
+      {
+        name: "Dukey",
+        query: "dukey johnny test",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-dukey.png",
+      },
+      {
+        name: "Susan",
+        query: "susan johnny test",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-susan.png",
+      },
+      {
+        name: "Mary",
+        query: "mary johnny test",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-mary.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/johnny-test/show-johnny-test.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/johnny-test/show-banner-johnny-test.jpg",
+    details: {
+      creator: ["Scott Fellows"],
+      year: "2005–2022",
+      episodes: "130+",
+    },
+  },
+  {
+    id: "jellystone",
+    name: "Jellystone!",
+    posterQuery: "jellystone cartoon network vertical poster",
+    bannerQuery: "jellystone cartoon network wide banner",
+    category: ["Comédia", "Modernos"],
+    decade: "2020s",
+    description:
+      "Jellystone é uma cidade onde os personagens clássicos da Hanna-Barbera vivem juntos em novas histórias engraçadas e modernas.",
+    characters: [
+      {
+        name: "Zé Colmeia",
+        query: "yogi bear jellystone",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-ze-colmeia.png",
+      },
+      {
+        name: "Catatau",
+        query: "boo boo jellystone",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-catatau.png",
+      },
+      {
+        name: "Huckleberry Hound",
+        query: "huckleberry hound jellystone",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-huckleberry.png",
+      },
+      {
+        name: "Dom Pixote",
+        query: "quick draw mcgraw jellystone",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-dom-pixote.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/jellystone/show-jellystone.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/jellystone/show-banner-jellystone.jpg",
+    details: {
+      creator: ["C.H. Greenblatt"],
+      year: "2021–presente",
+      episodes: "40+",
+    },
+  },
+  {
+    id: "adventure_time_distant_lands",
+    name: "Hora de Aventura: Terras Distantes",
+    posterQuery: "adventure time distant lands vertical poster",
+    bannerQuery: "adventure time distant lands wide banner",
+    category: ["Fantasia", "Ação/Aventura", "Comédia", "Modernos"],
+    decade: "2020s",
+    description:
+      "Uma minissérie derivada de Hora de Aventura que acompanha os personagens principais em novas aventuras profundas, explorando temas como amizade, identidade e redenção.",
+    characters: [
+      {
+        name: "BMO",
+        query: "bmo distant lands",
+        char: "/dev-cartoon-network/desenhos/hora-distantes/char-bmo.png",
+      },
+      {
+        name: "Marceline",
+        query: "marceline distant lands",
+        char: "/dev-cartoon-network/desenhos/hora-distantes/char-marceline.png",
+      },
+      {
+        name: "Princesa Jujuba",
+        query: "princess bubblegum distant lands",
+        char: "/dev-cartoon-network/desenhos/hora-distantes/char-jujuba.png",
+      },
+      {
+        name: "Finn",
+        query: "finn distant lands",
+        char: "/dev-cartoon-network/desenhos/hora-distantes/char-finn.png",
+      },
+      {
+        name: "Jake",
+        query: "jake distant lands",
+        char: "/dev-cartoon-network/desenhos/hora-distantes/char-jake.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/hora-distantes/show-hora-distantes.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/hora-distantes/show-banner-hora-distantes.jpg",
+    details: {
+      creator: ["Adam Muto"],
+      year: "2020–2021",
+      episodes: "4 (especiais)",
+    },
+  },
 ];
