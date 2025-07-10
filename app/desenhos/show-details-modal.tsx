@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Show } from "@/lib/types";
+import { useEffect } from "react";
 
 interface ShowDetailsModalProps {
   show: Show | null;
@@ -15,6 +16,18 @@ export default function ShowDetailsModal({
   show,
   onClose,
 }: ShowDetailsModalProps) {
+
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = ""
+    }
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [show])
+
   return (
     <AnimatePresence>
       {show && (
