@@ -1597,7 +1597,7 @@ export const showsData: Show[] = [
       name: "Ursinhos em Curso",
       posterQuery: "we baby bears cartoon network vertical poster",
       bannerQuery: "we baby bears cartoon network wide banner",
-      category: "Modernos",
+      category: "Infantil",
       decade: "2020s",
       description:
         "Pardo, Panda e Polar são ursos irmãos que viajam por universos mágicos em uma caixa especial em busca de um novo lar. Cada mundo traz uma nova aventura cheia de imaginação, humor e amizade.",
@@ -1632,7 +1632,7 @@ export const showsData: Show[] = [
       name: "Tiny Toons: Looniversidade",
       posterQuery: "tiny toons looniversity vertical poster",
       bannerQuery: "tiny toons looniversity wide banner",
-      category: "Modernos",
+      category: "Comédia",
       decade: "2020s",
       description:
         "Os icônicos personagens da nova geração dos Looney Tunes frequentam a Looniversity, onde treinam para se tornarem os próximos grandes astros da comédia. Buster, Babs e seus amigos vivem aventuras malucas enquanto aprendem com os mestres clássicos.",
@@ -1784,7 +1784,7 @@ export const showsData: Show[] = [
       name: "Elliott, o Terráqueo",
       posterQuery: "elliott from earth vertical poster",
       bannerQuery: "elliott from earth wide banner",
-      category: "Modernos",
+      category: "Sci-Fi",
       decade: "2020s",
       description:
         "Elliott, um garoto humano, vive em uma estação espacial cósmica com sua mãe e faz amizade com alienígenas de todas as formas e tamanhos.",
@@ -1898,7 +1898,7 @@ export const showsData: Show[] = [
       name: "Tigue e Lupa: Os Detetives",
       posterQuery: "tig n seek vertical poster",
       bannerQuery: "tig n seek wide banner",
-      category: "Modernos",
+      category: "Comédia",
       decade: "2020s",
       description:
         "Tig é um gato de 8 anos cheio de energia que ama resolver mistérios com seu melhor amigo Seek, um cão eletrônico.",
@@ -1960,7 +1960,7 @@ export const showsData: Show[] = [
       name: "Unicórnio: Guerreiros Eternos",
       posterQuery: "unicorn warriors eternal vertical poster",
       bannerQuery: "unicorn warriors eternal wide banner",
-      category: "Modernos",
+      category: "Ação/Aventura",
       decade: "2020s",
       description:
         "Uma equipe de heróis imortais reencarna ao longo da história para proteger a humanidade de uma antiga força do mal que ameaça destruir o mundo.",
@@ -1996,7 +1996,7 @@ export const showsData: Show[] = [
       name: "Hora de Aventura: Fionna e Cake",
       posterQuery: "adventure time fionna and cake vertical poster",
       bannerQuery: "adventure time fionna and cake wide banner",
-      category: "Modernos",
+      category: "Fantasia",
       decade: "2020s",
       description:
         "Um spin-off de Hora de Aventura seguindo Fionna e Cake em suas próprias aventuras através do multiverso, explorando realidades alternativas.",
