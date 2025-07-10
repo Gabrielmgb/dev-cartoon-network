@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { showsData, showCategories, showCreators } from "@/lib/data";
+import { showCategories, showCreators } from "@/lib/data";
+import { showsData } from "@/lib/shows-data"
 import type { Show, FilterState } from "@/lib/types";
 import ShowCard from "./show-card";
 import ShowDetailsModal from "./show-details-modal";
