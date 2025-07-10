@@ -14,7 +14,7 @@ export interface Show {
     char: string;
   }[];
   details: {
-    creator: string;
+    creator: string[];
     year: string;
     episodes: string;
   };

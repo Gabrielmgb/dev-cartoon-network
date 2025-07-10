@@ -39,7 +39,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/gumball/show-gumball.jpg",
       banner: "/dev-cartoon-network/desenhos/gumball/show-banner-gumball.jpeg",
-      details: { creator: "Ben Bocquelet", year: "2011–2019", episodes: "240" },
+      details: { creator: ["Ben Bocquelet"], year: "2011–2019", episodes: "240" },
     },
     {
       id: "adventure_time",
@@ -96,7 +96,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/hora-de-aventura/show-hora-de-aventura.jpg",
       banner:
         "/dev-cartoon-network/desenhos/hora-de-aventura/show-banner-hora-de-aventura.jpg",
-      details: { creator: "Pendleton Ward", year: "2010–2018", episodes: "283" },
+      details: { creator: ["Pendleton Ward"], year: "2010–2018", episodes: "283" },
     },
     {
       id: "steven_universe",
@@ -133,7 +133,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/steven-universo/show-steven-universo.jpg",
       banner:
         "/dev-cartoon-network/desenhos/steven-universo/show-banner-steven-universo.jpg",
-      details: { creator: "Rebecca Sugar", year: "2013–2019", episodes: "160" },
+      details: { creator: ["Rebecca Sugar"], year: "2013–2019", episodes: "160" },
     },
     {
       id: "teen_titans_go",
@@ -208,7 +208,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/ursos/show-ursos.jpg",
       banner: "/dev-cartoon-network/desenhos/ursos/show-banner-ursos.jpg",
-      details: { creator: "Daniel Chong", year: "2015–2019", episodes: "140" },
+      details: { creator: ["Daniel Chong"], year: "2015–2019", episodes: "140" },
     },
     // Adding 15 more shows to reach 20
     {
@@ -261,7 +261,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/apenas-um-show/show-apenas-um-show.jpg",
       banner:
         "/dev-cartoon-network/desenhos/apenas-um-show/show-banner-apenas-um-show.jpg",
-      details: { creator: "J. G. Quintel", year: "2010–2017", episodes: "261" },
+      details: { creator: ["J. G. Quintel"], year: "2010–2017", episodes: "261" },
     },
     {
       id: "dexters_lab",
@@ -287,7 +287,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/dexter/show-dexter.jpg",
       banner: "/dev-cartoon-network/desenhos/dexter/show-banner-dexter.jpg",
       details: {
-        creator: "Genndy Tartakovsky",
+        creator: ["Genndy Tartakovsky"],
         year: "1996–2003",
         episodes: "78",
       },
@@ -332,7 +332,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/superpoderosas/show-superpoderosas.jpg",
       banner:
         "/dev-cartoon-network/desenhos/superpoderosas/show-banner-superpoderosas.jpg",
-      details: { creator: "Craig McCracken", year: "1998–2005", episodes: "78" },
+      details: { creator: ["Craig McCracken"], year: "1998–2005", episodes: "78" },
     },
     {
       id: "ben_10",
@@ -363,7 +363,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/ben-10/show-ben-10.jpg",
       banner: "/dev-cartoon-network/desenhos/ben-10/show-banner-ben-10.jpeg",
       details: {
-        creator: "Man of Actbanner-ion",
+        creator: ["Man of Actbanner-ion"],
         year: "2005–2008",
         episodes: "52",
       },
@@ -393,7 +393,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/samurai-jack/show-banner-samurai-jack.jpg",
       details: {
-        creator: "Genndy Tartakovsky",
+        creator: ["Genndy Tartakovsky"],
         year: "2001–2017",
         episodes: "62",
       },
@@ -417,7 +417,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/johnny-bravo/show-johnny-bravo.jpg",
       banner:
         "/dev-cartoon-network/desenhos/johnny-bravo/show-banner-johnny-bravo.jpg",
-      details: { creator: "Van Partible", year: "1997–2004", episodes: "67" },
+      details: { creator: ["Van Partible"], year: "1997–2004", episodes: "67" },
     },
     {
       id: "courage",
@@ -447,7 +447,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/coragem/show-coragem.jpg",
       banner: "/dev-cartoon-network/desenhos/coragem/show-banner-coragem.jpeg",
-      details: { creator: "John R. Dilworth", year: "1999–2002", episodes: "52" },
+      details: { creator: ["John R. Dilworth"], year: "1999–2002", episodes: "52" },
     },
     {
       id: "craig_of_the_creek",
@@ -478,7 +478,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/craig/show-craig.jpg",
       banner: "/dev-cartoon-network/desenhos/craig/show-banner-craig.png",
       details: {
-        creator: "Matt Burnett, Ben Levin",
+        creator: ["Matt Burnett", "Ben Levin"],
         year: "2018–presente",
         episodes: "80+",
       },
@@ -545,7 +545,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/chowder/show-chowder.jpg",
       banner: "/dev-cartoon-network/desenhos/chowder/show-banner-chowder.jpg",
-      details: { creator: "C. H. Greenblatt", year: "2007–2010", episodes: "49" },
+      details: { creator: ["C. H. Greenblatt"], year: "2007–2010", episodes: "49" },
     },
     {
       id: "fosters_home",
@@ -591,7 +591,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/mansao-foster/show-mansao-foster.jpg",
       banner:
         "/dev-cartoon-network/desenhos/mansao-foster/show-banner-mansao-foster.jpg",
-      details: { creator: "Craig McCracken", year: "2004–2009", episodes: "79" },
+      details: { creator: ["Craig McCracken"], year: "2004–2009", episodes: "79" },
     },
     {
       id: "mao_mao",
@@ -621,7 +621,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/maomao/show-maomao.jpg",
       banner: "/dev-cartoon-network/desenhos/maomao/show-banner-maomao.jpg",
-      details: { creator: "Parker Simmons", year: "2019–2020", episodes: "40" },
+      details: { creator: ["Parker Simmons"], year: "2019–2020", episodes: "40" },
     },
     {
       id: "ok_ko",
@@ -652,7 +652,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/ok-ko/show-ok-ko.jpg",
       banner: "/dev-cartoon-network/desenhos/ok-ko/show-banner-ok-ko.jpg",
       details: {
-        creator: "Ian Jones-Quartey",
+        creator: ["Ian Jones-Quartey"],
         year: "2017–2019",
         episodes: "112",
       },
@@ -686,7 +686,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/trem-infinito/show-trem-infinito.jpg",
       banner:
         "/dev-cartoon-network/desenhos/trem-infinito/show-banner-trem-infinito.jpg",
-      details: { creator: "Owen Dennis", year: "2019–2021", episodes: "40" },
+      details: { creator: ["Owen Dennis"], year: "2019–2021", episodes: "40" },
     },
     {
       id: "clarence",
@@ -717,7 +717,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/clarencio/show-clarencio.jpg",
       banner:
         "/dev-cartoon-network/desenhos/clarencio/show-banner-clarencio.jpeg",
-      details: { creator: "Skyler Page", year: "2014–2018", episodes: "130" },
+      details: { creator: ["Skyler Page"], year: "2014–2018", episodes: "130" },
     },
     // New shows added by user request
     {
@@ -758,7 +758,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/knd/show-knd.jpg",
       banner: "/dev-cartoon-network/desenhos/knd/show-banner-knd.jpg",
-      details: { creator: "Tom Warburton", year: "2002–2008", episodes: "78" },
+      details: { creator: ["Tom Warburton"], year: "2002–2008", episodes: "78" },
     },
     {
       id: "cow_and_chicken",
@@ -784,7 +784,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/vaca-e-frango/show-vaca-e-frango.jpg",
       banner:
         "/dev-cartoon-network/desenhos/vaca-e-frango/show-banner-vaca-e-frango.jpg",
-      details: { creator: "David Feiss", year: "1997–1999", episodes: "52" },
+      details: { creator: ["David Feiss"], year: "1997–1999", episodes: "52" },
     },
     {
       id: "billy_and_mandy",
@@ -815,7 +815,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/billy-e-mandy/show-billy-e-mandy.jpg",
       banner:
         "/dev-cartoon-network/desenhos/billy-e-mandy/show-banner-billy-e-mandy.jpg",
-      details: { creator: "Maxwell Atoms", year: "2001–2007", episodes: "78" },
+      details: { creator: ["Maxwell Atoms"], year: "2001–2007", episodes: "78" },
     },
     {
       id: "my_gym_partner_is_a_monkey",
@@ -876,7 +876,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/lazlo/show-lazlo.jpg",
       banner: "/dev-cartoon-network/desenhos/lazlo/show-banner-lazlo.jpg",
-      details: { creator: "Joe Murray", year: "2005–2008", episodes: "61" },
+      details: { creator: ["Joe Murray"], year: "2005–2008", episodes: "61" },
     },
     {
       id: "irmao_do_jorel",
@@ -909,7 +909,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/irmao-do-jorel/show-banner-irmao-do-jorel.jpg",
       details: {
-        creator: "Juliano Enrico",
+        creator: ["Juliano Enrico"],
         year: "2014–presente",
         episodes: "104+",
       },
@@ -1048,7 +1048,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/rex/show-rex.jpg",
       banner: "/dev-cartoon-network/desenhos/rex/show-banner-rex.png",
-      details: { creator: "Man of Action", year: "2010–2013", episodes: "60" },
+      details: { creator: ["Man of Action"], year: "2010–2013", episodes: "60" },
     },
     {
       id: "bakugan",
@@ -1088,7 +1088,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/bakugan/show-bakugan.jpg",
       banner: "/dev-cartoon-network/desenhos/bakugan/show-banner-bakugan.jpg",
-      details: { creator: "Atsushi Maekawa", year: "2007–2012", episodes: "189" },
+      details: { creator: ["Atsushi Maekawa"], year: "2007–2012", episodes: "189" },
     },
   
     //New desenhos
@@ -1121,7 +1121,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/du-dudu-edu/show-du-dudu-edu.jpg",
       banner:
         "/dev-cartoon-network/desenhos/du-dudu-edu/show-banner-du-dudu-edu.jpg",
-      details: { creator: "Danny Antonucci", year: "1999–2009", episodes: "69" },
+      details: { creator: ["Danny Antonucci"], year: "1999–2009", episodes: "69" },
     },
     {
       id: "eu_sou_o_maximo",
@@ -1152,7 +1152,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/eu-sou-maximo/show-eu-sou-maximo.png",
       banner:
         "/dev-cartoon-network/desenhos/eu-sou-maximo/show-banner-eu-sou-maximo.jpg",
-      details: { creator: "David Feiss", year: "1997–2000", episodes: "79" },
+      details: { creator: ["David Feiss"], year: "1997–2000", episodes: "79" },
     },
   
     {
@@ -1183,7 +1183,7 @@ export const showsData: Show[] = [
       ],
       image: "/dev-cartoon-network/desenhos/flapjack/show-flapjack.jpg",
       banner: "/dev-cartoon-network/desenhos/flapjack/show-banner-flapjack.jpg",
-      details: { creator: "Thurop Van Orman", year: "2008–2010", episodes: "46" },
+      details: { creator: ["Thurop Van Orman"], year: "2008–2010", episodes: "46" },
     },
     {
       id: "squirrel_boy",
@@ -1210,7 +1210,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/show-andy-e-seu-esquilo.jpg",
       banner:
         "/dev-cartoon-network/desenhos/andy-e-seu-esquilo/show-banner-andy-e-seu-esquilo.jpg",
-      details: { creator: "Everett Peck", year: "2006–2007", episodes: "52" },
+      details: { creator: ["Everett Peck"], year: "2006–2007", episodes: "52" },
     },
     {
       id: "time_squad",
@@ -1242,7 +1242,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/esquadrao-do-tempo/show-esquadrao-do-tempo.jpg",
       banner:
         "/dev-cartoon-network/desenhos/esquadrao-do-tempo/show-banner-esquadrao-do-tempo.jpg",
-      details: { creator: "Dave Wasson", year: "2001–2003", episodes: "53" },
+      details: { creator: ["Dave Wasson"], year: "2001–2003", episodes: "53" },
     },
     {
       id: "young_justice",
@@ -1359,7 +1359,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/maca-e-cebola/show-maca-e-cebola.jpg",
       banner:
         "/dev-cartoon-network/desenhos/maca-e-cebola/show-banner-maca-e-cebola.jpg",
-      details: { creator: "George Gendi", year: "2018–2021", episodes: "76" },
+      details: { creator: ["George Gendi"], year: "2018–2021", episodes: "76" },
     },
     {
       id: "hi_hi_puffy_amiyumi",
@@ -1390,7 +1390,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/puffy-amiyumi/show-puffy-amiyumi.jpg",
       banner:
         "/dev-cartoon-network/desenhos/puffy-amiyumi/show-banner-puffy-amiyumi.jpg",
-      details: { creator: "Sam Register", year: "2004–2006", episodes: "39" },
+      details: { creator: ["Sam Register"], year: "2004–2006", episodes: "39" },
     },
     {
       id: "milo_lu_og",
@@ -1421,7 +1421,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/mike-lu-og/show-mike-lu-og.jpg",
       banner:
         "/dev-cartoon-network/desenhos/mike-lu-og/show-banner-mike-lu-og.jpg",
-      details: { creator: "Mikhail Shindel", year: "1999–2001", episodes: "26" },
+      details: { creator: ["Mikhail Shindel"], year: "1999–2001", episodes: "26" },
     },
     {
       id: "tom_e_jerry",
@@ -1524,7 +1524,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/ze-colmeia/show-banner-ze-colmeia.jpeg",
       details: {
-        creator: "William Hanna, Joseph Barbera",
+        creator: ["William Hanna", "Joseph Barbera"],
         year: "1961–1988",
         episodes: "33",
       },
@@ -1622,7 +1622,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/we-baby-bears/show-banner-we-baby-bears.jpg",
       details: {
-        creator: "Manny Hernandez",
+        creator: ["Manny Hernandez"],
         year: "2022–presente",
         episodes: "50+",
       },
@@ -1738,7 +1738,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/monica-jovem/show-banner-monica-jovem.jpg",
       details: {
-        creator: "Mauricio de Sousa",
+        creator: ["Mauricio de Sousa"],
         year: "2008–2012",
         episodes: "26",
       },
@@ -1774,7 +1774,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/sym-bionic-titan/show-banner-sym-bionic-titan.jpg",
       details: {
-        creator: "Genndy Tartakovsky",
+        creator: ["Genndy Tartakovsky"],
         year: "2010–2011",
         episodes: "20",
       },
@@ -1850,7 +1850,7 @@ export const showsData: Show[] = [
         "/dev-cartoon-network/desenhos/bugs-bunny-builders/show-bugs-bunny-builders.jpg",
       banner:
         "/dev-cartoon-network/desenhos/bugs-bunny-builders/show-banner-bugs-bunny-builders.jpg",
-      details: { creator: "Alex Kirwan", year: "2022–presente", episodes: "40+" },
+      details: { creator: ["Alex Kirwan"], year: "2022–presente", episodes: "40+" },
     },
     {
       id: "thundercats_2011",
@@ -1922,7 +1922,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/tig-n-seek/show-tig-n-seek.jpg",
       banner:
         "/dev-cartoon-network/desenhos/tig-n-seek/show-banner-tig-n-seek.jpg",
-      details: { creator: "Myke Chilian", year: "2020–2021", episodes: "40" },
+      details: { creator: ["Myke Chilian"], year: "2020–2021", episodes: "40" },
     },
     {
       id: "the_fungies",
@@ -1953,7 +1953,7 @@ export const showsData: Show[] = [
       image: "/dev-cartoon-network/desenhos/the-fungies/show-the-fungies.jpg",
       banner:
         "/dev-cartoon-network/desenhos/the-fungies/show-banner-the-fungies.jpg",
-      details: { creator: "Stephen P. Neary", year: "2020–2021", episodes: "40" },
+      details: { creator: ["Stephen P. Neary"], year: "2020–2021", episodes: "40" },
     },
     {
       id: "unicorn_warriors_eternal",
@@ -1986,7 +1986,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/unicorn-warriors-eternal/show-banner-unicorn.jpg",
       details: {
-        creator: "Genndy Tartakovsky",
+        creator: ["Genndy Tartakovsky"],
         year: "2023–presente",
         episodes: "10+",
       },
@@ -2093,7 +2093,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
       details: {
-        creator: "Hanna-Barbera",
+        creator: ["Hanna-Barbera"],
         year: "1990–1994",
         episodes: "65",
       },
@@ -2139,7 +2139,7 @@ export const showsData: Show[] = [
       banner:
         "/dev-cartoon-network/desenhos/turma-da-monica/show-banner-turma-da-monica.jpg",
       details: {
-        creator: "Mauricio de Sousa",
+        creator: ["Mauricio de Sousa"],
         year: "2002–presente",
         episodes: "200+",
       },
