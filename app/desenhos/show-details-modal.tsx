@@ -23,7 +23,7 @@ export default function ShowDetailsModal({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center -m-2 p-4 rounded-lg"
         >
           <motion.div
             initial={{ scale: 0.9, y: 50 }}
@@ -31,7 +31,7 @@ export default function ShowDetailsModal({
             exit={{ scale: 0.9, y: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             onClick={(e) => e.stopPropagation()}
-            className="bg-white rounded-xl shadow-2xl shadow-black w-full max-w-4xl max-h-[90vh] overflow-y-auto relative"
+            className="bg-white rounded-xl shadow-2xl shadow-black w-full max-w-4xl max-h-[86vh] overflow-y-auto relative"
           >
             <Button
               variant="ghost"
