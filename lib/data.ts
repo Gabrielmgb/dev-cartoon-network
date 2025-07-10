@@ -19,6 +19,7 @@ import {
   Calendar,
   Users,
 } from "lucide-react";
+import { showsData } from "./shows-data" 
 
 export const navItems = [
   { icon: Tv, label: "DESENHOS", href: "/desenhos" },
@@ -685,55 +686,15 @@ export const newEpisodes = [
 
 // Add filter categories and update showsData with category information
 
-export const showCategories = [
-  "Todos",
-  "Clássicos",
-  "Ação/Aventura",
-  "Infantil",
-  "Comédia",
-  "Fantasia",
-  "Sci-Fi",
-  "Mistério",
-];
-
-// export const showCreators = [
-//   "Todos",
-//   "Adam Muto",
-//   "Aaron Horvath",
-//   "Alex Kirwan",
-//   "Atsushi Maekawa",
-//   "Ben Bocquelet",
-//   "C. H. Greenblatt",
-//   "Craig McCracken",
-//   "Daniel Chong",
-//   "David Feiss",
-//   "Eddie Mort",
-//   "Ethan Spaulding",
-//   "Hugh Harman",
-//   "Genndy Tartakovsky",
-//   "Guillaume Cassuto",
-//   "Ian Jones-Quartey",
-//   "J. G. Quintel",
-//   "Joe Murray",
-//   "Joe Ruby",
-//   "John R. Dilworth",
-//   "Juliano Enrico",
-//   "Man of Action",
-//   "Matt Burnett",
-//   "Mauricio de Sousa",
-//   "Maxwell Atoms",
-//   "Myke Chilian",
-//   "Owen Dennis",
-//   "Parker Simmons",
-//   "Pendleton Ward",
-//   "Rebecca Sugar",
-//   "Skyler Page",
-//   "Stephen P. Neary",
-//   "Tim Cahill",
-//   "Tom McGillis",
-//   "Tom Warburton",
-//   "Van Partible",
-// ];
+export const showCategories = (() => {
+  const allCategories = new Set<string>()
+  showsData.forEach((show) => {
+    show.category.forEach((cat) => {
+      allCategories.add(cat)
+    })
+  })
+  return ["Todos", ...Array.from(allCategories).sort()]
+})()
 
 
 export const gamesData = [

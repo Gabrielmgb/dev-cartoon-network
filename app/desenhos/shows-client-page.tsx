@@ -1,12 +1,12 @@
-"use client";
+"use client"
 
-import { useState, useMemo } from "react";
-import { showCategories } from "@/lib/data";
+import { useState, useMemo } from "react"
+import { showCategories } from "@/lib/data"
 import { showsData } from "@/lib/shows-data"
-import type { Show, FilterState } from "@/lib/types";
-import ShowCard from "./show-card";
-import ShowDetailsModal from "./show-details-modal";
-import ShowFilters from "./show-filters";
+import type { Show, FilterState } from "@/lib/types"
+import ShowCard from "./show-card"
+import ShowDetailsModal from "./show-details-modal"
+import ShowFilters from "./show-filters"
 
 export default function ShowsClientPage() {
   const [selectedShow, setSelectedShow] = useState<Show | null>(null)
@@ -35,14 +35,14 @@ export default function ShowsClientPage() {
 
   const filteredAndSortedShows = useMemo(() => {
     const filtered = showsData.filter((show) => {
-      const matchesCategory = filters.category === "Todos" || show.category === filters.category
-      // Check if the selected creator is included in the show's creators array
+      // Check if the selected category is included in the show's categories array
+      const matchesCategory = filters.category === "Todos" || show.category.includes(filters.category)
       const matchesCreator = filters.creator === "Todos" || show.details.creator.includes(filters.creator)
       const matchesDecade = filters.decade === "Todos" || show.decade === filters.decade
       const matchesSearch =
         filters.searchTerm === "" ||
         show.name.toLowerCase().includes(filters.searchTerm.toLowerCase()) ||
-        show.details.creator.some((c) => c.toLowerCase().includes(filters.searchTerm.toLowerCase())) // Search within creators array
+        show.details.creator.some((c) => c.toLowerCase().includes(filters.searchTerm.toLowerCase()))
 
       return matchesCategory && matchesCreator && matchesDecade && matchesSearch
     })
@@ -58,7 +58,8 @@ export default function ShowsClientPage() {
           // Sort by the first creator in the array
           return a.details.creator[0].localeCompare(b.details.creator[0])
         case "category":
-          return a.category.localeCompare(b.category)
+          // Sort by the first category in the array
+          return a.category[0].localeCompare(b.category[0])
         default:
           return 0
       }
@@ -73,7 +74,7 @@ export default function ShowsClientPage() {
         filters={filters}
         onFiltersChange={setFilters}
         categories={showCategories}
-        creators={allUniqueCreators} // Pass dynamically generated creators
+        creators={allUniqueCreators}
         decades={decades}
         totalShows={filteredAndSortedShows.length}
       />

@@ -3,7 +3,7 @@ export interface Show {
   name: string;
   image: string;
   banner: string;
-  category: string
+  category: string[]
   decade: string
   posterQuery: string;
   bannerQuery: string;

@@ -6,7 +6,7 @@ export const showsData: Show[] = [
       name: "O Incrível Mundo de Gumball",
       posterQuery: "the amazing world of gumball vertical poster",
       bannerQuery: "the amazing world of gumball wide banner",
-      category: "Comédia",
+      category: ["Comédia","Infantil"],
       decade: "2010s",
       description:
         "Acompanhe as desventuras de Gumball Watterson, um gato azul de 12 anos, e seu melhor amigo Darwin, um peixe dourado que virou seu irmão adotivo. Juntos, eles causam todo tipo de confusão na cidade de Elmore.",
@@ -46,7 +46,7 @@ export const showsData: Show[] = [
       name: "Hora de Aventura",
       posterQuery: "adventure time vertical poster",
       bannerQuery: "adventure time wide banner",
-      category: "Fantasia",
+      category: ["Fantasia","Ação/Aventura"],
       decade: "2010s",
       description:
         "Explore a Terra de Ooo com Finn, o humano, e seu cão mágico Jake. Eles enfrentam monstros, exploram masmorras e salvam princesas em uma jornada épica e surreal.",
@@ -103,7 +103,7 @@ export const showsData: Show[] = [
       name: "Steven Universo",
       posterQuery: "steven universe vertical poster",
       bannerQuery: "steven universe wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Fantasia"],
       decade: "2010s",
       description:
         "Steven é um garoto que vive com as Crystal Gems, um time de guardiãs mágicas. Ele aprende a usar os poderes herdados de sua mãe, uma Gem, para proteger a humanidade.",
@@ -140,7 +140,7 @@ export const showsData: Show[] = [
       name: "Jovens Titãs em Ação!",
       posterQuery: "teen titans go vertical poster",
       bannerQuery: "teen titans go wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Comédia","Infantil","Sci-Fi"],
       decade: "2010s",
       description:
         "Veja o que os Jovens Titãs fazem quando não estão salvando o mundo. Uma visão cômica da vida de super-heróis adolescentes, cheia de piadas e situações hilárias.",
@@ -185,7 +185,7 @@ export const showsData: Show[] = [
       name: "Ursos sem Curso",
       posterQuery: "we bare bears vertical poster",
       bannerQuery: "we bare bears wide banner",
-      category: "Comédia",
+      category: ["Comédia","Ação/Aventura"],
       decade: "2010s",
       description:
         "Pardo, Panda e Polar são três irmãos ursos tentando se enturmar na sociedade humana da Baía de São Francisco. Eles fazem de tudo para conseguir comida, amigos e fama na internet.",
@@ -216,7 +216,7 @@ export const showsData: Show[] = [
       name: "Apenas um Show",
       posterQuery: "regular show vertical poster",
       bannerQuery: "regular show wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2010s",
       description:
         "Dois amigos, um gaio-azul chamado Mordecai e um guaxinim chamado Rigby, trabalham como jardineiros em um parque e tentam de tudo para evitar o trabalho.",
@@ -268,7 +268,7 @@ export const showsData: Show[] = [
       name: "O Laboratório de Dexter",
       posterQuery: "dexter's laboratory vertical poster",
       bannerQuery: "dexter's laboratory wide banner",
-      category: "Sci-Fi",
+      category: ["Clássicos","Sci-Fi","Comédia","Ação/Aventura"],
       decade: "1990s",
       description:
         "Dexter é um menino gênio com um laboratório secreto, mas sua irmã mais velha, Dee Dee, sempre consegue entrar e estragar suas invenções.",
@@ -297,7 +297,7 @@ export const showsData: Show[] = [
       name: "As Meninas Superpoderosas",
       posterQuery: "powerpuff girls vertical poster",
       bannerQuery: "powerpuff girls wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Comédia"],
       decade: "1990s",
       description:
         "Florzinha, Lindinha e Docinho são três meninas com superpoderes que defendem a cidade de Townsville de vilões e monstros.",
@@ -339,7 +339,7 @@ export const showsData: Show[] = [
       name: "Ben 10",
       posterQuery: "ben 10 vertical poster",
       bannerQuery: "ben 10 wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Infantil","Comédia","Sci-Fi"],
       decade: "2000s",
       description:
         "Ben Tennyson, um garoto de 10 anos, descobre um relógio alienígena, o Omnitrix, que lhe permite se transformar em 10 alienígenas diferentes.",
@@ -373,7 +373,7 @@ export const showsData: Show[] = [
       name: "Samurai Jack",
       posterQuery: "samurai jack vertical poster",
       bannerQuery: "samurai jack wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Fantasia"],
       decade: "2000s",
       description:
         "Um samurai é enviado para um futuro distópico governado pelo demônio Abu. Ele busca uma maneira de voltar ao passado para destruir o mal.",
@@ -403,7 +403,7 @@ export const showsData: Show[] = [
       name: "Johnny Bravo",
       posterQuery: "johnny bravo vertical poster",
       bannerQuery: "johnny bravo wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia"],
       decade: "1990s",
       description:
         "Johnny Bravo é um homem musculoso e vaidoso que tenta, sem sucesso, conquistar mulheres com seu jeito peculiar.",
@@ -424,7 +424,7 @@ export const showsData: Show[] = [
       name: "Coragem, o Cão Covarde",
       posterQuery: "courage the cowardly dog vertical poster",
       bannerQuery: "courage the cowardly dog wide banner",
-      category: "Mistério",
+      category: ["Clássicos","Mistério","Ação/Aventura"],
       decade: "1990s",
       description:
         "Coragem é um cão medroso que vive com seus donos idosos em Lugar Nenhum, e precisa defendê-los de eventos bizarros e paranormais.",
@@ -454,7 +454,7 @@ export const showsData: Show[] = [
       name: "O Mundo de Craig",
       posterQuery: "craig of the creek vertical poster",
       bannerQuery: "craig of the creek wide banner",
-      category: "Comédia",
+      category: ["Comédia","Ação/Aventura"],
       decade: "2010s",
       description:
         "Craig e seus amigos, Kelsey e J.P., vivem aventuras em um riacho onde as crianças do bairro criaram sua própria sociedade.",
@@ -488,7 +488,7 @@ export const showsData: Show[] = [
       name: "Ilha dos Desafios",
       posterQuery: "total drama island vertical poster",
       bannerQuery: "total drama island wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2000s",
       description:
         "Um grupo de adolescentes compete em um reality show em uma ilha abandonada, enfrentando desafios bizarros por um prêmio em dinheiro.",
@@ -517,7 +517,7 @@ export const showsData: Show[] = [
       name: "Chowder",
       posterQuery: "chowder cartoon vertical poster",
       bannerQuery: "chowder cartoon wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2000s",
       description:
         "Chowder é um jovem aprendiz de cozinheiro que vive na cidade de Marzipã e sempre se mete em encrencas culinárias.",
@@ -552,7 +552,7 @@ export const showsData: Show[] = [
       name: "A Mansão Foster para Amigos Imaginários",
       posterQuery: "fosters home for imaginary friends vertical poster",
       bannerQuery: "fosters home wide banner",
-      category: "Fantasia",
+      category: ["Fantasia","Comédia"],
       decade: "2000s",
       description:
         "Mac é um garoto que leva seu amigo imaginário, Bloo, para uma casa especial onde amigos imaginários vivem quando suas crianças crescem.",
@@ -598,7 +598,7 @@ export const showsData: Show[] = [
       name: "Mao Mao: Heróis de Coração Puro",
       posterQuery: "mao mao heroes of pure heart vertical poster",
       bannerQuery: "mao mao heroes of pure heart wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Fantasia"],
       decade: "2010s",
       description:
         "O xerife Mao Mao, um gato heroico, e seus amigos defendem o pacífico Vale do Coração Puro de monstros e vilões.",
@@ -628,7 +628,7 @@ export const showsData: Show[] = [
       name: "OK, K.O.! Vamos ser Heróis",
       posterQuery: "ok ko lets be heroes vertical poster",
       bannerQuery: "ok ko lets be heroes wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura"],
       decade: "2010s",
       description:
         "K.O. é um garoto otimista que trabalha em uma loja de suprimentos para heróis e sonha em se tornar o maior herói do mundo.",
@@ -662,7 +662,7 @@ export const showsData: Show[] = [
       name: "Trem Infinito",
       posterQuery: "infinity train vertical poster",
       bannerQuery: "infinity train wide banner",
-      category: "Mistério",
+      category: ["Mistério","Sci-Fi"],
       decade: "2010s",
       description:
         "Passageiros com problemas emocionais embarcam em um trem misterioso com vagões infinitos, cada um contendo um universo diferente.",
@@ -693,7 +693,7 @@ export const showsData: Show[] = [
       name: "Clarêncio, o Otimista",
       posterQuery: "clarence cartoon vertical poster",
       bannerQuery: "clarence cartoon wide banner",
-      category: "Comédia",
+      category: ["Comédia","Infantil"],
       decade: "2010s",
       description:
         "Clarêncio é um menino alegre e otimista que vê o lado bom de tudo e vive aventuras cotidianas com seus amigos Jeff e Sumo.",
@@ -725,7 +725,7 @@ export const showsData: Show[] = [
       name: "KND: A Turma do Bairro",
       posterQuery: "codename kids next door vertical poster",
       bannerQuery: "codename kids next door wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Comédia", "Sci-Fi"],
       decade: "2000s",
       description:
         "Um grupo de cinco crianças de 10 anos opera a partir de uma casa na árvore de alta tecnologia, lutando contra a tirania de adultos e adolescentes.",
@@ -765,7 +765,7 @@ export const showsData: Show[] = [
       name: "A Vaca e o Frango",
       posterQuery: "cow and chicken vertical poster",
       bannerQuery: "cow and chicken wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia"],
       decade: "1990s",
       description:
         "As aventuras surreais de uma vaca e um frango que são irmãos, e seus encontros com o cara vermelho sem calças.",
@@ -791,7 +791,7 @@ export const showsData: Show[] = [
       name: "As Terríveis Aventuras de Billy e Mandy",
       posterQuery: "the grim adventures of billy and mandy vertical poster",
       bannerQuery: "the grim adventures of billy and mandy wide banner",
-      category: "Mistério",
+      category: ["Mistério","Comédia"],
       decade: "2000s",
       description:
         "Duas crianças, o estúpido Billy e a cínica Mandy, forçam o Ceifador Sinistro a ser seu melhor amigo para sempre após vencerem uma aposta.",
@@ -822,7 +822,7 @@ export const showsData: Show[] = [
       name: "Meu Amigo da Escola é um Macaco",
       posterQuery: "my gym partners a monkey vertical poster",
       bannerQuery: "my gym partners a monkey wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2000s",
       description:
         "Por um erro de digitação, Adam Lyon, um humano, é transferido para a Escola de Ginástica para Animais Charles Darwin, onde faz amizade com o macaco Jake.",
@@ -853,7 +853,7 @@ export const showsData: Show[] = [
       name: "O Acampamento de Lazlo",
       posterQuery: "camp lazlo vertical poster",
       bannerQuery: "camp lazlo wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2000s",
       description:
         "Lazlo, um macaco-aranha otimista, e seus amigos Raj e Clam vivem aventuras no Acampamento Rim, um acampamento de escoteiros não muito organizado.",
@@ -883,7 +883,7 @@ export const showsData: Show[] = [
       name: "Irmão do Jorel",
       posterQuery: "irmao do jorel vertical poster",
       bannerQuery: "irmao do jorel wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2010s",
       description:
         "A história de um garoto tímido e sem nome que é sempre ofuscado pela popularidade de seu irmão mais velho, Jorel. Ele tenta encontrar sua própria identidade.",
@@ -919,7 +919,7 @@ export const showsData: Show[] = [
       name: "Scooby-Doo, Cadê Você!",
       posterQuery: "scooby doo where are you vertical poster",
       bannerQuery: "scooby doo where are you wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Mistério","Comédia","Ação/Aventura"],
       decade: "1960s",
       description:
         "Quatro adolescentes e seu cão falante, Scooby-Doo, resolvem mistérios envolvendo criaturas supostamente sobrenaturais.",
@@ -964,7 +964,7 @@ export const showsData: Show[] = [
       name: "Looney Tunes",
       posterQuery: "looney tunes vertical poster",
       bannerQuery: "looney tunes wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Infantil","Comédia"],
       decade: "1930s",
       description:
         "As aventuras cômicas e caóticas de um elenco de personagens icônicos, incluindo Pernalonga, Patolino, Gaguinho e muitos outros.",
@@ -1025,7 +1025,7 @@ export const showsData: Show[] = [
       name: "Mutante Rex",
       posterQuery: "generator rex vertical poster",
       bannerQuery: "generator rex wide banner",
-      category: "Sci-Fi",
+      category: ["Sci-Fi","Ação/Aventura"],
       decade: "2010s",
       description:
         "Rex é um adolescente que pode criar máquinas a partir de seu corpo. Ele trabalha para uma organização que combate mutantes perigosos chamados E.V.O.s.",
@@ -1055,7 +1055,7 @@ export const showsData: Show[] = [
       name: "Bakugan: Guerreiros da Batalha",
       posterQuery: "bakugan battle brawlers vertical poster",
       bannerQuery: "bakugan battle brawlers wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura"],
       decade: "2000s",
       description:
         "Um grupo de amigos encontra cartas que caem do céu e se envolvem em um jogo de batalha usando criaturas místicas chamadas Bakugan.",
@@ -1097,7 +1097,7 @@ export const showsData: Show[] = [
       name: "Du, Dudu e Edu",
       posterQuery: "ed edd n eddy vertical poster",
       bannerQuery: "ed edd n eddy wide banner",
-      category: "Comédia",
+      category: ["Clássicos","Comédia"],
       decade: "1990s",
       description:
         "Três amigos trapaceiros vivem criando planos malucos para conseguir dinheiro e comprar balas de caramelo no subúrbio onde moram.",
@@ -1128,7 +1128,7 @@ export const showsData: Show[] = [
       name: "Eu Sou o Máximo",
       posterQuery: "maximum vertical poster",
       bannerQuery: "maximum wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "1990s",
       description:
         "As aventuras de Máximo, uma doninha inteligente e habilidosa, e seu amigo Babão, um babuíno pouco inteligente, explorando situações cômicas e situações cotidianas.",
@@ -1160,7 +1160,7 @@ export const showsData: Show[] = [
       name: "As Terríveis Aventuras de Flapjack",
       posterQuery: "the marvelous misadventures of flapjack vertical poster",
       bannerQuery: "the marvelous misadventures of flapjack wide banner",
-      category: "Fantasia",
+      category: ["Fantasia","Ação/Aventura","Comédia"],
       decade: "2000s",
       description:
         "Flapjack é um garoto criado por uma baleia falante, e junto com o Capitão Falange, embarca em aventuras perigosas em busca da Ilha Açucarada.",
@@ -1190,7 +1190,7 @@ export const showsData: Show[] = [
       name: "Andy e Seu Esquilo",
       posterQuery: "squirrel boy vertical poster",
       bannerQuery: "squirrel boy wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2000s",
       description:
         "Andy e seu excêntrico esquilo falante Rodney vivem diversas confusões enquanto tentam provar que sua amizade é inquebrável.",
@@ -1217,7 +1217,7 @@ export const showsData: Show[] = [
       name: "Esquadrão do Tempo",
       posterQuery: "time squad cartoon vertical poster",
       bannerQuery: "time squad cartoon wide banner",
-      category: "Sci-Fi",
+      category: ["Sci-Fi","Comédia","Ação/Aventura"],
       decade: "2000s",
       description:
         "Um robô, um soldado e um órfão viajam no tempo para corrigir eventos históricos que saíram errado, garantindo o futuro da humanidade.",
@@ -1249,7 +1249,7 @@ export const showsData: Show[] = [
       name: "Justiça Jovem",
       posterQuery: "young justice vertical poster",
       bannerQuery: "young justice wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura"],
       decade: "2010s",
       description:
         "Os jovens heróis da DC trabalham juntos como uma equipe secreta para missões perigosas, enquanto enfrentam dilemas pessoais e amadurecimento.",
@@ -1299,7 +1299,7 @@ export const showsData: Show[] = [
       name: "The Batman",
       posterQuery: "the batman animated series vertical poster",
       bannerQuery: "the batman animated series wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura"],
       decade: "2000s",
       description:
         "Nesta versão mais jovem do Cavaleiro das Trevas, Bruce Wayne ainda está se estabelecendo como Batman enquanto enfrenta vilões clássicos de Gotham.",
@@ -1340,7 +1340,7 @@ export const showsData: Show[] = [
       name: "Maçã e Cebola",
       posterQuery: "apple and onion vertical poster",
       bannerQuery: "apple and onion wide banner",
-      category: "Comédia",
+      category: ["Comédia"],
       decade: "2010s",
       description:
         "Maçã e Cebola são dois melhores amigos recém-chegados à cidade que vivem situações engraçadas e peculiares enquanto aprendem sobre amizade e comunidade.",
@@ -1366,7 +1366,7 @@ export const showsData: Show[] = [
       name: "Hi Hi Puffy AmiYumi",
       posterQuery: "hi hi puffy amiyumi vertical poster",
       bannerQuery: "hi hi puffy amiyumi wide banner",
-      category: "Comédia",
+      category: ["Comédia","Infantil"],
       decade: "2000s",
       description:
         "Inspirado na banda japonesa Puffy AmiYumi, o desenho mostra Ami e Yumi em aventuras malucas enquanto fazem turnês pelo mundo com seu produtor Kaz.",
@@ -1397,7 +1397,7 @@ export const showsData: Show[] = [
       name: "Mike, Lu & Og",
       posterQuery: "mike lu and og vertical poster",
       bannerQuery: "mike lu and og wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia"],
       decade: "1990s",
       description:
         "Mike, uma garota moderna da cidade, vai morar em uma ilha remota onde vive aventuras com os nativos Lu e Og, enfrentando o choque cultural com humor.",
@@ -1428,7 +1428,7 @@ export const showsData: Show[] = [
       name: "Tom & Jerry",
       posterQuery: "tom and jerry cartoon network vertical poster",
       bannerQuery: "tom and jerry cartoon network wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia","Infantil"],
       decade: "1940s",
       description:
         "Tom, um gato doméstico determinado, vive tentando capturar Jerry, um rato esperto e travesso. Suas perseguições resultam em situações hilárias e cheias de ação, com humor físico clássico.",
@@ -1458,7 +1458,7 @@ export const showsData: Show[] = [
       name: "Os Flintstones",
       posterQuery: "the flintstones cartoon network vertical poster",
       bannerQuery: "the flintstones cartoon network wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia"],
       decade: "1960s",
       description:
         "Fred Flintstone, sua esposa Wilma e o casal vizinho Barney e Betty vivem aventuras pré-históricas em uma sociedade moderna da Idade da Pedra. Com dinossauros como eletrodomésticos, o cotidiano se torna cômico e inusitado.",
@@ -1499,7 +1499,7 @@ export const showsData: Show[] = [
       name: "Zé Colmeia",
       posterQuery: "yogi bear cartoon network vertical poster",
       bannerQuery: "yogi bear cartoon network wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia"],
       decade: "1960s",
       description:
         "Zé Colmeia é um urso esperto e folgado que vive no Parque Jellystone e adora roubar cestas de piquenique, apesar dos esforços do Guarda Smith para impedi-lo. Sempre acompanhado de seu amigo Catatau, suas trapalhadas são cheias de charme e humor.",
@@ -1534,7 +1534,7 @@ export const showsData: Show[] = [
       name: "Rey Mysterio vs. A Escuridão",
       posterQuery: "rey mysterio vs the darkness cartoon network vertical poster",
       bannerQuery: "rey mysterio vs the darkness cartoon network wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Modernos"],
       decade: "2020s",
       description:
         "A estrela da luta livre Rey Mysterio enfrenta forças sobrenaturais ao lado de sua família em aventuras cheias de ação, mitologia e cultura mexicana. O lutador mascarado protege o mundo contra a Escuridão usando seus golpes lendários.",
@@ -1565,7 +1565,7 @@ export const showsData: Show[] = [
       posterQuery:
         "the heroic quest of the valiant prince ivandoe vertical poster",
       bannerQuery: "the heroic quest of the valiant prince ivandoe wide banner",
-      category: "Fantasia",
+      category: ["Fantasia","Ação/Aventura"],
       decade: "2020s",
       description:
         "O príncipe Ivandoe, um cervo corajoso (ou quase), embarca em uma missão épica para encontrar a Pena Dourada da Verdade. Ao lado de seu fiel escudeiro Bert, enfrenta criaturas estranhas e situações engraçadas em uma paródia de contos heroicos.",
@@ -1597,7 +1597,7 @@ export const showsData: Show[] = [
       name: "Ursinhos em Curso",
       posterQuery: "we baby bears cartoon network vertical poster",
       bannerQuery: "we baby bears cartoon network wide banner",
-      category: "Infantil",
+      category: ["Infantil","Comédia","Modernos"],
       decade: "2020s",
       description:
         "Pardo, Panda e Polar são ursos irmãos que viajam por universos mágicos em uma caixa especial em busca de um novo lar. Cada mundo traz uma nova aventura cheia de imaginação, humor e amizade.",
@@ -1632,7 +1632,7 @@ export const showsData: Show[] = [
       name: "Tiny Toons: Looniversidade",
       posterQuery: "tiny toons looniversity vertical poster",
       bannerQuery: "tiny toons looniversity wide banner",
-      category: "Comédia",
+      category: ["Comédia","Infantil"],
       decade: "2020s",
       description:
         "Os icônicos personagens da nova geração dos Looney Tunes frequentam a Looniversity, onde treinam para se tornarem os próximos grandes astros da comédia. Buster, Babs e seus amigos vivem aventuras malucas enquanto aprendem com os mestres clássicos.",
@@ -1673,7 +1673,7 @@ export const showsData: Show[] = [
       name: "¡Mucha Lucha!",
       posterQuery: "mucha lucha vertical poster",
       bannerQuery: "mucha lucha wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura","Comédia"],
       decade: "2000s",
       description:
         "As aventuras de três jovens lutadores de luta livre mexicana que estudam em uma escola especial para mascarados, onde aprendem as tradições da lucha libre.",
@@ -1708,7 +1708,7 @@ export const showsData: Show[] = [
       name: "Mônica Jovem",
       posterQuery: "monica jovem vertical poster",
       bannerQuery: "monica jovem wide banner",
-      category: "Comédia",
+      category: ["Comédia","Modernos"],
       decade: "2010s",
       description:
         "A versão adolescente da Turma da Mônica, mostrando os personagens clássicos de Mauricio de Sousa em suas aventuras como teenagers.",
@@ -1748,7 +1748,7 @@ export const showsData: Show[] = [
       name: "Titã Simbiônico",
       posterQuery: "sym bionic titan vertical poster",
       bannerQuery: "sym bionic titan wide banner",
-      category: "Sci-Fi",
+      category: ["Sci-Fi","Ação/Aventura"],
       decade: "2010s",
       description:
         "Três alienígenas refugiados se escondem na Terra como estudantes do ensino médio, mas quando necessário, se unem para formar um robô gigante para defender o planeta.",
@@ -1784,7 +1784,7 @@ export const showsData: Show[] = [
       name: "Elliott, o Terráqueo",
       posterQuery: "elliott from earth vertical poster",
       bannerQuery: "elliott from earth wide banner",
-      category: "Sci-Fi",
+      category: ["Sci-Fi","Modernos","Comédia"],
       decade: "2020s",
       description:
         "Elliott, um garoto humano, vive em uma estação espacial cósmica com sua mãe e faz amizade com alienígenas de todas as formas e tamanhos.",
@@ -1820,7 +1820,7 @@ export const showsData: Show[] = [
       name: "Perninha em Obras",
       posterQuery: "bugs bunny builders vertical poster",
       bannerQuery: "bugs bunny builders wide banner",
-      category: "Infantil",
+      category: ["Infantil","Comédia","Modernos"],
       decade: "2020s",
       description:
         "Bugs Bunny e sua turma trabalham como construtores, resolvendo problemas da comunidade com criatividade, trabalho em equipe e muito humor.",
@@ -1857,7 +1857,7 @@ export const showsData: Show[] = [
       name: "ThunderCats (2011)",
       posterQuery: "thundercats 2011 vertical poster",
       bannerQuery: "thundercats 2011 wide banner",
-      category: "Ação/Aventura",
+      category: ["Ação/Aventura"],
       decade: "2010s",
       description:
         "Uma reimaginação moderna dos ThunderCats, seguindo Lion-O e seus companheiros felinos em sua luta contra as forças do mal em Third Earth.",
@@ -1898,7 +1898,7 @@ export const showsData: Show[] = [
       name: "Tigue e Lupa: Os Detetives",
       posterQuery: "tig n seek vertical poster",
       bannerQuery: "tig n seek wide banner",
-      category: "Mistério",
+      category: ["Mistério","Comédia", "Modernos"],
       decade: "2020s",
       description:
         "Tig é um gato de 8 anos cheio de energia que ama resolver mistérios com seu melhor amigo Seek, um cão eletrônico.",
@@ -1929,7 +1929,7 @@ export const showsData: Show[] = [
       name: "Os Fungos!",
       posterQuery: "the fungies vertical poster",
       bannerQuery: "the fungies wide banner",
-      category: "Comédia",
+      category: ["Comédia","Modernos"],
       decade: "2020s",
       description:
         "Seth, um jovem fungo cientista, explora o mundo pré-histórico de Fungietown com seus amigos, fazendo descobertas e vivendo aventuras.",
@@ -1960,7 +1960,7 @@ export const showsData: Show[] = [
       name: "Unicórnio: Guerreiros Eternos",
       posterQuery: "unicorn warriors eternal vertical poster",
       bannerQuery: "unicorn warriors eternal wide banner",
-      category: "Fantasia",
+      category: ["Fantasia","Ação/Aventura","Comédia","Mistério","Modernos"],
       decade: "2020s",
       description:
         "Uma equipe de heróis imortais reencarna ao longo da história para proteger a humanidade de uma antiga força do mal que ameaça destruir o mundo.",
@@ -1996,7 +1996,7 @@ export const showsData: Show[] = [
       name: "Hora de Aventura: Fionna e Cake",
       posterQuery: "adventure time fionna and cake vertical poster",
       bannerQuery: "adventure time fionna and cake wide banner",
-      category: "Fantasia",
+      category: ["Fantasia","Modernos","Ação/Aventura","Comédia"],
       decade: "2020s",
       description:
         "Um spin-off de Hora de Aventura seguindo Fionna e Cake em suas próprias aventuras através do multiverso, explorando realidades alternativas.",
@@ -2031,7 +2031,7 @@ export const showsData: Show[] = [
       name: "Drama Total: A Ilha dos Jovens",
       posterQuery: "total drama island kids vertical poster",
       bannerQuery: "total drama island kids wide banner",
-      category: "Infantil",
+      category: ["Infantil","Comédia"],
       decade: "2020s",
       description:
         "Versão infantil dos personagens de Drama Total, vivendo juntos em um acampamento cheio de confusões, desafios bobos e muita rivalidade fofa.",
@@ -2067,7 +2067,7 @@ export const showsData: Show[] = [
       name: "Tom & Jerry Kids",
       posterQuery: "tom and jerry kids vertical poster",
       bannerQuery: "tom and jerry kids wide banner",
-      category: "Infantil",
+      category: ["Infantil","Comédia"],
       decade: "1990s",
       description:
         "Versão infantil de Tom e Jerry com o mesmo estilo de perseguição hilária, mas com personagens mais jovens e energia redobrada.",
@@ -2103,7 +2103,7 @@ export const showsData: Show[] = [
       name: "Turma da Mônica",
       posterQuery: "turma da monica vertical poster",
       bannerQuery: "turma da monica wide banner",
-      category: "Clássicos",
+      category: ["Clássicos","Comédia","Infantil"],
       decade: "2000s",
       description:
         "Acompanhe as aventuras da Mônica, Cebolinha, Cascão, Magali e toda a turminha do Bairro do Limoeiro em histórias cheias de humor, amizade e aprendizados.",
