@@ -36,7 +36,7 @@ export default function ShowDetailsModal({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center -m-2 p-4 rounded-lg"
+          className="fixed inset-0 -inset-y-8 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 rounded-lg"
         >
           <motion.div
             initial={{ scale: 0.9, y: 50 }}
