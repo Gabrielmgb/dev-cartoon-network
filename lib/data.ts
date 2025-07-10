@@ -572,15 +572,30 @@ export const footerSections = [
 ];
 
 export const socialLinks = [
-  { icon: Youtube, href: "https://www.youtube.com/@BRCartoonNetworkvideos", name: "YouTube", color: "hover:text-red-500" },
+  {
+    icon: Youtube,
+    href: "https://www.youtube.com/@BRCartoonNetworkvideos",
+    name: "YouTube",
+    color: "hover:text-red-500",
+  },
   {
     icon: Instagram,
     href: "https://www.instagram.com/cartoonnetworkbrasil/?hl=pt-br",
     name: "Instagram",
     color: "hover:text-pink-500",
   },
-  { icon: Facebook, href: "https://www.facebook.com/cartoonnetworkbrasil/events", name: "Facebook", color: "hover:text-blue-500" },
-  { icon: Twitter, href: "https://x.com/CartoonBrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", name: "Twitter", color: "hover:text-sky-500", },
+  {
+    icon: Facebook,
+    href: "https://www.facebook.com/cartoonnetworkbrasil/events",
+    name: "Facebook",
+    color: "hover:text-blue-500",
+  },
+  {
+    icon: Twitter,
+    href: "https://x.com/CartoonBrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    name: "Twitter",
+    color: "hover:text-sky-500",
+  },
 ];
 
 export const legalLinks = [
@@ -675,6 +690,7 @@ export const showCategories = [
   "Clássicos",
   "Modernos",
   "Ação/Aventura",
+  "Infantil",
   "Comédia",
   "Fantasia",
   "Sci-Fi",
@@ -683,33 +699,41 @@ export const showCategories = [
 
 export const showCreators = [
   "Todos",
+  "Adam Muto",
+  "Aaron Horvath",
+  "Alex Kirwan",
+  "Atsushi Maekawa",
   "Ben Bocquelet",
+  "C. H. Greenblatt",
+  "Craig McCracken",
+  "Daniel Chong",
+  "David Feiss",
+  "Eddie Mort",
+  "Ethan Spaulding",
+  "Hugh Harman",
+  "Genndy Tartakovsky",
+  "Guillaume Cassuto",
+  "Ian Jones-Quartey",
+  "J. G. Quintel",
+  "Joe Murray",
+  "Joe Ruby",
+  "John R. Dilworth",
+  "Juliano Enrico",
+  "Man of Action",
+  "Matt Burnett",
+  "Mauricio de Sousa",
+  "Maxwell Atoms",
+  "Myke Chilian",
+  "Owen Dennis",
+  "Parker Simmons",
   "Pendleton Ward",
   "Rebecca Sugar",
-  "Aaron Horvath",
-  "Daniel Chong",
-  "J. G. Quintel",
-  "Genndy Tartakovsky",
-  "Craig McCracken",
-  "Man of Action",
-  "Van Partible",
-  "John R. Dilworth",
-  "Matt Burnett",
-  "Tom McGillis",
-  "C. H. Greenblatt",
-  "Parker Simmons",
-  "Ian Jones-Quartey",
-  "Owen Dennis",
   "Skyler Page",
-  "Tom Warburton",
-  "David Feiss",
-  "Maxwell Atoms",
+  "Stephen P. Neary",
   "Tim Cahill",
-  "Joe Murray",
-  "Juliano Enrico",
-  "Joe Ruby",
-  "Vários",
-  "Atsushi Maekawa",
+  "Tom McGillis",
+  "Tom Warburton",
+  "Van Partible",
 ];
 
 export const showsData = [
@@ -887,7 +911,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/jovens-titas/show-banner-jovens-titas.jpg",
     details: {
-      creator: "Aaron Horvath, Michael Jelenic",
+      creator: ["Aaron Horvath", "Michael Jelenic"],
       year: "2013–presente",
       episodes: "390+",
     },
@@ -1115,7 +1139,7 @@ export const showsData = [
     name: "Johnny Bravo",
     posterQuery: "johnny bravo vertical poster",
     bannerQuery: "johnny bravo wide banner",
-    category: "Comédia",
+    category: "Clássicos",
     decade: "1990s",
     description:
       "Johnny Bravo é um homem musculoso e vaidoso que tenta, sem sucesso, conquistar mulheres com seu jeito peculiar.",
@@ -1219,7 +1243,7 @@ export const showsData = [
     image: "/dev-cartoon-network/desenhos/ilha/show-ilha.jpg",
     banner: "/dev-cartoon-network/desenhos/ilha/show-banner-ilha.jpg",
     details: {
-      creator: "Tom McGillis, Jennifer Pertsch",
+      creator: ["Tom McGillis", "Jennifer Pertsch"],
       year: "2007–2008",
       episodes: "27",
     },
@@ -1477,7 +1501,7 @@ export const showsData = [
     name: "A Vaca e o Frango",
     posterQuery: "cow and chicken vertical poster",
     bannerQuery: "cow and chicken wide banner",
-    category: "Comédia",
+    category: "Clássicos",
     decade: "1990s",
     description:
       "As aventuras surreais de uma vaca e um frango que são irmãos, e seus encontros com o cara vermelho sem calças.",
@@ -1555,7 +1579,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/meu-amigo-da-escola/show-banner-meu-amigo-da-escola.jpg",
     details: {
-      creator: "Tim Cahill, Julie McNally Cahill",
+      creator: ["Tim Cahill", "Julie McNally Cahill"],
       year: "2005–2008",
       episodes: "56",
     },
@@ -1631,7 +1655,7 @@ export const showsData = [
     name: "Scooby-Doo, Cadê Você!",
     posterQuery: "scooby doo where are you vertical poster",
     bannerQuery: "scooby doo where are you wide banner",
-    category: "Mistério",
+    category: "Clássicos",
     decade: "1960s",
     description:
       "Quatro adolescentes e seu cão falante, Scooby-Doo, resolvem mistérios envolvendo criaturas supostamente sobrenaturais.",
@@ -1666,7 +1690,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/scooby-doo/show-banner-scooby-doo.jpg",
     details: {
-      creator: "Joe Ruby, Ken Spears",
+      creator: ["Joe Ruby", "Ken Spears"],
       year: "1969–1970",
       episodes: "25",
     },
@@ -1730,7 +1754,7 @@ export const showsData = [
     image: "/dev-cartoon-network/desenhos/looney-tunes/show-looney-tunes.jpg",
     banner:
       "/dev-cartoon-network/desenhos/looney-tunes/show-banner-looney-tunes.jpg",
-    details: { creator: "Vários", year: "1930–presente", episodes: "1000+" },
+    details: { creator: ["Hugh Harman", "Rudolf Ising", "Leon Schlesinger"], year: "1930–presente", episodes: "1000+" },
   },
   {
     id: "generator_rex",
@@ -2001,7 +2025,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/justica-jovem/show-banner-justica-jovem.jpg",
     details: {
-      creator: "Greg Weisman, Brandon Vietti",
+      creator: ["Greg Weisman", "Brandon Vietti"],
       year: "2010–2022",
       episodes: "98",
     },
@@ -2042,7 +2066,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/the-batman/show-banner-the-batman.jpg",
     details: {
-      creator: "Michael Goguen, Duane Capizzi",
+      creator: ["Michael Goguen", "Duane Capizzi"],
       year: "2004–2008",
       episodes: "65",
     },
@@ -2137,7 +2161,7 @@ export const showsData = [
   },
   {
     id: "tom_e_jerry",
-    name: "Tom e Jerry",
+    name: "Tom & Jerry",
     posterQuery: "tom and jerry cartoon network vertical poster",
     bannerQuery: "tom and jerry cartoon network wide banner",
     category: "Clássicos",
@@ -2160,7 +2184,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/tom-e-jerry/show-banner-tom-e-jerry.jpg",
     details: {
-      creator: "William Hanna, Joseph Barbera",
+      creator: ["William Hanna", "Joseph Barbera"],
       year: "1940–presente",
       episodes: "160+",
     },
@@ -2201,7 +2225,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/os-flintstones/show-banner-os-flintstones.jpg",
     details: {
-      creator: "William Hanna, Joseph Barbera",
+      creator: ["William Hanna", "Joseph Barbera"],
       year: "1960–1966",
       episodes: "166",
     },
@@ -2266,7 +2290,7 @@ export const showsData = [
     banner:
       "/dev-cartoon-network/desenhos/rey-mysterio/show-banner-rey-mysterio.jpg",
     details: {
-      creator: "¡Viva Calavera!, Cartoon Network LA",
+      creator: ["¡Viva Calavera!", "Cartoon Network LA"],
       year: "2022–presente",
       episodes: "10+",
     },
@@ -2296,9 +2320,564 @@ export const showsData = [
     image: "/dev-cartoon-network/desenhos/ivandoe/show-ivandoe.jpg",
     banner: "/dev-cartoon-network/desenhos/ivandoe/show-banner-ivandoe.jpg",
     details: {
-      creator: "Christian Bøving-Andersen, Eva Lee Wallberg",
+      creator: ["Christian Bøving-Andersen", "Eva Lee Wallberg"],
       year: "2017–presente",
       episodes: "40+",
+    },
+  },
+
+  //New desenhos
+
+  {
+    id: "we_baby_bears",
+    name: "Ursinhos em Curso",
+    posterQuery: "we baby bears cartoon network vertical poster",
+    bannerQuery: "we baby bears cartoon network wide banner",
+    category: "Modernos",
+    decade: "2020s",
+    description:
+      "Pardo, Panda e Polar são ursos irmãos que viajam por universos mágicos em uma caixa especial em busca de um novo lar. Cada mundo traz uma nova aventura cheia de imaginação, humor e amizade.",
+    characters: [
+      {
+        name: "Pardo",
+        query: "grizz we baby bears character",
+        char: "/dev-cartoon-network/desenhos/we-baby-bears/char-pardo.png",
+      },
+      {
+        name: "Panda",
+        query: "panda we baby bears character",
+        char: "/dev-cartoon-network/desenhos/we-baby-bears/char-panda.png",
+      },
+      {
+        name: "Polar",
+        query: "ice bear we baby bears character",
+        char: "/dev-cartoon-network/desenhos/we-baby-bears/char-polar.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/we-baby-bears/show-we-baby-bears.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/we-baby-bears/show-banner-we-baby-bears.jpg",
+    details: {
+      creator: "Manny Hernandez",
+      year: "2022–presente",
+      episodes: "50+",
+    },
+  },
+  {
+    id: "tiny_toons_looniversity",
+    name: "Tiny Toons: Looniversidade",
+    posterQuery: "tiny toons looniversity vertical poster",
+    bannerQuery: "tiny toons looniversity wide banner",
+    category: "Modernos",
+    decade: "2020s",
+    description:
+      "Os icônicos personagens da nova geração dos Looney Tunes frequentam a Looniversity, onde treinam para se tornarem os próximos grandes astros da comédia. Buster, Babs e seus amigos vivem aventuras malucas enquanto aprendem com os mestres clássicos.",
+    characters: [
+      {
+        name: "Buster Bunny",
+        query: "buster bunny tiny toons character",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-buster.png",
+      },
+      {
+        name: "Babs Bunny",
+        query: "babs bunny tiny toons character",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-babs.png",
+      },
+      {
+        name: "Plucky Duck",
+        query: "plucky duck tiny toons character",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-plucky.png",
+      },
+      {
+        name: "Hampton J. Pig",
+        query: "hampton pig tiny toons character",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-hampton.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/tiny-toons/show-tiny-toons-looniversity.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/tiny-toons/show-banner-tiny-toons-looniversity.jpg",
+    details: {
+      creator: ["Nate Cash", "Erin Gibson"],
+      year: "2023–presente",
+      episodes: "26+",
+    },
+  },
+  {
+    id: "mucha_lucha",
+    name: "¡Mucha Lucha!",
+    posterQuery: "mucha lucha vertical poster",
+    bannerQuery: "mucha lucha wide banner",
+    category: "Ação/Aventura",
+    decade: "2000s",
+    description:
+      "As aventuras de três jovens lutadores de luta livre mexicana que estudam em uma escola especial para mascarados, onde aprendem as tradições da lucha libre.",
+    characters: [
+      {
+        name: "Rikochet",
+        query: "Rikochet from Mucha Lucha",
+        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-rikochet.png",
+      },
+      {
+        name: "Buena Girl",
+        query: "Buena Girl from Mucha Lucha",
+        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-buena-girl.png",
+      },
+      {
+        name: "The Flea",
+        query: "The Flea from Mucha Lucha",
+        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-the-flea.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/mucha-lucha/show-mucha-lucha.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/mucha-lucha/show-banner-mucha-lucha.jpg",
+    details: {
+      creator: ["Eddie Mort", "Lili Chin"],
+      year: "2002–2005",
+      episodes: "52",
+    },
+  },
+  {
+    id: "monica_jovem",
+    name: "Mônica Jovem",
+    posterQuery: "monica jovem vertical poster",
+    bannerQuery: "monica jovem wide banner",
+    category: "Comédia",
+    decade: "2010s",
+    description:
+      "A versão adolescente da Turma da Mônica, mostrando os personagens clássicos de Mauricio de Sousa em suas aventuras como teenagers.",
+    characters: [
+      {
+        name: "Mônica",
+        query: "Monica teen from Monica Jovem",
+        char: "/dev-cartoon-network/desenhos/monica-jovem/char-monica.png",
+      },
+      {
+        name: "Cebolinha",
+        query: "Cebolinha teen from Monica Jovem",
+        char: "/dev-cartoon-network/desenhos/monica-jovem/char-cebolinha.png",
+      },
+      {
+        name: "Cascão",
+        query: "Cascao teen from Monica Jovem",
+        char: "/dev-cartoon-network/desenhos/monica-jovem/char-cascao.png",
+      },
+      {
+        name: "Magali",
+        query: "Magali teen from Monica Jovem",
+        char: "/dev-cartoon-network/desenhos/monica-jovem/char-magali.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/monica-jovem/show-monica-jovem.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/monica-jovem/show-banner-monica-jovem.jpg",
+    details: {
+      creator: "Mauricio de Sousa",
+      year: "2008–2012",
+      episodes: "26",
+    },
+  },
+  {
+    id: "sym_bionic_titan",
+    name: "Titã Simbiônico",
+    posterQuery: "sym bionic titan vertical poster",
+    bannerQuery: "sym bionic titan wide banner",
+    category: "Sci-Fi",
+    decade: "2010s",
+    description:
+      "Três alienígenas refugiados se escondem na Terra como estudantes do ensino médio, mas quando necessário, se unem para formar um robô gigante para defender o planeta.",
+    characters: [
+      {
+        name: "Lance",
+        query: "Lance from Sym-Bionic Titan",
+        char: "/dev-cartoon-network/desenhos/sym-bionic-titan/char-lance.png",
+      },
+      {
+        name: "Ilana",
+        query: "Ilana from Sym-Bionic Titan",
+        char: "/dev-cartoon-network/desenhos/sym-bionic-titan/char-ilana.png",
+      },
+      {
+        name: "Octus",
+        query: "Octus from Sym-Bionic Titan",
+        char: "/dev-cartoon-network/desenhos/sym-bionic-titan/char-octus.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/sym-bionic-titan/show-sym-bionic-titan.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/sym-bionic-titan/show-banner-sym-bionic-titan.jpg",
+    details: {
+      creator: "Genndy Tartakovsky",
+      year: "2010–2011",
+      episodes: "20",
+    },
+  },
+  {
+    id: "elliott_from_earth",
+    name: "Elliott, o Terráqueo",
+    posterQuery: "elliott from earth vertical poster",
+    bannerQuery: "elliott from earth wide banner",
+    category: "Modernos",
+    decade: "2020s",
+    description:
+      "Elliott, um garoto humano, vive em uma estação espacial cósmica com sua mãe e faz amizade com alienígenas de todas as formas e tamanhos.",
+    characters: [
+      {
+        name: "Elliott",
+        query: "Elliott from Elliott from Earth",
+        char: "/dev-cartoon-network/desenhos/elliott-from-earth/char-elliott.png",
+      },
+      {
+        name: "Mo",
+        query: "Mo from Elliott from Earth",
+        char: "/dev-cartoon-network/desenhos/elliott-from-earth/char-mo.png",
+      },
+      {
+        name: "Frankie",
+        query: "Frankie from Elliott from Earth",
+        char: "/dev-cartoon-network/desenhos/elliott-from-earth/char-frankie.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/elliott-from-earth/show-elliott-from-earth.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/elliott-from-earth/show-banner-elliott-from-earth.jpg",
+    details: {
+      creator: ["Guillaume Cassuto", "Mic Graves"],
+      year: "2021–presente",
+      episodes: "40+",
+    },
+  },
+  {
+    id: "bugs_bunny_builders",
+    name: "Perninha em Obras",
+    posterQuery: "bugs bunny builders vertical poster",
+    bannerQuery: "bugs bunny builders wide banner",
+    category: "Comédia",
+    decade: "2020s",
+    description:
+      "Bugs Bunny e sua turma trabalham como construtores, resolvendo problemas da comunidade com criatividade, trabalho em equipe e muito humor.",
+    characters: [
+      {
+        name: "Pernalonga",
+        query: "Pernalonga from Bugs Bunny Builders",
+        char: "/dev-cartoon-network/desenhos/bugs-bunny-builders/char-pernalonga-bugs-bunny-builders.png",
+      },
+      {
+        name: "Patolino",
+        query: "Daffy Duck from Bugs Bunny Builders",
+        char: "/dev-cartoon-network/desenhos/bugs-bunny-builders/char-patolino.png",
+      },
+      {
+        name: "Gaguinho",
+        query: "Porky Pig from Bugs Bunny Builders",
+        char: "/dev-cartoon-network/desenhos/bugs-bunny-builders/char-gaguinho.png",
+      },
+      {
+        name: "Lola Bunny",
+        query: "Lola Bunny from Bugs Bunny Builders",
+        char: "/dev-cartoon-network/desenhos/bugs-bunny-builders/char-lola.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/bugs-bunny-builders/show-bugs-bunny-builders.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/bugs-bunny-builders/show-banner-bugs-bunny-builders.jpg",
+    details: { creator: "Alex Kirwan", year: "2022–presente", episodes: "40+" },
+  },
+  {
+    id: "thundercats_2011",
+    name: "ThunderCats (2011)",
+    posterQuery: "thundercats 2011 vertical poster",
+    bannerQuery: "thundercats 2011 wide banner",
+    category: "Ação/Aventura",
+    decade: "2010s",
+    description:
+      "Uma reimaginação moderna dos ThunderCats, seguindo Lion-O e seus companheiros felinos em sua luta contra as forças do mal em Third Earth.",
+    characters: [
+      {
+        name: "Lion-O",
+        query: "Lion-O from ThunderCats 2011",
+        char: "/dev-cartoon-network/desenhos/thundercats-2011/char-lion-o.png",
+      },
+      {
+        name: "Tygra",
+        query: "Tygra from ThunderCats 2011",
+        char: "/dev-cartoon-network/desenhos/thundercats-2011/char-tygra.png",
+      },
+      {
+        name: "Panthro",
+        query: "Panthro from ThunderCats 2011",
+        char: "/dev-cartoon-network/desenhos/thundercats-2011/char-panthro.png",
+      },
+      {
+        name: "Cheetara",
+        query: "Cheetara from ThunderCats 2011",
+        char: "/dev-cartoon-network/desenhos/thundercats-2011/char-cheetara.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/thundercats-2011/show-thundercats-2011.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/thundercats-2011/show-banner-thundercats-2011.jpg",
+    details: {
+      creator: ["Ethan Spaulding", "Michael Jelenic"],
+      year: "2011–2012",
+      episodes: "26",
+    },
+  },
+  {
+    id: "tig_n_seek",
+    name: "Tigue e Lupa: Os Detetives",
+    posterQuery: "tig n seek vertical poster",
+    bannerQuery: "tig n seek wide banner",
+    category: "Modernos",
+    decade: "2020s",
+    description:
+      "Tig é um gato de 8 anos cheio de energia que ama resolver mistérios com seu melhor amigo Seek, um cão eletrônico.",
+    characters: [
+      {
+        name: "Tig",
+        query: "Tig from Tig N Seek",
+        char: "/dev-cartoon-network/desenhos/tig-n-seek/char-tig.png",
+      },
+      {
+        name: "Seek",
+        query: "Seek from Tig N Seek",
+        char: "/dev-cartoon-network/desenhos/tig-n-seek/char-seek.png",
+      },
+      {
+        name: "Nuritza",
+        query: "Nuritza from Tig N Seek",
+        char: "/dev-cartoon-network/desenhos/tig-n-seek/char-nuritza.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/tig-n-seek/show-tig-n-seek.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/tig-n-seek/show-banner-tig-n-seek.jpg",
+    details: { creator: "Myke Chilian", year: "2020–2021", episodes: "40" },
+  },
+  {
+    id: "the_fungies",
+    name: "Os Fungos!",
+    posterQuery: "the fungies vertical poster",
+    bannerQuery: "the fungies wide banner",
+    category: "Comédia",
+    decade: "2020s",
+    description:
+      "Seth, um jovem fungo cientista, explora o mundo pré-histórico de Fungietown com seus amigos, fazendo descobertas e vivendo aventuras.",
+    characters: [
+      {
+        name: "Seth",
+        query: "Seth from The Fungies",
+        char: "/dev-cartoon-network/desenhos/the-fungies/char-seth.png",
+      },
+      {
+        name: "Pascal",
+        query: "Pascal from The Fungies",
+        char: "/dev-cartoon-network/desenhos/the-fungies/char-pascal.png",
+      },
+      {
+        name: "Claudette",
+        query: "Claudette from The Fungies",
+        char: "/dev-cartoon-network/desenhos/the-fungies/char-claudette.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/the-fungies/show-the-fungies.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/the-fungies/show-banner-the-fungies.jpg",
+    details: { creator: "Stephen P. Neary", year: "2020–2021", episodes: "40" },
+  },
+  {
+    id: "unicorn_warriors_eternal",
+    name: "Unicórnio: Guerreiros Eternos",
+    posterQuery: "unicorn warriors eternal vertical poster",
+    bannerQuery: "unicorn warriors eternal wide banner",
+    category: "Modernos",
+    decade: "2020s",
+    description:
+      "Uma equipe de heróis imortais reencarna ao longo da história para proteger a humanidade de uma antiga força do mal que ameaça destruir o mundo.",
+    characters: [
+      {
+        name: "Emma",
+        query: "Emma from Unicorn Warriors Eternal",
+        char: "/dev-cartoon-network/desenhos/unicorn-warriors-eternal/char-emma.png",
+      },
+      {
+        name: "Dimitri",
+        query: "Dimitri from Unicorn Warriors Eternal",
+        char: "/dev-cartoon-network/desenhos/unicorn-warriors-eternal/char-dimitri.png",
+      },
+      {
+        name: "Seng",
+        query: "Seng from Unicorn Warriors Eternal",
+        char: "/dev-cartoon-network/desenhos/unicorn-warriors-eternal/char-seng.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/unicorn-warriors-eternal/show-unicorn.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/unicorn-warriors-eternal/show-banner-unicorn.jpg",
+    details: {
+      creator: "Genndy Tartakovsky",
+      year: "2023–presente",
+      episodes: "10+",
+    },
+  },
+  {
+    id: "adventure_time_fionna_cake",
+    name: "Hora de Aventura: Fionna e Cake",
+    posterQuery: "adventure time fionna and cake vertical poster",
+    bannerQuery: "adventure time fionna and cake wide banner",
+    category: "Modernos",
+    decade: "2020s",
+    description:
+      "Um spin-off de Hora de Aventura seguindo Fionna e Cake em suas próprias aventuras através do multiverso, explorando realidades alternativas.",
+    characters: [
+      {
+        name: "Fionna",
+        query: "Fionna from Adventure Time Fionna and Cake",
+        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-fionna.png",
+      },
+      {
+        name: "Cake",
+        query: "Cake from Adventure Time Fionna and Cake",
+        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-cake.png",
+      },
+      {
+        name: "Simon",
+        query: "Simon from Adventure Time Fionna and Cake",
+        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-simon.png",
+      },
+    ],
+    image: "/dev-cartoon-network/desenhos/fionna-e-cake/show-fionna-e-cake.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/fionna-e-cake/show-banner-fionna-e-cake.jpg",
+    details: {
+      creator: ["Adam Muto", "Rebecca Sugar"],
+      year: "2023–presente",
+      episodes: "10+",
+    },
+  },
+  {
+    id: "drama_total_kids",
+    name: "Drama Total: A Ilha dos Jovens",
+    posterQuery: "total drama island kids vertical poster",
+    bannerQuery: "total drama island kids wide banner",
+    category: "Comédia",
+    decade: "2020s",
+    description:
+      "Versão infantil dos personagens de Drama Total, vivendo juntos em um acampamento cheio de confusões, desafios bobos e muita rivalidade fofa.",
+    characters: [
+      {
+        name: "Owen",
+        query: "owen total drama rama character",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-owen.png",
+      },
+      {
+        name: "Gwen",
+        query: "gwen total drama rama character",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-gwen.png",
+      },
+      {
+        name: "Duncan",
+        query: "duncan total drama rama character",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-duncan.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/drama-total-kids/show-drama-total-kids.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/drama-total-kids/show-banner-drama-total-kids.jpg",
+    details: {
+      creator: ["Tom McGillis", "Jennifer Pertsch"],
+      year: "2018–2022",
+      episodes: "104",
+    },
+  },
+  {
+    id: "tom_e_jerry_kids",
+    name: "Tom & Jerry Kids",
+    posterQuery: "tom and jerry kids vertical poster",
+    bannerQuery: "tom and jerry kids wide banner",
+    category: "Comédia",
+    decade: "1990s",
+    description:
+      "Versão infantil de Tom e Jerry com o mesmo estilo de perseguição hilária, mas com personagens mais jovens e energia redobrada.",
+    characters: [
+      {
+        name: "Tom",
+        query: "tom cat kids character",
+        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-tom.png",
+      },
+      {
+        name: "Jerry",
+        query: "jerry mouse kids character",
+        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-jerry.png",
+      },
+      {
+        name: "Spike Jr.",
+        query: "spike jr tom and jerry kids character",
+        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-spike-jr.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
+    details: {
+      creator: "Hanna-Barbera",
+      year: "1990–1994",
+      episodes: "65",
+    },
+  },
+  {
+    id: "turma_da_monica",
+    name: "Turma da Mônica",
+    posterQuery: "turma da monica vertical poster",
+    bannerQuery: "turma da monica wide banner",
+    category: "Clássicos",
+    decade: "2000s",
+    description:
+      "Acompanhe as aventuras da Mônica, Cebolinha, Cascão, Magali e toda a turminha do Bairro do Limoeiro em histórias cheias de humor, amizade e aprendizados.",
+    characters: [
+      {
+        name: "Mônica",
+        query: "monica turma da monica character",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-monica.png",
+      },
+      {
+        name: "Cebolinha",
+        query: "cebolinha turma da monica character",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-cebolinha.png",
+      },
+      {
+        name: "Cascão",
+        query: "cascao turma da monica character",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-cascao.png",
+      },
+      {
+        name: "Magali",
+        query: "magali turma da monica character",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-magali.png",
+      },
+      {
+        name: "Chico Bento",
+        query: "chico bento turma da monica character",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-chico-bento.png",
+      },
+    ],
+    image:
+      "/dev-cartoon-network/desenhos/turma-da-monica/show-turma-da-monica.jpg",
+    banner:
+      "/dev-cartoon-network/desenhos/turma-da-monica/show-banner-turma-da-monica.jpg",
+    details: {
+      creator: "Mauricio de Sousa",
+      year: "2002–presente",
+      episodes: "200+",
     },
   },
 ];
