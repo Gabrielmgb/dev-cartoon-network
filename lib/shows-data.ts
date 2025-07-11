@@ -1719,22 +1719,22 @@ export const showsData: Show[] = [
       {
         name: "Rikochet",
         query: "Rikochet from Mucha Lucha",
-        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-rikochet.png",
+        char: "/desenhos/mucha-lucha/char-rikochet.png",
       },
       {
-        name: "Buena Girl",
+        name: "Buena Niña",
         query: "Buena Girl from Mucha Lucha",
-        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-buena-girl.png",
+        char: "/desenhos/mucha-lucha/char-buena-nina.png",
       },
       {
-        name: "The Flea",
+        name: "Pulga",
         query: "The Flea from Mucha Lucha",
-        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-the-flea.png",
+        char: "/desenhos/mucha-lucha/char-pulga.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/mucha-lucha/show-mucha-lucha.jpg",
+    image: "/desenhos/mucha-lucha/show-mucha-lucha.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/mucha-lucha/show-banner-mucha-lucha.jpg",
+      "/desenhos/mucha-lucha/show-banner-mucha-lucha.jpg",
     details: {
       creator: ["Eddie Mort", "Lili Chin"],
       year: "2002–2005",
