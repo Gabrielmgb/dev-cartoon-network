@@ -1645,21 +1645,21 @@ export const showsData: Show[] = [
       {
         name: "Pardo",
         query: "grizz we baby bears character",
-        char: "/dev-cartoon-network/desenhos/ursinhos/char-pardo.png",
+        char: "/desenhos/ursinhos/char-pardo-ursinhos.png",
       },
       {
         name: "Panda",
         query: "panda we baby bears character",
-        char: "/dev-cartoon-network/desenhos/ursinhos/char-panda.png",
+        char: "/desenhos/ursinhos/char-panda-ursinhos.png",
       },
       {
         name: "Polar",
         query: "ice bear we baby bears character",
-        char: "/dev-cartoon-network/desenhos/ursinhos/char-polar.png",
+        char: "/desenhos/ursinhos/char-polar-ursinhos.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/ursinhos/show-ursinhos.jpg",
-    banner: "/dev-cartoon-network/desenhos/ursinhos/show-banner-ursinhos.jpg",
+    image: "/desenhos/ursinhos/show-ursinhos.jpg",
+    banner: "/desenhos/ursinhos/show-banner-ursinhos.jpg",
     details: {
       creator: ["Manny Hernandez"],
       year: "2022–presente",
@@ -1677,29 +1677,29 @@ export const showsData: Show[] = [
       "Os icônicos personagens da nova geração dos Looney Tunes frequentam a Looniversity, onde treinam para se tornarem os próximos grandes astros da comédia. Buster, Babs e seus amigos vivem aventuras malucas enquanto aprendem com os mestres clássicos.",
     characters: [
       {
-        name: "Buster Bunny",
+        name: "Perninha",
         query: "buster bunny tiny toons character",
-        char: "/dev-cartoon-network/desenhos/tiny-toons/char-buster.png",
+        char: "/desenhos/tiny-toons/char-perninha.png",
       },
       {
-        name: "Babs Bunny",
+        name: "Lilica",
         query: "babs bunny tiny toons character",
-        char: "/dev-cartoon-network/desenhos/tiny-toons/char-babs.png",
+        char: "/desenhos/tiny-toons/char-lilica.png",
       },
       {
-        name: "Plucky Duck",
+        name: "Plucky",
         query: "plucky duck tiny toons character",
-        char: "/dev-cartoon-network/desenhos/tiny-toons/char-plucky.png",
+        char: "/desenhos/tiny-toons/char-plucky.png",
       },
       {
-        name: "Hampton J. Pig",
+        name: "Presuntinho",
         query: "hampton pig tiny toons character",
-        char: "/dev-cartoon-network/desenhos/tiny-toons/char-hampton.png",
+        char: "/desenhos/tiny-toons/char-presuntinho.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/tiny-toons/show-tiny-toons.jpg",
+    image: "/desenhos/tiny-toons/show-tiny-toons.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/tiny-toons/show-banner-tiny-toons.jpg",
+      "/desenhos/tiny-toons/show-banner-tiny-toons.jpg",
     details: {
       creator: ["Nate Cash", "Erin Gibson"],
       year: "2023–presente",
@@ -1772,7 +1772,8 @@ export const showsData: Show[] = [
         char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-magali.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-turma-da-monica-jovem.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-turma-da-monica-jovem.jpg",
     banner:
       "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-banner-turma-da-monica-jovem.jpg",
     details: {
@@ -1807,7 +1808,8 @@ export const showsData: Show[] = [
         char: "/dev-cartoon-network/desenhos/tita-simbionico/char-octus.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/tita-simbionico/show-tita-simbionico.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/tita-simbionico/show-tita-simbionico.jpg",
     banner:
       "/dev-cartoon-network/desenhos/tita-simbionico/show-banner-tita-simbionico.jpg",
     details: {
@@ -2089,7 +2091,8 @@ export const showsData: Show[] = [
         char: "/dev-cartoon-network/desenhos/drama-total-kids/char-duncan.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/drama-total-kids/show-drama-total-kids.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/drama-total-kids/show-drama-total-kids.jpg",
     banner:
       "/dev-cartoon-network/desenhos/drama-total-kids/show-banner-drama-total-kids.jpg",
     details: {
@@ -2124,7 +2127,8 @@ export const showsData: Show[] = [
         char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-spike-jr.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
     banner:
       "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
     details: {
@@ -2169,7 +2173,8 @@ export const showsData: Show[] = [
         char: "/dev-cartoon-network/desenhos/turma-da-monica/char-chico-bento.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/turma-da-monica/show-turma-da-monica.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/turma-da-monica/show-turma-da-monica.jpg",
     banner:
       "/dev-cartoon-network/desenhos/turma-da-monica/show-banner-turma-da-monica.jpg",
     details: {
@@ -2294,7 +2299,8 @@ export const showsData: Show[] = [
         char: "/dev-cartoon-network/desenhos/hora-distantes/char-jake.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/terras-distantes/show-terras-distantes.jpg",
+    image:
+      "/dev-cartoon-network/desenhos/terras-distantes/show-terras-distantes.jpg",
     banner:
       "/dev-cartoon-network/desenhos/hora-distantes/show-banner-hora-distantes.jpg",
     details: {
