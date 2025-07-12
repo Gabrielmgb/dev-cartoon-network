@@ -1754,28 +1754,28 @@ export const showsData: Show[] = [
       {
         name: "Mônica",
         query: "Monica teen from Monica Jovem",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-monica.png",
+        char: "/desenhos/turma-da-monica-jovem/char-monica-jovem.png",
       },
       {
         name: "Cebolinha",
         query: "Cebolinha teen from Monica Jovem",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-cebolinha.png",
+        char: "/desenhos/turma-da-monica-jovem/char-cebolinha-jovem.png",
       },
       {
         name: "Cascão",
         query: "Cascao teen from Monica Jovem",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-cascao.png",
+        char: "/desenhos/turma-da-monica-jovem/char-cascao-jovem.png",
       },
       {
         name: "Magali",
         query: "Magali teen from Monica Jovem",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-magali.png",
+        char: "/desenhos/turma-da-monica-jovem/char-magali-jovem.png",
       },
     ],
     image:
-      "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-turma-da-monica-jovem.jpg",
+      "/desenhos/turma-da-monica-jovem/show-turma-da-monica-jovem.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-banner-turma-da-monica-jovem.jpg",
+      "/desenhos/turma-da-monica-jovem/show-banner-turma-da-monica-jovem.jpg",
     details: {
       creator: ["Mauricio de Sousa"],
       year: "2008–2012",
@@ -1795,23 +1795,23 @@ export const showsData: Show[] = [
       {
         name: "Lance",
         query: "Lance from Sym-Bionic Titan",
-        char: "/dev-cartoon-network/desenhos/tita-simbionico/char-lance.png",
+        char: "/desenhos/tita-simbionico/char-lance.png",
       },
       {
         name: "Ilana",
         query: "Ilana from Sym-Bionic Titan",
-        char: "/dev-cartoon-network/desenhos/tita-simbionico/char-ilana.png",
+        char: "/desenhos/tita-simbionico/char-ilana.png",
       },
       {
         name: "Octus",
         query: "Octus from Sym-Bionic Titan",
-        char: "/dev-cartoon-network/desenhos/tita-simbionico/char-octus.png",
+        char: "/desenhos/tita-simbionico/char-octus.png",
       },
     ],
     image:
-      "/dev-cartoon-network/desenhos/tita-simbionico/show-tita-simbionico.jpg",
+      "/desenhos/tita-simbionico/show-tita-simbionico.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/tita-simbionico/show-banner-tita-simbionico.jpg",
+      "/desenhos/tita-simbionico/show-banner-tita-simbionico.jpg",
     details: {
       creator: ["Genndy Tartakovsky"],
       year: "2010–2011",
