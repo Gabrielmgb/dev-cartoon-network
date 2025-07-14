@@ -1946,27 +1946,22 @@ export const showsData: Show[] = [
     category: ["Mistério", "Comédia", "Modernos"],
     decade: "2020s",
     description:
-      "Tig é um gato de 8 anos cheio de energia que ama resolver mistérios com seu melhor amigo Seek, um cão eletrônico.",
+      "As aventuras absurdas de Tigue e sua criativa gata, Lupa, no Departamento de Achados e Perdidos.",
     characters: [
       {
-        name: "Tig",
-        query: "Tig from Tig N Seek",
-        char: "/dev-cartoon-network/desenhos/tigue-e-lupa/char-tig.png",
+        name: "Tigue",
+        query: "Tigue from Tig N Seek",
+        char: "/desenhos/tigue-e-lupa/char-tigue.png",
       },
       {
-        name: "Seek",
-        query: "Seek from Tig N Seek",
-        char: "/dev-cartoon-network/desenhos/tigue-e-lupa/char-seek.png",
-      },
-      {
-        name: "Nuritza",
-        query: "Nuritza from Tig N Seek",
-        char: "/dev-cartoon-network/desenhos/tigue-e-lupa/char-nuritza.png",
+        name: "Lupa",
+        query: "Lupa from Tig N Seek",
+        char: "/desenhos/tigue-e-lupa/char-lupa.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/tigue-e-lupa/show-tigue-e-lupa.jpg",
+    image: "/desenhos/tigue-e-lupa/show-tigue-e-lupa.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/tigue-e-lupa/show-banner-tigue-e-lupa.jpg",
+      "/desenhos/tigue-e-lupa/show-banner-tigue-e-lupa.jpg",
     details: { creator: ["Myke Chilian"], year: "2020–2021", episodes: "40" },
   },
   {
