@@ -2045,22 +2045,22 @@ export const showsData: Show[] = [
       {
         name: "Fionna",
         query: "Fionna from Adventure Time Fionna and Cake",
-        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-fionna.png",
+        char: "/desenhos/fionna-e-cake/char-fionna.png",
       },
       {
         name: "Cake",
         query: "Cake from Adventure Time Fionna and Cake",
-        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-cake.png",
+        char: "/desenhos/fionna-e-cake/char-cake.png",
       },
       {
         name: "Simon",
         query: "Simon from Adventure Time Fionna and Cake",
-        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-simon.png",
+        char: "/desenhos/fionna-e-cake/char-simon.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/fionna-e-cake/show-fionna-e-cake.jpg",
+    image: "/desenhos/fionna-e-cake/show-fionna-e-cake.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/fionna-e-cake/show-banner-fionna-e-cake.jpg",
+      "/desenhos/fionna-e-cake/show-banner-fionna-e-cake.png",
     details: {
       creator: ["Adam Muto", "Rebecca Sugar"],
       year: "2023–presente",
