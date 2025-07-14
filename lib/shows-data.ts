@@ -1910,27 +1910,28 @@ export const showsData: Show[] = [
       {
         name: "Lion-O",
         query: "Lion-O from ThunderCats 2011",
-        char: "/dev-cartoon-network/desenhos/thundercats/char-lion-o.png",
+        char: "/desenhos/thundercats/char-lion-o.png",
       },
       {
         name: "Tygra",
         query: "Tygra from ThunderCats 2011",
-        char: "/dev-cartoon-network/desenhos/thundercats/char-tygra.png",
-      },
-      {
-        name: "Panthro",
-        query: "Panthro from ThunderCats 2011",
-        char: "/dev-cartoon-network/desenhos/thundercats/char-panthro.png",
+        char: "/desenhos/thundercats/char-tygra.png",
       },
       {
         name: "Cheetara",
         query: "Cheetara from ThunderCats 2011",
-        char: "/dev-cartoon-network/desenhos/thundercats/char-cheetara.png",
+        char: "/desenhos/thundercats/char-cheetara.png",
       },
+      {
+        name: "Panthro",
+        query: "Panthro from ThunderCats 2011",
+        char: "/desenhos/thundercats/char-panthro.png",
+      },
+      
     ],
-    image: "/dev-cartoon-network/desenhos/thundercats/show-thundercats.jpg",
+    image: "/desenhos/thundercats/show-thundercats.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/thundercats/show-banner-thundercats.jpg",
+      "/desenhos/thundercats/show-banner-thundercats.jpg",
     details: {
       creator: ["Ethan Spaulding", "Michael Jelenic"],
       year: "2011–2012",
