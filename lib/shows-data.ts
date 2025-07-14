@@ -2116,23 +2116,18 @@ export const showsData: Show[] = [
       {
         name: "Tom",
         query: "tom cat kids character",
-        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-tom.png",
+        char: "/desenhos/tom-e-jerry-kids/char-tom-kids.png",
       },
       {
         name: "Jerry",
         query: "jerry mouse kids character",
-        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-jerry.png",
-      },
-      {
-        name: "Spike Jr.",
-        query: "spike jr tom and jerry kids character",
-        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-spike-jr.png",
+        char: "/desenhos/tom-e-jerry-kids/char-jerry-kids.png",
       },
     ],
     image:
-      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
+      "/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
+      "/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
     details: {
       creator: ["Hanna-Barbera"],
       year: "1990–1994",
@@ -2152,33 +2147,33 @@ export const showsData: Show[] = [
       {
         name: "Mônica",
         query: "monica turma da monica character",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-monica.png",
+        char: "/desenhos/turma-da-monica/char-monica.png",
       },
       {
         name: "Cebolinha",
         query: "cebolinha turma da monica character",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-cebolinha.png",
+        char: "/desenhos/turma-da-monica/char-cebolinha.png",
       },
       {
         name: "Cascão",
         query: "cascao turma da monica character",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-cascao.png",
+        char: "/desenhos/turma-da-monica/char-cascao.png",
       },
       {
         name: "Magali",
         query: "magali turma da monica character",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-magali.png",
+        char: "/desenhos/turma-da-monica/char-magali.png",
       },
       {
         name: "Chico Bento",
         query: "chico bento turma da monica character",
-        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-chico-bento.png",
+        char: "/desenhos/turma-da-monica/char-chico-bento.png",
       },
     ],
     image:
-      "/dev-cartoon-network/desenhos/turma-da-monica/show-turma-da-monica.jpg",
+      "/desenhos/turma-da-monica/show-turma-da-monica.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/turma-da-monica/show-banner-turma-da-monica.jpg",
+      "/desenhos/turma-da-monica/show-banner-turma-da-monica.png",
     details: {
       creator: ["Mauricio de Sousa"],
       year: "2002–presente",
@@ -2198,27 +2193,27 @@ export const showsData: Show[] = [
       {
         name: "Johnny Test",
         query: "johnny test character",
-        char: "/dev-cartoon-network/desenhos/johnny-test/char-johnny.png",
+        char: "/desenhos/johnny-test/char-johnny-test.png",
       },
       {
         name: "Dukey",
         query: "dukey johnny test",
-        char: "/dev-cartoon-network/desenhos/johnny-test/char-dukey.png",
+        char: "/desenhos/johnny-test/char-dukey.png",
       },
       {
         name: "Susan",
         query: "susan johnny test",
-        char: "/dev-cartoon-network/desenhos/johnny-test/char-susan.png",
+        char: "/desenhos/johnny-test/char-susan.png",
       },
       {
         name: "Mary",
         query: "mary johnny test",
-        char: "/dev-cartoon-network/desenhos/johnny-test/char-mary.png",
+        char: "/desenhos/johnny-test/char-mary.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/johnny-test/show-johnny-test.jpg",
+    image: "/desenhos/johnny-test/show-johnny-test.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/johnny-test/show-banner-johnny-test.jpg",
+      "/desenhos/johnny-test/show-banner-johnny-test.jpg",
     details: {
       creator: ["Scott Fellows"],
       year: "2005–2022",
