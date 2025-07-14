@@ -1831,21 +1831,21 @@ export const showsData: Show[] = [
       {
         name: "Elliott",
         query: "Elliott from Elliott from Earth",
-        char: "/dev-cartoon-network/desenhos/elliott/char-elliott.png",
+        char: "/desenhos/elliott/char-elliott.png",
       },
       {
         name: "Mo",
         query: "Mo from Elliott from Earth",
-        char: "/dev-cartoon-network/desenhos/elliott/char-mo.png",
+        char: "/desenhos/elliott/char-mo.png",
       },
       {
         name: "Frankie",
         query: "Frankie from Elliott from Earth",
-        char: "/dev-cartoon-network/desenhos/elliott/char-frankie.png",
+        char: "/desenhos/elliott/char-frankie.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/elliott/show-elliott.jpg",
-    banner: "/dev-cartoon-network/desenhos/elliott/show-banner-elliott.jpg",
+    image: "/desenhos/elliott/show-elliott.jpg",
+    banner: "/desenhos/elliott/show-banner-elliott.jpg",
     details: {
       creator: ["Guillaume Cassuto", "Mic Graves"],
       year: "2021–presente",
