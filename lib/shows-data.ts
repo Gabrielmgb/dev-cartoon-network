@@ -2080,23 +2080,53 @@ export const showsData: Show[] = [
       {
         name: "Owen",
         query: "owen total drama rama character",
-        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-owen.png",
+        char: "/desenhos/drama-total-kids/char-owen-kids.png",
       },
       {
         name: "Gwen",
         query: "gwen total drama rama character",
-        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-gwen.png",
+        char: "/desenhos/drama-total-kids/char-gwen-kids.png",
       },
       {
         name: "Duncan",
         query: "duncan total drama rama character",
-        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-duncan.png",
+        char: "/desenhos/drama-total-kids/char-duncan-kids-2.png",
+      },
+      {
+        name: "Jude Lizowski",
+        query: "jude total drama rama character",
+        char: "/desenhos/drama-total-kids/char-jude-kids.png",
+      },
+      {
+        name: "Cody",
+        query: "cody total drama rama character",
+        char: "/desenhos/drama-total-kids/char-cody-kids.png",
+      },
+      {
+        name: "Como Bridgette",
+        query: "bridgette total drama rama character",
+        char: "/desenhos/drama-total-kids/char-bridgette-kids.png",
+      },
+      {
+        name: "Courtney",
+        query: "courtney total drama rama character",
+        char: "/desenhos/drama-total-kids/char-courtney-kids.png",
+      },
+      {
+        name: "Noah",
+        query: "noah total drama rama character",
+        char: "/desenhos/drama-total-kids/char-noah-kids.png",
+      },
+      {
+        name: "Beth",
+        query: "beth total drama rama character",
+        char: "/desenhos/drama-total-kids/char-beth-kids.png",
       },
     ],
     image:
-      "/dev-cartoon-network/desenhos/drama-total-kids/show-drama-total-kids.jpg",
+      "/desenhos/drama-total-kids/show-drama-total-kids.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/drama-total-kids/show-banner-drama-total-kids.jpg",
+      "/desenhos/drama-total-kids/show-banner-drama-total-kids.jpg",
     details: {
       creator: ["Tom McGillis", "Jennifer Pertsch"],
       year: "2018–2022",
