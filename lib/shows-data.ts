@@ -2011,21 +2011,26 @@ export const showsData: Show[] = [
       {
         name: "Emma",
         query: "Emma from Unicorn Warriors Eternal",
-        char: "/dev-cartoon-network/desenhos/unicornio/char-emma.png",
+        char: "/desenhos/unicornio/char-emma.png",
       },
       {
         name: "Dimitri",
         query: "Dimitri from Unicorn Warriors Eternal",
-        char: "/dev-cartoon-network/desenhos/unicornio/char-dimitri.png",
+        char: "/desenhos/unicornio/char-dimitri.png",
       },
       {
         name: "Seng",
         query: "Seng from Unicorn Warriors Eternal",
-        char: "/dev-cartoon-network/desenhos/unicornio/char-seng.png",
+        char: "/desenhos/unicornio/char-seng.png",
+      },
+      {
+        name: "Copernicus",
+        query: "copernicus from Unicorn Warriors Eternal",
+        char: "/desenhos/unicornio/char-copernicus.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/unicornio/show-unicornio.jpg",
-    banner: "/dev-cartoon-network/desenhos/unicornio/show-banner-unicornio.jpg",
+    image: "/desenhos/unicornio/show-unicornio.jpg",
+    banner: "/desenhos/unicornio/show-banner-unicornio.jpg",
     details: {
       creator: ["Genndy Tartakovsky"],
       year: "2023–presente",
