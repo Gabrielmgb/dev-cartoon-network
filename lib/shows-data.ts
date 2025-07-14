@@ -1071,7 +1071,7 @@ export const showsData: Show[] = [
       },
     ],
     image: "/dev-cartoon-network/desenhos/rex/show-rex.jpg",
-    banner: "/dev-cartoon-network/desenhos/rex/show-banner-rex.png",
+    banner: "/dev-cartoon-network/desenhos/rex/show-banner-rex.jpg",
     details: { creator: ["Man of Action"], year: "2010–2013", episodes: "60" },
   },
   {
