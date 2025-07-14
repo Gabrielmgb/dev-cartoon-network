@@ -1645,21 +1645,21 @@ export const showsData: Show[] = [
       {
         name: "Pardo",
         query: "grizz we baby bears character",
-        char: "/desenhos/ursinhos/char-pardo-ursinhos.png",
+        char: "/dev-cartoon-network/desenhos/ursinhos/char-pardo-ursinhos.png",
       },
       {
         name: "Panda",
         query: "panda we baby bears character",
-        char: "/desenhos/ursinhos/char-panda-ursinhos.png",
+        char: "/dev-cartoon-network/desenhos/ursinhos/char-panda-ursinhos.png",
       },
       {
         name: "Polar",
         query: "ice bear we baby bears character",
-        char: "/desenhos/ursinhos/char-polar-ursinhos.png",
+        char: "/dev-cartoon-network/desenhos/ursinhos/char-polar-ursinhos.png",
       },
     ],
-    image: "/desenhos/ursinhos/show-ursinhos.jpg",
-    banner: "/desenhos/ursinhos/show-banner-ursinhos.jpg",
+    image: "/dev-cartoon-network/desenhos/ursinhos/show-ursinhos.jpg",
+    banner: "/dev-cartoon-network/desenhos/ursinhos/show-banner-ursinhos.jpg",
     details: {
       creator: ["Manny Hernandez"],
       year: "2022–presente",
@@ -1679,27 +1679,27 @@ export const showsData: Show[] = [
       {
         name: "Perninha",
         query: "buster bunny tiny toons character",
-        char: "/desenhos/tiny-toons/char-perninha.png",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-perninha.png",
       },
       {
         name: "Lilica",
         query: "babs bunny tiny toons character",
-        char: "/desenhos/tiny-toons/char-lilica.png",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-lilica.png",
       },
       {
         name: "Plucky",
         query: "plucky duck tiny toons character",
-        char: "/desenhos/tiny-toons/char-plucky.png",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-plucky.png",
       },
       {
         name: "Presuntinho",
         query: "hampton pig tiny toons character",
-        char: "/desenhos/tiny-toons/char-presuntinho.png",
+        char: "/dev-cartoon-network/desenhos/tiny-toons/char-presuntinho.png",
       },
     ],
-    image: "/desenhos/tiny-toons/show-tiny-toons.jpg",
+    image: "/dev-cartoon-network/desenhos/tiny-toons/show-tiny-toons.jpg",
     banner:
-      "/desenhos/tiny-toons/show-banner-tiny-toons.jpg",
+      "/dev-cartoon-network/desenhos/tiny-toons/show-banner-tiny-toons.jpg",
     details: {
       creator: ["Nate Cash", "Erin Gibson"],
       year: "2023–presente",
@@ -1719,22 +1719,22 @@ export const showsData: Show[] = [
       {
         name: "Rikochet",
         query: "Rikochet from Mucha Lucha",
-        char: "/desenhos/mucha-lucha/char-rikochet.png",
+        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-rikochet.png",
       },
       {
         name: "Buena Niña",
         query: "Buena Girl from Mucha Lucha",
-        char: "/desenhos/mucha-lucha/char-buena-nina.png",
+        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-buena-nina.png",
       },
       {
         name: "Pulga",
         query: "The Flea from Mucha Lucha",
-        char: "/desenhos/mucha-lucha/char-pulga.png",
+        char: "/dev-cartoon-network/desenhos/mucha-lucha/char-pulga.png",
       },
     ],
-    image: "/desenhos/mucha-lucha/show-mucha-lucha.jpg",
+    image: "/dev-cartoon-network/desenhos/mucha-lucha/show-mucha-lucha.jpg",
     banner:
-      "/desenhos/mucha-lucha/show-banner-mucha-lucha.jpg",
+      "/dev-cartoon-network/desenhos/mucha-lucha/show-banner-mucha-lucha.jpg",
     details: {
       creator: ["Eddie Mort", "Lili Chin"],
       year: "2002–2005",
@@ -1754,28 +1754,28 @@ export const showsData: Show[] = [
       {
         name: "Mônica",
         query: "Monica teen from Monica Jovem",
-        char: "/desenhos/turma-da-monica-jovem/char-monica-jovem.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-monica-jovem.png",
       },
       {
         name: "Cebolinha",
         query: "Cebolinha teen from Monica Jovem",
-        char: "/desenhos/turma-da-monica-jovem/char-cebolinha-jovem.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-cebolinha-jovem.png",
       },
       {
         name: "Cascão",
         query: "Cascao teen from Monica Jovem",
-        char: "/desenhos/turma-da-monica-jovem/char-cascao-jovem.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-cascao-jovem.png",
       },
       {
         name: "Magali",
         query: "Magali teen from Monica Jovem",
-        char: "/desenhos/turma-da-monica-jovem/char-magali-jovem.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica-jovem/char-magali-jovem.png",
       },
     ],
     image:
-      "/desenhos/turma-da-monica-jovem/show-turma-da-monica-jovem.jpg",
+      "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-turma-da-monica-jovem.jpg",
     banner:
-      "/desenhos/turma-da-monica-jovem/show-banner-turma-da-monica-jovem.jpg",
+      "/dev-cartoon-network/desenhos/turma-da-monica-jovem/show-banner-turma-da-monica-jovem.jpg",
     details: {
       creator: ["Mauricio de Sousa"],
       year: "2008–2012",
@@ -1795,23 +1795,23 @@ export const showsData: Show[] = [
       {
         name: "Lance",
         query: "Lance from Sym-Bionic Titan",
-        char: "/desenhos/tita-simbionico/char-lance.png",
+        char: "/dev-cartoon-network/desenhos/tita-simbionico/char-lance.png",
       },
       {
         name: "Ilana",
         query: "Ilana from Sym-Bionic Titan",
-        char: "/desenhos/tita-simbionico/char-ilana.png",
+        char: "/dev-cartoon-network/desenhos/tita-simbionico/char-ilana.png",
       },
       {
         name: "Octus",
         query: "Octus from Sym-Bionic Titan",
-        char: "/desenhos/tita-simbionico/char-octus.png",
+        char: "/dev-cartoon-network/desenhos/tita-simbionico/char-octus.png",
       },
     ],
     image:
-      "/desenhos/tita-simbionico/show-tita-simbionico.jpg",
+      "/dev-cartoon-network/desenhos/tita-simbionico/show-tita-simbionico.jpg",
     banner:
-      "/desenhos/tita-simbionico/show-banner-tita-simbionico.jpg",
+      "/dev-cartoon-network/desenhos/tita-simbionico/show-banner-tita-simbionico.jpg",
     details: {
       creator: ["Genndy Tartakovsky"],
       year: "2010–2011",
@@ -1831,21 +1831,21 @@ export const showsData: Show[] = [
       {
         name: "Elliott",
         query: "Elliott from Elliott from Earth",
-        char: "/desenhos/elliott/char-elliott.png",
+        char: "/dev-cartoon-network/desenhos/elliott/char-elliott.png",
       },
       {
         name: "Mo",
         query: "Mo from Elliott from Earth",
-        char: "/desenhos/elliott/char-mo.png",
+        char: "/dev-cartoon-network/desenhos/elliott/char-mo.png",
       },
       {
         name: "Frankie",
         query: "Frankie from Elliott from Earth",
-        char: "/desenhos/elliott/char-frankie.png",
+        char: "/dev-cartoon-network/desenhos/elliott/char-frankie.png",
       },
     ],
-    image: "/desenhos/elliott/show-elliott.jpg",
-    banner: "/desenhos/elliott/show-banner-elliott.jpg",
+    image: "/dev-cartoon-network/desenhos/elliott/show-elliott.jpg",
+    banner: "/dev-cartoon-network/desenhos/elliott/show-banner-elliott.jpg",
     details: {
       creator: ["Guillaume Cassuto", "Mic Graves"],
       year: "2021–presente",
@@ -1865,32 +1865,32 @@ export const showsData: Show[] = [
       {
         name: "Perninha",
         query: "Pernalonga from Bugs Bunny Builders",
-        char: "/desenhos/perninha/char-perninha-builders.png",
+        char: "/dev-cartoon-network/desenhos/perninha/char-perninha-builders.png",
       },
       {
         name: "Lola",
         query: "Lola Bunny from Bugs Bunny Builders",
-        char: "/desenhos/perninha/char-lola-builders.png",
+        char: "/dev-cartoon-network/desenhos/perninha/char-lola-builders.png",
       },
       {
         name: "Patolino",
         query: "Daffy Duck from Bugs Bunny Builders",
-        char: "/desenhos/perninha/char-patolino-builders.png",
+        char: "/dev-cartoon-network/desenhos/perninha/char-patolino-builders.png",
       },
       {
         name: "Piu-Piu",
         query: "Tweety Bird from Bugs Bunny Builders",
-        char: "/desenhos/perninha/char-piu-piu-builders.png",
+        char: "/dev-cartoon-network/desenhos/perninha/char-piu-piu-builders.png",
       },
       {
         name: "Gaguinho",
         query: "Porky Pig from Bugs Bunny Builders",
-        char: "/desenhos/perninha/char-gaguinho-builders.png",
+        char: "/dev-cartoon-network/desenhos/perninha/char-gaguinho-builders.png",
       },
       
     ],
-    image: "/desenhos/perninha/show-perninha.jpg",
-    banner: "/desenhos/perninha/show-banner-perninha.jpg",
+    image: "/dev-cartoon-network/desenhos/perninha/show-perninha.jpg",
+    banner: "/dev-cartoon-network/desenhos/perninha/show-banner-perninha.jpg",
     details: {
       creator: ["Alex Kirwan"],
       year: "2022–presente",
@@ -1910,28 +1910,28 @@ export const showsData: Show[] = [
       {
         name: "Lion-O",
         query: "Lion-O from ThunderCats 2011",
-        char: "/desenhos/thundercats/char-lion-o.png",
+        char: "/dev-cartoon-network/desenhos/thundercats/char-lion-o.png",
       },
       {
         name: "Tygra",
         query: "Tygra from ThunderCats 2011",
-        char: "/desenhos/thundercats/char-tygra.png",
+        char: "/dev-cartoon-network/desenhos/thundercats/char-tygra.png",
       },
       {
         name: "Cheetara",
         query: "Cheetara from ThunderCats 2011",
-        char: "/desenhos/thundercats/char-cheetara.png",
+        char: "/dev-cartoon-network/desenhos/thundercats/char-cheetara.png",
       },
       {
         name: "Panthro",
         query: "Panthro from ThunderCats 2011",
-        char: "/desenhos/thundercats/char-panthro.png",
+        char: "/dev-cartoon-network/desenhos/thundercats/char-panthro.png",
       },
       
     ],
-    image: "/desenhos/thundercats/show-thundercats.jpg",
+    image: "/dev-cartoon-network/desenhos/thundercats/show-thundercats.jpg",
     banner:
-      "/desenhos/thundercats/show-banner-thundercats.jpg",
+      "/dev-cartoon-network/desenhos/thundercats/show-banner-thundercats.jpg",
     details: {
       creator: ["Ethan Spaulding", "Michael Jelenic"],
       year: "2011–2012",
@@ -1951,17 +1951,17 @@ export const showsData: Show[] = [
       {
         name: "Tigue",
         query: "Tigue from Tig N Seek",
-        char: "/desenhos/tigue-e-lupa/char-tigue.png",
+        char: "/dev-cartoon-network/desenhos/tigue-e-lupa/char-tigue.png",
       },
       {
         name: "Lupa",
         query: "Lupa from Tig N Seek",
-        char: "/desenhos/tigue-e-lupa/char-lupa.png",
+        char: "/dev-cartoon-network/desenhos/tigue-e-lupa/char-lupa.png",
       },
     ],
-    image: "/desenhos/tigue-e-lupa/show-tigue-e-lupa.jpg",
+    image: "/dev-cartoon-network/desenhos/tigue-e-lupa/show-tigue-e-lupa.jpg",
     banner:
-      "/desenhos/tigue-e-lupa/show-banner-tigue-e-lupa.jpg",
+      "/dev-cartoon-network/desenhos/tigue-e-lupa/show-banner-tigue-e-lupa.jpg",
     details: { creator: ["Myke Chilian"], year: "2020–2021", episodes: "40" },
   },
   {
@@ -1977,21 +1977,21 @@ export const showsData: Show[] = [
       {
         name: "Seth",
         query: "Seth from The Fungies",
-        char: "/desenhos/os-fungos/char-seth.png",
+        char: "/dev-cartoon-network/desenhos/os-fungos/char-seth.png",
       },
       {
         name: "Pascal",
         query: "Pascal from The Fungies",
-        char: "/desenhos/os-fungos/char-pascal.png",
+        char: "/dev-cartoon-network/desenhos/os-fungos/char-pascal.png",
       },
       {
         name: "Claudette",
         query: "Claudette from The Fungies",
-        char: "/desenhos/os-fungos/char-claudette.png",
+        char: "/dev-cartoon-network/desenhos/os-fungos/char-claudette.png",
       },
     ],
-    image: "/desenhos/os-fungos/show-os-fungos.jpg",
-    banner: "/desenhos/os-fungos/show-banner-os-fungos.jpg",
+    image: "/dev-cartoon-network/desenhos/os-fungos/show-os-fungos.jpg",
+    banner: "/dev-cartoon-network/desenhos/os-fungos/show-banner-os-fungos.jpg",
     details: {
       creator: ["Stephen P. Neary"],
       year: "2020–2021",
@@ -2011,26 +2011,26 @@ export const showsData: Show[] = [
       {
         name: "Emma",
         query: "Emma from Unicorn Warriors Eternal",
-        char: "/desenhos/unicornio/char-emma.png",
+        char: "/dev-cartoon-network/desenhos/unicornio/char-emma.png",
       },
       {
         name: "Dimitri",
         query: "Dimitri from Unicorn Warriors Eternal",
-        char: "/desenhos/unicornio/char-dimitri.png",
+        char: "/dev-cartoon-network/desenhos/unicornio/char-dimitri.png",
       },
       {
         name: "Seng",
         query: "Seng from Unicorn Warriors Eternal",
-        char: "/desenhos/unicornio/char-seng.png",
+        char: "/dev-cartoon-network/desenhos/unicornio/char-seng.png",
       },
       {
         name: "Copernicus",
         query: "copernicus from Unicorn Warriors Eternal",
-        char: "/desenhos/unicornio/char-copernicus.png",
+        char: "/dev-cartoon-network/desenhos/unicornio/char-copernicus.png",
       },
     ],
-    image: "/desenhos/unicornio/show-unicornio.jpg",
-    banner: "/desenhos/unicornio/show-banner-unicornio.jpg",
+    image: "/dev-cartoon-network/desenhos/unicornio/show-unicornio.jpg",
+    banner: "/dev-cartoon-network/desenhos/unicornio/show-banner-unicornio.jpg",
     details: {
       creator: ["Genndy Tartakovsky"],
       year: "2023–presente",
@@ -2050,22 +2050,22 @@ export const showsData: Show[] = [
       {
         name: "Fionna",
         query: "Fionna from Adventure Time Fionna and Cake",
-        char: "/desenhos/fionna-e-cake/char-fionna.png",
+        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-fionna.png",
       },
       {
         name: "Cake",
         query: "Cake from Adventure Time Fionna and Cake",
-        char: "/desenhos/fionna-e-cake/char-cake.png",
+        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-cake.png",
       },
       {
         name: "Simon",
         query: "Simon from Adventure Time Fionna and Cake",
-        char: "/desenhos/fionna-e-cake/char-simon.png",
+        char: "/dev-cartoon-network/desenhos/fionna-e-cake/char-simon.png",
       },
     ],
-    image: "/desenhos/fionna-e-cake/show-fionna-e-cake.jpg",
+    image: "/dev-cartoon-network/desenhos/fionna-e-cake/show-fionna-e-cake.jpg",
     banner:
-      "/desenhos/fionna-e-cake/show-banner-fionna-e-cake.png",
+      "/dev-cartoon-network/desenhos/fionna-e-cake/show-banner-fionna-e-cake.png",
     details: {
       creator: ["Adam Muto", "Rebecca Sugar"],
       year: "2023–presente",
@@ -2085,53 +2085,53 @@ export const showsData: Show[] = [
       {
         name: "Owen",
         query: "owen total drama rama character",
-        char: "/desenhos/drama-total-kids/char-owen-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-owen-kids.png",
       },
       {
         name: "Gwen",
         query: "gwen total drama rama character",
-        char: "/desenhos/drama-total-kids/char-gwen-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-gwen-kids.png",
       },
       {
         name: "Duncan",
         query: "duncan total drama rama character",
-        char: "/desenhos/drama-total-kids/char-duncan-kids-2.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-duncan-kids-2.png",
       },
       {
         name: "Jude Lizowski",
         query: "jude total drama rama character",
-        char: "/desenhos/drama-total-kids/char-jude-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-jude-kids.png",
       },
       {
         name: "Cody",
         query: "cody total drama rama character",
-        char: "/desenhos/drama-total-kids/char-cody-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-cody-kids.png",
       },
       {
         name: "Como Bridgette",
         query: "bridgette total drama rama character",
-        char: "/desenhos/drama-total-kids/char-bridgette-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-bridgette-kids.png",
       },
       {
         name: "Courtney",
         query: "courtney total drama rama character",
-        char: "/desenhos/drama-total-kids/char-courtney-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-courtney-kids.png",
       },
       {
         name: "Noah",
         query: "noah total drama rama character",
-        char: "/desenhos/drama-total-kids/char-noah-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-noah-kids.png",
       },
       {
         name: "Beth",
         query: "beth total drama rama character",
-        char: "/desenhos/drama-total-kids/char-beth-kids.png",
+        char: "/dev-cartoon-network/desenhos/drama-total-kids/char-beth-kids.png",
       },
     ],
     image:
-      "/desenhos/drama-total-kids/show-drama-total-kids.jpg",
+      "/dev-cartoon-network/desenhos/drama-total-kids/show-drama-total-kids.jpg",
     banner:
-      "/desenhos/drama-total-kids/show-banner-drama-total-kids.jpg",
+      "/dev-cartoon-network/desenhos/drama-total-kids/show-banner-drama-total-kids.jpg",
     details: {
       creator: ["Tom McGillis", "Jennifer Pertsch"],
       year: "2018–2022",
@@ -2151,18 +2151,18 @@ export const showsData: Show[] = [
       {
         name: "Tom",
         query: "tom cat kids character",
-        char: "/desenhos/tom-e-jerry-kids/char-tom-kids.png",
+        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-tom-kids.png",
       },
       {
         name: "Jerry",
         query: "jerry mouse kids character",
-        char: "/desenhos/tom-e-jerry-kids/char-jerry-kids.png",
+        char: "/dev-cartoon-network/desenhos/tom-e-jerry-kids/char-jerry-kids.png",
       },
     ],
     image:
-      "/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
+      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-tom-e-jerry-kids.jpg",
     banner:
-      "/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
+      "/dev-cartoon-network/desenhos/tom-e-jerry-kids/show-banner-tom-e-jerry-kids.jpg",
     details: {
       creator: ["Hanna-Barbera"],
       year: "1990–1994",
@@ -2182,33 +2182,33 @@ export const showsData: Show[] = [
       {
         name: "Mônica",
         query: "monica turma da monica character",
-        char: "/desenhos/turma-da-monica/char-monica.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-monica.png",
       },
       {
         name: "Cebolinha",
         query: "cebolinha turma da monica character",
-        char: "/desenhos/turma-da-monica/char-cebolinha.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-cebolinha.png",
       },
       {
         name: "Cascão",
         query: "cascao turma da monica character",
-        char: "/desenhos/turma-da-monica/char-cascao.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-cascao.png",
       },
       {
         name: "Magali",
         query: "magali turma da monica character",
-        char: "/desenhos/turma-da-monica/char-magali.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-magali.png",
       },
       {
         name: "Chico Bento",
         query: "chico bento turma da monica character",
-        char: "/desenhos/turma-da-monica/char-chico-bento.png",
+        char: "/dev-cartoon-network/desenhos/turma-da-monica/char-chico-bento.png",
       },
     ],
     image:
-      "/desenhos/turma-da-monica/show-turma-da-monica.jpg",
+      "/dev-cartoon-network/desenhos/turma-da-monica/show-turma-da-monica.jpg",
     banner:
-      "/desenhos/turma-da-monica/show-banner-turma-da-monica.png",
+      "/dev-cartoon-network/desenhos/turma-da-monica/show-banner-turma-da-monica.png",
     details: {
       creator: ["Mauricio de Sousa"],
       year: "2002–presente",
@@ -2228,27 +2228,27 @@ export const showsData: Show[] = [
       {
         name: "Johnny Test",
         query: "johnny test character",
-        char: "/desenhos/johnny-test/char-johnny-test.png",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-johnny-test.png",
       },
       {
         name: "Dukey",
         query: "dukey johnny test",
-        char: "/desenhos/johnny-test/char-dukey.png",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-dukey.png",
       },
       {
         name: "Susan",
         query: "susan johnny test",
-        char: "/desenhos/johnny-test/char-susan.png",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-susan.png",
       },
       {
         name: "Mary",
         query: "mary johnny test",
-        char: "/desenhos/johnny-test/char-mary.png",
+        char: "/dev-cartoon-network/desenhos/johnny-test/char-mary.png",
       },
     ],
-    image: "/desenhos/johnny-test/show-johnny-test.jpg",
+    image: "/dev-cartoon-network/desenhos/johnny-test/show-johnny-test.jpg",
     banner:
-      "/desenhos/johnny-test/show-banner-johnny-test.jpg",
+      "/dev-cartoon-network/desenhos/johnny-test/show-banner-johnny-test.jpg",
     details: {
       creator: ["Scott Fellows"],
       year: "2005–2022",
@@ -2268,48 +2268,48 @@ export const showsData: Show[] = [
       {
         name: "Zé Colmeia",
         query: "yogi bear jellystone",
-        char: "/desenhos/jellystone/char-ze-colmeia-jellystone.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-ze-colmeia-jellystone.png",
       },
       {
         name: "Catatau",
         query: "boo boo jellystone",
-        char: "/desenhos/jellystone/char-catatau-jellystone.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-catatau-jellystone.png",
       },
       {
         name: "Cindy",
         query: "cindy bear jellystone",
-        char: "/desenhos/jellystone/char-cindy.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-cindy.png",
       },
       {
         name: "Bibo Pai",
         query: "doggie Daddy jellystone",
-        char: "/desenhos/jellystone/char-bibo-pai.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-bibo-pai.png",
       },
       {
         name: "Bobi Filha",
         query: "augie Doggie jellystone",
-        char: "/desenhos/jellystone/char-bobi-filha.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-bobi-filha.png",
       },
       {
         name: "Dom Pixote",
         query: "huckleberry hound jellystone",
-        char: "/desenhos/jellystone/char-dom-pixote.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-dom-pixote.png",
       },
       {
         name: "Tutubarão",
         query: "jabberjaw jellystone",
-        char: "/desenhos/jellystone/char-tutubarao.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-tutubarao.png",
       },
       {
         name: "Leão da Montanha",
         query: "snagglepuss jellystone",
-        char: "/desenhos/jellystone/char-leao-da-montanha.png",
+        char: "/dev-cartoon-network/desenhos/jellystone/char-leao-da-montanha.png",
       },
       
     ],
-    image: "/desenhos/jellystone/show-jellystone.jpg",
+    image: "/dev-cartoon-network/desenhos/jellystone/show-jellystone.jpg",
     banner:
-      "/desenhos/jellystone/show-banner-jellystone.jpg",
+      "/dev-cartoon-network/desenhos/jellystone/show-banner-jellystone.jpg",
     details: {
       creator: ["C.H. Greenblatt"],
       year: "2021–presente",
@@ -2329,33 +2329,33 @@ export const showsData: Show[] = [
       {
         name: "BMO",
         query: "bmo distant lands",
-        char: "/desenhos/terras-distantes/char-bmo-terras-distantes.png",
+        char: "/dev-cartoon-network/desenhos/terras-distantes/char-bmo-terras-distantes.png",
       },
       {
         name: "Finn",
         query: "finn distant lands",
-        char: "/desenhos/terras-distantes/char-finn-terras-distantes.png",
+        char: "/dev-cartoon-network/desenhos/terras-distantes/char-finn-terras-distantes.png",
       },
       {
         name: "Jake",
         query: "jake distant lands",
-        char: "/desenhos/terras-distantes/char-jake-terras-distantes.png",
+        char: "/dev-cartoon-network/desenhos/terras-distantes/char-jake-terras-distantes.png",
       },
       {
         name: "Marceline",
         query: "marceline distant lands",
-        char: "/desenhos/terras-distantes/char-marceline-terras-distantes.png",
+        char: "/dev-cartoon-network/desenhos/terras-distantes/char-marceline-terras-distantes.png",
       },
       {
         name: "Princesa Jujuba",
         query: "princess bubblegum distant lands",
-        char: "/desenhos/terras-distantes/char-princesa-jujuba-terras-distantes.png",
+        char: "/dev-cartoon-network/desenhos/terras-distantes/char-princesa-jujuba-terras-distantes.png",
       },
     ],
     image:
-      "/desenhos/terras-distantes/show-terras-distantes.jpg",
+      "/dev-cartoon-network/desenhos/terras-distantes/show-terras-distantes.jpg",
     banner:
-      "/desenhos/terras-distantes/show-banner-terras-distantes.jpg",
+      "/dev-cartoon-network/desenhos/terras-distantes/show-banner-terras-distantes.jpg",
     details: {
       creator: ["Adam Muto"],
       year: "2020–2021",
