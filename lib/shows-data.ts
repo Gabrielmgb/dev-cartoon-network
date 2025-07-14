@@ -1977,21 +1977,21 @@ export const showsData: Show[] = [
       {
         name: "Seth",
         query: "Seth from The Fungies",
-        char: "/dev-cartoon-network/desenhos/os-fungos/char-seth.png",
+        char: "/desenhos/os-fungos/char-seth.png",
       },
       {
         name: "Pascal",
         query: "Pascal from The Fungies",
-        char: "/dev-cartoon-network/desenhos/os-fungos/char-pascal.png",
+        char: "/desenhos/os-fungos/char-pascal.png",
       },
       {
         name: "Claudette",
         query: "Claudette from The Fungies",
-        char: "/dev-cartoon-network/desenhos/os-fungos/char-claudette.png",
+        char: "/desenhos/os-fungos/char-claudette.png",
       },
     ],
-    image: "/dev-cartoon-network/desenhos/os-fungos/show-os-fungos.jpg",
-    banner: "/dev-cartoon-network/desenhos/os-fungos/show-banner-os-fungos.jpg",
+    image: "/desenhos/os-fungos/show-os-fungos.jpg",
+    banner: "/desenhos/os-fungos/show-banner-os-fungos.jpg",
     details: {
       creator: ["Stephen P. Neary"],
       year: "2020–2021",
