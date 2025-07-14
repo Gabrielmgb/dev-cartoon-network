@@ -1863,28 +1863,34 @@ export const showsData: Show[] = [
       "Bugs Bunny e sua turma trabalham como construtores, resolvendo problemas da comunidade com criatividade, trabalho em equipe e muito humor.",
     characters: [
       {
-        name: "Pernalonga",
+        name: "Perninha",
         query: "Pernalonga from Bugs Bunny Builders",
-        char: "/dev-cartoon-network/desenhos/perninha/char-pernalonga-perninha.png",
+        char: "/desenhos/perninha/char-perninha-builders.png",
+      },
+      {
+        name: "Lola",
+        query: "Lola Bunny from Bugs Bunny Builders",
+        char: "/desenhos/perninha/char-lola-builders.png",
       },
       {
         name: "Patolino",
         query: "Daffy Duck from Bugs Bunny Builders",
-        char: "/dev-cartoon-network/desenhos/perninha/char-patolino.png",
+        char: "/desenhos/perninha/char-patolino-builders.png",
+      },
+      {
+        name: "Piu-Piu",
+        query: "Tweety Bird from Bugs Bunny Builders",
+        char: "/desenhos/perninha/char-piu-piu-builders.png",
       },
       {
         name: "Gaguinho",
         query: "Porky Pig from Bugs Bunny Builders",
-        char: "/dev-cartoon-network/desenhos/perninha/char-gaguinho.png",
+        char: "/desenhos/perninha/char-gaguinho-builders.png",
       },
-      {
-        name: "Lola Bunny",
-        query: "Lola Bunny from Bugs Bunny Builders",
-        char: "/dev-cartoon-network/desenhos/perninha/char-lola.png",
-      },
+      
     ],
-    image: "/dev-cartoon-network/desenhos/perninha/show-perninha.jpg",
-    banner: "/dev-cartoon-network/desenhos/perninha/show-banner-perninha.jpg",
+    image: "/desenhos/perninha/show-perninha.jpg",
+    banner: "/desenhos/perninha/show-banner-perninha.jpg",
     details: {
       creator: ["Alex Kirwan"],
       year: "2022–presente",
