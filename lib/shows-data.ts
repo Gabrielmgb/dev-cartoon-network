@@ -2238,27 +2238,48 @@ export const showsData: Show[] = [
       {
         name: "Zé Colmeia",
         query: "yogi bear jellystone",
-        char: "/dev-cartoon-network/desenhos/jellystone/char-ze-colmeia.png",
+        char: "/desenhos/jellystone/char-ze-colmeia-jellystone.png",
       },
       {
         name: "Catatau",
         query: "boo boo jellystone",
-        char: "/dev-cartoon-network/desenhos/jellystone/char-catatau.png",
+        char: "/desenhos/jellystone/char-catatau-jellystone.png",
       },
       {
-        name: "Huckleberry Hound",
-        query: "huckleberry hound jellystone",
-        char: "/dev-cartoon-network/desenhos/jellystone/char-huckleberry.png",
+        name: "Cindy",
+        query: "cindy bear jellystone",
+        char: "/desenhos/jellystone/char-cindy.png",
+      },
+      {
+        name: "Bibo Pai",
+        query: "doggie Daddy jellystone",
+        char: "/desenhos/jellystone/char-bibo-pai.png",
+      },
+      {
+        name: "Bobi Filha",
+        query: "augie Doggie jellystone",
+        char: "/desenhos/jellystone/char-bobi-filha.png",
       },
       {
         name: "Dom Pixote",
-        query: "quick draw mcgraw jellystone",
-        char: "/dev-cartoon-network/desenhos/jellystone/char-dom-pixote.png",
+        query: "huckleberry hound jellystone",
+        char: "/desenhos/jellystone/char-dom-pixote.png",
       },
+      {
+        name: "Tutubarão",
+        query: "jabberjaw jellystone",
+        char: "/desenhos/jellystone/char-tutubarao.png",
+      },
+      {
+        name: "Leão da Montanha",
+        query: "snagglepuss jellystone",
+        char: "/desenhos/jellystone/char-leao-da-montanha.png",
+      },
+      
     ],
-    image: "/dev-cartoon-network/desenhos/jellystone/show-jellystone.jpg",
+    image: "/desenhos/jellystone/show-jellystone.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/jellystone/show-banner-jellystone.jpg",
+      "/desenhos/jellystone/show-banner-jellystone.jpg",
     details: {
       creator: ["C.H. Greenblatt"],
       year: "2021–presente",
@@ -2278,33 +2299,33 @@ export const showsData: Show[] = [
       {
         name: "BMO",
         query: "bmo distant lands",
-        char: "/dev-cartoon-network/desenhos/hora-distantes/char-bmo.png",
-      },
-      {
-        name: "Marceline",
-        query: "marceline distant lands",
-        char: "/dev-cartoon-network/desenhos/hora-distantes/char-marceline.png",
-      },
-      {
-        name: "Princesa Jujuba",
-        query: "princess bubblegum distant lands",
-        char: "/dev-cartoon-network/desenhos/hora-distantes/char-jujuba.png",
+        char: "/desenhos/terras-distantes/char-bmo-terras-distantes.png",
       },
       {
         name: "Finn",
         query: "finn distant lands",
-        char: "/dev-cartoon-network/desenhos/hora-distantes/char-finn.png",
+        char: "/desenhos/terras-distantes/char-finn-terras-distantes.png",
       },
       {
         name: "Jake",
         query: "jake distant lands",
-        char: "/dev-cartoon-network/desenhos/hora-distantes/char-jake.png",
+        char: "/desenhos/terras-distantes/char-jake-terras-distantes.png",
+      },
+      {
+        name: "Marceline",
+        query: "marceline distant lands",
+        char: "/desenhos/terras-distantes/char-marceline-terras-distantes.png",
+      },
+      {
+        name: "Princesa Jujuba",
+        query: "princess bubblegum distant lands",
+        char: "/desenhos/terras-distantes/char-princesa-jujuba-terras-distantes.png",
       },
     ],
     image:
-      "/dev-cartoon-network/desenhos/terras-distantes/show-terras-distantes.jpg",
+      "/desenhos/terras-distantes/show-terras-distantes.jpg",
     banner:
-      "/dev-cartoon-network/desenhos/hora-distantes/show-banner-hora-distantes.jpg",
+      "/desenhos/terras-distantes/show-banner-terras-distantes.jpg",
     details: {
       creator: ["Adam Muto"],
       year: "2020–2021",
