@@ -355,7 +355,7 @@ export const showsData: Show[] = [
       {
         name: "Ben Tennyson",
         query: "ben tennyson",
-        char: "/desenhos/ben-10/char-ben.png",
+        char: "/dev-cartoon-network/desenhos/ben-10/char-ben.png",
       },
       {
         name: "Gwen Tennyson",
