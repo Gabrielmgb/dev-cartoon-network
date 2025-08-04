@@ -19,7 +19,7 @@ import {
   Calendar,
   Users,
 } from "lucide-react";
-import { showsData } from "./shows-data" 
+import { showsData } from "./shows-data";
 
 export const navItems = [
   { icon: Tv, label: "DESENHOS", href: "/desenhos" },
@@ -687,15 +687,14 @@ export const newEpisodes = [
 // Add filter categories and update showsData with category information
 
 export const showCategories = (() => {
-  const allCategories = new Set<string>()
+  const allCategories = new Set<string>();
   showsData.forEach((show) => {
     show.category.forEach((cat) => {
-      allCategories.add(cat)
-    })
-  })
-  return ["Todos", ...Array.from(allCategories).sort()]
-})()
-
+      allCategories.add(cat);
+    });
+  });
+  return ["Todos", ...Array.from(allCategories).sort()];
+})();
 
 export const gamesData = [
   {
